@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mirrors the incoming-call answer surface (fragment_call_ui_incoming) -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView android:id="@+id/avatar"
+        android:layout_width="96dp" android:layout_height="96dp" android:layout_marginTop="90dp"
+        android:background="@drawable/bg_circle_avatar" android:gravity="center"
+        android:textColor="@color/avatarTextBlue" android:textSize="36sp" android:fontFamily="@font/roboto_medium"
+        app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView android:id="@+id/name" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" android:textColor="@color/white" android:textSize="26sp" android:fontFamily="@font/roboto_medium"
+        app:layout_constraintTop_toBottomOf="@id/avatar" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <TextView android:id="@+id/number" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="4dp" android:textColor="#FFAEB8BF" android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/name" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <TextView android:id="@+id/status" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="Incoming call…" android:textColor="@color/callGreen" android:textSize="13sp"
+        app:layout_constraintTop_toBottomOf="@id/number" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:layout_marginHorizontal="16dp" android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/decline" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+            android:layout_marginEnd="10dp" android:src="@drawable/ic_tcx_action_call_hangup_outline_24dp"
+            app:tint="@color/white" app:backgroundTint="@color/alertRed" app:fabCustomSize="52dp" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/answer" android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="2"
+            android:src="@drawable/ic_tcx_action_call_outline_24dp"
+            app:tint="@color/white" app:backgroundTint="@color/callGreen" app:fabCustomSize="52dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

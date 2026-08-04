@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- dimens sourced from com.truecaller 26.28.5 res/values/dimens.xml -->
+<resources>
+    <dimen name="avatar_size">52dp</dimen>
+    <dimen name="row_height">72dp</dimen>
+    <dimen name="space">8dp</dimen>
+    <dimen name="double_space">16dp</dimen>
+    <dimen name="semi_space">4dp</dimen>
+    <dimen name="bubble_radius">20dp</dimen>
+    <dimen name="bubble_tail">4dp</dimen>
+    <dimen name="input_bar_min">48dp</dimen>
+    <dimen name="toolbar_avatar">36dp</dimen>
+</resources>

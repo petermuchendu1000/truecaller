@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Values sourced from com.truecaller 26.28.5 res/values-night/colors.xml -->
+<resources>
+    <color name="brandBlue">#FF146FF5</color>
+    <color name="bgPrimary">#FF000000</color>
+    <color name="bgSecondary">#FF202124</color>
+    <color name="surface">#FF202124</color>
+    <color name="textPrimary">#FFEFF1F1</color>
+    <color name="textSecondary">#FF8D939B</color>
+    <color name="textTertiary">#FF5F646D</color>
+    <color name="separator">#FF2A3541</color>
+    <color name="fillPrimary">#FF3A4450</color>
+    <color name="alertRed">#FFFA301E</color>
+    <color name="avatarContainerBlue">#FF072756</color>
+    <color name="avatarTextBlue">#FFCEE2FF</color>
+    <color name="verifiedGreen">#FF33C46E</color>
+    <color name="msgIncoming">#FF2A3541</color>
+    <color name="msgOutgoingSms">#FF317C36</color>
+    <color name="msgOutgoingIm">#FF116AB9</color>
+    <color name="onBrand">#FFFFFFFF</color>
+    <color name="callGreen">#FF33C46E</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- strings sourced from com.truecaller 26.28.5 res/values/strings.xml -->
+<resources>
+    <string name="app_name">Truecaller UI</string>
+    <string name="tab_calls">Calls</string>
+    <string name="tab_messages">Messages</string>
+    <string name="title_messages">Messages</string>
+    <string name="filter_inbox">Inbox</string>
+    <string name="filter_offers">Offers</string>
+    <string name="filter_transactions">Transactions</string>
+    <string name="filter_spam">Spam</string>
+    <string name="type_a_message">Type a message</string>
+    <string name="new_conversation">New conversation</string>
+</resources>

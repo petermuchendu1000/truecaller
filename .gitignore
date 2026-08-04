@@ -1,3 +1,5 @@
 tc_repo/
 *.apk
 __pycache__/
+.gradle/
+build/

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/bgPrimary">
+
+    <!-- toolbar mirrors fragment_conversation_toolbar: 36dp avatar, name, availability -->
+    <LinearLayout android:id="@+id/toolbar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:paddingHorizontal="12dp" android:paddingTop="14dp" android:paddingBottom="10dp"
+        android:background="@color/bgSecondary" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@+id/back" android:layout_width="24dp" android:layout_height="24dp"
+            android:src="@drawable/arrow_back" app:tint="@color/textPrimary" />
+        <TextView android:id="@+id/thAvatar" android:layout_width="36dp" android:layout_height="36dp"
+            android:layout_marginStart="10dp" android:background="@drawable/bg_circle_avatar"
+            android:gravity="center" android:textColor="@color/avatarTextBlue" android:fontFamily="@font/roboto_medium" />
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:orientation="vertical" android:layout_marginStart="10dp">
+            <TextView android:id="@+id/thName" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="16sp" android:textColor="@color/textPrimary" android:fontFamily="@font/roboto_medium" android:maxLines="1" android:ellipsize="end" />
+            <TextView android:id="@+id/thStatus" android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="12sp" android:textColor="@color/verifiedGreen" android:text="online" />
+        </LinearLayout>
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="18dp"
+            android:src="@drawable/ic_tcx_action_call_24dp" app:tint="@color/textSecondary" />
+        <ImageView android:layout_width="24dp" android:layout_height="24dp"
+            android:src="@drawable/ic_tcx_more_vert_24dp" app:tint="@color/textSecondary" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/thread"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:paddingHorizontal="10dp" android:paddingVertical="10dp" android:clipToPadding="false"
+        android:background="@color/bgPrimary"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" app:layout_constraintBottom_toTopOf="@id/inputbar" />
+
+    <!-- input bar mirrors layout_conversation_input_bar_default (min 48dp) -->
+    <LinearLayout android:id="@+id/inputbar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical" android:minHeight="48dp"
+        android:padding="8dp" android:background="@color/bgSecondary"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginHorizontal="6dp"
+            android:src="@drawable/ic_tcx_emoji_24dp" app:tint="@color/textSecondary" />
+        <EditText android:id="@+id/msgInput" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:hint="@string/type_a_message" android:textColorHint="@color/textSecondary"
+            android:background="@android:color/transparent" android:textColor="@color/textPrimary" android:textSize="15sp"
+            android:inputType="textShortMessage|textMultiLine|textCapSentences" android:maxLines="4" />
+        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginHorizontal="6dp"
+            android:src="@drawable/ic_tcx_action_attach_24dp" app:tint="@color/textSecondary" />
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/send" android:layout_width="44dp" android:layout_height="44dp"
+            android:src="@drawable/ic_tcx_action_send_24dp" app:tint="@color/onBrand" app:backgroundTint="@color/brandBlue"
+            app:fabCustomSize="44dp" app:maxImageSize="20dp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

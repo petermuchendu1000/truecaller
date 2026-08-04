@@ -1,1 +1,0 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1"><include layout="@layout/remote_view_include_otp_message"/></LinearLayout>

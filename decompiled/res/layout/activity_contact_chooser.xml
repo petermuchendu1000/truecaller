@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/app_bar_contact_search" android:layout_width="fill_parent" android:layout_height="wrap_content" app:elevation="4.0dip">
+        <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar_contact_search" android:layout_width="fill_parent" android:layout_height="?actionBarSize">
+            <com.truecaller.common.ui.EditBase android:textColorHint="?tcx_textTertiary" android:ellipsize="end" android:layout_gravity="center" android:id="@id/edit_contact_search" android:background="@null" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/contact_editor_chooser_search_contact_hint" android:inputType="text" android:imeOptions="actionSearch" android:textDirection="firstStrong" android:layout_marginEnd="8.0dip" app:clearIconTint="?tcx_textPrimary" style="@style/StyleX.Input.ToolbarEditText" />
+        </com.google.android.material.appbar.MaterialToolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/layout_contacts" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/contacts_list" android:paddingBottom="@dimen/fab_content_padding" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <com.truecaller.contacts_list.FastScroller android:id="@id/fast_scroller" android:visibility="gone" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/control_space" android:layout_marginBottom="@dimen/main_toolbar_height" app:touchWidth="@dimen/fast_scroller_touch_target_width" />
+        <ViewStub android:layout_gravity="center" android:id="@id/empty_contacts_view" android:layout="@layout/view_tcx_empty_contacts" android:inflatedId="@id/empty_contacts_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/loading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </FrameLayout>
+</LinearLayout>

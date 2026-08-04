@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="320.0dip" android:windowSoftInputMode="adjustPan"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/textView8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Insights Fraud Resetter" android:textAlignment="center" android:paddingStart="32.0dip" android:paddingEnd="32.0dip" style="@style/StyleX.Text.Headline.H5" />
+    <com.google.android.material.textfield.TextInputLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="32.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="32.0dip" android:hint="Enter Address" style="@style/StyleX.Input.Outline">
+        <com.google.android.material.textfield.TextInputEditText android:textColor="?tcx_textPrimary" android:id="@id/addressString" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.button.MaterialButton android:layout_gravity="center" android:id="@id/createNotifButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="32.0dip" android:text="Reset Fraud" android:textAlignment="center" style="@style/StyleX.Button.Primary" />
+</LinearLayout>

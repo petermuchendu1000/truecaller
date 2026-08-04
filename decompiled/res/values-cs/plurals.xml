@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Blokovat a nahlásit %d čísla jako spam?</item>
+        <item quantity="one">Blokovat a nahlásit %d čísla jako spam?</item>
+        <item quantity="few">Blokovat a nahlásit %d čísla jako spam?</item>
+        <item quantity="many">Blokovat a nahlásit %d čísla jako spam?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Nepodařilo se smazat vašich hovorů Asistenta. Zkuste to znovu.</item>
+        <item quantity="one">Nepodařilo se smazat váš hovor Asistenta. Zkuste to znovu.</item>
+        <item quantity="few">Nepodařilo se smazat vaše hovory Asistenta. Zkuste to znovu.</item>
+        <item quantity="many">Nepodařilo se smazat vašich hovorů Asistenta. Zkuste to znovu.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Hovorů Asistenta bylo smazáno.</item>
+        <item quantity="one">Hovor Asistenta byl smazán.</item>
+        <item quantity="few">Hovory Asistenta byly smazány.</item>
+        <item quantity="many">Hovorů Asistenta bylo smazáno.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Opravdu chcete odstranit tyto hovory s Asistentem? Tuto akci nelze vzít zpět.</item>
+        <item quantity="one">Opravdu chcete smazat tento hovor s Asistentem? Tuto akci nelze vzít zpět.</item>
+        <item quantity="few">Opravdu chcete odstranit tyto hovory s Asistentem? Tuto akci nelze vzít zpět.</item>
+        <item quantity="many">Opravdu chcete odstranit tyto hovory s Asistentem? Tuto akci nelze vzít zpět.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Odstranit vybrané hovory s Asistentem</item>
+        <item quantity="one">Odstranit vybraný hovor s Asistentem</item>
+        <item quantity="few">Odstranit vybrané hovory s Asistentem</item>
+        <item quantity="many">Odstranit vybrané hovory s Asistentem</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d nahrávek</item>
+        <item quantity="one">%d nahrávka</item>
+        <item quantity="few">%d nahrávek</item>
+        <item quantity="many">%d nahrávek</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Zprávy přidány do záložky Důležité</item>
+        <item quantity="one">Zpráva přidána do záložky Důležité</item>
+        <item quantity="few">Zprávy přidány do záložky Důležité</item>
+        <item quantity="many">Zprávy přidány do záložky Důležité</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d konverzací označeny jako přečtené</item>
+        <item quantity="one">%d konverzace označena jako přečtená</item>
+        <item quantity="few">%d konverzací označeny jako přečtené</item>
+        <item quantity="many">%d konverzací označeny jako přečtené</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d záznamy byly smazány</item>
+        <item quantity="one">%d záznam byl smazán</item>
+        <item quantity="few">%d záznamy byly smazány</item>
+        <item quantity="many">%d záznamy byly smazány</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Smazat %d záznamy?</item>
+        <item quantity="one">Smazat záznam?</item>
+        <item quantity="few">Smazat %d záznamy?</item>
+        <item quantity="many">Smazat %d záznamy?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Konverzace připnuty</item>
+        <item quantity="one">Konverzace připnuta</item>
+        <item quantity="few">Konverzace připnuty</item>
+        <item quantity="many">Konverzace připnuty</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Uložit všechny kontakty</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="few">Uložit všechny kontakty</item>
+        <item quantity="many">Uložit všechny kontakty</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Konverzace odepnuty</item>
+        <item quantity="one">Konverzace odepnuta</item>
+        <item quantity="few">Konverzace odepnuty</item>
+        <item quantity="many">Konverzace odepnuty</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d nepřečtené zprávy</item>
+        <item quantity="one">%d nepřečtená zpráva</item>
+        <item quantity="few">%d nepřečtené zprávy</item>
+        <item quantity="many">%d nepřečtené zprávy</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Smazat %d konverzace?</item>
+        <item quantity="one">Smazat %d konverzaci?</item>
+        <item quantity="few">Smazat %d konverzace?</item>
+        <item quantity="many">Smazat %d konverzace?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d čísel identifikováno</item>
+        <item quantity="one">%d číslo identifikováno</item>
+        <item quantity="few">%d čísel identifikováno</item>
+        <item quantity="many">%d čísel identifikováno</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Zprávy nahlášeny</item>
+        <item quantity="one">Zpráva nahlášena</item>
+        <item quantity="few">Zprávy nahlášeny</item>
+        <item quantity="many">Zprávy nahlášeny</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Zprávy byly označeny jako důvěryhodné</item>
+        <item quantity="one">Zpráva byla označena jako důvěryhodná</item>
+        <item quantity="few">Zprávy byly označeny jako důvěryhodné</item>
+        <item quantity="many">Zprávy byly označeny jako důvěryhodné</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Zprávy nahlášeny</item>
+        <item quantity="one">Zpráva nahlášena</item>
+        <item quantity="few">Zprávy nahlášeny</item>
+        <item quantity="many">Zprávy nahlášeny</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d členové</item>
+        <item quantity="one">%d člen</item>
+        <item quantity="few">%d členové</item>
+        <item quantity="many">%d členové</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Opravdu chcete odblokovat %d čísla?</item>
+        <item quantity="one">Opravdu chcete odblokovat toto číslo?</item>
+        <item quantity="few">Opravdu chcete odblokovat %d čísla?</item>
+        <item quantity="many">Opravdu chcete odblokovat %d čísla?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Opravdu chcete smazat %s jazykové soubory?</item>
+        <item quantity="one">Opravdu chcete smazat %s jazykový soubor?</item>
+        <item quantity="few">Opravdu chcete smazat %s jazykové soubory?</item>
+        <item quantity="many">Opravdu chcete smazat %s jazykové soubory?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Zprávy zablokovány • Odesílatel je na vašem seznamu blokovaných</item>
+        <item quantity="one">Truecaller • Zpráva zablokována • Odesílatel je na vašem seznamu blokovaných</item>
+        <item quantity="few">Truecaller • Zprávy zablokovány • Odesílatel je na vašem seznamu blokovaných</item>
+        <item quantity="many">Truecaller • Zprávy zablokovány • Odesílatel je na vašem seznamu blokovaných</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s volal/a před %2$d hodinami. Klikněte pro zobrazení v Truecaller</item>
+        <item quantity="one">%1$s volal/a před %2$d hodinou. Klikněte pro zobrazení v Truecaller</item>
+        <item quantity="few">%1$s volal/a před %2$d hodinami. Klikněte pro zobrazení v Truecaller</item>
+        <item quantity="many">%1$s volal/a před %2$d hodinami. Klikněte pro zobrazení v Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d kontakty</item>
+        <item quantity="one">%d kontakt</item>
+        <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontakty</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d přílohy</item>
+        <item quantity="one">%1$d příloha</item>
+        <item quantity="few">%1$d přílohy</item>
+        <item quantity="many">%1$d přílohy</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d ostatních kontaktů</item>
+        <item quantity="one">%d ostatní kontakt</item>
+        <item quantity="few">%d ostatních kontaktů</item>
+        <item quantity="many">%d ostatních kontaktů</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d čísla přidána na seznam blokovaných</item>
+        <item quantity="one">Číslo přidáno na seznam blokovaných</item>
+        <item quantity="few">%d čísla přidána na seznam blokovaných</item>
+        <item quantity="many">%d čísla přidána na seznam blokovaných</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d blokovaných hovorů</item>
+        <item quantity="one">%d blokovaný hovor</item>
+        <item quantity="few">%d blokovaných hovorů</item>
+        <item quantity="many">%d blokovaných hovorů</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d hovorů ztišeno</item>
+        <item quantity="one">%d hovor ztišen</item>
+        <item quantity="few">%d hovorů ztišeno</item>
+        <item quantity="many">%d hovorů ztišeno</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d dnů bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="one">%1$d den bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="few">%1$d dnů bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="many">%1$d dnů bezplatné zkušební doby pouze pro nové předplatitele</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d měsíce bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="one">%1$d měsíc bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="few">%1$d měsíce bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="many">%1$d měsíce bezplatné zkušební doby pouze pro nové předplatitele</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d roky bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="one">%1$d rok bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="few">%1$d roky bezplatné zkušební doby pouze pro nové předplatitele</item>
+        <item quantity="many">%1$d roky bezplatné zkušební doby pouze pro nové předplatitele</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Vy, %1$s a %2$s jste Premium Family. Máte %3$d zbývající dostupné sloty</item>
+        <item quantity="one">Vy, %1$s a %2$s jste Premium Family. Máte %3$d zbývající dostupný slot</item>
+        <item quantity="few">Vy, %1$s a %2$s jste Premium Family. Máte %3$d zbývající dostupné sloty</item>
+        <item quantity="many">Vy, %1$s a %2$s jste Premium Family. Máte %3$d zbývající dostupné sloty</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Máte %1$d další dostupné účty.</item>
+        <item quantity="one">Máte %1$d další dostupný účet.</item>
+        <item quantity="few">Máte %1$d další dostupné účty.</item>
+        <item quantity="many">Máte %1$d další dostupné účty.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Vy a %1$s jste Premium Family. Máte %2$d zbývající dostupné sloty</item>
+        <item quantity="one">Vy a %1$s jste Premium Family. Máte %2$d zbývající dostupný slot</item>
+        <item quantity="few">Vy a %1$s jste Premium Family. Máte %2$d zbývající dostupné sloty</item>
+        <item quantity="many">Vy a %1$s jste Premium Family. Máte %2$d zbývající dostupné sloty</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Předplatné skončí za %d dny</item>
+        <item quantity="one">Předplatné skončí zítra</item>
+        <item quantity="few">Předplatné skončí za %d dny</item>
+        <item quantity="many">Předplatné skončí za %d dny</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d dní bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="one">%1$d den bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="few">%1$d dní bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="many">%1$d dní bezplatné zkušební doby. Poté %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d měsíců bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="one">%1$d měsíc bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="few">%1$d měsíců bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="many">%1$d měsíců bezplatné zkušební doby. Poté %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d let bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="one">%1$d rok bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="few">%1$d let bezplatné zkušební doby. Poté %2$s.</item>
+        <item quantity="many">%1$d let bezplatné zkušební doby. Poté %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d dny bezplatné zkušební doby. Poté</item>
+        <item quantity="one">%1$d den bezplatné zkušební doby. Poté</item>
+        <item quantity="few">%1$d dny bezplatné zkušební doby. Poté</item>
+        <item quantity="many">%1$d dny bezplatné zkušební doby. Poté</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d měsíce bezplatné zkušební doby. Poté</item>
+        <item quantity="one">%1$d měsíc bezplatné zkušební doby. Poté</item>
+        <item quantity="few">%1$d měsíce bezplatné zkušební doby. Poté</item>
+        <item quantity="many">%1$d měsíce bezplatné zkušební doby. Poté</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d roky bezplatné zkušební doby. Poté</item>
+        <item quantity="one">%1$d rok bezplatné zkušební doby. Poté</item>
+        <item quantity="few">%1$d roky bezplatné zkušební doby. Poté</item>
+        <item quantity="many">%1$d roky bezplatné zkušební doby. Poté</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Počet úprav seznamu rodiny, odebrání členů rodiny, je omezen. Zbývá %1$d úpravy.</item>
+        <item quantity="one">Počet úprav seznamu rodiny, odebrání členů rodiny, je omezen. Zbývá %1$d úprava.</item>
+        <item quantity="few">Počet úprav seznamu rodiny, odebrání členů rodiny, je omezen. Zbývá %1$d úpravy.</item>
+        <item quantity="many">Počet úprav seznamu rodiny, odebrání členů rodiny, je omezen. Zbývá %1$d úpravy.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d nové výskyty hledaného</item>
+        <item quantity="one">1 nový výskyt hledaného</item>
+        <item quantity="few">%1$d nové výskyty hledaného</item>
+        <item quantity="many">%1$d nové výskyty hledaného</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d nová zobrazení profilu</item>
+        <item quantity="one">1 nové zobrazení profilu</item>
+        <item quantity="few">%1$d nová zobrazení profilu</item>
+        <item quantity="many">%1$d nová zobrazení profilu</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d lidí si nedávno zobrazilo váš profil</item>
+        <item quantity="one">Nedávno si někdo zobrazil váš profil.</item>
+        <item quantity="few">%1$d lidí si nedávno zobrazilo váš profil</item>
+        <item quantity="many">%1$d lidí si nedávno zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d lidé (%3$d in %2$s) si nedávno zobrazili váš profil</item>
+        <item quantity="one">Někdo z %2$s si nedávno zobrazili váš profil</item>
+        <item quantity="few">%1$d lidé (%3$d in %2$s) si nedávno zobrazili váš profil</item>
+        <item quantity="many">%1$d lidé (%3$d in %2$s) si nedávno zobrazili váš profil</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">SMS bude automaticky odeslána za %1$d sekund…</item>
+        <item quantity="one">SMS bude automaticky odeslána za %1$d sekundu…</item>
+        <item quantity="few">SMS bude automaticky odeslána za %1$d sekund…</item>
+        <item quantity="many">SMS bude automaticky odeslána za %1$d sekund…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">týdny</item>
+        <item quantity="one">týden</item>
+        <item quantity="few">týdny</item>
+        <item quantity="many">týdny</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s dní</item>
+        <item quantity="one">%1$s den</item>
+        <item quantity="few">%1$s dní</item>
+        <item quantity="many">%1$s dní</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">měsíce</item>
+        <item quantity="one">měsíc</item>
+        <item quantity="few">měsíce</item>
+        <item quantity="many">měsíce</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">roky</item>
+        <item quantity="one">rok</item>
+        <item quantity="few">roky</item>
+        <item quantity="many">roky</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Hvězdičky u zpráv byly zrušeny.</item>
+        <item quantity="one">Hvězdička u zprávy byla zrušena.</item>
+        <item quantity="few">Hvězdičky u zpráv byly zrušeny.</item>
+        <item quantity="many">Hvězdičky u zpráv byly zrušeny.</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+        <item quantity="one">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+        <item quantity="few">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+        <item quantity="many">Překročili jste limit potvrzovacích pokusů. Zkuste to znovu za %dh</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d nové výskyty hledaného!</item>
+        <item quantity="one">%d nový výskyt hledaného!</item>
+        <item quantity="few">%d nové výskyty hledaného!</item>
+        <item quantity="many">%d nové výskyty hledaného!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d výskyty hledaného</item>
+        <item quantity="one">%d výskyt hledaného</item>
+        <item quantity="few">%d výskyty hledaného</item>
+        <item quantity="many">%d výskyty hledaného</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Váš profil se v poslední době objevil ve výsledcích vyhledávání %1$d krát</item>
+        <item quantity="one">Váš profil se v poslední době objevil ve výsledcích vyhledávání %1$d krát</item>
+        <item quantity="few">Váš profil se v poslední době objevil ve výsledcích vyhledávání %1$d krát</item>
+        <item quantity="many">Váš profil se v poslední době objevil ve výsledcích vyhledávání %1$d krát</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d nedávné výskyty hledaného</item>
+        <item quantity="one">%1$d nedávný výskyt hledaného</item>
+        <item quantity="few">%1$d nedávné výskyty hledaného</item>
+        <item quantity="many">%1$d nedávné výskyty hledaného</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d lidí si zobrazilo váš profil</item>
+        <item quantity="one">Někdo si zobrazil váš profil</item>
+        <item quantity="few">%1$d lidí si zobrazilo váš profil</item>
+        <item quantity="many">%1$d lidí si zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s a %2$s dalších si zobrazili váš profil</item>
+        <item quantity="one">%1$s si zobrazil váš profil</item>
+        <item quantity="few">%1$s a %2$s dalších si zobrazili váš profil</item>
+        <item quantity="many">%1$s a %2$s dalších si zobrazili váš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d lidí (1 v %2$s) si zobrazili váš profil</item>
+        <item quantity="one">%1$d osoba z %2$s si zobrazila váš profil</item>
+        <item quantity="few">%1$d lidí (1 v %2$s) si zobrazili váš profil</item>
+        <item quantity="many">%1$d lidí (1 v %2$s) si zobrazili váš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s z %2$s a %3$s další si zobrazili váš profil</item>
+        <item quantity="one">%1$s z %2$s si zobrazil váš profil</item>
+        <item quantity="few">%1$s z %2$s a %3$s další si zobrazili váš profil</item>
+        <item quantity="many">%1$s z %2$s a %3$s další si zobrazili váš profil</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d lidí si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="one">1 člověk si zobrazil váš profil. Zjistěte více.</item>
+        <item quantity="few">%1$d lidí si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="many">%1$d lidí si zobrazilo váš profil. Zjistěte více.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d lidí (%3$d v %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="one">1 člověk z %2$s si zobrazil váš profil. Zjistěte více.</item>
+        <item quantity="few">%1$d lidí (%3$d v %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="many">%1$d lidí (%3$d v %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodiny</item>
+        <item quantity="one">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodinu</item>
+        <item quantity="few">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodiny</item>
+        <item quantity="many">Služba reCaptcha příliš mnohokrát selhala. Zkuste to prosím znovu za %1$d hodiny</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">komentáře</item>
+        <item quantity="one">komentář</item>
+        <item quantity="few">komentáře</item>
+        <item quantity="many">komentáře</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d Lidí si zobrazilo váš profil</item>
+        <item quantity="one">%1$d osoba si zobrazila váš profil</item>
+        <item quantity="few">%1$d Lidí si zobrazilo váš profil</item>
+        <item quantity="many">%1$d Lidí si zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%skonverzace archivovány</item>
+        <item quantity="one">%s konverzace archivována</item>
+        <item quantity="few">%skonverzace archivovány</item>
+        <item quantity="many">%skonverzace archivovány</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d zpráv uspořádáno</item>
+        <item quantity="one">%d zpráva uspořádána</item>
+        <item quantity="few">%d zpráv uspořádáno</item>
+        <item quantity="many">%d zpráv uspořádáno</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Stahování nahrávek hovoru asistenta</item>
+        <item quantity="one">Stahování nahrávky hovoru asistenta</item>
+        <item quantity="few">Stahování nahrávek hovoru asistenta</item>
+        <item quantity="many">Stahování nahrávek hovoru asistenta</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d exkluzivních nabídek</item>
+        <item quantity="one">%d exkluzivní nabídka</item>
+        <item quantity="few">%d exkluzivní nabídky</item>
+        <item quantity="many">%d exkluzivních nabídek</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Uložit čísla k existujícímu kontaktu</item>
+        <item quantity="one">Uložit číslo k existujícímu kontaktu</item>
+        <item quantity="few">Uložit čísla k existujícímu kontaktu</item>
+        <item quantity="many">Uložit čísla k existujícímu kontaktu</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d hovory</item>
+        <item quantity="one">%1d hovor</item>
+        <item quantity="few">%1d hovory</item>
+        <item quantity="many">%1d hovory</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d dní</item>
+        <item quantity="one">%1d den</item>
+        <item quantity="few">%1d dní</item>
+        <item quantity="many">%1d dní</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Posunout vpřed o %d sekund</item>
+        <item quantity="one">Posunout vpřed o %d sekundu</item>
+        <item quantity="few">Posunout vpřed o %d sekundy</item>
+        <item quantity="many">Posunout vpřed o %d sekundy</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Přetočit zpět o %d sekund</item>
+        <item quantity="one">Přetočit zpět o %d sekundu</item>
+        <item quantity="few">Přetočit zpět o %d sekundy</item>
+        <item quantity="many">Přetočit zpět o %d sekundy</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">Zbývá %d míst</item>
+        <item quantity="one">Zbývá %d místo</item>
+        <item quantity="few">Zbývají %d místa</item>
+        <item quantity="many">Zbývá %d míst</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d pozvánek selhalo</item>
+        <item quantity="one">%d pozvánka selhala</item>
+        <item quantity="few">%d pozvánky selhaly</item>
+        <item quantity="many">%d pozvánky selhalo</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d zjištěných problémů</item>
+        <item quantity="one">%d zjištěný problém</item>
+        <item quantity="few">%d zjištěné problémy</item>
+        <item quantity="many">%d zjištěných problémů</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Nabídky odstraněna</item>
+        <item quantity="one">Nabídka odstraněna</item>
+        <item quantity="few">Nabídky odstraněna</item>
+        <item quantity="many">Nabídky odstraněna</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">zprávy o jednorázovém heslu smazány</item>
+        <item quantity="one">zpráva o jednorázovém heslu smazána</item>
+        <item quantity="few">zprávy o jednorázovém heslu smazány</item>
+        <item quantity="many">zprávy o jednorázovém heslu smazány</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">smazané propagační zprávy</item>
+        <item quantity="one">Propagační zpráva smazána</item>
+        <item quantity="few">smazané propagační zprávy</item>
+        <item quantity="many">smazané propagační zprávy</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">spamové zprávy smazány</item>
+        <item quantity="one">spamová zpráva smazána</item>
+        <item quantity="few">spamové zprávy smazány</item>
+        <item quantity="many">spamové zprávy smazány</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d zprávy</item>
+        <item quantity="one">%d zpráva</item>
+        <item quantity="few">%d zprávy</item>
+        <item quantity="many">%d zprávy</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d zpráv s nabídkami</item>
+        <item quantity="one">%d zpráva s nabídkami</item>
+        <item quantity="few">%d zpráv s nabídkami</item>
+        <item quantity="many">%d zpráv s nabídkami</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d jednorázová hesla</item>
+        <item quantity="one">%d jednorázové heslo</item>
+        <item quantity="few">%d jednorázová hesla</item>
+        <item quantity="many">%d jednorázová hesla</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d spamové zprávy</item>
+        <item quantity="one">%d spamová zpráva</item>
+        <item quantity="few">%d spamové zprávy</item>
+        <item quantity="many">%d spamové zprávy</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d zprávy byly smazány</item>
+        <item quantity="one">%d zpráva byla smazána</item>
+        <item quantity="few">%d zprávy byly smazány</item>
+        <item quantity="many">%d zprávy byly smazány</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Pozvánky</item>
+        <item quantity="one">Pozvánka</item>
+        <item quantity="few">Pozvánky</item>
+        <item quantity="many">Pozvánky</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Chystáte se smazat vybrané soubory a %d související zprávy</item>
+        <item quantity="one">Chystáte se smazat vybrané soubory a související zprávu</item>
+        <item quantity="few">Chystáte se smazat vybrané soubory a %d související zprávy</item>
+        <item quantity="many">Chystáte se smazat vybrané soubory a %d související zprávy</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Smazat zprávy?</item>
+        <item quantity="one">Smazat zprávu?</item>
+        <item quantity="few">Smazat zprávy?</item>
+        <item quantity="many">Smazat zprávy?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">přátelé</item>
+        <item quantity="one">přítel</item>
+        <item quantity="few">přátelé</item>
+        <item quantity="many">přátelé</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d nových reakcí</item>
+        <item quantity="one">%d nová reakce</item>
+        <item quantity="few">%d nových reakcí</item>
+        <item quantity="many">%d nových reakcí</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">dny</item>
+        <item quantity="one">den</item>
+        <item quantity="few">dny</item>
+        <item quantity="many">dny</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Vyprší za %1$d hodin</item>
+        <item quantity="one">Vyprší za %1$d hodinu</item>
+        <item quantity="few">Vyprší za %1$d hodin</item>
+        <item quantity="many">Vyprší za %1$d hodin</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Vyprší za %1$d minut</item>
+        <item quantity="one">Vyprší za %1$d minutu</item>
+        <item quantity="few">Vyprší za %1$d minut</item>
+        <item quantity="many">Vyprší za %1$d minut</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">komentáře</item>
+        <item quantity="one">komentář</item>
+        <item quantity="few">komentáře</item>
+        <item quantity="many">komentáře</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">U příspěvku je %1$d nových komentářů</item>
+        <item quantity="one">U příspěvku je %1$d nový komentář</item>
+        <item quantity="few">U příspěvku jsou %1$d nové komentáře</item>
+        <item quantity="many">U příspěvku je %1$d nových komentářů</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Komentářů</item>
+        <item quantity="one">Komentář</item>
+        <item quantity="few">Komentáře</item>
+        <item quantity="many">Komentářů</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Příspěvků</item>
+        <item quantity="one">Příspěvek</item>
+        <item quantity="few">Příspěvky</item>
+        <item quantity="many">Příspěvků</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">Komentářů: %s</item>
+        <item quantity="one">%s komentář</item>
+        <item quantity="few">Komentářů: %s</item>
+        <item quantity="many">Komentářů: %s</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Zobrazit %s odpovědí</item>
+        <item quantity="one">Zobrazit %s odpověď</item>
+        <item quantity="few">Zobrazit %s odpovědi</item>
+        <item quantity="many">Zobrazit %s odpovědí</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Odstraněním vašeho digitálního hlasu dojde k jeho odstranění z vašeho Asistenta a všech jeho odpovědí.&lt;br>&lt;b>Poznámka: Máte %d dalších pokusů vytvořit svůj digitální hlas&lt;/b></item>
+        <item quantity="one">Odstraněním vašeho digitálního hlasu dojde k jeho odstranění z vašeho Asistenta a všech jeho odpovědí.&lt;br>&lt;b>Poznámka: Máte %d další pokus vytvořit svůj digitální hlas&lt;/b></item>
+        <item quantity="few">Odstraněním vašeho digitálního hlasu dojde k jeho odstranění z vašeho Asistenta a všech jeho odpovědí.&lt;br>&lt;b>Poznámka: Máte %d dalších pokusů vytvořit svůj digitální hlas&lt;/b></item>
+        <item quantity="many">Odstraněním vašeho digitálního hlasu dojde k jeho odstranění z vašeho Asistenta a všech jeho odpovědí.&lt;br>&lt;b>Poznámka: Máte %d dalších pokusů vytvořit svůj digitální hlas&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">+%s lidí více si nedávno vyhledalo váš profil</item>
+        <item quantity="one">si nedávno vyhledal váš profil</item>
+        <item quantity="few">+%s lidí více si nedávno vyhledalo váš profil</item>
+        <item quantity="many">+%s lidí více si nedávno vyhledalo váš profil</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">+%s lidí více si nedávno zobrazilo váš profil</item>
+        <item quantity="one">si nedávno zobrazil váš profil</item>
+        <item quantity="few">+%s lidí více si nedávno zobrazilo váš profil</item>
+        <item quantity="many">+%s lidí více si nedávno zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Zkuste to znovu za %dh</item>
+        <item quantity="one">Zkuste to znovu za %dh</item>
+        <item quantity="few">Zkuste to znovu za %dh</item>
+        <item quantity="many">Zkuste to znovu za %dh</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">Zrušena archivace %s konverzací</item>
+        <item quantity="one">Zrušena archivace %s konverzace</item>
+        <item quantity="few">Zrušena archivace %s konverzací</item>
+        <item quantity="many">Zrušena archivace %s konverzací</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Přijaty zprávy</item>
+        <item quantity="one">Přijata zpráva</item>
+        <item quantity="few">Přijaty zprávy</item>
+        <item quantity="many">Přijaty zprávy</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Opravdu chcete odstranit tyto hovory z hlasové schránky? Tuto akci nelze vrátit zpět.</item>
+        <item quantity="one">Opravdu chcete odstranit tento hovor z hlasové schránky? Tuto akci nelze vrátit zpět.</item>
+        <item quantity="few">Opravdu chcete odstranit tyto hovory z hlasové schránky? Tuto akci nelze vrátit zpět.</item>
+        <item quantity="many">Opravdu chcete odstranit tyto hovory z hlasové schránky? Tuto akci nelze vrátit zpět.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Odstranit vybrané hovory z hlasové schránky</item>
+        <item quantity="one">Odstranit vybraný hovor z hlasové schránky</item>
+        <item quantity="few">Odstranit vybrané hovory z hlasové schránky</item>
+        <item quantity="many">Odstranit vybrané hovory z hlasové schránky</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Vaše hovory z hlasové schránky se nepodařilo odstranit. Zkuste to prosím znovu.</item>
+        <item quantity="one">Váš hovor z hlasové schránky se nepodařilo odstranit. Zkuste to prosím znovu.</item>
+        <item quantity="few">Vaše hovory z hlasové schránky se nepodařilo odstranit. Zkuste to prosím znovu.</item>
+        <item quantity="many">Vaše hovory z hlasové schránky se nepodařilo odstranit. Zkuste to prosím znovu.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Všechny hovory z hlasové schránky byly úspěšně odstraněny.</item>
+        <item quantity="one">Hovor z hlasové schránky byl úspěšně odstraněn.</item>
+        <item quantity="few">Všechny hovory z hlasové schránky byly úspěšně odstraněny.</item>
+        <item quantity="many">Všechny hovory z hlasové schránky byly úspěšně odstraněny.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Stahování záznamů hlasové schránky.</item>
+        <item quantity="one">Stahování záznamu hlasové schránky.</item>
+        <item quantity="few">Stahování záznamů hlasové schránky.</item>
+        <item quantity="many">Stahování záznamů hlasové schránky.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d lidí z %2$s si nedávno zobrazilo váš profil</item>
+        <item quantity="one">Někdo z %2$s si nedávno zobrazili váš profil</item>
+        <item quantity="few">%1$d lidé z %2$s si nedávno zobrazili váš profil</item>
+        <item quantity="many">%1$d lidí z %2$s si nedávno zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d lidí (%3$d z %2$s) si nedávno zobrazilo váš profil</item>
+        <item quantity="one">Někdo z %2$s si nedávno zobrazili váš profil</item>
+        <item quantity="few">%1$d lidé (%3$d z %2$s) si nedávno zobrazili váš profil</item>
+        <item quantity="many">%1$d lidí (%3$d z %2$s) si nedávno zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d lidí (1 z %2$s) si zobrazilo váš profil</item>
+        <item quantity="one">%1$d osoba z %2$s si zobrazila váš profil</item>
+        <item quantity="few">%1$d lidé (1 z %2$s) si zobrazili váš profil</item>
+        <item quantity="many">%1$d lidí (1 z %2$s) si zobrazilo váš profil</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d lidí (%3$d z %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+        <item quantity="one">1 člověk z %2$s si zobrazil váš profil. Zjistěte více.</item>
+        <item quantity="few">%1$d lidé (%3$d z %2$s) si zobrazili váš profil. Zjistěte více.</item>
+        <item quantity="many">%1$d lidí (%3$d z %2$s) si zobrazilo váš profil. Zjistěte více.</item>
+    </plurals>
+</resources>

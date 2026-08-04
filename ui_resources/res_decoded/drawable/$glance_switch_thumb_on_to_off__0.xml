@@ -1,1 +1,0 @@
-<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:interpolator="@android:010C000B" android:duration="250" android:valueFrom="0" android:valueTo="-14" android:propertyName="translateX"/>

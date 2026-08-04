@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="@dimen/control_ennea_space"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/adIcon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_centerVertical="true" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" android:layout_alignParentStart="true" />
+    <TextView android:id="@id/adTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_micro_space" android:layout_toEndOf="@id/adIcon" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/adText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/adTitle" android:layout_marginEnd="4.0dip" android:layout_toStartOf="@id/adCtaText" android:layout_toEndOf="@id/adIcon" style="@style/StyleX.Text.Body.B2" />
+    <com.truecaller.ads.ui.CtaButtonX android:orientation="horizontal" android:id="@id/adCtaText" android:clickable="false" android:layout_marginTop="@dimen/control_mini_space" android:layout_marginBottom="@dimen/control_space" android:text="@string/StrUpgrade" android:layout_alignParentBottom="true" android:layout_marginEnd="@dimen/control_double_space" android:layout_alignParentEnd="true" style="@style/StyleX.Widget.Truecaller.Button.Ad.Compact" />
+</RelativeLayout>

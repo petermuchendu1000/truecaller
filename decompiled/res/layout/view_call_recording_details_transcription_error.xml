@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/bg_call_recording_details_error_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="20.0dip" android:paddingVertical="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?tcx_textPrimary" android:id="@id/callRecordingTranscriptionErrorTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="4.0dip" app:drawableStartCompat="@drawable/ic_call_recording_details_error" style="@style/StyleX.Text.Body.B1" />
+    <TextView android:textColor="?tcx_textSecondary" android:id="@id/callRecordingTranscriptionErrorSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" style="@style/StyleX.Text.Caption" />
+</LinearLayout>

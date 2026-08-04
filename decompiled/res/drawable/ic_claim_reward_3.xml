@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="123.0dip" android:width="268.0dip" android:viewportWidth="268.0" android:viewportHeight="123.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h268v123h-268z" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__0" android:pathData="M32,9H236L172,122H96L32,9Z" android:fillAlpha="0.3" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__1" android:pathData="M0,81H268L173.92,122H94.08L0,81Z" android:fillAlpha="0.3" />
+        <path android:fillColor="#ff025909" android:pathData="M87.06,76C86.49,66.79 93.8,59 103.03,59H182L180.24,115.25C180.11,119.57 176.57,123 172.25,123H97.52C93.29,123 89.79,119.71 89.53,115.5L87.06,76Z" />
+        <path android:fillColor="#ff068a11" android:pathData="M86,59H150V115C150,119.42 146.42,123 142,123H97.52C93.29,123 89.79,119.71 89.53,115.5L86,59Z" />
+        <path android:fillColor="#ffbb0b00" android:pathData="M164,59H174L172,123H162L164,59Z" />
+        <path android:fillColor="#ffff4236" android:pathData="M104,59H122L126,123H108L104,59Z" />
+        <path android:fillColor="#ff003b05" android:pathData="M86,59H150V69H86.63L86,59Z" android:fillAlpha="0.3" />
+        <path android:fillColor="#ff003b05" android:pathData="M150,59H182L181.68,69H150V59Z" android:fillAlpha="0.3" />
+        <path android:fillColor="#00000000" android:pathData="M156.45,15.89L154.46,15.67C147.87,14.96 141.95,19.72 141.23,26.3L140.36,34.26L154.28,35.77C159.77,36.37 164.71,32.41 165.3,26.92C165.9,21.43 161.94,16.49 156.45,15.89Z" android:strokeColor="#ffbb0b00" android:strokeWidth="6.0" />
+        <path android:fillColor="#00000000" android:pathData="M128.83,13.07L130.82,13.29C137.4,14.01 142.16,19.93 141.45,26.52L140.58,34.47L126.66,32.95C121.17,32.36 117.2,27.42 117.8,21.93C118.4,16.44 123.34,12.47 128.83,13.07Z" android:strokeColor="#ffff4236" android:strokeWidth="6.0" />
+        <path android:fillColor="#ff149952" android:pathData="M89.34,31.71L180.8,41.68A8,8 61,0 1,187.88 50.5L187.23,56.46A8,8 63.21,0 1,178.41 63.55L86.95,53.58A8,8 75.47,0 1,79.87 44.76L80.52,38.8A8,8 50.82,0 1,89.34 31.71z" />
+        <path android:fillColor="#ff068a11" android:pathData="M152.09,46.6C152.57,42.21 156.52,39.04 160.91,39.51L184.77,42.11C189.16,42.59 192.34,46.54 191.86,50.93L191.21,56.9C190.73,61.29 186.78,64.46 182.39,63.98L150.58,60.52L152.09,46.6Z" />
+        <path android:fillColor="#00000000" android:pathData="M136.27,34.82C143.64,35.07 154.87,40.24 157.19,55.2" android:strokeColor="#ff025909" android:strokeWidth="6.0" />
+        <path android:fillColor="#ffff8179" android:pathData="M107.23,33.66l17.89,1.95l-2.38,21.87l-17.89,-1.95z" />
+        <path android:fillColor="#ffff4236" android:pathData="M166.88,40.16l9.94,1.08l-2.38,21.87l-9.94,-1.08z" />
+        <path android:fillColor="#00000000" android:pathData="M135.44,33.9C142.23,34.18 156.36,38.3 158.57,52.59" android:strokeColor="#ffff4236" android:strokeWidth="6.0" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__2" android:pathData="M200,40L200,40A2,2 0,0 1,202 42L202,42A2,2 0,0 1,200 44L200,44A2,2 0,0 1,198 42L198,42A2,2 0,0 1,200 40z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__3" android:pathData="M134,0L134,0A2,2 0,0 1,136 2L136,2A2,2 0,0 1,134 4L134,4A2,2 0,0 1,132 2L132,2A2,2 0,0 1,134 0z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__4" android:pathData="M186,32L186,32A1,1 0,0 1,187 33L187,33A1,1 0,0 1,186 34L186,34A1,1 0,0 1,185 33L185,33A1,1 0,0 1,186 32z" android:strokeAlpha="0.25" android:fillAlpha="0.25" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__5" android:pathData="M206,29L206,29A1,1 0,0 1,207 30L207,30A1,1 0,0 1,206 31L206,31A1,1 0,0 1,205 30L205,30A1,1 0,0 1,206 29z" android:strokeAlpha="0.25" android:fillAlpha="0.25" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__6" android:pathData="M67,40L67,40A1,1 0,0 1,68 41L68,41A1,1 0,0 1,67 42L67,42A1,1 0,0 1,66 41L66,41A1,1 0,0 1,67 40z" android:strokeAlpha="0.25" android:fillAlpha="0.25" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__7" android:pathData="M103,6L103,6A1,1 0,0 1,104 7L104,7A1,1 0,0 1,103 8L103,8A1,1 0,0 1,102 7L102,7A1,1 0,0 1,103 6z" android:strokeAlpha="0.25" android:fillAlpha="0.25" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__8" android:pathData="M70,63L70,63A2,2 0,0 1,72 65L72,65A2,2 0,0 1,70 67L70,67A2,2 0,0 1,68 65L68,65A2,2 0,0 1,70 63z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__9" android:pathData="M74,19L74,19A2,2 0,0 1,76 21L76,21A2,2 0,0 1,74 23L74,23A2,2 0,0 1,72 21L72,21A2,2 0,0 1,74 19z" android:strokeAlpha="0.5" android:fillAlpha="0.5" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__10" android:pathData="M192,13L192,13A3,3 0,0 1,195 16L195,16A3,3 0,0 1,192 19L192,19A3,3 0,0 1,189 16L189,16A3,3 0,0 1,192 13z" />
+        <path android:fillColor="@drawable/$ic_claim_reward_3__11" android:pathData="M94,21L94,21A3,3 0,0 1,97 24L97,24A3,3 0,0 1,94 27L94,27A3,3 0,0 1,91 24L91,24A3,3 0,0 1,94 21z" />
+    </group>
+</vector>

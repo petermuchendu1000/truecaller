@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>data_offline_db_version</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>data_offline_db_url</key>
+        <value />
+    </entry>
+    <entry>
+        <key>valueCallLogPromoCoolOffDays</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>valueAfterCallCoolOffDays</key>
+        <value>15</value>
+    </entry>
+    <entry>
+        <key>valueCallLogPromoDismissedCount_8548</key>
+        <value>2</value>
+    </entry>
+    <entry>
+        <key>valueCallLogPromoShownCount_8548</key>
+        <value>4</value>
+    </entry>
+    <entry>
+        <key>valueCallerIdCallTimeout_35719</key>
+        <value>8000</value>
+    </entry>
+    <entry>
+        <key>opDeviceBlackList</key>
+        <value>vivo,vivo</value>
+    </entry>
+    <entry>
+        <key>PayHomeScreenVariant</key>
+        <value>default</value>
+    </entry>
+    <entry>
+        <key>featureRegionCPrivacyCenter_TP_9508</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>featureInCallUIShowOnAppStart_23229</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>payFaqUrl_23411</key>
+        <value>https://support.truecaller.com/hc/en-us/categories/115000440245-Payments</value>
+    </entry>
+    <entry>
+        <key>payTermsUrl_23435</key>
+        <value>https://support.truecaller.com/hc/en-us/articles/360001677057-Terms-and-Conditions</value>
+    </entry>
+    <entry>
+        <key>inCallUIPromo_25297</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>inCallUIBannerIntervalHours_25333</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>creditHomeTabBannerIntervalHours_28605</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>callAlertSimSupport_25674</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>adUnitIdList_24075</key>
+        <value> {
+            "version": "27",
+            "adUnitIds": [
+            {
+            "key": "notificationAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "callDetailsLargeUnifiedAdUnitId",
+            "value": "/43067329/A*Detailed_view_2*Unified*GPS"
+            },
+            {
+            "key": "blockAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "blockUnifiedAdUnitId",
+            "value": "/43067329/A*Block*Unified*GPS"
+            },
+            {
+            "key": "callLogAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "callLogFallbackAdUnitId",
+            "value": "/43067329/A*Inbox_1*Unified*GPS"
+            },
+            {
+            "key": "numberOrNameSearchAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "historyAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "contactsAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "inboxAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "inboxFallbackAdUnitId",
+            "value": "/43067329/A*Inbox_1*Unified*GPS"
+            },
+            {
+            "key": "blockUpdateAdUnitId",
+            "value": "/43067329/A*Block_Update_2*Native*GPS"
+            },
+            {
+            "key": "spamMsgAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "promotionMsgAdUnitId",
+            "value": "/43067329/A*Inbox_1*Native*GPS"
+            },
+            {
+            "key": "afterCallUnifiedAdUnitId",
+            "value": "/43067329/A*ACS*Unified*GPS"
+            },
+            {
+            "key": "afterCallCachingAdUnitId",
+            "value": "/43067329/A*ACS*Unified*GPS"
+            },
+            {
+            "key": "fullscreenAfterCallAdUnitId",
+            "value": "/43067329/A*FACS*Unified*GPS"
+            },
+            {
+            "key": "afterCallUnifiedCacheAdUnitId",
+            "value": "/43067329/A*ACS_CACHE_Unified*GPS"
+            },
+            {
+            "key": "afterCallUnifiedFallback",
+            "value": "/43067329/A*ACS_Fallback*Unified*GPS"
+            },
+            {
+            "key": "callLogPromoAdUnitId",
+            "value": "/43067329/A*CallLog_Promo*Unified*GPS"
+            },
+            {
+            "key": "afterCall2AdUnitId",
+            "value": "/43067329/A*ACS_2*Unified*GPS"
+            },
+            {
+            "key": "afterCallTopAdUnitId",
+            "value": "/43067329/A*ACS_2*Unified*GPS"
+            },
+            {
+            "key": "callDetailsFsnUnifiedAdUnitId",
+            "value": "/43067329/A*DV_FullScreenNative*GPS"
+            },
+            {
+            "key": "anchorAdsAdUnitId",
+            "value": "/43067329/A*AnchorAd_320x50*GPS"
+            },
+            {
+            "key": "blockUpdateOopAdUnitId",
+            "value": "/43067329/A*OOP_BlockUpdate*GPS"
+            },
+            {
+            "key": "messageIdAdUnitId",
+            "value": "/43067329/A*MessageID_Unified*GPS"
+            },
+            {
+            "key": "callDetailsFallbackAdUnitId",
+            "value": "/43067329/A*Detailed_view_2_Fallback*Unified*GPS"
+            }
+            ]
+            } </value>
+    </entry>
+    <entry>
+        <key>adsListViewPositionConfig_44579</key>
+        <value>[{
+            "placement": "CALLLOG",
+            "startOffset": 2,
+            "period": 7
+            },
+            {
+            "placement": "CONTACTS",
+            "startOffset": 2,
+            "period": 7
+            },
+            {
+            "placement": "INBOX",
+            "startOffset": 2,
+            "period": 7
+            },
+            {
+            "placement": "SPAM_INBOX",
+            "startOffset": 2,
+            "period": 7
+            },
+            {
+            "placement": "PROMOTION_INBOX",
+            "startOffset": 2,
+            "period": 7
+            }
+            ]</value>
+    </entry>
+    <entry>
+        <key>featureDefaultDialer_27149</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>fullscreenAcsConfig_26137</key>
+        <value>{
+            "UNLK_PB_IC_ACCEPT": "DO_NOTHING",
+            "UNLK_PB_IC_DISMISS": "DO_NOTHING",
+            "UNLK_PB_IC_DISMISS_NOTF": "DO_NOTHING",
+            "UNLK_PB_OG": "DO_NOTHING",
+            "UNLK_PB_MISSED": "DO_NOTHING",
+            "LK_PB_IC_ACCEPT": "DO_NOTHING",
+            "LK_PB_IC_DISMISS": "DO_NOTHING",
+            "LK_PB_OG": "DO_NOTHING",
+            "LK_PB_MISSED": "DO_NOTHING",
+            "UNLK_IDENTIFIED_IC_ACCEPT": "FACS",
+            "UNLK_IDENTIFIED_IC_DISMISS": "FACS",
+            "UNLK_IDENTIFIED_IC_DISMISS_NOTF": "DO_NOTHING",
+            "UNLK_IDENTIFIED_OG": "FACS",
+            "UNLK_IDENTIFIED_MISSED": "FACS",
+            "LK_IDENTIFIED_IC_ACCEPT": "DO_NOTHING",
+            "LK_IDENTIFIED_IC_DISMISS": "DO_NOTHING",
+            "LK_IDENTIFIED_OG": "DO_NOTHING",
+            "LK_IDENTIFIED_MISSED": "DO_NOTHING",
+            "UNLK_UNRES_IC_ACCEPT": "DO_NOTHING",
+            "UNLK_UNRES_IC_DISMISS": "DO_NOTHING",
+            "UNLK_UNRES_IC_DISMISS_NOTF": "DO_NOTHING",
+            "UNLK_UNRES_OG": "DO_NOTHING",
+            "UNLK_UNRES_MISSED": "DO_NOTHING",
+            "LK_UNRES_IC_ACCEPT": "DO_NOTHING",
+            "LK_UNRES_IC_DISMISS": "DO_NOTHING",
+            "LK_UNRES_OG": "DO_NOTHING",
+            "LK_UNRES_MISSED": "DO_NOTHING"
+            } </value>
+    </entry>
+    <entry>
+        <key>creditWhatsNewConfig_27570</key>
+        <value>{"enabled":false,"periodDays":7,"minimumSalary":"30,000"}</value>
+    </entry>
+    <entry>
+        <key>verificationDCRejectionDelay_32092</key>
+        <value>0</value>
+    </entry>
+    <entry>
+        <key>featureWorkManagerLog_38345</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>featureExceptionsUnmutingEnabled_44940</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>featureJointWorkersLog_42427</key>
+        <value>false</value>
+    </entry>
+    <entry>
+        <key>checkInternetCallerIdSearch_35839</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>nudgeToSendAsSmsXMinutesAfterDelivery_35722</key>
+        <value>30</value>
+    </entry>
+    <entry>
+        <key>nudgeToSendAsSmsXMinutesAfterSent_35722</key>
+        <value>60</value>
+    </entry>
+    <entry>
+        <key>callerIdBannerTitle_38708</key>
+        <value>default</value>
+    </entry>
+    <entry>
+        <key>callerIdBannerDescription_38708</key>
+        <value>default</value>
+    </entry>
+    <entry>
+        <key>callerIdBannerLinkTitle_38708</key>
+        <value>default</value>
+    </entry>
+    <entry>
+        <key>callerIdBannerLink_38708</key>
+        <value>default</value>
+    </entry>
+    <entry>
+        <key>callerIdBannerActionButtonText_38708</key>
+        <value>default</value>
+    </entry>
+    <entry>
+        <key>valueAverageSpamCallDurationSeconds_40198</key>
+        <value>29.4</value>
+    </entry>
+    <entry>
+        <key>adExpirationTime_40596</key>
+        <value>3540000</value>
+    </entry>
+    <entry>
+        <key>usersHomeProfileCompletionConfig_39464</key>
+        <value>{
+            "first_name":10,
+            "last_name":10,
+            "avatar":20,
+            "about":0,
+            "web_page":0,
+            "tag":0,
+            "job_title":5,
+            "email":20,
+            "cities":5,
+            "street":0,
+            "zip_code":5,
+            "country":5,
+            "gender":10,
+            "birthday":10
+            }</value>
+    </entry>
+    <entry>
+        <key>bizCallKitConfig_42074</key>
+        <value>{
+            "maxDaysOfDataStore": 15,
+            "maxRowsOfDataStore": 100000,
+            "paginationLimit": 10
+            } </value>
+    </entry>
+    <entry>
+        <key>bizSmallBizHideAdsInAcs_47963</key>
+        <value>true</value>
+    </entry>
+    <entry>
+        <key>micrositeWhitelistedUrls_53591</key>
+        <value>["microsite-ads.web.app", "microsite-ads.truecaller.app"]</value>
+    </entry>
+    <entry>
+        <key>adErrorMessageConfig_51538</key>
+        <value> [
+            {
+            "msg": "UNMATCHED_USER",
+            "value": 1
+            },
+            {
+            "msg": "Unable to resolve host",
+            "value": 2
+            },
+            {
+            "msg": "No address associated with host",
+            "value": 2
+            },
+            {
+            "msg": "Placement is not valid",
+            "value": 3
+            },
+            {
+            "msg": "No Ad returned by AdServer.",
+            "value": 4
+            },
+            {
+            "msg": "No fill.",
+            "value": 5
+            },
+            {
+            "msg": "No advertisements are available for your current bid. Please try again later.",
+            "value": 6
+            },
+            {
+            "msg": "Unable to obtain a JavascriptEngine.",
+            "value": 7
+            },
+            {
+            "msg": "Partner SDK Timeout",
+            "value": 8
+            },
+            {
+            "msg": "No Ads",
+            "value": 9
+            },
+            {
+            "msg": "Sdk init failure",
+            "value": 10
+            },
+            {
+            "msg": "No internet connection",
+            "value": 11
+            },
+            {
+            "msg": "Network error.",
+            "value": 12
+            },
+            {
+            "msg": "Unknown error, result is null",
+            "value": 13
+            },
+            {
+            "msg": "Internal error.",
+            "value": 14
+            },
+            {
+            "msg": "Internal error occurred in ad call.",
+            "value": 15
+            },
+            {
+            "msg": "Error while connecting to ad server: Connection closed by peer",
+            "value": 16
+            },
+            {
+            "msg": "No ad config.",
+            "value": 17
+            },
+            {
+            "msg": "UNKNOWN_ERROR",
+            "value": 18
+            },
+            {
+            "msg": "Advertisement failed to download",
+            "value": 19
+            },
+            {
+            "msg": "Failed to connect to pubads.g.doubleclick.net",
+            "value": 20
+            }
+            ]</value>
+    </entry>
+    <entry>
+        <key>multiAdRemoteConfig_62722</key>
+        <value> [
+            {
+            "placement":"DETAILS",
+            "isPrefetchEnabled":false,
+            "autoScrollConfig":{
+            "isEnabled":true,
+            "interval":5000
+            },
+            "cards":[
+            {
+            "index":0,
+            "adUnitIdKey":"detailsViewMultiAd1AdUnitId",
+            "fallbackAdUnitIdKey":"callDetailsFallbackAdUnitId",
+            "isPrefetchEnabled":false
+            },
+            {
+            "index":1,
+            "adUnitIdKey":"detailsViewMultiAd2AdUnitId",
+            "fallbackAdUnitIdKey":"callDetailsFallbackAdUnitId",
+            "isPrefetchEnabled":false
+            }
+            ]
+            }
+            ]</value>
+    </entry>
+    <entry>
+        <key>nonEuCountriesForGamCmp_64207</key>
+        <value>tr,us</value>
+    </entry>
+</defaultsMap>

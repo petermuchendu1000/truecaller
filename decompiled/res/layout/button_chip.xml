@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="8.0dip" android:text="Central government Label" android:maxLines="1" android:singleLine="true" android:layout_marginStart="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Subtitle.S2" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="8.0dip" app:layout_constraintBottom_toBottomOf="@id/title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/title" app:layout_constraintTop_toTopOf="@id/title" app:srcCompat="@drawable/ic_arrow_down_24dp" app:tint="?tcx_textSecondary" />
+</merge>

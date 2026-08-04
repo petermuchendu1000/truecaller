@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_tcx_action_info_24dp" android:id="@id/actionInfo" android:visible="false" android:title="@string/ConversationMoreDetails" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_star_outline_24dp" android:id="@id/actionMarkImportant" android:visible="false" android:title="@string/ConversationMarkImportant" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_star_crossed_outline_24dp" android:id="@id/actionNotImportant" android:visible="false" android:title="@string/ConversationNotImportant" app:showAsAction="always" />
+</menu>

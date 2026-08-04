@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/freshchat_new_messages_divider_layout" android:visibility="gone" layout="@layout/freshchat_new_messages_divider" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/freshchat_listitem_message" style="?freshchatMessageListItemStyle" />
+</androidx.appcompat.widget.LinearLayoutCompat>

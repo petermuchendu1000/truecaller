@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="end" android:orientation="vertical" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?freshchatMessageListItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:layout_gravity="end" android:orientation="vertical" android:id="@id/freshchat_message_carousel_selected_recycler_view" android:clipToPadding="false" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="8.0dip" style="?freshchatMessageListItemStyle" />
+    <LinearLayout android:gravity="end" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginRight="8.0dip" android:layout_marginEnd="8.0dip">
+        <include layout="@layout/freshchat_message_time" />
+        <include layout="@layout/freshchat_carousel_card_message_upload_status" />
+    </LinearLayout>
+</LinearLayout>

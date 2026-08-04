@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatTextView android:textAppearance="?android:textAppearanceListItem" android:textColor="?android:textColorAlertDialogListItem" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@id/attachment_alert_dialog_list_item_tv" android:paddingLeft="?android:listPreferredItemPaddingLeft" android:paddingRight="?android:listPreferredItemPaddingRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="?android:listPreferredItemHeightSmall" android:paddingStart="?android:listPreferredItemPaddingStart" android:paddingEnd="?android:listPreferredItemPaddingEnd"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

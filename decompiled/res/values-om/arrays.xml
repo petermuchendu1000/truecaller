@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>Amajjii</item>
+        <item>Guraandhala</item>
+        <item>Bitooteessa</item>
+        <item>Elba</item>
+        <item>Caamsa</item>
+        <item>Waxabajjii</item>
+        <item>Adooleessa</item>
+        <item>Hagayya</item>
+        <item>Fuulbana</item>
+        <item>Onkololeessa</item>
+        <item>Sadaasa</item>
+        <item>Muddee</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Itti fufi</item>
+        <item>Itti fufaa</item>
+        <item>Simachuu</item>
+        <item>Mirkaneessuu</item>
+        <item>%s fayyadami</item>
+        <item>%s waliin itti fufi</item>
+        <item>%s waliin itti fufi</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s fayyadami</item>
+        <item>%s waliin itti fufi</item>
+        <item>%s waliin itti fufi</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Gara %stti galmaa’i</item>
+        <item>%s waliin galmaa’i</item>
+        <item>Gara %stti mallatteessi</item>
+        <item>Lakkoofsa %sn mirkaneessi</item>
+        <item>%s waliin galmeessi</item>
+        <item>%s waliin jalqabi</item>
+        <item>%s waliin itti fufi</item>
+        <item>%s waliin mirkaneessi</item>
+        <item>Profaayila %sn mirkaneessi</item>
+        <item>Profaayila keessan %sn mirkaneessaa</item>
+        <item>Lakkoofsa bilbilaa %sn mirkaneessi</item>
+        <item>Lakkoofsa keessan %sn mirkaneessaa</item>
+        <item>%s waliin itti fufi</item>
+        <item>Ajaja %s waliin xumuri</item>
+        <item>Ajaja %s waliin galchi</item>
+        <item>Qabsiisaa %s waliin xumuri</item>
+        <item>%s waliin ilaali</item>
+        <item>"Bal'ina %s waliin bulchi"</item>
+        <item>"Bal'ina keessan %s waliin bulchadhaa"</item>
+        <item>Tuqa tokkoon gara %stti galmaa’i</item>
+        <item>%stti hirmaadhu</item>
+        <item>%s irraa haaroomsa argadhu</item>
+        <item>Dubbisuu gara %stti itti fufi</item>
+        <item>%s irraa haaroomsa haaraa argadhu</item>
+        <item>Gara %stti galmaa’i/mallatteessi</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Gara %stti galmaa’i</item>
+        <item>%s waliin galmaa’i</item>
+        <item>Gara %stti mallatteessi</item>
+        <item>Lakkoofsa %sn mirkaneessi</item>
+        <item>%s waliin galmeessi</item>
+        <item>%s waliin jalqabi</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Eegaluuf</item>
+        <item>Itti fufuuf</item>
+        <item>Ajaja galchuuf</item>
+        <item>Bitannaa keessan xumuruuf</item>
+        <item>Ilaaluuf</item>
+        <item>Qabsiisaa keessan xumuruuf</item>
+        <item>Qabsiisaa keessan waliin itti fufuuf</item>
+        <item>Qabsiisaa keessan waliin itti fufuuf</item>
+        <item>"Bal'ina argachuuf"</item>
+        <item>Dabalata ilaaluuf</item>
+        <item>Dubbisuu itti fufuuf</item>
+        <item>Itti fufuuf</item>
+        <item>Haaroomsa haaraaf</item>
+        <item>Haaroomsa argachuuf</item>
+        <item>Hirmaachuuf</item>
+        <item>Hirmaadhu &amp; haaroomsa argadhuuf</item>
+        <item>Gatii gaarii argachuuf</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>Maaloo lakkoofsa bilbilaa mirkaneessaa</item>
+        <item>Maaloo galmaa’aa</item>
+        <item>Maaloo mallatteessaa</item>
+        <item>Maaloo galmaa’aa/mallatteessaa</item>
+        <item>Maaloo galmeessaa</item>
+        <item>Maaloo mallatteessaa</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>SIM durtii saagi</item>
+        <item>SIM Durtii - SIM 1</item>
+        <item>SIM Durtii - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>"Dhiifama amma dubbachuu hin danda'u"</item>
+        <item>Booda siif bilbila</item>
+        <item>Achumaan siif bilbila</item>
+        <item>"Amma haasa'uu hin danda'u. Booda naaf bilbilaa?"</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Maqaa jalqabaa</item>
+        <item>Maqaa akaakayyuu</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Callisaa</item>
+        <item>Vibrate qofa</item>
+        <item>Sagalee qofa</item>
+        <item>Sagalee fi Raafamu</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1ffaa</item>
+        <item>SIM 2ffaa</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1ffaa</item>
+        <item>SIM 2ffaa</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Callisaa</item>
+        <item>Vibrate qofa</item>
+        <item>Sagalee qofa</item>
+        <item>Sagalee fi Raafamu</item>
+    </string-array>
+</resources>

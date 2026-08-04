@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>tháng 1</item>
+        <item>tháng 2</item>
+        <item>tháng 3</item>
+        <item>tháng 4</item>
+        <item>tháng 5</item>
+        <item>tháng 6</item>
+        <item>tháng 7</item>
+        <item>tháng 8</item>
+        <item>tháng 9</item>
+        <item>tháng 10</item>
+        <item>tháng 11</item>
+        <item>tháng 12</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Tiến hành</item>
+        <item>Tiếp tục</item>
+        <item>Chấp nhận</item>
+        <item>Xác nhận</item>
+        <item>Sử dụng %s</item>
+        <item>Tiếp tục với %s</item>
+        <item>Tiếp tục với %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Sử dụng %s</item>
+        <item>Tiếp tục với %s</item>
+        <item>Tiếp tục với %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Đăng nhập vào %s</item>
+        <item>Đăng ký bằng %s</item>
+        <item>Đăng nhập vào %s</item>
+        <item>Xác minh số điện thoại bằng %s</item>
+        <item>Đăng ký bằng %s</item>
+        <item>Bắt đầu với %s</item>
+        <item>Tiếp tục với %s</item>
+        <item>Xác minh bằng %s</item>
+        <item>Xác minh hồ sơ bằng %s</item>
+        <item>Xác minh hồ sơ của bạn bằng %s</item>
+        <item>Xác minh số điện thoại bằng %s</item>
+        <item>Xác minh số điện thoại của bạn bằng %s</item>
+        <item>Tiếp tục với %s</item>
+        <item>Hoàn tất đơn hàng qua %s</item>
+        <item>Đặt hàng qua %s</item>
+        <item>Hoàn tất đặt chỗ qua %s</item>
+        <item>Thanh toán qua %s</item>
+        <item>Quản lý thông tin chi tiết bằng %s</item>
+        <item>Quản lý thông tin chi tiết của bạn bằng %s</item>
+        <item>Đăng nhập vào %s bằng một lần nhấn</item>
+        <item>Đăng ký %s</item>
+        <item>Nhận thông tin cập nhật từ %s</item>
+        <item>Tiếp tục đọc trên %s</item>
+        <item>Nhận thông tin cập nhật mới từ %s</item>
+        <item>Đăng nhập/Đăng ký bằng %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Đăng nhập vào %s</item>
+        <item>Đăng ký bằng %s</item>
+        <item>Đăng nhập vào %s</item>
+        <item>Xác minh số điện thoại bằng %s</item>
+        <item>Đăng ký bằng %s</item>
+        <item>Bắt đầu với %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Để bắt đầu</item>
+        <item>Để tiếp tục</item>
+        <item>Để đặt hàng</item>
+        <item>Để hoàn tất giao dịch mua hàng</item>
+        <item>Để thanh toán</item>
+        <item>Để hoàn tất việc đặt chỗ</item>
+        <item>Để tiếp tục với yêu cầu đặt chỗ của bạn</item>
+        <item>Để tiếp tục với yêu cầu đặt chỗ của bạn</item>
+        <item>Để biết chi tiết</item>
+        <item>Để xem thêm</item>
+        <item>Để tiếp tục đọc</item>
+        <item>Để tiếp tục</item>
+        <item>Để nhận thông tin cập nhật mới</item>
+        <item>Để nhận thông tin cập nhật</item>
+        <item>Để đăng ký</item>
+        <item>Để đăng ký &amp; nhận thông tin cập nhật</item>
+        <item>Để có giá tốt nhất</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>vui lòng xác minh số điện thoại di động</item>
+        <item>vui lòng đăng nhập</item>
+        <item>vui lòng đăng ký</item>
+        <item>vui lòng đăng nhập/đăng ký</item>
+        <item>vui lòng đăng ký</item>
+        <item>vui lòng đăng nhập</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Đặt SIM mặc định</item>
+        <item>SIM Mặc định - SIM 1</item>
+        <item>SIM Mặc định - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Rất tiếc, tôi không thể nói chuyện lúc này</item>
+        <item>Tôi sẽ gọi lại cho bạn sau</item>
+        <item>Tôi sẽ gọi lại cho bạn ngay</item>
+        <item>Không thể nói chuyện ngay. Gọi lại cho tôi sau?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Tên</item>
+        <item>Họ</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Im lặng</item>
+        <item>Chỉ rung</item>
+        <item>Chỉ có âm thanh</item>
+        <item>Âm thanh và Rung</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Bình thường</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Im lặng</item>
+        <item>Chỉ rung</item>
+        <item>Chỉ có âm thanh</item>
+        <item>Âm thanh và Rung</item>
+    </string-array>
+</resources>

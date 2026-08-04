@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/viewAdContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/adPlaceholder" android:visibility="gone" layout="@layout/view_ad_placeholder" />
+    <com.truecaller.ads.ui.AdsContainerLight android:layout_gravity="center" android:id="@id/adsContainer" android:background="@drawable/bg_ads_container_light" android:padding="1.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

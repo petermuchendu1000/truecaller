@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.ads.ui.AdsContainer android:layout_gravity="center" android:id="@id/acs2AdsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="@color/transparent" app:cardCornerRadius="@dimen/control_mini_space" app:cardElevation="0.0dip" app:containerMaxHeight="@dimen/ads_container_small_max_height" app:strokeColor="@color/fullscreen_acs_ads_border" app:strokeWidth="1.0dip" />
+    <androidx.compose.ui.platform.ComposeView android:id="@id/acs2ComposeAdsContainerLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</FrameLayout>

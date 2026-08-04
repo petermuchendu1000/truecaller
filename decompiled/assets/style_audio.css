@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container to wrap audio and buttons */
+#audioContainer {
+    position: relative;
+    width: 100%; /* Set a desired width for the audio container */
+    height: auto;
+}
+
+#audioElement {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensure the audio fills the container */
+}
+
+#audioElement::-webkit-media-controls {
+    display: none !important; /* For WebKit browsers */
+}
+
+#audioElement::-moz-media-controls {
+    display: none !important; /* For Firefox */
+}
+
+/* Ensure there are no poster images or play buttons */
+#audioElement[controls] {
+    display: none !important; /* Ensure that controls are hidden */
+}
+
+#muteButton, #unMuteButton {
+    position: absolute;
+    top: -30px; /* Position the button from the top inside the container */
+    left: 10px; /* Position the button from the left inside the container */
+    width: 20px; /* Set the size of the button */
+    height: 20px;
+    cursor: pointer; /* Add a pointer to indicate it's clickable */
+    z-index: 100; /* Ensure the button stays above the audio */
+}
+
+#closeButton {
+     position: fixed; /* 'fixed' will position it relative to the viewport */
+     top: 30px;       /* Distance from the top of the screen */
+     right: 15px;     /* Distance from the right of the screen */
+     width: 25px;     /* Adjust the size of the close icon */
+     height: 25px;
+     cursor: pointer;
+     z-index: 1000;
+}
+.hidden {
+    display: none;
+}
+
+#skipAdButton {
+    position: fixed;
+    top: 30px;
+    right: 15px;
+    background-color: grey;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    z-index: 50;
+}

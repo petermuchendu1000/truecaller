@@ -1,1 +1,0 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00800015" android:orientation="1" android:id="@id/glanceView" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="3" style="@style/Glance.AppWidget.Column"/>

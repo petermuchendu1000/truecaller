@@ -1,1 +1,0 @@
-<com.truecaller.common.ui.chip.SimpleChipXView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/chip" android:layout_width="-2" android:layout_height="-2" android:minWidth="@dimen/input_action_bar_min_width"/>

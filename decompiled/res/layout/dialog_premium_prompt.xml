@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/background_premium_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/image" android:paddingTop="32.0dip" android:paddingBottom="16.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="?tcx_familySharingIcon" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:id="@id/addMemberGroup" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <TextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/PremiumAddFamilyMemberTitle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Text.Headline.H6" />
+            <TextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/PremiumAddFamilyMemberSubtitle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Text.Body.B2" />
+            <TextView android:textColor="?tcx_textTertiary" android:gravity="center" android:id="@id/note" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="24.0dip" android:text="@string/PremiumAddFamilyMemberNote" android:layout_marginStart="32.0dip" android:layout_marginEnd="32.0dip" style="@style/StyleX.Text.Caption" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/actionsGroup" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginBottom="3.0dip" />
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</FrameLayout>

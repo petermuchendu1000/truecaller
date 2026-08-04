@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:scrollbarStyle="outsideOverlay" android:id="@id/switchContainer" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="36.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Screen" />
+            <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+                <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="start" android:id="@id/radioButtonIncoming" android:layout_width="fill_parent" android:layout_height="46.0dip" android:checked="true" android:text="Incoming Call Screen" android:textAlignment="textStart" android:layoutDirection="rtl" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="start" android:id="@id/radioButtonOngoing" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="Ongoing Call Screen" android:textAlignment="textStart" android:layoutDirection="rtl" />
+            </RadioGroup>
+            <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="Caller Info" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="Has Name" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchLongName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has Long Name" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchAvatar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="Has Avatar" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsPhonebook" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Phonebook Contact" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsGold" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Gold" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsPremium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Premium" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsSpam" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Spam" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchSpamModel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Has Spam Model" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsTcUser" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="Is TC User" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsUnknown" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Unknown" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsBusiness" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Verified Business" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsPriority" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Priority" style="@style/StyleX.Switch" />
+            <com.truecaller.common.ui.switchmaterial.SwitchMaterialX android:id="@id/switchIsSmallBusiness" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Is Small Business" style="@style/StyleX.Switch" />
+            <TextView android:textSize="18.0sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32.0dip" android:text="Search State" />
+            <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="8.0dip">
+                <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="start" android:id="@id/radioButtonSuccess" android:layout_width="fill_parent" android:layout_height="46.0dip" android:checked="true" android:text="Success" android:textAlignment="textStart" android:layoutDirection="rtl" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="start" android:id="@id/radioButtonSearching" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="Searching" android:textAlignment="textStart" android:layoutDirection="rtl" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="start" android:id="@id/radioButtonNotFound" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="Not Found" android:textAlignment="textStart" android:layoutDirection="rtl" />
+                <androidx.appcompat.widget.AppCompatRadioButton android:layout_gravity="start" android:id="@id/radioButtonHiddenNumber" android:layout_width="fill_parent" android:layout_height="46.0dip" android:text="Hidden Number" android:textAlignment="textStart" android:layoutDirection="rtl" />
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:layout_gravity="bottom" android:id="@id/buttonShowCallUI" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="Show Assistant CallUI" style="@style/StyleX.Button.Small.Primary" />
+</LinearLayout>

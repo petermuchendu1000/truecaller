@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>1월</item>
+        <item>2월</item>
+        <item>3월</item>
+        <item>4월</item>
+        <item>5월</item>
+        <item>6월</item>
+        <item>7월</item>
+        <item>8월</item>
+        <item>9월</item>
+        <item>10월</item>
+        <item>11월</item>
+        <item>12월</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>진행</item>
+        <item>계속하기</item>
+        <item>수락</item>
+        <item>확인</item>
+        <item>%s 사용</item>
+        <item>%s(으)로 계속</item>
+        <item>%s(으)로 계속하기</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s 사용</item>
+        <item>%s(으)로 계속</item>
+        <item>%s(으)로 계속하기</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s에 로그인</item>
+        <item>%s(으)로 가입</item>
+        <item>%s에 로그인</item>
+        <item>%s(으)로 번호 확인</item>
+        <item>%s(으)로 등록</item>
+        <item>%s(으)로 시작하기</item>
+        <item>%s(으)로 계속하기</item>
+        <item>%s(으)로 확인</item>
+        <item>%s(으)로 프로필 확인</item>
+        <item>%s(으)로 내 프로필 확인</item>
+        <item>%s(으)로 전화번호 확인</item>
+        <item>%s(으)로 내 번호 확인</item>
+        <item>%s(으)로 계속</item>
+        <item>%s(으)로 주문 완료</item>
+        <item>%s(으)로 주문</item>
+        <item>%s(으)로 예약 완료</item>
+        <item>%s(으)로 결제</item>
+        <item>%s(으)로 세부 정보 관리</item>
+        <item>%s(으)로 내 세부 정보 관리</item>
+        <item>한 번 눌러 %s에 로그인</item>
+        <item>%s 구독</item>
+        <item>%s에서 업데이트 받기</item>
+        <item>%s에서 계속 읽기</item>
+        <item>%s에서 새 업데이트 받기</item>
+        <item>%s(으)로 로그인/가입</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s에 로그인</item>
+        <item>%s(으)로 가입</item>
+        <item>%s에 로그인</item>
+        <item>%s(으)로 번호 확인</item>
+        <item>%s(으)로 등록</item>
+        <item>%s(으)로 시작하기</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>시작하려면</item>
+        <item>계속하려면</item>
+        <item>주문하려면</item>
+        <item>구매를 완료하려면</item>
+        <item>결제하려면</item>
+        <item>예약을 완료하려면</item>
+        <item>예약을 진행하려면</item>
+        <item>예약을 계속하려면</item>
+        <item>세부 정보를 보려면</item>
+        <item>자세히 보려면</item>
+        <item>계속 읽으려면</item>
+        <item>진행하려면</item>
+        <item>새로운 업데이트를 받으려면</item>
+        <item>업데이트를 받으려면</item>
+        <item>구독하려면</item>
+        <item>구독하고 업데이트를 받으려면</item>
+        <item>최고 가격을 받으려면</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>휴대폰 번호를 확인해 주세요</item>
+        <item>로그인해 주세요</item>
+        <item>가입해 주세요</item>
+        <item>로그인/가입해 주세요</item>
+        <item>등록해 주세요</item>
+        <item>로그인해 주세요</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>기본 SIM 설정</item>
+        <item>기본 SIM - SIM 1</item>
+        <item>기본 SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>죄송하지만, 지금을 대화를 할 수 없습니다</item>
+        <item>나중에 통화할게요</item>
+        <item>다시 전화할게요</item>
+        <item>지금은 대화할 수 없습니다. 나중에 전화해 줄래요?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>이름</item>
+        <item>성</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>무음</item>
+        <item>진동만</item>
+        <item>소리만</item>
+        <item>소리 및 진동</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25배속</item>
+        <item>0.5배속</item>
+        <item>0.75배속</item>
+        <item>보통</item>
+        <item>1.25배속</item>
+        <item>1.5배속</item>
+        <item>2배속</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>무음</item>
+        <item>진동만</item>
+        <item>소리만</item>
+        <item>소리 및 진동</item>
+    </string-array>
+</resources>

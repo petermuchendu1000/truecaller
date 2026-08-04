@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="108.0dip" android:width="108.0dip" android:viewportWidth="432.0" android:viewportHeight="432.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group>
+        <clip-path android:pathData="M0,0h432v432h-432z" />
+        <path android:fillColor="@drawable/$ic_launcher_dialer_background__0" android:pathData="M0,0H432V432H0V0Z" />
+        <path android:fillColor="#ff0027ff" android:pathData="M432,295.72C412.09,307.67 389.78,311.2 366.42,306.38C298.97,291.17 332.7,103.66 333.94,101.13C339.74,60.6 340.39,26.82 335.84,0C306.5,0 297,-0 220.5,0C158,0 134.5,0 84.43,0C53.9,25.75 24.97,55.89 0,84.4C0,86.5 0,88 0,89C-0,97.67 0,101.5 0,112L0,205L0,261.5C0,276.57 0,268.09 0,294.5C0,296 0,297 0,300.28C47.59,237.32 119.92,203.43 117.88,287.37C116.64,346.7 124.33,394.51 138.46,432C155,432 155.5,432 161.5,432C271,432 334.5,432 348.5,432H432V295.73V295.72Z" />
+    </group>
+    <path android:fillColor="#00000000" android:pathData="M0.5,0.5h431v431h-431z" android:strokeColor="#ff000000" android:strokeWidth="1.0" />
+</vector>

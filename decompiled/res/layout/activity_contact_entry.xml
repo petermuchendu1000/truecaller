@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Name" android:labelFor="@id/nameInput" style="@style/StyleX.Text.Body.B1" />
+    <EditText android:id="@id/nameInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" android:importantForAutofill="no" style="@style/StyleX.Input" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Raw phone number" android:labelFor="@id/numberInput" style="@style/StyleX.Text.Body.B1" />
+    <EditText android:id="@id/numberInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="phone" android:importantForAutofill="no" style="@style/StyleX.Input" />
+    <TextView android:id="@id/simTokenDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Sim token that received the call" style="@style/StyleX.Text.Body.B1" />
+    <Spinner android:id="@id/simTokenInput" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" style="@style/StyleX.Spinner" />
+    <Button android:id="@id/insertButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Insert" style="@style/StyleX.Button.Primary" />
+</LinearLayout>

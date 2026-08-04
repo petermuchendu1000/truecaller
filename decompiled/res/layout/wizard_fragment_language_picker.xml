@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@id/root" android:background="?tc_color_containerFillPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/wizardLogo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hexaSpace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_truecaller_logo_blue" app:tint="?tc_color_containerFillBlue" />
+        <TextView android:textSize="20.0sp" android:textColor="?tc_color_textPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/language_picker_title" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/wizardLogo" />
+        <TextView android:textSize="16.0sp" android:textColor="?tc_color_textSecondary" android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="@string/language_picker_subTitle" app:layout_constraintBottom_toTopOf="@id/flow" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" app:layout_constraintVertical_chainStyle="spread_inside" />
+        <androidx.constraintlayout.helper.widget.Flow android:id="@id/flow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="8.0dip" app:constraint_referenced_ids="btn_lang_1,btn_lang_2,btn_lang_3,btn_lang_4,btn_lang_5,btn_lang_6,btn_lang_7,btn_lang_8,btn_lang_9,btn_lang_10,btn_lang_11,btn_lang_12" app:flow_horizontalGap="16.0dip" app:flow_horizontalStyle="packed" app:flow_verticalGap="16.0dip" app:flow_verticalStyle="packed" app:flow_wrapMode="aligned" app:layout_constraintBottom_toTopOf="@id/allLanguages" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/subTitle" />
+        <Button android:id="@id/btn_lang_1" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_2" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_3" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_4" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_5" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_6" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_7" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_8" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_9" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_10" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_11" style="@style/Wizard.LanguagePickerButton" />
+        <Button android:id="@id/btn_lang_12" style="@style/Wizard.LanguagePickerButton" />
+        <TextView android:textSize="16.0sp" android:id="@id/allLanguages" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="@dimen/space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/flow" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

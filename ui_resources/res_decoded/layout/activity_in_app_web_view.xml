@@ -1,1 +1,0 @@
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/container" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"/>

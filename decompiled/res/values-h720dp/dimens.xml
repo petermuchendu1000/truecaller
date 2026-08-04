@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_alert_dialog_button_bar_height">54.0dip</dimen>
+    <dimen name="caller_label_radius">12.0dip</dimen>
+    <dimen name="context_call_notification_subtitle_margin_top">2.0dip</dimen>
+</resources>

@@ -1,1 +1,0 @@
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/imageView" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" android:maxHeight="@dimen/control_ennea_space"/>

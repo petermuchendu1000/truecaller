@@ -1,1 +1,0 @@
-<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:icon="@0x7F080668" android:id="@id/action_carrier_menu" android:visible="false" android:title="@string/carrier_tim_title" app:showAsAction="0x00000001"/></menu>

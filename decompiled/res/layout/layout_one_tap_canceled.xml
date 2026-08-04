@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_account_circle" />
+    <TextView android:textColor="?tc_color_textPrimary" android:gravity="center" android:id="@id/titleText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" style="@style/StyleX.Text.Roboto.Medium.16" />
+    <TextView android:textColor="?tc_color_textSecondary" android:gravity="center" android:id="@id/subtitleText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" style="@style/StyleX.Text.Roboto.Regular.14" />
+    <com.google.android.material.button.MaterialButton android:textColor="?tc_color_textTertiary" android:id="@id/cancelButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/StrCancel" android:textAllCaps="false" style="@style/StyleX.Button.Small.Dialog" />
+    <com.google.android.material.button.MaterialButton android:id="@id/continueButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/one_tap_canceled_action_continue" android:textAllCaps="false" style="@style/StyleX.Button.Small.Dialog" />
+</LinearLayout>

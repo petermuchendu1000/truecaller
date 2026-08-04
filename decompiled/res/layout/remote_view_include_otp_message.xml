@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/primaryIcon" android:background="@drawable/drawable_circle_background_infocard" android:layout_width="36.0dip" android:layout_height="36.0dip" android:src="@drawable/otp_default_avatar" android:scaleType="centerCrop" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Title" android:textSize="24.0sp" android:ellipsize="end" android:id="@id/textOtp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="sans-serif" android:layout_marginStart="16.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="22.0sp" android:autoSizeMaxTextSize="26.0sp" />
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:id="@id/textSender" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="16.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="8.0sp" android:autoSizeMaxTextSize="12.0sp" style="@style/TextAppearance.Material.Notification.Subtitle" />
+    </LinearLayout>
+    <TextView android:textSize="12.0sp" android:textColor="@color/notification_brand_blue" android:id="@id/copy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/copy_otp" android:includeFontPadding="false" android:drawableTop="@drawable/ic_copy_otp" android:paddingStart="8.0dip" android:paddingEnd="8.0dip" android:autoSizeTextType="uniform" android:autoSizeMinTextSize="10.0sp" android:autoSizeMaxTextSize="14.0sp" />
+</LinearLayout>

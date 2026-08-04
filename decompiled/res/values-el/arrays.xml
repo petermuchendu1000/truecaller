@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ιαν</item>
+        <item>φεβ</item>
+        <item>μαρ</item>
+        <item>απρ</item>
+        <item>μάι</item>
+        <item>ιούν</item>
+        <item>ιούλ</item>
+        <item>αυγ</item>
+        <item>σεπ</item>
+        <item>οκτ</item>
+        <item>νοε</item>
+        <item>δεκ</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Συνέχεια</item>
+        <item>Συνέχεια</item>
+        <item>Αποδοχή</item>
+        <item>Επιβεβαίωση</item>
+        <item>Χρήση %s</item>
+        <item>Συνέχεια με το %s</item>
+        <item>Συνέχεια με το %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Χρήση %s</item>
+        <item>Συνέχεια με το %s</item>
+        <item>Συνέχεια με το %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Σύνδεση στο %s</item>
+        <item>Εγγραφή στο %s</item>
+        <item>Είσοδος στο %s</item>
+        <item>Επαλήθευση αριθμού με %s</item>
+        <item>Εγγραφή με %s</item>
+        <item>Ξεκινήστε με το %s</item>
+        <item>Συνέχεια με το %s</item>
+        <item>Επαλήθευση με %s</item>
+        <item>Επαλήθευση προφίλ με %s</item>
+        <item>Επαληθεύστε το προφίλ σας με το %s</item>
+        <item>Επαλήθευση αριθμού τηλεφώνου με %s</item>
+        <item>Επαληθεύστε τον αριθμό σας με το %s</item>
+        <item>Συνέχεια με το %s</item>
+        <item>Ολοκλήρωση παραγγελίας με το %s</item>
+        <item>Υποβολή παραγγελίας με το %s</item>
+        <item>Ολοκλήρωση κράτησης με το %s</item>
+        <item>Ολοκλήρωση αγοράς με το %s</item>
+        <item>Διαχείριση λεπτομερειών με το %s</item>
+        <item>Διαχειριστείτε τα στοιχεία σας με το %s</item>
+        <item>Σύνδεση στο %s με ένα πάτημα</item>
+        <item>Εγγραφή στο %s</item>
+        <item>Λήψη ενημερώσεων από το %s</item>
+        <item>Συνέχιση ανάγνωσης στο %s</item>
+        <item>Λήψη νέων ενημερώσεων από το %s</item>
+        <item>Σύνδεση/Εγγραφή στο %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Σύνδεση στο %s</item>
+        <item>Εγγραφή στο %s</item>
+        <item>Είσοδος στο %s</item>
+        <item>Επαλήθευση αριθμού με %s</item>
+        <item>Εγγραφή με %s</item>
+        <item>Ξεκινήστε με το %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Για να ξεκινήσετε</item>
+        <item>Για να συνεχίσετε</item>
+        <item>Για να υποβάλετε μια παραγγελία</item>
+        <item>Για να ολοκληρώσετε την αγορά σας</item>
+        <item>Για ολοκλήρωση αγοράς</item>
+        <item>Για να ολοκληρώσετε την κράτησή σας</item>
+        <item>Για να συνεχίσετε με την κράτησή σας</item>
+        <item>Για να συνεχίσετε με την κράτησή σας</item>
+        <item>Για να δείτε λεπτομέρειες</item>
+        <item>Για να δείτε περισσότερα</item>
+        <item>Για να συνεχίσετε την ανάγνωση</item>
+        <item>Για να συνεχίσετε</item>
+        <item>Για νέες ενημερώσεις</item>
+        <item>Για λήψη ενημερώσεων</item>
+        <item>Για εγγραφή</item>
+        <item>Για εγγραφή και λήψη ενημερώσεων</item>
+        <item>Για να λάβετε την καλύτερη τιμή</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>επαληθεύστε τον αριθμό κινητού τηλεφώνου</item>
+        <item>συνδεθείτε</item>
+        <item>εγγραφείτε</item>
+        <item>συνδεθείτε/εγγραφείτε</item>
+        <item>εγγραφείτε</item>
+        <item>συνδεθείτε</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Ορισμός προεπιλεγμένης SIM</item>
+        <item>Προεπιλεγμένη SIM - SIM 1</item>
+        <item>Προεπιλεγμένη SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Με συγχωρείτε, δεν μπορώ να μιλήσω τώρα</item>
+        <item>Θα σας καλέσω αργότερα</item>
+        <item>Θα σας καλέσω σε λίγο</item>
+        <item>Δεν μπορώ να μιλήσω τώρα. Καλέστε με αργότερα.</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Όνομα</item>
+        <item>Επώνυμο</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Aθόρυβο</item>
+        <item>Μόνο δόνηση</item>
+        <item>Ήχος μόνο</item>
+        <item>Ήχος και δόνηση</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Κανονική</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Aθόρυβο</item>
+        <item>Μόνο δόνηση</item>
+        <item>Ήχος μόνο</item>
+        <item>Ήχος και δόνηση</item>
+    </string-array>
+</resources>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Blokir &amp; laporkan %d nomor sebagai spam?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Tidak dapat menghapus panggilan Asisten Anda. Silakan coba lagi.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Panggilan Asisten dihapus.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Anda yakin ingin menghapus panggilan Asisten ini? Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Hapus panggilan Asisten yang dipilih</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d rekaman</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Pesan ditambahkan ke tab Penting</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d percakapan ditandai sebagai terbaca</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d entri dihapus</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Hapus %d entri?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Percakapan disematkan</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Simpan semua kontak</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Percakapan dilepas sematannya</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d pesan tidak terbaca</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Hapus %d percakapan?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d nomor diidentifikasi</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Pesan dilaporkan</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Pesan yang ditandai sebagai aman</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Pesan dilaporkan</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d anggota</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Anda yakin ingin membuka blokir %d nomor?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Anda yakin ingin menghapus %s file bahasa?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Pesan diblokir • Pengirim ada di daftar blokir Anda</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s menelepon %2$d jam yang lalu. Ketuk untuk melihat di Truecaller.</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d kontak</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d lampiran</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d kontak lainnya</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d nomor yang ditambahkan ke daftar blokir</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d panggilan diblokir</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d panggilan dibisukan</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d hari uji coba gratis hanya untuk pelanggan baru</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d bulan uji coba gratis hanya untuk pelanggan baru</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d tahun uji coba gratis hanya untuk pelanggan baru</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Anda, %1$s, dan %2$s bergabung dalam Premium Keluarga. Anda memiliki %3$d sisa kuota.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Anda memiliki %1$d akun yang tersedia lagi.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Anda dan %1$s bergabung dalam Premium Keluarga. Anda memiliki %2$d sisa kuota.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Langganan akan berakhir dalam %d hari</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d hari uji coba gratis, lalu %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d bulan uji coba gratis, lalu %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d tahun uji coba gratis, lalu %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d hari Uji Coba Gratis, lalu</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d bulan Uji Coba Gratis, lalu</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d tahun Uji Coba Gratis, lalu</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Jumlah pengeditan dan penghapusan anggota keluarga bersifat terbatas. Sisa %1$d kali pengeditan.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d tampilan pencarian baru</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d kunjungan profil baru</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d orang melihat profil Anda baru-baru ini</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d orang (%3$d orang di %2$s) melihat profil Anda baru-baru ini</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">SMS akan dikirim secara otomatis dalam %1$d detik …</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">minggu</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s hari</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">bulan</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">tahun</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Pesan dibatalkan bintangnya</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Anda sudah melebihi batas percobaan verifikasi. Mohon coba lagi dalam %d jam.</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d tampilan pencarian baru!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d tampilan pencarian!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Profil Anda ditampilkan %1$d kali dalam hasil pencarian baru-baru ini</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d tampilan pencarian baru-baru ini</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d orang melihat profil Anda</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s dan %2$s lainnya melihat profil Anda</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d orang (1 orang di %2$s) melihat profil Anda</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s dari %2$s dan %3$s lainnya melihat profil Anda</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d orang melihat profil Anda. Pelajari selengkapnya.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d orang (%3$d di %2$s) melihat profil Anda. Pelajari selengkapnya.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha terlalu sering gagal. Coba lagi nanti dalam %1$d jam</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">komentar</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d Orang melihat profil Anda</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s percakapan diarsipkan</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d pesan diorganisir</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Mengunduh rekaman panggilan asisten</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d penawaran eksklusif</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Simpan nomor ke kontak yang ada</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d panggilan</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d hari</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Maju cepat %d detik</item>
+        <item quantity="one">Maju cepat %d detik</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Mundur %d detik</item>
+        <item quantity="one">Mundur %d detik</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">Tersisa %d slot</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d undangan gagal</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d masalah teridentifikasi</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Penawaran dihapus</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Pesan OTP dihapus</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Pesan promosi dihapus</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Pesan spam dihapus</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d pesan</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d Pesan dengan penawaran</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d pesan spam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d pesan dihapus</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Undangan</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Anda akan menghapus file terpilih dan %d pesan terkait</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Hapus pesan?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d notifikasi baru</item>
+        <item quantity="one">%d notifikasi baru</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">teman</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d reaksi baru</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">hari</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Kedaluwarsa dalam %1$d jam</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Kedaluwarsa dalam %1$d menit</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">komentar</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">Ada %1$d komentar baru di posting</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Komentar</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Postingan</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s komentar</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Lihat %s balasan</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Menghapus suara digital akan menghapusnya dari Asisten Anda dan semua balasannya.&lt;br>&lt;b>Catatan: Anda akan memiliki %d percobaan lagi untuk membuat suara digital Anda&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">+%s lebih banyak orang mencari profil Anda baru-baru ini</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">+%s lebih banyak orang melihat profil Anda baru-baru ini</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Coba lagi dalam %dj</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s percakapan batal diarsipkan</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Pesan diterima</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Anda yakin ingin menghapus panggilan Pesan Suara ini? Tindakan ini tidak dapat dibatalkan.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Hapus panggilan Pesan Suara yang dipilih</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Tidak dapat menghapus panggilan pesan suara Anda. Silakan coba lagi.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Semua panggilan pesan suara berhasil dihapus.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Mengunduh rekaman pesan suara.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d orang dari %2$s melihat profil Anda baru-baru ini</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d orang (%3$d dari %2$s) melihat profil Anda baru-baru ini</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d orang (1 dari %2$s) melihat profil Anda</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d orang (%3$d dari %2$s) melihat profil Anda. Cari tahu selengkapnya.</item>
+    </plurals>
+</resources>

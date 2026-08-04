@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:ellipsize="marquee" android:layout_gravity="center" android:id="@id/sendToAssistantText" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:scrollHorizontally="true" android:includeFontPadding="false" android:drawablePadding="4.0dip" android:marqueeRepeatLimit="marquee_forever" android:drawableStart="@drawable/assistant_button_icon" android:fontFamily="@font/poppins_semibold" android:elevation="6.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/TruecallerAssistantButton" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/progressIndicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:paddingEnd="12.0dip" app:indicatorColor="?tcx_brandBackgroundBlue" app:indicatorSize="24.0dip" app:layout_constraintBottom_toBottomOf="@id/sendToAssistantText" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/sendToAssistantText" app:trackColor="?tcx_backgroundPrimary" app:trackThickness="2.0dip" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

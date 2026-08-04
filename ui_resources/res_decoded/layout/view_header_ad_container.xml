@@ -1,1 +1,0 @@
-<com.truecaller.ads.ui.AdsContainerLight xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00000011" android:id="@id/adsContainer" android:background="@drawable/bg_ads_container_light" android:padding="1.000000dip" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:backgroundTint="@color/transparent"/>

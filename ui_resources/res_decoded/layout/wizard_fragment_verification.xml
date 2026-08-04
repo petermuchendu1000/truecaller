@@ -1,1 +1,0 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/root" android:layout_width="-1" android:layout_height="-1"><androidx.compose.ui.platform.ComposeView android:id="@id/composeView" android:layout_width="-1" android:layout_height="-1"/></FrameLayout>

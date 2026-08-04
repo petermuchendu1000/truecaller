@@ -1,1 +1,0 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1"><com.truecaller.premium.ui.subscription.tier.TierPlanView android:id="@id/tierPlanView" android:layout_width="-1" android:layout_height="-1" android:layout_marginHorizontal="@dimen/tcx_tier_plan_page_offset_and_margin"/></FrameLayout>

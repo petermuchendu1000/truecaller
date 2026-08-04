@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ม.ก.</item>
+        <item>ก.พ.</item>
+        <item>มี.ค.</item>
+        <item>เม.ย.</item>
+        <item>พ.ค.</item>
+        <item>มิ.ย.</item>
+        <item>ก.ค.</item>
+        <item>ส.ค.</item>
+        <item>ก.ย.</item>
+        <item>ต.ค.</item>
+        <item>พ.ย.</item>
+        <item>ธ.ค.</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>ดำเนินการ</item>
+        <item>ดำเนินการต่อ</item>
+        <item>ยอมรับ</item>
+        <item>ยืนยัน</item>
+        <item>ใช้ %s</item>
+        <item>ดำเนินการต่อด้วย %s</item>
+        <item>ดำเนินการต่อด้วย %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>ใช้ %s</item>
+        <item>ดำเนินการต่อด้วย %s</item>
+        <item>ดำเนินการต่อด้วย %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>ลงชื่อเข้าใช้ %s</item>
+        <item>ลงทะเบียนกับ %s</item>
+        <item>ลงชื่อเข้าใช้ %s</item>
+        <item>ยืนยันหมายเลขกับ %s</item>
+        <item>ลงทะเบียนกับ %s</item>
+        <item>เริ่มต้นกับ %s</item>
+        <item>ดำเนินการต่อด้วย %s</item>
+        <item>ยืนยันด้วย %s</item>
+        <item>ยืนยันโปรไฟล์ด้วย %s</item>
+        <item>ยืนยันโปรไฟล์ของคุณด้วย %s</item>
+        <item>ยืนยันหมายเลขโทรศัพท์ด้วย %s</item>
+        <item>ยืนยันหมายเลขของคุณด้วย %s</item>
+        <item>ดำเนินการต่อด้วย %s</item>
+        <item>ทำรายการสั่งซื้อด้วย %s ให้เสร็จสมบูรณ์</item>
+        <item>สั่งซื้อกับ %s</item>
+        <item>ทำการจองให้เสร็จสิ้นด้วย %s</item>
+        <item>ชำระเงินกับ %s</item>
+        <item>จัดการรายละเอียดกับ %s</item>
+        <item>จัดการรายละเอียดของคุณกับ %s</item>
+        <item>ลงชื่อเข้าใช้ %s ด้วยการแตะเพียงครั้งเดียว</item>
+        <item>สมัครสมาชิกกับ %s</item>
+        <item>รับข้อมูลอัปเดตจาก %s</item>
+        <item>อ่านต่อบน %s</item>
+        <item>รับข้อมูลอัปเดตใหม่จาก %s</item>
+        <item>ลงชื่อเข้าใช้/ลงทะเบียนกับ %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>ลงชื่อเข้าใช้ %s</item>
+        <item>ลงทะเบียนกับ %s</item>
+        <item>ลงชื่อเข้าใช้ %s</item>
+        <item>ยืนยันหมายเลขกับ %s</item>
+        <item>ลงทะเบียนกับ %s</item>
+        <item>เริ่มต้นกับ %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>เพื่อเริ่มต้น</item>
+        <item>เพื่อดำเนินการต่อ</item>
+        <item>เพื่อสั่งซื้อ</item>
+        <item>เพื่อให้การสั่งซื้อของคุณเสร็จสมบูรณ์</item>
+        <item>เพื่อชำระเงิน</item>
+        <item>เพื่อให้การจองของคุณเสร็จสมบูรณ์</item>
+        <item>เพื่อดำเนินการจองของคุณ</item>
+        <item>เพื่อดำเนินการต่อกับการจองของคุณ</item>
+        <item>เพื่อรับรายละเอียด</item>
+        <item>เพื่อดูเพิ่มเติม</item>
+        <item>เพื่ออ่านต่อ</item>
+        <item>เพื่อดำเนินการต่อ</item>
+        <item>สำหรับข้อมูลอัปเดตใหม่</item>
+        <item>เพื่อรับข้อมูลอัปเดต</item>
+        <item>เพื่อสมัครสมาชิก</item>
+        <item>เพื่อสมัครรับข้อมูล &amp; รับข้อมูลอัปเดต</item>
+        <item>เพื่อให้ได้ราคาที่ดีที่สุด</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>โปรดยืนยันหมายเลขโทรศัพท์มือถือ</item>
+        <item>โปรดลงชื่อเข้าใช้</item>
+        <item>โปรดลงทะเบียน</item>
+        <item>โปรดลงชื่อเข้าใช้/ลงทะเบียน</item>
+        <item>โปรดลงทะเบียน</item>
+        <item>โปรดลงชื่อเข้าใช้</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>กำหนด SIM เริ่มต้น</item>
+        <item>SIM เริ่มต้น - SIM 1</item>
+        <item>SIM เริ่มต้น - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>ขอโทษ ตอนนี้ฉันไม่สะดวกคุย</item>
+        <item>ฉันจะโทรกลับภายหลัง</item>
+        <item>ฉันจะโทรกลับทันที</item>
+        <item>ตอนนี้ไม่สะดวกคุย ค่อยโทรหาอีกทีได้มั้ย?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>ชื่อจริง</item>
+        <item>นามสกุล</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>เงียบ</item>
+        <item>สั่นเท่านั้น</item>
+        <item>เสียงเท่านั้น</item>
+        <item>เสียงและสั้น</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>ปกติ</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>ซิม 1</item>
+        <item>ซิม 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>ซิม 1</item>
+        <item>ซิม 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>เงียบ</item>
+        <item>สั่นเท่านั้น</item>
+        <item>เสียงเท่านั้น</item>
+        <item>เสียงและสั้น</item>
+    </string-array>
+</resources>

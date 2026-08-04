@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:id="@id/bg_selected_btn" android:background="@drawable/bg_block_settings_header_selected_btn" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/btn_off" app:layout_constraintEnd_toEndOf="@id/btn_off" app:layout_constraintStart_toStartOf="@id/btn_off" app:layout_constraintTop_toTopOf="@id/btn_off" />
+    <com.google.android.material.button.MaterialButton android:id="@id/btn_off" android:text="@string/settings_blocking_header_off" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_basic" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BlockSettings.Header.Selector.Button" />
+    <com.google.android.material.button.MaterialButton android:id="@id/btn_basic" android:text="@string/settings_blocking_header_basic" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/btn_max" app:layout_constraintStart_toEndOf="@id/btn_off" app:layout_constraintTop_toTopOf="parent" style="@style/BlockSettings.Header.Selector.Button" />
+    <com.google.android.material.button.MaterialButton android:id="@id/btn_max" android:text="@string/settings_blocking_header_max" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/btn_basic" app:layout_constraintTop_toTopOf="parent" style="@style/BlockSettings.Header.Selector.Button" />
+</merge>

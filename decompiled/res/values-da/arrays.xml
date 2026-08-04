@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Fortsæt</item>
+        <item>Fortsæt</item>
+        <item>Accepter</item>
+        <item>Bekræft</item>
+        <item>Brug %s</item>
+        <item>Fortsæt med %s</item>
+        <item>Fortsæt med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Brug %s</item>
+        <item>Fortsæt med %s</item>
+        <item>Fortsæt med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Log på %s</item>
+        <item>Tilmeld dig %s</item>
+        <item>Log ind på %s</item>
+        <item>Bekræft nummer med %s</item>
+        <item>Registrer dig hos %s</item>
+        <item>Kom i gang med %s</item>
+        <item>Fortsæt med %s</item>
+        <item>Bekræft med %s</item>
+        <item>Bekræft profil med %s</item>
+        <item>Bekræft din profil med %s</item>
+        <item>Bekræft telefonnummer med %s</item>
+        <item>Bekræft dit nummer med %s</item>
+        <item>Fortsæt med %s</item>
+        <item>Fuldfør ordre med %s</item>
+        <item>Afgiv ordre med %s</item>
+        <item>Gennemfør booking med %s</item>
+        <item>Gå til kassen med %s</item>
+        <item>Administrer detaljer med %s</item>
+        <item>Administrer dine detaljer med %s</item>
+        <item>Log på %s med ét tryk</item>
+        <item>Abonner på %s</item>
+        <item>Få opdateringer fra %s</item>
+        <item>Fortsæt med at læse på %s</item>
+        <item>Få nye opdateringer fra %s</item>
+        <item>Log på/Tilmeld dig med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Log på %s</item>
+        <item>Tilmeld dig %s</item>
+        <item>Log ind på %s</item>
+        <item>Bekræft nummer med %s</item>
+        <item>Registrer dig hos %s</item>
+        <item>Kom i gang med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>For at komme i gang</item>
+        <item>For at fortsætte</item>
+        <item>For at afgive ordre</item>
+        <item>For at fuldføre dit køb</item>
+        <item>For at gå til kassen</item>
+        <item>For at fuldføre din booking</item>
+        <item>For at fortsætte med din booking</item>
+        <item>For at fortsætte med din booking</item>
+        <item>For at få oplysninger</item>
+        <item>For at se mere</item>
+        <item>For at fortsætte med at læse</item>
+        <item>For at fortsætte</item>
+        <item>For at få nye opdateringer</item>
+        <item>For at få opdateringer</item>
+        <item>For at abonnere</item>
+        <item>For at abonnere og få opdateringer</item>
+        <item>For at få den bedste pris</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>bekræft mobilnummer</item>
+        <item>log på</item>
+        <item>tilmeld dig</item>
+        <item>log på/tilmeld dig</item>
+        <item>registrer dig</item>
+        <item>log ind</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Indstil standard-SIM</item>
+        <item>Standard-SIM - SIM 1</item>
+        <item>Standard-SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Beklager, jeg kan ikke snakke nu</item>
+        <item>Jeg ringer senere</item>
+        <item>Jeg ringer tilbage om lidt</item>
+        <item>Kan ikke snakke nu. Ring til mig senere?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Fornavn</item>
+        <item>Efternavn</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Lydløs</item>
+        <item>Kun vibration</item>
+        <item>Kun lyd</item>
+        <item>Lyd og vibration</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Lydløs</item>
+        <item>Kun vibration</item>
+        <item>Kun lyd</item>
+        <item>Lyd og vibration</item>
+    </string-array>
+</resources>

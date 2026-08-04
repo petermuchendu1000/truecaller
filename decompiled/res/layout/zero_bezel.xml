@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/content_view_big" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/content_view_rl" android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="196.0dip" android:layout_weight="1.0">
+        <include android:id="@id/big_image_configurable" layout="@layout/image_view_flipper_dynamic" />
+        <ImageView android:background="@drawable/pt_scrim" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/big_image_configurable" android:importantForAccessibility="no" />
+        <RelativeLayout android:id="@id/rel_lyt" android:paddingLeft="@dimen/padding_horizontal" android:paddingTop="@dimen/padding_vertical" android:paddingRight="@dimen/padding_horizontal" android:paddingBottom="@dimen/padding_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/big_image_configurable" android:paddingStart="@dimen/padding_horizontal" android:paddingEnd="@dimen/padding_horizontal">
+            <include android:id="@id/metadata" layout="@layout/metadata" />
+            <TextView android:textAppearance="@style/PushTitle" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/metadata_title_margin_vertical" android:layout_below="@id/metadata" android:layout_alignStart="@id/metadata" />
+            <TextView android:textAppearance="@style/PushMessageMultiLine" android:id="@id/msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/title" android:layout_alignStart="@id/title" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <include android:id="@id/action_buttons" layout="@layout/action_buttons" />
+</LinearLayout>

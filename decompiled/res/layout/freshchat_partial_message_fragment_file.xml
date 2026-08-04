@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@drawable/freshchat_message_file_bg" android:padding="12.0dip" android:clipToPadding="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:layout_marginBottom="4.0dip" android:layout_marginEnd="12.0dip" android:elevation="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/freshchat_message_file_icon_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="12.0dip" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_marginEnd="12.0dip">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/freshchat_message_file_fragment_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?freshchatAttachmentFileNameStyle" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/freshchat_message_file_fragment_size" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?freshchatAttachmentFileSizeStyle" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:layout_width="4.0dip" android:layout_height="4.0dip" android:layout_marginLeft="6.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/freshchat_message_file_size_type_separator" android:layout_marginStart="6.0dip" android:layout_marginEnd="6.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:id="@id/freshchat_message_file_fragment_extention" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?freshchatAttachmentFileExtStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

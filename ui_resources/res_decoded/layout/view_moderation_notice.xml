@@ -1,1 +1,0 @@
-<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="10.000000sp" android:textStyle="0x00000000" android:textColor="?7F040938" android:gravity="0x00000011" android:id="@id/moderationNotice" android:layout_width="-1" android:layout_height="-2" android:textAllCaps="true" android:fontFamily="sans-serif-medium" android:letterSpacing="0.150000"/>

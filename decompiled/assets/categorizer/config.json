@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "configurations": [{
+    "countries": ["IN", "KE", "NG"],
+    "minWordsIdentified": 3
+  },
+    {
+      "countries": ["EG", "DZ"],
+      "minWordsIdentified": 2
+    }
+  ],
+  "default_configuration": {
+    "minWordsIdentified": 3
+  }
+}

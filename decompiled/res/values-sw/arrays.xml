@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Machi</item>
+        <item>Aprili</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Julai</item>
+        <item>Agosti</item>
+        <item>septemba</item>
+        <item>Octoba</item>
+        <item>Novemba</item>
+        <item>Decemba</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Endelea</item>
+        <item>Endelea</item>
+        <item>Kubali</item>
+        <item>Thibitisha</item>
+        <item>Tumia %s</item>
+        <item>Endelea na %s</item>
+        <item>Endelea na %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Tumia %s</item>
+        <item>Endelea na %s</item>
+        <item>Endelea na %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Ingia kwenye %s</item>
+        <item>Jiandikishe na %s</item>
+        <item>Ingia na %s</item>
+        <item>Hakikisha nambari na %s</item>
+        <item>Jiandikishe na %s</item>
+        <item>Anza na %s</item>
+        <item>Endelea na %s</item>
+        <item>Thibitisha na %s</item>
+        <item>Thibitisha wasifu na %s</item>
+        <item>Thibitisha wasifu wako na %s</item>
+        <item>Thibitisha nambari ya simu na %s</item>
+        <item>Thibitisha nambari yako kwa %s</item>
+        <item>Endelea na %s</item>
+        <item>Kamilisha agizo kwa %s</item>
+        <item>Weka agizo kwa %s</item>
+        <item>Kamilisha kuhifadhi na %s</item>
+        <item>Lipa na %s</item>
+        <item>Dhibiti maelezo kwa %s</item>
+        <item>Dhibiti maelezo yako na %s</item>
+        <item>Ingia kwa %s kwa mguso mmoja</item>
+        <item>Jisajili kwa %s</item>
+        <item>Pata masasisho kutoka kwa %s</item>
+        <item>Endelea kusoma kwenye %s</item>
+        <item>Pata masasisho mapya kutoka kwa %s</item>
+        <item>Ingia/Jisajili na %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Ingia kwenye %s</item>
+        <item>Jiandikishe na %s</item>
+        <item>Ingia na %s</item>
+        <item>Hakikisha nambari na %s</item>
+        <item>Jiandikishe na %s</item>
+        <item>Anza na %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Kuanza</item>
+        <item>Kuendelea</item>
+        <item>Kuweka agizo</item>
+        <item>Kukamilisha manunuzi yako</item>
+        <item>Kutoka</item>
+        <item>Kukamilisha uhudhuriaji wako</item>
+        <item>Kuendelea na uhudhuriaji wako</item>
+        <item>Kuendelea na uhudhuriaji wako</item>
+        <item>Kupata taarifa</item>
+        <item>Kutazama zaidi</item>
+        <item>Kuendelea kusoma</item>
+        <item>Kuendelea</item>
+        <item>Kwa masasisho mapya</item>
+        <item>Kupata masasisho</item>
+        <item>Kujiunga</item>
+        <item>Kujiunga na kupata masasisho</item>
+        <item>Ili kupata bei nzuri</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>Tafadhali hakikisha nambari yako ya simu</item>
+        <item>Tafadhali ingia</item>
+        <item>tafadhali jiandikishe</item>
+        <item>tafadhali ingia/jiandikishe</item>
+        <item>tafadhali jiandikishe</item>
+        <item>tafadhali ingia</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Weka SIM chaguo-msingi</item>
+        <item>SIM chaguo-msingi - SIM 1</item>
+        <item>SIM chaguo-msingi - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Samahani,siwezi kuongea kwa sasa</item>
+        <item>Nitakupigia baadaye</item>
+        <item>Nitakupigia hivi punde</item>
+        <item>Siwezi kuzungumza kwa sasa. Nipigie baadaye?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Jina la kwanza</item>
+        <item>Jina la mwisho</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Kimya</item>
+        <item>Kutetemesha pekee</item>
+        <item>Sauti tu</item>
+        <item>Sauti na Kutetemesha</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Ya kawaida</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Kimya</item>
+        <item>Kutetemesha pekee</item>
+        <item>Sauti tu</item>
+        <item>Sauti na Kutetemesha</item>
+    </string-array>
+</resources>

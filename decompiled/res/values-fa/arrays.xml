@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ژانویه</item>
+        <item>فوریه</item>
+        <item>مارس</item>
+        <item>آوریل</item>
+        <item>مه</item>
+        <item>ژوئن</item>
+        <item>ژوئیه</item>
+        <item>آگوست</item>
+        <item>سپتامبر</item>
+        <item>اکتبر</item>
+        <item>نوامبر</item>
+        <item>دسامبر</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>ادامه دهید</item>
+        <item>ادامه</item>
+        <item>پذیرش</item>
+        <item>تأیید</item>
+        <item>استفاده از %s</item>
+        <item>ادامه با %s</item>
+        <item>ادامه با %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>استفاده از %s</item>
+        <item>ادامه با %s</item>
+        <item>ادامه با %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>ورود به %s</item>
+        <item>ثبت‌نام با %s</item>
+        <item>ورود به %s</item>
+        <item>تأیید شماره با %s</item>
+        <item>ثبت‌نام با %s</item>
+        <item>شروع به کار با %s</item>
+        <item>ادامه با %s</item>
+        <item>تأیید با %s</item>
+        <item>تأیید پروفایل با %s</item>
+        <item>تأیید پروفایل‌تان با %s</item>
+        <item>تأیید شماره تلفن با %s</item>
+        <item>تأیید شماره‌تان با %s</item>
+        <item>ادامه با %s</item>
+        <item>تکمیل سفارش با %s</item>
+        <item>ثبت سفارش با %s</item>
+        <item>تکمیل رزرو با %s</item>
+        <item>پرداخت با %s</item>
+        <item>مدیریت اطلاعات با %s</item>
+        <item>مدیریت اطلاعات‌تان با %s</item>
+        <item>ورود به %s با یک ضربه</item>
+        <item>اشتراک در %s</item>
+        <item>دریافت به‌روزرسانی‌ها از %s</item>
+        <item>ادامه خواندن در %s</item>
+        <item>دریافت به‌روزرسانی‌های جدید از %s</item>
+        <item>ورود/ثبت‌نام با %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>ورود به %s</item>
+        <item>ثبت‌نام با %s</item>
+        <item>ورود به %s</item>
+        <item>تأیید شماره با %s</item>
+        <item>ثبت‌نام با %s</item>
+        <item>شروع به کار با %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>برای شروع</item>
+        <item>برای ادامه</item>
+        <item>برای ثبت سفارش</item>
+        <item>برای تکمیل خرید</item>
+        <item>برای پرداخت</item>
+        <item>برای تکمیل رزرو</item>
+        <item>برای ادامه رزرو</item>
+        <item>برای ادامه رزرو</item>
+        <item>برای دریافت جزئیات</item>
+        <item>برای مشاهده بیشتر</item>
+        <item>برای ادامه خواندن</item>
+        <item>برای ادامه</item>
+        <item>برای به‌روزرسانی‌های جدید</item>
+        <item>برای دریافت به‌روزرسانی‌ها</item>
+        <item>برای مشترک شدن</item>
+        <item>برای مشترک شدن و دریافت به‌روزرسانی‌ها</item>
+        <item>برای دریافت بهترین قیمت</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>لطفاً شماره تلفن همراه را تأیید کنید</item>
+        <item>لطفا وارد شوید</item>
+        <item>لطفاً ثبت‌نام کنید</item>
+        <item>لطفاً وارد شوید/ثبت‌نام کنید</item>
+        <item>لطفاً ثبت‌نام کنید</item>
+        <item>لطفا وارد شوید</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>تعیین سیم‌کارت پیش‌فرض</item>
+        <item>سیم‌کارت پیش‌فرض - سیم‌کارت 1</item>
+        <item>سیم‌کارت پیش‌فرض - سیم‌کارت 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>متأسفانه فعلاً نمی‌توانم صحبت کنم</item>
+        <item>بعداً با شما تماس می‌گیرم</item>
+        <item>فوراً با شما تماس می‌گیرم</item>
+        <item>فعلاً نمی‌توانم صحبت کنم. ممکن است بعداً با هم صحبت کنیم؟</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>نام</item>
+        <item>نام خانوادگی</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>حالت سکوت</item>
+        <item>فقط لرزش</item>
+        <item>فقط صدا</item>
+        <item>صدا و لرزش</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>۰٫۲۵ برابر</item>
+        <item>۰٫۵ برابر</item>
+        <item>۰٫۷۵ برابر</item>
+        <item>عادی</item>
+        <item>۱٫۲۵ برابر</item>
+        <item>۱٫۵ برابر</item>
+        <item>۲ برابر</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>سیم‌کارت 1</item>
+        <item>سیم‌کارت 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>سیم‌کارت 1</item>
+        <item>سیم‌کارت 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>حالت سکوت</item>
+        <item>فقط لرزش</item>
+        <item>فقط صدا</item>
+        <item>صدا و لرزش</item>
+    </string-array>
+</resources>

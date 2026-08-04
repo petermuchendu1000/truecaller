@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/cardViewCallMeBack" android:background="@android:color/black" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" app:cardBackgroundColor="@android:color/black" app:cardCornerRadius="@dimen/space" app:cardElevation="@dimen/semiSpace" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.bizmon.callMeBack.mvp.BizCallMeBackWithSlotsView android:id="@id/callMeBackWithSlotsView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</androidx.cardview.widget.CardView>

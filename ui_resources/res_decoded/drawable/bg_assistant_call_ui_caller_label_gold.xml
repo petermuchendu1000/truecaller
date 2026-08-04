@@ -1,1 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="0"><gradient android:startColor="@color/tcx_goldGradientStep1" android:endColor="@color/tcx_goldGradientStep1" android:angle="180.000000" android:centerColor="@color/tcx_goldGradientStep2"/><corners android:radius="@dimen/assistantCallUICallerLabelRadius"/></shape>

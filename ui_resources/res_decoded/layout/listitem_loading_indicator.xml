@@ -1,1 +1,0 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="@dimen/control_enneaspace"><ProgressBar android:layout_gravity="0x00000011" android:layout_width="@dimen/control_quintspace" android:layout_height="@dimen/control_quintspace" android:indeterminate="true"/></FrameLayout>

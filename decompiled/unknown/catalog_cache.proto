@@ -1,0 +1,108 @@
+syntax = "proto3";
+
+option java_package = "com.truecaller.premium.domain.catalog.cache";
+option java_outer_classname = "CatalogCacheProto";
+option java_multiple_files = true;
+
+// Top-level wrapper for all catalog cache data.
+// All fields are saved atomically to avoid stale data.
+message CachedCatalogData {
+  string hash = 1;
+  string variant_tag = 2;
+  int64 last_timestamp = 3;
+  repeated CachedLaunchContext specs = 4;
+  repeated CachedCatalogItem standalone_items = 5;
+}
+
+// Cached representation of a launch context with its catalog items.
+message CachedLaunchContext {
+  string launch_context = 1;
+  string title = 2;
+  string description = 3;
+  repeated CachedCatalogItem items = 4;
+}
+
+// Cached representation of a single catalog item.
+message CachedCatalogItem {
+  string item_id = 1;
+  int32 priority = 2;
+  string title = 3;
+  string subtitle = 4;
+  string disclaimer = 5;
+  CachedAssetDetails icon_details = 6;
+  CachedInnerScreenDetails inner_screen_details = 7;
+  bool is_free = 8;
+}
+
+// Cached asset details for images, videos, or animations.
+message CachedAssetDetails {
+  CachedAssetType type = 1;
+  string url_light = 2;
+  string url_dark = 3;
+  bool loop_video = 4;
+}
+
+// Enum for asset types.
+enum CachedAssetType {
+  UNKNOWN = 0;
+  IMAGE = 1;
+  VIDEO = 2;
+  ANIMATION = 3;
+}
+
+// Cached inner screen details of a catalog item.
+message CachedInnerScreenDetails {
+  string title = 1;
+  string subtitle = 2;
+  string description = 3;
+  bool is_promo_applicable = 4;
+  CachedAssetDetails asset_details = 5;
+  CachedButtonConfig button_config = 6;
+}
+
+// Cached button configuration using oneof for the sealed interface.
+message CachedButtonConfig {
+  oneof config {
+    CachedSubscriptionButton subscription = 1;
+    CachedGiveawayButton giveaway = 2;
+    CachedEngagementButton engagement = 3;
+  }
+}
+
+// Subscription button configuration.
+message CachedSubscriptionButton {
+  string button_type = 1;
+  repeated string skus = 2;
+  repeated string titles = 3;
+  repeated string subtitles = 4;
+  repeated string above_button_texts = 5;
+  repeated string below_button_texts = 6;
+  CachedButtonTheme theme_regular_mode = 7;
+  CachedButtonTheme theme_dark_mode = 8;
+}
+
+// Giveaway button configuration.
+message CachedGiveawayButton {
+  string button_type = 1;
+  string title = 2;
+  string sku = 3;
+  string tier_kind = 4;
+  bool show_disclaimer = 5;
+}
+
+// Engagement button configuration.
+message CachedEngagementButton {
+  string button_type = 1;
+  string title = 2;
+  string action = 3;
+  bool show_disclaimer = 4;
+}
+
+// Theme configuration for button appearance.
+message CachedButtonTheme {
+  string background_color = 1;
+  string text_theme = 2;
+  string disclaimer_text_theme = 3;
+}
+
+

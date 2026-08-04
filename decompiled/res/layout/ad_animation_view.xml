@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <WebView android:id="@id/adViewabilityWebView" android:background="@android:color/transparent" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="@id/adAnimationView" app:layout_constraintEnd_toEndOf="@id/adAnimationView" app:layout_constraintStart_toStartOf="@id/adAnimationView" app:layout_constraintTop_toTopOf="@id/adAnimationView" />
+    <com.airbnb.lottie.LottieAnimationView android:id="@id/adAnimationView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHeight_max="@dimen/animated_ads_container_max_height" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintWidth_max="@dimen/animated_ads_container_max_width" app:lottie_autoPlay="true" app:lottie_loop="true" />
+</androidx.constraintlayout.widget.ConstraintLayout>

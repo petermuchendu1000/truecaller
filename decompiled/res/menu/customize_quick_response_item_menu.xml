@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_edit_8dp" android:id="@id/edit_quick_response" android:title="@string/StrEdit" />
+    <item android:icon="@drawable/ic_assistant_delete" android:id="@id/delete_quick_response" android:title="@string/StrDelete" />
+</menu>

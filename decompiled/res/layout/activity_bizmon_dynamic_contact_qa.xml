@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffffffff" android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/textPhoneNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="+917406001212" android:inputType="phone" />
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/textName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Display name" android:hint="Name" android:inputType="textPersonName" />
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/textLogo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="https://storage.googleapis.com/tc-priority-public/staging/logos/11f288fa-9e83-4aa5-968b-28df7ca53618-1672744468436314216.png" android:hint="Logo URL" />
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/textCallReason" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Test Call reason" android:inputType="textCapCharacters" />
+        <com.google.android.material.switchmaterial.SwitchMaterial android:id="@id/badgeVerified" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:checked="true" android:text="Verified" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="#ff000000" android:id="@id/textCount" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+        <Button android:layout_gravity="bottom" android:id="@id/buttonFillDefault" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Save default info" android:backgroundTint="#ff2196f3" />
+        <Button android:layout_gravity="bottom" android:id="@id/buttonDelete" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Clear DB" android:backgroundTint="#ff2196f3" />
+        <Button android:layout_gravity="bottom" android:id="@id/buttonCleanSlate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Clean Slate" android:backgroundTint="#ff2196f3" />
+        <androidx.appcompat.widget.AppCompatEditText android:id="@id/textSearchPhoneNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="+917406001212" android:inputType="phone" />
+        <Button android:layout_gravity="bottom" android:id="@id/buttonSearch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Search Contact" android:backgroundTint="#ff2196f3" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="#ff000000" android:id="@id/textContact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    </LinearLayout>
+</ScrollView>

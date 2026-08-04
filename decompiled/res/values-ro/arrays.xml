@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ian</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>mai</item>
+        <item>iun</item>
+        <item>iul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>noi</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Continuați</item>
+        <item>Continuați</item>
+        <item>Acceptă</item>
+        <item>Confirmare</item>
+        <item>Utilizați %s</item>
+        <item>Continuați cu %s</item>
+        <item>Continuați cu %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Utilizați %s</item>
+        <item>Continuați cu %s</item>
+        <item>Continuați cu %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Conectare la %s</item>
+        <item>Înregistrează-te cu %s</item>
+        <item>Conectare la %s</item>
+        <item>Verifică numărul cu %s</item>
+        <item>Înregistrează-te cu %s</item>
+        <item>Începe cu %s</item>
+        <item>Continuați cu %s</item>
+        <item>Verificați cu %s</item>
+        <item>Verificați profilul cu %s</item>
+        <item>Verificați-vă profilul cu %s</item>
+        <item>Verificați numărul de telefon cu %s</item>
+        <item>Verificați-vă numărul cu %s</item>
+        <item>Continuați cu %s</item>
+        <item>Finalizați comanda cu %s</item>
+        <item>Plasați comanda cu %s</item>
+        <item>Finalizați rezervarea cu %s</item>
+        <item>Finalizare comandă cu %s</item>
+        <item>Gestionați detaliile cu %s</item>
+        <item>Gestionați-vă detaliile cu %s</item>
+        <item>Autentificare la %s cu o singură atingere</item>
+        <item>Abonați-vă la %s</item>
+        <item>Obțineți actualizări de la %s</item>
+        <item>Continuă să citești pe %s</item>
+        <item>Obțineți actualizări noi de la %s</item>
+        <item>Autentificare/Înregistrare cu %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Conectare la %s</item>
+        <item>Înregistrează-te cu %s</item>
+        <item>Conectare la %s</item>
+        <item>Verifică numărul cu %s</item>
+        <item>Înregistrează-te cu %s</item>
+        <item>Începe cu %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Pentru a începe</item>
+        <item>Pentru a continua</item>
+        <item>Pentru a plasa comanda</item>
+        <item>Pentru a finaliza achiziția</item>
+        <item>Pentru a finaliza comanda</item>
+        <item>Pentru a finaliza rezervarea</item>
+        <item>Pentru a continua cu rezervarea</item>
+        <item>Pentru a continua cu rezervarea</item>
+        <item>Pentru a obține detalii</item>
+        <item>Pentru a vedea mai multe</item>
+        <item>Pentru a continua să citești</item>
+        <item>Pentru a continua</item>
+        <item>Pentru actualizări noi</item>
+        <item>Pentru a obține actualizări</item>
+        <item>Pentru a vă abona</item>
+        <item>Pentru a vă abona și a primi actualizări</item>
+        <item>Pentru a obține cel mai bun preț</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>vă rugăm să verificați numărul de mobil</item>
+        <item>vă rugăm să vă autentificați</item>
+        <item>vă rugăm să vă înregistrați</item>
+        <item>vă rugăm să vă autentificați/înregistrați</item>
+        <item>vă rugăm să vă înregistrați</item>
+        <item>vă rugăm să vă conectați</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Setează SIM implicit</item>
+        <item>SIM implicit - SIM 1</item>
+        <item>SIM implicit - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Îmi pare rău, nu pot vorbi acum</item>
+        <item>Te sun mai târziu</item>
+        <item>Te sun imediat</item>
+        <item>Nu pot vorbi acum. Mă suni mai târziu?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Prenume</item>
+        <item>Numele de familie</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>În mod silențios</item>
+        <item>Doar vibrații</item>
+        <item>Doar sunet</item>
+        <item>Sunet și vibrații</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normală</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>În mod silențios</item>
+        <item>Doar vibrații</item>
+        <item>Doar sunet</item>
+        <item>Sunet și vibrații</item>
+    </string-array>
+</resources>

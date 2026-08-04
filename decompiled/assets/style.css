@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container to wrap video and buttons */
+#videoContainer {
+    position: relative;
+    width: 100%;
+    /* Set a desired width for the video container */
+    height: auto;
+}
+
+#videoElement {
+    width: 100%;
+    height: auto;
+    display: block;
+    /* Ensure the video fills the container */
+    object-fit: cover;
+    controls: false;
+}
+
+#videoElement::-webkit-media-controls {
+    display: none !important;
+}
+
+#videoElement::-webkit-media-controls,
+/* For WebKit browsers */
+#videoElement::-webkit-media-controls-start-playback-button,
+/* For WebKit play button */
+#videoElement::-webkit-media-controls-overlay-play-button {
+    display: none !important;
+    /* Hide controls across WebKit browsers */
+}
+
+#videoElement::-moz-media-controls {
+    display: none !important;
+    /* For Firefox (optional, fallback case) */
+}
+
+#videoElement::-webkit-media-controls {
+    display: none !important;
+    /* For WebKit browsers */
+}
+
+#videoElement::-moz-media-controls {
+    display: none !important;
+    /* For Firefox */
+}
+
+/* Ensure there are no poster images or play buttons */
+#videoElement[controls] {
+    display: none !important;
+    /* Ensure that controls are hidden */
+}
+
+#muteButton {
+    position: absolute;
+    top: -30px;
+    /* Position the button from the top inside the container */
+    left: 10px;
+    /* Position the button from the left inside the container */
+    width: 20px;
+    /* Set the size of the button */
+    height: 20px;
+    cursor: pointer;
+    /* Add a pointer to indicate it's clickable */
+    z-index: 100;
+    /* Ensure the button stays above the video */
+}
+
+#unMuteButton {
+    position: absolute;
+    top: -30px;
+    /* Position the button from the top inside the container */
+    left: 10px;
+    /* Position the button from the left inside the container */
+    width: 25px;
+    /* Set the size of the button */
+    height: 25px;
+    cursor: pointer;
+    /* Add a pointer to indicate it's clickable */
+    z-index: 100;
+    /* Ensure the button stays above the video */
+}
+
+#closeButton {
+    position: fixed;
+    /* 'fixed' will position it relative to the viewport */
+    top: 1px;
+    /* Distance from the top of the screen */
+    right: 5px;
+    /* Distance from the right of the screen */
+    width: 25px;
+    /* Adjust the size of the close icon */
+    height: 25px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+#skipAdButton {
+    position: fixed;
+    top: 1px;
+    right: 5px;
+    color: white;
+    padding: 8px; /* Increased padding for better circular appearance */
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%; /* This makes it perfectly circular */
+    width: 15px; /* Set width to make sure it’s a consistent circle */
+    height: 15px; /* Set height to match the width */
+    text-align: center; /* Align the text in the center */
+    line-height: 15px; /* Adjust this value based on text size */
+    z-index: 50;
+    font-size: 15px; /* Adjust the font size so the number fits */
+
+}
+
+#skipAdImage {
+    position: fixed;
+    /* 'fixed' will position it relative to the viewport */
+    top: 1px;
+    /* Distance from the top of the screen */
+    right: 5px;
+    /* Distance from the right of the screen */
+    width: 20px;
+    /* Adjust the size of the close icon */
+    height: 20px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+#endCardImg {
+        position: relative;
+        width: 100%;
+        /* Set a desired width for the video container */
+        height: auto;
+}
+
+

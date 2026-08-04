@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>січ</item>
+        <item>лют</item>
+        <item>бер</item>
+        <item>кві</item>
+        <item>тра</item>
+        <item>чер</item>
+        <item>лип</item>
+        <item>сер</item>
+        <item>вер</item>
+        <item>жов</item>
+        <item>лис</item>
+        <item>гру</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Продовжити</item>
+        <item>Продовжити</item>
+        <item>Прийняти</item>
+        <item>Підтвердити</item>
+        <item>Використовувати %s</item>
+        <item>Продовжити з %s</item>
+        <item>Продовжити з %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Використовувати %s</item>
+        <item>Продовжити з %s</item>
+        <item>Продовжити з %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Увійти в %s</item>
+        <item>Зареєструватися в %s</item>
+        <item>Увійти в %s</item>
+        <item>Підтвердьте номер за допомогою %s</item>
+        <item>Зареєструватися в %s</item>
+        <item>Почати з %s</item>
+        <item>Продовжити з %s</item>
+        <item>Підтвердити за допомогою %s</item>
+        <item>Підтвердьте профіль за допомогою %s</item>
+        <item>Підтвердьте свій профіль за допомогою %s</item>
+        <item>Підтвердьте номер телефону за допомогою %s</item>
+        <item>Підтвердьте свій номер за допомогою %s</item>
+        <item>Продовжити з %s</item>
+        <item>Завершити замовлення за допомогою %s</item>
+        <item>Оформити замовлення за допомогою %s</item>
+        <item>Завершіть бронювання за допомогою %s</item>
+        <item>Оформити замовлення за допомогою %s</item>
+        <item>Керуйте інформацією за допомогою %s</item>
+        <item>Керуйте своєю інформацією за допомогою %s</item>
+        <item>Увійти в %s одним дотиком</item>
+        <item>Підписатися на %s</item>
+        <item>Отримуйте оновлення від %s</item>
+        <item>Продовжуйте читати на %s</item>
+        <item>Отримуйте нові оновлення від %s</item>
+        <item>Увійти/зареєструватися за допомогою %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Увійти в %s</item>
+        <item>Зареєструватися в %s</item>
+        <item>Увійти в %s</item>
+        <item>Підтвердьте номер за допомогою %s</item>
+        <item>Зареєструватися в %s</item>
+        <item>Почати з %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Щоб почати</item>
+        <item>Щоб продовжити</item>
+        <item>Щоб розмістити замовлення</item>
+        <item>Щоб завершити покупку</item>
+        <item>Щоб оформити замовлення</item>
+        <item>Щоб завершити бронювання</item>
+        <item>Щоб продовжити бронювання</item>
+        <item>Щоб продовжити бронювання</item>
+        <item>Щоб отримати інформацію</item>
+        <item>Щоб переглянути більше</item>
+        <item>Щоб продовжити читання</item>
+        <item>Щоб продовжити</item>
+        <item>Для нових оновлень</item>
+        <item>Щоб отримувати оновлення</item>
+        <item>Щоб підписатися</item>
+        <item>Щоб підписатися та отримати оновлення</item>
+        <item>Щоб отримати найкращу ціну</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>будь ласка, підтвердьте номер мобільного телефону</item>
+        <item>будь ласка, увійдіть</item>
+        <item>будь ласка, зареєструйтеся</item>
+        <item>будь ласка, увійдіть/зареєструйтеся</item>
+        <item>будь ласка, зареєструйтеся</item>
+        <item>будь ласка, увійдіть</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Встановити основну SIM</item>
+        <item>Основною є SIM 1</item>
+        <item>Основною є SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Вибачте, я зараз не можу говорити</item>
+        <item>Я передзвоню вам пізніше</item>
+        <item>Я вам передзвоню</item>
+        <item>Зараз не можу говорити. Передзвоните мені пізніше?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>"Ім'я"</item>
+        <item>Прізвище</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Без звуку</item>
+        <item>Тільки вібрація</item>
+        <item>Тільки звук</item>
+        <item>Звук і вібрація</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Звичайна</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Без звуку</item>
+        <item>Тільки вібрація</item>
+        <item>Тільки звук</item>
+        <item>Звук і вібрація</item>
+    </string-array>
+</resources>

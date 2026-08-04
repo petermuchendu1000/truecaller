@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/opinion_feedback_parent" android:background="@drawable/freshchat_opinion_feedback_selector" android:paddingTop="18.0dip" android:paddingBottom="18.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:id="@id/selected" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="6.0dip" android:src="@drawable/freshchat_ic_selected" android:layout_marginEnd="6.0dip" />
+            <TextView android:id="@id/opinion_feedback_text" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

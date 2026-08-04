@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">I-block at i-report ang %d (na) numero bilang spam?</item>
+        <item quantity="one">I-block at i-report ang %d (na) numero bilang spam?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Hindi ma-delete ang iyong mga tawag sa Assistant. Pakisubukang muli.</item>
+        <item quantity="one">Hindi ma-delete ang iyong tawag sa Assistant. Pakisubukang muli.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Na-delete ang mga tawag sa Assistant.</item>
+        <item quantity="one">Na-delete ang tawag sa Assistant.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Nakasisiguro ka ba na nais mong i-delete ang mga tawag ng Assistant na ito? Hindi maaring i-undo ang aksiyon na ito.</item>
+        <item quantity="one">Nakasisiguro ka ba na nais mong i-delete ang tawag ng Assistant na ito? Hindi maaring i-undo ang aksiyon na ito.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">I-delete ang napiling mga tawag ng Assistant</item>
+        <item quantity="one">I-delete ang napiling tawag ng Assistant</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d recording</item>
+        <item quantity="one">%d recording</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Idinagdag ang mga mensahe sa tab ng Mahalaga</item>
+        <item quantity="one">Idinagdag ang mensahe sa tab ng Mahalaga</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d (na) paguusap ang minarkahan bilang nabasa na</item>
+        <item quantity="one">%d pag-uusap ang minarkahan bilang nabasa na</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">Na-delete ang %d (na) nentry</item>
+        <item quantity="one">Na-delete ang %d entry</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">I-delete ang %d (na) entry?</item>
+        <item quantity="one">I-delete ang entry?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Na-pin ang mga pag-uusap</item>
+        <item quantity="one">Na-pin ang pag-uusap</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">I-save ang lahat ng contact</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Na-unpin ang mga pag-uusap</item>
+        <item quantity="one">Na-unpin ang pag-uusap</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d (na) hindi pa nababasang mensahe</item>
+        <item quantity="one">%d hindi pa nababasang mensahe</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">I-delete ang %d (na) pag-uusap?</item>
+        <item quantity="one">I-delete ang %d pag-uusap?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d (na) numero ang nakilala</item>
+        <item quantity="one">%d numero ang nakilala</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Ni-report ang mga mensahe</item>
+        <item quantity="one">Ni-report ang mensahe</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Mga mensaheng minarkahan bilang ligtas</item>
+        <item quantity="one">Mensaheng minarkahan bilang ligtas</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Ni-report ang mga mensahe</item>
+        <item quantity="one">Ni-report ang mensahe</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d (na) miyembro</item>
+        <item quantity="one">%d miyembro</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Sigurado ka bang gusto mong i-unblock ang %d na numero?</item>
+        <item quantity="one">Sigurado ka bang gusto mong i-unblock ang numerong ito?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Sigurado ka ba na gusto mong i-delete ang %s (na) language file?</item>
+        <item quantity="one">Sigurado ka ba na gusto mong i-delete ang %s language file?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Mga naka-block na mensahe • Nasa block list mo ang nagpadala</item>
+        <item quantity="one">Truecaller • Naka-block na mensahe • Nasa block list mo ang nagpadala</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">Tumawag si %1$s nang %2$d (na) oras ang nakalipas. I-tap to para tingnan sa Truecaller</item>
+        <item quantity="one">Tumawag si %1$s nang %2$d oras ang nakalipas. I-tap para tingnan sa Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d contact</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d attachment</item>
+        <item quantity="one">%1$d attachment</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d iba pang mga contact</item>
+        <item quantity="one">%d iba pang contact</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d (na) numero ang idinagdag sa listahan ng na-block</item>
+        <item quantity="one">Idinagdag na numero sa listahan ng na-block</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d mga nakablock na tawag</item>
+        <item quantity="one">%d nakablock na tawag</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d mga pinatahimik na tawag</item>
+        <item quantity="one">%d pinatahimik na tawag</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d (na) araw na free trial para lang sa mga bagong subscriber</item>
+        <item quantity="one">%1$d araw na free trial para lang sa mga bagong subscriber</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d (na) buwan na free trial para sa mga bagong subscriber lang</item>
+        <item quantity="one">%1$d buwan na free trial para sa mga bagong subscriber lang</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d (na) taon na free trial para sa mga bagong subscribers lang</item>
+        <item quantity="one">%1$d taon na free trial para sa mga bagong subscribers lang</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Ikaw, sina %1$s at %2$s ay kasali sa Premium Family. Mayroon kang %3$d (na) natitirang available na slot</item>
+        <item quantity="one">Ikaw, sina %1$s at %2$s ay kasali sa Premium Family. Mayroon kang %3$d natitirang available na slot</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Mayroon kang %1$d pang available na mga account.</item>
+        <item quantity="one">Mayroon kang %1$d pang available na account.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Ikaw at si %1$s ay kasali sa Premium Family. Mayroon kang %2$d (na) natitirang available na slot</item>
+        <item quantity="one">Ikaw at si %1$s ay kasali sa Premium Family. Mayroon kang %2$d natitirang available na slot</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Matatapos ang subscription sa loob ng %d (na) araw</item>
+        <item quantity="one">Matatapos bukas ang subscription</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d (na) araw na free trial pagkatapos ay %2$s.</item>
+        <item quantity="one">%1$d araw na free trial pagkatapos ay %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d (na) buwan na free trial pagkatapos ay %2$s.</item>
+        <item quantity="one">%1$d buwan na free trial pagkatapos ay %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d (na) taon na free trial pagkatapos ay %2$s.</item>
+        <item quantity="one">%1$d taon na free trial pagkatapos ay %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d (na) araw Free Trial pagkatapos</item>
+        <item quantity="one">%1$d araw Free Trial pagkatapos</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d (na) buwan na Free Trial pagkatapos ay</item>
+        <item quantity="one">%1$d buwan na Free Trial pagkatapos ay</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d (na) Taon na Free Trial pagkatapos ay</item>
+        <item quantity="one">%1$d Taon na Free Trial pagkatapos ay</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Limitado ang bilang ng pag-edit ng listahan ng pamilya, pagtanggal ng mga miyembro ng pamilya. %1$d (na) pag-edit ang natitira.</item>
+        <item quantity="one">Limitado ang bilang ng pag-edit ng listahan ng pamilya, pagtanggal ng mga miyembro ng pamilya. %1$d pag-edit ang natitira.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d (na) bagong paglabas sa paghahanap</item>
+        <item quantity="one">1 bagong paglabas sa paghahanap</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d (na) bagong pagtingin sa profile</item>
+        <item quantity="one">1 bagong patingin sa profile</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d (na) tao ang kamakailang tumingin sa iyong profile</item>
+        <item quantity="one">May kamakailang tumingin sa iyong profile</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d (na) tao (%3$d sa %2$s) ang tumingin ng iyong profile kamakailan</item>
+        <item quantity="one">Mayroong tao mula sa %2$s na tumingin ng iyong profile kamakailan</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">Ang SMS ay awtomatikong ipapadala sa loob ng %1$d (na) segundo…</item>
+        <item quantity="one">Ang SMS ay awtomatikong ipapadala sa loob ng %1$d segundo…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">(na) linggo</item>
+        <item quantity="one">linggo</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s mga araw</item>
+        <item quantity="one">%1$s araw</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">(na) buwan</item>
+        <item quantity="one">buwan</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">(na) taon</item>
+        <item quantity="one">taon</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Inalis ang star sa mga mensahe</item>
+        <item quantity="one">Inalis ang star sa mensahe</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Nalampasan mo ang limitasyon ng mga pagsubok sa verification. Pakisubukan muli sa %d oras</item>
+        <item quantity="one">Nalampasan mo ang limitasyon ng mga pagsubok sa verification. Pakisubukan muli sa %d oras</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d (na) bagong paglabas sa paghahanap!</item>
+        <item quantity="one">%d bagong paglabas sa paghahanap!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d (na) paglabas sa paghahanap!</item>
+        <item quantity="one">%d paglabas sa paghahanap!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Lumabas ang iyong profile nang %1$d (na) beses sa kamakailang mga resulta sa paghahanap</item>
+        <item quantity="one">Lumabas ang iyong profile nang %1$d beses sa kamakailang mga resulta sa paghahanap</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d (na) kamakailang paglabas sa paghahanap</item>
+        <item quantity="one">%1$d kamakailang paglabas sa paghahanap</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d (na) taon ang tumingin sa iyong profile</item>
+        <item quantity="one">May isang taong tumingin sa iyong profile</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">Tiningnan ni %1$s at %2$s pa ang iyong profile</item>
+        <item quantity="one">%1$s ang tumingin ng iyong profile</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d (na) tao mula sa (1 in %2$s) ang tumingin ng iyong profile</item>
+        <item quantity="one">%1$d tao mula sa %2$s ang tumingin ng iyong profile</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">Tiningnan ni %1$s mula sa %2$s at ng %3$s pa ang iyong profile</item>
+        <item quantity="one">Tiningnan ni %1$s mula sa %2$s ang iyong profile</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d (na) tao ang tumingin ng iyong profile. Alamin pa.</item>
+        <item quantity="one">1 tao ang tumingin ng iyong profile. Alamin pa.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d (na) tao (%3$d sa %2$s) ang tumingin ng iyong profile. Alamin pa.</item>
+        <item quantity="one">1 tao mula sa %2$s ang tumingin ng iyong profile. Alamin pa.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">Maraming beses nailagay nang mali ang reCaptcha. pakisubukan muli sa loob ng %1$d (na) oras</item>
+        <item quantity="one">Maraming beses nailagay nang mali ang reCaptcha. pakisubukan muli sa loob ng %1$d oras</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">(na) komento</item>
+        <item quantity="one">komento</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d (Na) taon ang tumingin sa iyong profile</item>
+        <item quantity="one">%1$d tao ang tumingin sa iyong profile</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s (na) pag-uusap ang in-archive</item>
+        <item quantity="one">%s pag-uusap ang in-archive</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d (na) mensahe ang naayos</item>
+        <item quantity="one">%d mensahe ang naayos</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Nagda-download ng mga recording ng tawag ng assistant</item>
+        <item quantity="one">Nagda-download ng recording ng tawag ng assistant</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d na eksklusibong alok</item>
+        <item quantity="one">%d eksklusibong alok</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">I-save ang mga numero sa existing contact</item>
+        <item quantity="one">I-save ang numero sa existing contact</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d (na) tawag</item>
+        <item quantity="one">%1d tawag</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d mga araw</item>
+        <item quantity="one">%1d araw</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">I-fast forward nang %d na segundo</item>
+        <item quantity="one">I-fast forward nang %d segundo</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">I-rewind nang %d na segundo</item>
+        <item quantity="one">I-rewind nang %d segundo</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">%d na lang ang natitirang mga slot</item>
+        <item quantity="one">%d na lang ang natitirang slot</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">Nabigo ang %d mga imbitasyon</item>
+        <item quantity="one">Nabigo ang %d imbitasyon</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d na isyu ang natukoy</item>
+        <item quantity="one">%d isyu ang natukoy</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Na-delete ang mga offer</item>
+        <item quantity="one">Na-delete ang offer</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Na-delete na mga mensahe sa OTP</item>
+        <item quantity="one">Na-delete ang mensahe sa OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Dinelete ang mga promotional na mensahe</item>
+        <item quantity="one">Dinelete ang promotional na mensahe</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Na-delete ang mga mensahe na spam</item>
+        <item quantity="one">Na-delete ang mensahe na spam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d (na) mensahe</item>
+        <item quantity="one">%d mensahe</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d (na) Mensaheng may offer</item>
+        <item quantity="one">%d Mensaheng may offer</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d (na) mensahe na spam</item>
+        <item quantity="one">%d mensahe na spam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d (na) mesnsahe ang na-delete</item>
+        <item quantity="one">%d mensahe ang na-delete</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">(na) Imbitasyon</item>
+        <item quantity="one">Imbitasyon</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Ide-delete ang mga piniling file at ang %d (na) kaugnay na mensahe</item>
+        <item quantity="one">Ide-delete mo ang mga piniling file at kaugnay na mensahe</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">I-delete ang mga mensahe?</item>
+        <item quantity="one">I-delete ang mensahe?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d na bagong notification</item>
+        <item quantity="one">%d bagong notification</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">mga kaibigan</item>
+        <item quantity="one">kaibigan</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d bagong reaksiyon</item>
+        <item quantity="one">%d bagong reaksiyon</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">(na) araw</item>
+        <item quantity="one">araw</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d (na) oras</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d oras</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Mag-e-expire sa loob ng %1$d (na) minuto</item>
+        <item quantity="one">Mag-e-expire sa loob ng %1$d minuto</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">(na) komento</item>
+        <item quantity="one">komento</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">May %1$d na mga bagong komento sa post</item>
+        <item quantity="one">May %1$d bagong komento sa post</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Mga Komento</item>
+        <item quantity="one">Komento</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Mga Post</item>
+        <item quantity="one">Post</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s (na) komento</item>
+        <item quantity="one">%s komento</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Tingnan ang %s na mga reply</item>
+        <item quantity="one">Tingnan ang %s reply</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Ang pag-delete ng iyong digital na boses ay aalisin ito mula sa iyong Assistant at lahat ng reply nito.&lt;br>&lt;b>Tandaan: Magkakaroon ka ng %d pang mga pagsubok upang gumawa ng iyong digital na boses&lt;/b></item>
+        <item quantity="one">Ang pag-delete ng iyong digital na boses ay aalisin ito mula sa iyong Assistant at lahat ng reply nito.&lt;br>&lt;b>Tandaan: Magkakaroon ka ng %d pang pagsubok upang gumawa ng iyong digital na boses&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">+%s pang tao ang naghanap kamakailan sa profile mo</item>
+        <item quantity="one">ang naghanap kamakailan sa profile mo</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">+%s pang tao ang tumingin kamakailan sa profile mo</item>
+        <item quantity="one">ang tumingin kamakailan sa profile mo</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Subukan muli sa loob ng %d oras</item>
+        <item quantity="one">Subukan muli sa loob ng %d oras</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s (na) pag-uusap ang in-unarchive</item>
+        <item quantity="one">%s pag-uusap ang in-unarchive</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Nakatanggap ng mga mensahe</item>
+        <item quantity="one">Nakatanggap ng mensahe</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Sigurado ka bang gusto mong tanggalin ang mga Voicemail call na ito? Hindi na maibabalik ang pagkilos na ito.</item>
+        <item quantity="one">Sigurado ka bang gusto mong tanggalin ang Voicemail call na ito? Hindi na maibabalik ang pagkilos na ito.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Tanggalin ang mga napiling Voicemail call</item>
+        <item quantity="one">Tanggalin ang napiling Voicemail call</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Hindi matanggal ang iyong mga voicemail call. Pakisubukang muli.</item>
+        <item quantity="one">Hindi matanggal ang iyong voicemail call. Pakisubukang muli.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Matagumpay na natanggal ang lahat ng voicemail call.</item>
+        <item quantity="one">Natanggal ang voicemail call.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Dina-download ang mga voicemail recording.</item>
+        <item quantity="one">Dina-download ang voicemail recording.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d (na) tao mula sa %2$s ang tumingin sa iyong profile kamakailan</item>
+        <item quantity="one">Mayroong tao mula sa %2$s na tumingin ng iyong profile kamakailan</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d (na) tao (%3$d mula sa %2$s) ang tumingin sa iyong profile kamakailan</item>
+        <item quantity="one">Mayroong tao mula sa %2$s na tumingin ng iyong profile kamakailan</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d (na) tao (1 mula sa %2$s) ang tumingin sa iyong profile</item>
+        <item quantity="one">%1$d tao mula sa %2$s ang tumingin ng iyong profile</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d (na) tao (%3$d mula sa %2$s) ang tumingin sa iyong profile. Alamin pa.</item>
+        <item quantity="one">1 tao mula sa %2$s ang tumingin ng iyong profile. Alamin pa.</item>
+    </plurals>
+</resources>

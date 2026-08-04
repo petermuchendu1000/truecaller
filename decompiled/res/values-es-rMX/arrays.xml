@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ene</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>abr</item>
+        <item>may</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>ago</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>nov</item>
+        <item>dic</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Continuar</item>
+        <item>Continuar</item>
+        <item>Aceptar</item>
+        <item>Confirmar</item>
+        <item>Usar %s</item>
+        <item>Continuar con %s</item>
+        <item>Continuar con %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Usar %s</item>
+        <item>Continuar con %s</item>
+        <item>Continuar con %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Inicia sesión en %s</item>
+        <item>Registráte con %s</item>
+        <item>Iniciar sesión en %s</item>
+        <item>Verificar número con %s</item>
+        <item>Registrarse con %s</item>
+        <item>Comenzar con %s</item>
+        <item>Continuar con %s</item>
+        <item>Verificar con %s</item>
+        <item>Verificar perfil con %s</item>
+        <item>Verifica tu perfil con %s</item>
+        <item>Verificar número de teléfono con %s</item>
+        <item>Verifica tu número con %s</item>
+        <item>Continuar con %s</item>
+        <item>Completar pedido con %s</item>
+        <item>Realizar pedido con %s</item>
+        <item>Completar reservación con %s</item>
+        <item>Finalizar compra con %s</item>
+        <item>Administrar detalles con %s</item>
+        <item>Administra tus detalles con %s</item>
+        <item>Inicia sesión en %s con un toque</item>
+        <item>Suscribirse a %s</item>
+        <item>Recibe actualizaciones de %s</item>
+        <item>Continuar leyendo en %s</item>
+        <item>Obtén nuevas actualizaciones de %s</item>
+        <item>Iniciar sesión/Registrarse con %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Inicia sesión en %s</item>
+        <item>Registráte con %s</item>
+        <item>Iniciar sesión en %s</item>
+        <item>Verificar número con %s</item>
+        <item>Registrarse con %s</item>
+        <item>Comenzar con %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Para comenzar</item>
+        <item>Para continuar</item>
+        <item>Para realizar el pedido</item>
+        <item>Para completar tu compra</item>
+        <item>Para finalizar la compra</item>
+        <item>Para completar tu reservación</item>
+        <item>Para continuar con tu reservación</item>
+        <item>Para continuar con tu reservación</item>
+        <item>Para obtener detalles</item>
+        <item>Para ver más</item>
+        <item>Para continuar leyendo</item>
+        <item>Para continuar</item>
+        <item>Para nuevas actualizaciones</item>
+        <item>Para obtener actualizaciones</item>
+        <item>Para suscribirte</item>
+        <item>Para suscribirte y obtener actualizaciones</item>
+        <item>Para obtener el mejor precio</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>verifica tu número de celular</item>
+        <item>inicia sesión</item>
+        <item>regístrate</item>
+        <item>inicia sesión/regístrate</item>
+        <item>regístrate</item>
+        <item>inicia sesión</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Establecer SIM predeterminada</item>
+        <item>SIM - SIM 1 predeterminada</item>
+        <item>SIM - SIM 2 predeterminada</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Lo siento, no puedo hablar ahora</item>
+        <item>Te llamaré más tarde</item>
+        <item>Te llamaré enseguida</item>
+        <item>No puedo hablar ahora. ¿Me llamas luego?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Nombre</item>
+        <item>Apellidos</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Silencioso</item>
+        <item>Solo vibrar</item>
+        <item>Solo tono</item>
+        <item>Tono y vibración</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Silencioso</item>
+        <item>Solo vibrar</item>
+        <item>Solo tono</item>
+        <item>Tono y vibración</item>
+    </string-array>
+</resources>

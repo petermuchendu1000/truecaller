@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/extraSpace" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/bg_cmb_in_30_min_priority_fill_btn" />
+</ripple>

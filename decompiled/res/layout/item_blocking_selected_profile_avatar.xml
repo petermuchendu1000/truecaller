@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@android:color/transparent" android:layout_width="24.0dip" android:layout_height="24.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/avatar" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="centerInside" android:contentDescription="@null" />
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@id/fake_spinner_arrow" android:layout_width="5.0dip" android:layout_height="5.0dip" android:contentDescription="@null" app:srcCompat="@drawable/blocking_avatar_arrow" app:tint="?tcx_brandBackgroundBlue" />
+</FrameLayout>

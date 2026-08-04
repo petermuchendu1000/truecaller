@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/errorImage" android:layout_width="@dimen/control_hexaspace" android:layout_height="@dimen/control_hexaspace" android:src="@drawable/ic_overflow_alert_icon" android:contentDescription="@null" />
+    <TextView android:id="@id/errorMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_doublespace" android:text="@string/global_general_error_try_again" style="@style/StyleX.Text.Body.B2" />
+    <com.google.android.material.button.MaterialButton android:id="@id/retryButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/StrRetry" style="@style/StyleX.Button.Primary" />
+</LinearLayout>

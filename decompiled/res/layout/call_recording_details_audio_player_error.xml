@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/audioErrorContainer" android:background="@drawable/bg_call_recording_details_audio_player" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="12.0dip" android:layout_marginVertical="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_call_recording_audio_failed" android:layout_marginStart="16.0dip" />
+    <TextView android:textColor="?tcx_textPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CallRecordingAudioUnavailable" android:fontFamily="@font/roboto_medium" android:layout_marginStart="14.0dip" android:layout_marginVertical="18.0dip" style="@style/StyleX.Text.Body.B1" />
+</androidx.appcompat.widget.LinearLayoutCompat>

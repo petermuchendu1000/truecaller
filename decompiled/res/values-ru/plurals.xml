@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Заблокировать %d номеров и пожаловаться на спам?</item>
+        <item quantity="one">Заблокировать %d номеров и пожаловаться на спам?</item>
+        <item quantity="few">Заблокировать %d номеров и пожаловаться на спам?</item>
+        <item quantity="many">Заблокировать %d номеров и пожаловаться на спам?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Не удалось удалить ваши звонки Ассистента. Повторите попытку.</item>
+        <item quantity="one">Не удалось удалить ваш звонок Ассистента. Повторите попытку.</item>
+        <item quantity="few">Не удалось удалить ваши звонки Ассистента. Повторите попытку.</item>
+        <item quantity="many">Не удалось удалить ваши звонки Ассистента. Повторите попытку.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Звонки Ассистента удалены.</item>
+        <item quantity="one">Звонок Ассистента удален.</item>
+        <item quantity="few">Звонки Ассистента удалены.</item>
+        <item quantity="many">Звонки Ассистента удалены.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Удалить эти вызовы через Ассистента? Это действие нельзя будет отменить.</item>
+        <item quantity="one">Удалить этот вызов через Ассистента? Это действие нельзя будет отменить.</item>
+        <item quantity="few">Удалить эти вызовы через Ассистента? Это действие нельзя будет отменить.</item>
+        <item quantity="many">Удалить эти вызовы через Ассистента? Это действие нельзя будет отменить.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Удалить выбранные вызовы через Ассистента</item>
+        <item quantity="one">Удалить выбранный вызов через Ассистента</item>
+        <item quantity="few">Удалить выбранные вызовы через Ассистента</item>
+        <item quantity="many">Удалить выбранные вызовы через Ассистента</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d записей</item>
+        <item quantity="one">%d запись</item>
+        <item quantity="few">%d записей</item>
+        <item quantity="many">%d записей</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Сообщений добавлено во вкладку «Важное»</item>
+        <item quantity="one">Сообщение добавлено во вкладку «Важное»</item>
+        <item quantity="few">Сообщений добавлено во вкладку «Важное»</item>
+        <item quantity="many">Сообщений добавлено во вкладку «Важное»</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d диалогов отмечены как прочитанные</item>
+        <item quantity="one">%d диалог отмечен как прочитанный</item>
+        <item quantity="few">%d диалогов отмечены как прочитанные</item>
+        <item quantity="many">%d диалогов отмечены как прочитанные</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">Удалено %d записей</item>
+        <item quantity="one">Удалена %d запись</item>
+        <item quantity="few">Удалено %d записей</item>
+        <item quantity="many">Удалено %d записей</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Удалить %d записей?</item>
+        <item quantity="one">Удалить запись?</item>
+        <item quantity="few">Удалить %d записей?</item>
+        <item quantity="many">Удалить %d записей?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Диалогов закреплены</item>
+        <item quantity="one">Диалог закреплен</item>
+        <item quantity="few">Диалогов закреплены</item>
+        <item quantity="many">Диалогов закреплены</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Сохранить все контакты</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="few">Сохранить все контакты</item>
+        <item quantity="many">Сохранить все контакты</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Диалогов откреплены</item>
+        <item quantity="one">Диалог откреплен</item>
+        <item quantity="few">Диалогов откреплены</item>
+        <item quantity="many">Диалогов откреплены</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d непрочитанных сообщений</item>
+        <item quantity="one">%d непрочитанное сообщение</item>
+        <item quantity="few">%d непрочитанных сообщений</item>
+        <item quantity="many">%d непрочитанных сообщений</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Удалить %d диалогов?</item>
+        <item quantity="one">Удалить %d диалог?</item>
+        <item quantity="few">Удалить %d диалогов?</item>
+        <item quantity="many">Удалить %d диалогов?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">Идентифицировано %d номеров</item>
+        <item quantity="one">Идентифицирован %d номер</item>
+        <item quantity="few">Идентифицировано %d номеров</item>
+        <item quantity="many">Идентифицировано %d номеров</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Сообщения отмечены как спам</item>
+        <item quantity="one">Сообщение отмечено как спам</item>
+        <item quantity="few">Сообщения отмечены как спам</item>
+        <item quantity="many">Сообщения отмечены как спам</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Сообщения помечены как безопасные</item>
+        <item quantity="one">Сообщение помечено как безопасное</item>
+        <item quantity="few">Сообщения помечены как безопасные</item>
+        <item quantity="many">Сообщения помечены как безопасные</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Сообщения отмечены как спам</item>
+        <item quantity="one">Сообщение отмечено как спам</item>
+        <item quantity="few">Сообщения отмечены как спам</item>
+        <item quantity="many">Сообщения отмечены как спам</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d участников</item>
+        <item quantity="one">%d участник</item>
+        <item quantity="few">%d участников</item>
+        <item quantity="many">%d участников</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Вы действительно хотите разблокировать %d номеров?</item>
+        <item quantity="one">Вы действительно хотите разблокировать этот номер?</item>
+        <item quantity="few">Вы действительно хотите разблокировать %d номеров?</item>
+        <item quantity="many">Вы действительно хотите разблокировать %d номеров?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Удалить %s языковых файлов?</item>
+        <item quantity="one">Удалить %s языковой файл?</item>
+        <item quantity="few">Удалить %s языковых файлов?</item>
+        <item quantity="many">Удалить %s языковых файлов?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Сообщений заблокированы • Отправитель в вашем списке блокировки</item>
+        <item quantity="one">Truecaller • Сообщение заблокировано • Отправитель в вашем списке блокировки</item>
+        <item quantity="few">Truecaller • Сообщений заблокированы • Отправитель в вашем списке блокировки</item>
+        <item quantity="many">Truecaller • Сообщений заблокированы • Отправитель в вашем списке блокировки</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s звонил(а) %2$d часов назад. Нажмите, чтобы найти абонента в Truecaller</item>
+        <item quantity="one">%1$s звонил(а) %2$d час назад. Нажмите, чтобы найти абонента в Truecaller</item>
+        <item quantity="few">%1$s звонил(а) %2$d часов назад. Нажмите, чтобы найти абонента в Truecaller</item>
+        <item quantity="many">%1$s звонил(а) %2$d часов назад. Нажмите, чтобы найти абонента в Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d контактов</item>
+        <item quantity="one">%d контакт</item>
+        <item quantity="few">%d контактов</item>
+        <item quantity="many">%d контактов</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d вложений</item>
+        <item quantity="one">%1$d вложение</item>
+        <item quantity="few">%1$d вложений</item>
+        <item quantity="many">%1$d вложений</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d других контактов</item>
+        <item quantity="one">%d другой контакт</item>
+        <item quantity="few">%d других контактов</item>
+        <item quantity="many">%d других контактов</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d номеров добавлено в список блокировки</item>
+        <item quantity="one">Номер добавлен в список блокировки</item>
+        <item quantity="few">%d номеров добавлено в список блокировки</item>
+        <item quantity="many">%d номеров добавлено в список блокировки</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d заблокированных вызовов</item>
+        <item quantity="one">%d заблокированный вызов</item>
+        <item quantity="few">%d заблокированных вызовов</item>
+        <item quantity="many">%d заблокированных вызовов</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d беззвучных вызовов</item>
+        <item quantity="one">%d беззвучный вызов</item>
+        <item quantity="few">%d беззвучных вызовов</item>
+        <item quantity="many">%d беззвучных вызовов</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d д. бесплатного пробного периода только для новых подписчиков</item>
+        <item quantity="one">%1$d день бесплатного пробного периода только для новых подписчиков</item>
+        <item quantity="few">%1$d д. бесплатного пробного периода только для новых подписчиков</item>
+        <item quantity="many">%1$d д. бесплатного пробного периода только для новых подписчиков</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d мес. бесплатного пробного периода — только для новых подписчиков</item>
+        <item quantity="one">%1$d месяц бесплатного пробного периода — только для новых подписчиков</item>
+        <item quantity="few">%1$d мес. бесплатного пробного периода — только для новых подписчиков</item>
+        <item quantity="many">%1$d мес. бесплатного пробного периода — только для новых подписчиков</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d лет бесплатного пробного периода — только для новых подписчиков</item>
+        <item quantity="one">%1$d год бесплатного пробного периода — только для новых подписчиков</item>
+        <item quantity="few">%1$d лет бесплатного пробного периода — только для новых подписчиков</item>
+        <item quantity="many">%1$d лет бесплатного пробного периода — только для новых подписчиков</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Вы, %1$s и %2$s входите в состав семьи Premium. У вас есть еще %3$d мест</item>
+        <item quantity="one">Вы, %1$s и %2$s входите в состав семьи Premium. У вас есть еще %3$d место</item>
+        <item quantity="few">Вы, %1$s и %2$s входите в состав семьи Premium. У вас есть еще %3$d мест</item>
+        <item quantity="many">Вы, %1$s и %2$s входите в состав семьи Premium. У вас есть еще %3$d мест</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Вам доступно еще %1$d учетных записей.</item>
+        <item quantity="one">Вам доступна еще %1$d учетная запись.</item>
+        <item quantity="few">Вам доступно еще %1$d учетных записей.</item>
+        <item quantity="many">Вам доступно еще %1$d учетных записей.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Вы и %1$s входите в состав семьи Premium. У вас есть еще %2$d мест</item>
+        <item quantity="one">Вы и %1$s входите в состав семьи Premium. У вас есть еще %2$d место</item>
+        <item quantity="few">Вы и %1$s входите в состав семьи Premium. У вас есть еще %2$d мест</item>
+        <item quantity="many">Вы и %1$s входите в состав семьи Premium. У вас есть еще %2$d мест</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Срок действия подписки завершается через %d д.</item>
+        <item quantity="one">Срок действия подписки завершается завтра</item>
+        <item quantity="few">Срок действия подписки завершается через %d д.</item>
+        <item quantity="many">Срок действия подписки завершается через %d д.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">Бесплатный период %1$d дней, затем %2$s.</item>
+        <item quantity="one">Бесплатный период %1$d день, затем %2$s.</item>
+        <item quantity="few">Бесплатный период %1$d дней, затем %2$s.</item>
+        <item quantity="many">Бесплатный период %1$d дней, затем %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">Бесплатный период %1$d месяцев, затем %2$s.</item>
+        <item quantity="one">Бесплатный период %1$d месяц, затем %2$s.</item>
+        <item quantity="few">Бесплатный период %1$d месяцев, затем %2$s.</item>
+        <item quantity="many">Бесплатный период %1$d месяцев, затем %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d лет бесплатно, затем %2$s.</item>
+        <item quantity="one">%1$d год бесплатно, затем %2$s.</item>
+        <item quantity="few">%1$d лет бесплатно, затем %2$s.</item>
+        <item quantity="many">%1$d лет бесплатно, затем %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">Бесплатный период %1$d дней, затем</item>
+        <item quantity="one">Бесплатный период %1$d день, затем</item>
+        <item quantity="few">Бесплатный период %1$d дней, затем</item>
+        <item quantity="many">Бесплатный период %1$d дней, затем</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">Бесплатный период %1$d месяцев, затем</item>
+        <item quantity="one">Бесплатный период %1$d месяц, затем</item>
+        <item quantity="few">Бесплатный период %1$d месяцев, затем</item>
+        <item quantity="many">Бесплатный период %1$d месяцев, затем</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">Бесплатный период %1$d лет, затем</item>
+        <item quantity="one">Бесплатный период %1$d год, затем</item>
+        <item quantity="few">Бесплатный период %1$d лет, затем</item>
+        <item quantity="many">Бесплатный период %1$d лет, затем</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Количество изменений семьи и удалений участников ограничено. Осталось %1$d изменений.</item>
+        <item quantity="one">Количество изменений семьи и удалений участников ограничено. Осталось %1$d изменение.</item>
+        <item quantity="few">Количество изменений семьи и удалений участников ограничено. Осталось %1$d изменений.</item>
+        <item quantity="many">Количество изменений семьи и удалений участников ограничено. Осталось %1$d изменений.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d новых появлений в результатах поиска</item>
+        <item quantity="one">1 новое появление в результатах поиска</item>
+        <item quantity="few">%1$d новых появлений в результатах поиска</item>
+        <item quantity="many">%1$d новых появлений в результатах поиска</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d новых просмотров профиля</item>
+        <item quantity="one">1 новый просмотр профиля</item>
+        <item quantity="few">%1$d новых просмотров профиля</item>
+        <item quantity="many">%1$d новых просмотров профиля</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d человек недавно просматривали ваш профиль</item>
+        <item quantity="one">Кто-то недавно просматривал ваш профиль</item>
+        <item quantity="few">%1$d человек недавно просматривали ваш профиль</item>
+        <item quantity="many">%1$d человек недавно просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d человек (%3$d в городе %2$s) недавно просматривали ваш профиль</item>
+        <item quantity="one">Кто-то из города %2$s недавно просматривал ваш профиль</item>
+        <item quantity="few">%1$d человек (%3$d в городе %2$s) недавно просматривали ваш профиль</item>
+        <item quantity="many">%1$d человек (%3$d в городе %2$s) недавно просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">SMS отправится автоматически через %1$d секунд…</item>
+        <item quantity="one">SMS отправится автоматически через %1$d секунду…</item>
+        <item quantity="few">SMS отправится автоматически через %1$d секунд…</item>
+        <item quantity="many">SMS отправится автоматически через %1$d секунд…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">нед.</item>
+        <item quantity="one">неделя</item>
+        <item quantity="few">нед.</item>
+        <item quantity="many">нед.</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s дней</item>
+        <item quantity="one">%1$s день</item>
+        <item quantity="few">%1$s дней</item>
+        <item quantity="many">%1$s дней</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">мес.</item>
+        <item quantity="one">месяц</item>
+        <item quantity="few">мес.</item>
+        <item quantity="many">мес.</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">лет</item>
+        <item quantity="one">год</item>
+        <item quantity="few">лет</item>
+        <item quantity="many">лет</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">сообщений отмечено «без звездочки»</item>
+        <item quantity="one">сообщение отмечено «без звездочки»</item>
+        <item quantity="few">сообщения отмечено «без звездочки»</item>
+        <item quantity="many">сообщений отмечены «без звездочки»</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Вы превысили допустимое количество попыток подтверждения. Попробуйте еще раз через %d час</item>
+        <item quantity="one">Вы превысили допустимое количество попыток подтверждения. Попробуйте еще раз через %d час</item>
+        <item quantity="few">Вы превысили допустимое количество попыток подтверждения. Попробуйте еще раз через %d час</item>
+        <item quantity="many">Вы превысили допустимое количество попыток подтверждения. Попробуйте еще раз через %d час</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d новых появлений в результатах поиска!</item>
+        <item quantity="one">%d новое появление в результатах поиска!</item>
+        <item quantity="few">%d новых появлений в результатах поиска!</item>
+        <item quantity="many">%d новых появлений в результатах поиска!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d появлений в результатах поиска!</item>
+        <item quantity="one">%d появление в результатах поиска!</item>
+        <item quantity="few">%d появлений в результатах поиска!</item>
+        <item quantity="many">%d появлений в результатах поиска!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Ваш профиль появился в результатах поиска %1$d раз за последнее время</item>
+        <item quantity="one">Ваш профиль появился в результатах поиска %1$d раз за последнее время</item>
+        <item quantity="few">Ваш профиль появился в результатах поиска %1$d раз за последнее время</item>
+        <item quantity="many">Ваш профиль появился в результатах поиска %1$d раз за последнее время</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d появлений в недавних результатах поиска</item>
+        <item quantity="one">%1$d появление в недавних результатах поиска</item>
+        <item quantity="few">%1$d появлений в недавних результатах поиска</item>
+        <item quantity="many">%1$d появлений в недавних результатах поиска</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d человек просматривали ваш профиль</item>
+        <item quantity="one">Кто-то просматривал ваш профиль</item>
+        <item quantity="few">%1$d человек просматривали ваш профиль</item>
+        <item quantity="many">%1$d человек просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s и еще %2$s человек просматривали ваш профиль</item>
+        <item quantity="one">%1$s просматривал(а) ваш профиль</item>
+        <item quantity="few">%1$s и еще %2$s человек просматривали ваш профиль</item>
+        <item quantity="many">%1$s и еще %2$s человек просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d человек (1 в %2$s) просматривали ваш профиль</item>
+        <item quantity="one">%1$d человек из %2$s просматривал ваш профиль</item>
+        <item quantity="few">%1$d человек (1 в %2$s) просматривали ваш профиль</item>
+        <item quantity="many">%1$d человек (1 в %2$s) просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s из города %2$s и еще %3$s человек просматривали ваш профиль</item>
+        <item quantity="one">%1$s из города %2$s просматривал(а) ваш профиль</item>
+        <item quantity="few">%1$s из города %2$s и еще %3$s человек просматривали ваш профиль</item>
+        <item quantity="many">%1$s из города %2$s и еще %3$s человек просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d человек просматривали ваш профиль. Подробнее.</item>
+        <item quantity="one">%1$d человек просматривал ваш профиль. Подробнее.</item>
+        <item quantity="few">%1$d человек просматривали ваш профиль. Подробнее.</item>
+        <item quantity="many">%1$d человек просматривали ваш профиль. Подробнее.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d человек (%3$d в %2$s) просматривали ваш профиль. Подробнее.</item>
+        <item quantity="one">1 человек из %2$s просматривал ваш профиль. Подробнее.</item>
+        <item quantity="few">%1$d человек (%3$d в %2$s) просматривали ваш профиль. Подробнее.</item>
+        <item quantity="many">%1$d человек (%3$d в %2$s) просматривали ваш профиль. Подробнее.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">Вы неправильно ввели reCaptcha слишком много раз. Повторите попытку через %1$d часов</item>
+        <item quantity="one">Вы неправильно ввели reCaptcha слишком много раз. Повторите попытку через %1$d час</item>
+        <item quantity="few">Вы неправильно ввели reCaptcha слишком много раз. Повторите попытку через %1$d часов</item>
+        <item quantity="many">Вы неправильно ввели reCaptcha слишком много раз. Повторите попытку через %1$d часов</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">комментариев</item>
+        <item quantity="one">комментарий</item>
+        <item quantity="few">комментариев</item>
+        <item quantity="many">комментариев</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d Человек просматривали ваш профиль</item>
+        <item quantity="one">%1$d человек просмотрел ваш профиль</item>
+        <item quantity="few">%1$d Человек просматривали ваш профиль</item>
+        <item quantity="many">%1$d Человек просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s диалогов добавлено в архив</item>
+        <item quantity="one">%s диалог добавлен в архив</item>
+        <item quantity="few">%s диалогов добавлено в архив</item>
+        <item quantity="many">%s диалогов добавлено в архив</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d сообщений упорядочены</item>
+        <item quantity="one">%d сообщение упорядочено</item>
+        <item quantity="few">%d сообщений упорядочены</item>
+        <item quantity="many">%d сообщений упорядочены</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Скачивание записей звонка ассистента</item>
+        <item quantity="one">Скачивание записи звонка ассистента</item>
+        <item quantity="few">Скачивание записей звонка ассистента</item>
+        <item quantity="many">Скачивание записей звонка ассистента</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d эксклюзивных предложения</item>
+        <item quantity="one">%d эксклюзивное предложение</item>
+        <item quantity="few">%d эксклюзивных предложения</item>
+        <item quantity="many">%d эксклюзивных предложений</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Сохранить номера в существующий контакт</item>
+        <item quantity="one">Сохранить номер в существующий контакт</item>
+        <item quantity="few">Сохранить номера в существующий контакт</item>
+        <item quantity="many">Сохранить номера в существующий контакт</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d вызова</item>
+        <item quantity="one">%1d вызов</item>
+        <item quantity="few">%1d вызова</item>
+        <item quantity="many">%1d вызова</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d дней</item>
+        <item quantity="one">%1d день</item>
+        <item quantity="few">%1d дней</item>
+        <item quantity="many">%1d дней</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Перемотать на %d секунды вперед</item>
+        <item quantity="one">Перемотать на %d секунду вперед</item>
+        <item quantity="few">Перемотать на %d секунды вперед</item>
+        <item quantity="many">Перемотать на %d секунд вперед</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Перемотать на %d секунды назад</item>
+        <item quantity="one">Перемотать на %d секунду назад</item>
+        <item quantity="few">Перемотать на %d секунды назад</item>
+        <item quantity="many">Перемотать на %d секунд назад</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">Осталось %d мест</item>
+        <item quantity="one">Осталось %d место</item>
+        <item quantity="few">Осталось %d места</item>
+        <item quantity="many">Осталось %d мест</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">Не удалось отправить %d приглашения</item>
+        <item quantity="one">Не удалось отправить %d приглашение</item>
+        <item quantity="few">Не удалось отправить %d приглашения</item>
+        <item quantity="many">Не удалось отправить %d приглашений</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">Обнаружено %d проблем</item>
+        <item quantity="one">Обнаружена %d проблема</item>
+        <item quantity="few">Обнаружено %d проблемы</item>
+        <item quantity="many">Обнаружено %d проблем</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Предложения удалены</item>
+        <item quantity="one">Предложение удалено</item>
+        <item quantity="few">Предложения удалены</item>
+        <item quantity="many">Предложения удалены</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Сообщения с одноразовым паролем удалены</item>
+        <item quantity="one">Сообщение с одноразовым паролем удалено</item>
+        <item quantity="few">Сообщения с одноразовым паролем удалены</item>
+        <item quantity="many">Сообщения с одноразовым паролем удалены</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Рекламные сообщения удалены</item>
+        <item quantity="one">Рекламное сообщение удалено</item>
+        <item quantity="few">Рекламные сообщения удалены</item>
+        <item quantity="many">Рекламные сообщения удалены</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Сообщения со спамом удалены</item>
+        <item quantity="one">Сообщение со спамом удалено</item>
+        <item quantity="few">Сообщения со спамом удалены</item>
+        <item quantity="many">Сообщения со спамом удалены</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d сообщений</item>
+        <item quantity="one">%d сообщение</item>
+        <item quantity="few">%d сообщений</item>
+        <item quantity="many">%d сообщений</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d сообщений с предложениями</item>
+        <item quantity="one">%d сообщение с предложением</item>
+        <item quantity="few">%d сообщений с предложениями</item>
+        <item quantity="many">%d сообщений с предложениями</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d одноразовых паролей</item>
+        <item quantity="one">%d одноразовый пароль</item>
+        <item quantity="few">%d одноразовых паролей</item>
+        <item quantity="many">%d одноразовых паролей</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d сообщений со спамом</item>
+        <item quantity="one">%d сообщение со спамом</item>
+        <item quantity="few">%d сообщений со спамом</item>
+        <item quantity="many">%d сообщений со спамом</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">Удалено %d сообщений</item>
+        <item quantity="one">Удалено %d сообщение</item>
+        <item quantity="few">Удалено %d сообщений</item>
+        <item quantity="many">Удалено %d сообщений</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Приглашений</item>
+        <item quantity="one">Приглашение</item>
+        <item quantity="few">Приглашений</item>
+        <item quantity="many">Приглашений</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Будут удалены выбранные файлы и %d связанных с ними сообщений</item>
+        <item quantity="one">Будут удалены выбранные файлы и связанное с ними сообщение</item>
+        <item quantity="few">Будут удалены выбранные файлы и %d связанных с ними сообщений</item>
+        <item quantity="many">Будут удалены выбранные файлы и %d связанных с ними сообщений</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Удалить сообщения?</item>
+        <item quantity="one">Удалить сообщение?</item>
+        <item quantity="few">Удалить сообщения?</item>
+        <item quantity="many">Удалить сообщения?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нового уведомления</item>
+        <item quantity="one">%d новое уведомление</item>
+        <item quantity="few">%d новых уведомления</item>
+        <item quantity="many">%d новых уведомлений</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">друга</item>
+        <item quantity="one">друг</item>
+        <item quantity="few">друга</item>
+        <item quantity="many">друга</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d новых реакций</item>
+        <item quantity="one">%d новая реакция</item>
+        <item quantity="few">%d новых реакций</item>
+        <item quantity="many">%d новых реакций</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">дней</item>
+        <item quantity="one">день</item>
+        <item quantity="few">дней</item>
+        <item quantity="many">дней</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Истекает через %1$d часов</item>
+        <item quantity="one">Истекает через %1$d час</item>
+        <item quantity="few">Истекает через %1$d часов</item>
+        <item quantity="many">Истекает через %1$d часов</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Истекает через %1$d минут</item>
+        <item quantity="one">Истекает через %1$d минуту</item>
+        <item quantity="few">Истекает через %1$d минут</item>
+        <item quantity="many">Истекает через %1$d минут</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">комментариев</item>
+        <item quantity="one">комментарий</item>
+        <item quantity="few">комментариев</item>
+        <item quantity="many">комментариев</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">В публикации %1$d новых комментариев</item>
+        <item quantity="one">В публикации %1$d новый комментарий</item>
+        <item quantity="few">В публикации %1$d новых комментария</item>
+        <item quantity="many">В публикации %1$d новых комментариев</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Комментариев</item>
+        <item quantity="one">Комментарий</item>
+        <item quantity="few">Комментария</item>
+        <item quantity="many">Комментариев</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Публикаций</item>
+        <item quantity="one">Публикация</item>
+        <item quantity="few">Публикации</item>
+        <item quantity="many">Публикаций</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s комментариев</item>
+        <item quantity="one">%s комментарий</item>
+        <item quantity="few">%s комментариев</item>
+        <item quantity="many">%s комментариев</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Посмотреть %s ответов</item>
+        <item quantity="one">Посмотреть %s ответ</item>
+        <item quantity="few">Посмотреть %s ответа</item>
+        <item quantity="many">Посмотреть %s ответов</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Удалив свой цифровой голос, вы удалите его из своего Ассистента и всех его ответов.&lt;br>&lt;b>Заметьте: У вас останется еще несколько (%d) попыток создать свой цифровой голос&lt;/b></item>
+        <item quantity="one">Удалив свой цифровой голос, вы удалите его из своего Ассистента и всех его ответов.&lt;br>&lt;b>Заметьте: У вас останется еще %d попытка создать свой цифровой голос&lt;/b></item>
+        <item quantity="few">Удалив свой цифровой голос, вы удалите его из своего Ассистента и всех его ответов.&lt;br>&lt;b>Заметьте: У вас останется еще несколько (%d) попыток создать свой цифровой голос&lt;/b></item>
+        <item quantity="many">Удалив свой цифровой голос, вы удалите его из своего Ассистента и всех его ответов.&lt;br>&lt;b>Заметьте: У вас останется еще несколько (%d) попыток создать свой цифровой голос&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">+ еще %s человек недавно искали ваш профиль</item>
+        <item quantity="one">недавно искла(а) ваш профиль</item>
+        <item quantity="few">+ еще %s человек недавно искали ваш профиль</item>
+        <item quantity="many">+ еще %s человек недавно искали ваш профиль</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">+ еще %s человек недавно просматривали ваш профиль</item>
+        <item quantity="one">недавно просматривал(а) ваш профиль</item>
+        <item quantity="few">+ еще %s человек недавно просматривали ваш профиль</item>
+        <item quantity="many">+ еще %s человек недавно просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Повторите попытку через %d час</item>
+        <item quantity="one">Повторите попытку через %d час</item>
+        <item quantity="few">Повторите попытку через %d час</item>
+        <item quantity="many">Повторите попытку через %d час</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s диалогов извлечено из архива</item>
+        <item quantity="one">%s диалог извлечен из архива</item>
+        <item quantity="few">%s диалогов извлечено из архива</item>
+        <item quantity="many">%s диалогов извлечено из архива</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Сообщений получено</item>
+        <item quantity="one">Сообщение получено</item>
+        <item quantity="few">Сообщений получено</item>
+        <item quantity="many">Сообщений получено</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Вы уверены, что хотите удалить эти вызовы голосовой почты? Это действие нельзя отменить.</item>
+        <item quantity="one">Вы уверены, что хотите удалить это голосовое сообщение? Это действие нельзя отменить.</item>
+        <item quantity="few">Вы уверены, что хотите удалить эти вызовы голосовой почты? Это действие нельзя отменить.</item>
+        <item quantity="many">Вы уверены, что хотите удалить эти вызовы голосовой почты? Это действие нельзя отменить.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Удалить выбранные вызовы голосовой почты</item>
+        <item quantity="one">Удалить выбранный вызов голосовой почты</item>
+        <item quantity="few">Удалить выбранные вызовы голосовой почты</item>
+        <item quantity="many">Удалить выбранные вызовы голосовой почты</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Не удалось удалить вызовы голосовой почты. Повторите попытку.</item>
+        <item quantity="one">Не удалось удалить голосовое сообщение. Повторите попытку.</item>
+        <item quantity="few">Не удалось удалить вызовы голосовой почты. Повторите попытку.</item>
+        <item quantity="many">Не удалось удалить вызовы голосовой почты. Повторите попытку.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Все вызовы голосовой почты были успешно удалены.</item>
+        <item quantity="one">Вызов голосовой почты удален.</item>
+        <item quantity="few">Все вызовы голосовой почты были успешно удалены.</item>
+        <item quantity="many">Все вызовы голосовой почты были успешно удалены.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Скачивание записей голосовой почты.</item>
+        <item quantity="one">Скачивание записи голосовой почты.</item>
+        <item quantity="few">Скачивание записей голосовой почты.</item>
+        <item quantity="many">Скачивание записей голосовой почты.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d человек из %2$s недавно просматривали ваш профиль.</item>
+        <item quantity="one">Кто-то из города %2$s недавно просматривал ваш профиль</item>
+        <item quantity="few">%1$d человека из %2$s недавно просматривали ваш профиль.</item>
+        <item quantity="many">%1$d человек из %2$s недавно просматривали ваш профиль.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d человек (%3$d из %2$s) недавно просматривали ваш профиль.</item>
+        <item quantity="one">Кто-то из города %2$s недавно просматривал ваш профиль</item>
+        <item quantity="few">%1$d человека (%3$d из %2$s) недавно просматривали ваш профиль.</item>
+        <item quantity="many">%1$d человек (%3$d из %2$s) недавно просматривали ваш профиль.</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d человек (1 из %2$s) просматривали ваш профиль</item>
+        <item quantity="one">%1$d человек из %2$s просматривал ваш профиль</item>
+        <item quantity="few">%1$d человека (1 из %2$s) просматривали ваш профиль</item>
+        <item quantity="many">%1$d человек (1 из %2$s) просматривали ваш профиль</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d человек (%3$d из %2$s) просматривали ваш профиль. Подробнее.</item>
+        <item quantity="one">1 человек из %2$s просматривал ваш профиль. Подробнее.</item>
+        <item quantity="few">%1$d человека (%3$d из %2$s) просматривали ваш профиль. Подробнее.</item>
+        <item quantity="many">%1$d человек (%3$d из %2$s) просматривали ваш профиль. Подробнее.</item>
+    </plurals>
+</resources>

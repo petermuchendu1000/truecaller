@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>ଅଗ୍ରଗତି କର</item>
+        <item>ଜାରି ରଖ</item>
+        <item>ଗ୍ରହଣ କରନ୍ତୁ</item>
+        <item>ନିଶ୍ଚିତ କରନ୍ତୁ</item>
+        <item>%s ବ୍ୟବହାର କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଜାରି ରଖନ୍ତୁ</item>
+        <item>%s ସହିତ ଅଗ୍ରଗତି କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s ରେ ଲଗ୍‌ଇନ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହ ସାଇନ୍‍ ଅପ୍‍ କରନ୍ତୁ</item>
+        <item>%s ରେ ସାଇନ୍‌ ଇନ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ସଂଖ୍ୟା ଯାଂଚ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ପଂଞ୍ଜିକରଣ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଆରମ୍ଭ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଅଗ୍ରଗତି କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଯାଞ୍ଚ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ପ୍ରୋଫାଇଲ୍ ଯାଞ୍ଚ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଆପଣଙ୍କର ପ୍ରୋଫାଇଲ୍ ଯାଞ୍ଚ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଆପଣଙ୍କର ଫୋନ୍ ନମ୍ବର ଯାଞ୍ଚ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଜାରି ରଖନ୍ତୁ</item>
+        <item>%s ସହିତ ଅର୍ଡର କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଅର୍ଡର ରଖନ୍ତୁ</item>
+        <item>%s ସହିତ ସମ୍ପୂର୍ଣ୍ଣ ବୁକିଂ</item>
+        <item>%s ସହିତ ଚେକଆଉଟ୍</item>
+        <item>%s ସହିତ ବିବରଣୀ ପରିଚାଳନା କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଆପଣଙ୍କର ବିବରଣୀ ପରିଚାଳନା କରନ୍ତୁ</item>
+        <item>ଗୋଟିଏ ଟ୍ୟାପ୍ ସହିତ %s କୁ ଲଗ୍ଇନ୍ କରନ୍ତୁ</item>
+        <item>%s କୁ ସବସ୍କ୍ରାଇବ କରନ୍ତୁ</item>
+        <item>%s ରୁ ଅଦ୍ୟତନଗୁଡିକ ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>%s ରେ ପଢିବା ଜାରି ରଖ</item>
+        <item>%s ରୁ ନୂତନ ଅଦ୍ୟତନଗୁଡିକ ପ୍ରାପ୍ତ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଲଗଇନ୍ / ସାଇନ୍ ଅପ୍ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s ରେ ଲଗ୍‌ଇନ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହ ସାଇନ୍‍ ଅପ୍‍ କରନ୍ତୁ</item>
+        <item>%s ରେ ସାଇନ୍‌ ଇନ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ସଂଖ୍ୟା ଯାଂଚ୍‍ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ପଂଞ୍ଜିକରଣ କରନ୍ତୁ</item>
+        <item>%s ସହିତ ଆରମ୍ଭ କରନ୍ତୁ</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>ସାଧାରଣ</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+</resources>

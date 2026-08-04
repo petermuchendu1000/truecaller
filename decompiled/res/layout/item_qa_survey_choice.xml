@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textColor="?tcx_textPrimary" android:gravity="center_vertical" android:layout_width="140.0dip" android:layout_height="fill_parent" android:text="ID:" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dip" />
+        <EditText android:id="@id/qa_choice_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="text" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Input.Outline" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textColor="?tcx_textPrimary" android:gravity="center_vertical" android:layout_width="140.0dip" android:layout_height="fill_parent" android:text="Text:" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dip" />
+        <EditText android:id="@id/qa_choice_text" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="text" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Input.Outline" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="36.0dip">
+        <TextView android:textColor="?tcx_textPrimary" android:gravity="center_vertical" android:layout_width="140.0dip" android:layout_height="fill_parent" android:text="Followup ID:" android:fontFamily="sans-serif-medium" android:layout_marginStart="16.0dip" />
+        <EditText android:id="@id/qa_choice_followup_id" android:layout_width="fill_parent" android:layout_height="fill_parent" android:inputType="text" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Input.Outline" />
+    </LinearLayout>
+    <FrameLayout android:background="?tcx_dividerColor" android:layout_width="fill_parent" android:layout_height="@dimen/divider_height" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:layout_marginEnd="16.0dip" />
+</LinearLayout>

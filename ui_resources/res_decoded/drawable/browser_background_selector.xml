@@ -1,1 +1,0 @@
-<selector xmlns:android="http://schemas.android.com/apk/res/android"><item android:state_pressed="false" android:drawable="@android:0106000D"/><item android:state_pressed="true" android:drawable="@0x7F080323"/></selector>

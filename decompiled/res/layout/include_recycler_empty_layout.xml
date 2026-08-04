@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/emptyImage" android:layout_width="@dimen/control_hexaspace" android:layout_height="@dimen/control_hexaspace" android:src="@drawable/ic_no_authorized_apps" android:contentDescription="@null" />
+    <TextView android:id="@id/emptyMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_doublespace" android:text="@string/SettingsAuthorisedAppsNoneAvailable" style="@style/StyleX.Text.Body.B2" />
+</LinearLayout>

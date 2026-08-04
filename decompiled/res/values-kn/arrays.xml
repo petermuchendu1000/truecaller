@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ಜನವರಿ</item>
+        <item>ಫೆಬ್ರವರಿ</item>
+        <item>ಮಾರ್ಚ್</item>
+        <item>ಎಪ್ರಿಲ್</item>
+        <item>ಮೇ</item>
+        <item>ಜೂನ್</item>
+        <item>ಜುಲೈ</item>
+        <item>ಆಗಸ್ಟ್</item>
+        <item>ಸಪ್ಟಂಬರ್</item>
+        <item>ಅಕ್ಟೋಬರ್</item>
+        <item>ನವಂಬರ್</item>
+        <item>ಡಿಸೆಂಬರ್</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>ಮುಂದುವರಿಸಿ</item>
+        <item>ಮುಂದುವರಿಸಿ</item>
+        <item>ಸ್ವೀಕರಿಸಿ</item>
+        <item>ದೃಢೀಕರಿಸಿ</item>
+        <item>%s ಉಪಯೋಗಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಮುಂದುವರಿಯಿರಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಮುಂದುವರಿಯಿರಿ</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s ಉಪಯೋಗಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಮುಂದುವರಿಯಿರಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಮುಂದುವರಿಯಿರಿ</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s ಗೆ ಲಾಗಿನ್ ಮಾಡಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಸೈನಪ್ ಮಾಡಿ</item>
+        <item>%s ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಸಂಖ್ಯೆಯನ್ನು ದೃಢೀಕರಿಸಿಕೊಳ್ಳಿ</item>
+        <item>%s ನೊಂದಿಗೆ ನೋಂದಾವಣೆ ಮಾಡಿಕೊಳ್ಳಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಆರಂಭಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಮುಂದುವರಿಯಿರಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಪರಿಶೀಲಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ನಿಮ್ಮ ಪ್ರೊಫೈಲ್ ಅನ್ನು ಪರಿಶೀಲಿಸಿ</item>
+        <item>%s ಜೊತೆಗೆ ಫೋನ್ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ</item>
+        <item>%s ಜೊತೆಗೆ ನಿಮ್ಮ ಸಂಖ್ಯೆಯನ್ನು ಪರಿಶೀಲಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಮುಂದುವರಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಆದೇಶವನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ</item>
+        <item>%s ಜೊತೆಗೆ ಆರ್ಡರ್ ಮಾಡಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಬುಕಿಂಗ್ ಅನ್ನು ಪೂರ್ಣಗೊಳಿಸಿ</item>
+        <item>%s ಜೊತೆಗೆ ಚೆಕ್‌ಔಟ್ ಮಾಡಿ</item>
+        <item>%s ನೊಂದಿಗೆ ವಿವರಗಳನ್ನು ನಿರ್ವಹಿಸಿ</item>
+        <item>%s ನೊಂದಿಗೆ ನಿಮ್ಮ ವಿವರಗಳನ್ನು ನಿರ್ವಹಿಸಿ</item>
+        <item>ಒಂದು ಟ್ಯಾಪ್ ಮೂಲಕ %s ಗೆ ಲಾಗಿನ್ ಮಾಡಿ</item>
+        <item>%s ಗೆ ಚಂದಾದಾರರಾಗಿ</item>
+        <item>%s ರಿಂದ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯಿರಿ</item>
+        <item>%s ನಲ್ಲಿ ಓದುವುದನ್ನು ಮುಂದುವರಿಸಿ</item>
+        <item>%s ನಿಂದ ಹೊಸ ನವೀಕರಣಗಳನ್ನು ಪಡೆಯಿರಿ</item>
+        <item>%s ಜೊತೆಗೆ ಲಾಗಿನ್/ಸೈನ್ ಅಪ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s ಗೆ ಲಾಗಿನ್ ಮಾಡಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಸೈನಪ್ ಮಾಡಿ</item>
+        <item>%s ಗೆ ಸೈನ್ ಇನ್ ಮಾಡಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಸಂಖ್ಯೆಯನ್ನು ದೃಢೀಕರಿಸಿಕೊಳ್ಳಿ</item>
+        <item>%s ನೊಂದಿಗೆ ನೋಂದಾವಣೆ ಮಾಡಿಕೊಳ್ಳಿ</item>
+        <item>%s ನೊಂದಿಗೆ ಆರಂಭಿಸಿ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>ಆರಭಿಸಲು</item>
+        <item>ಮುಂದುವರಿಸಲು</item>
+        <item>ಆರ್ಡರ್ ಮಾಡಲು</item>
+        <item>ನಿಮ್ಮ ಖರೀದಿಯನ್ನು ಪೂರ್ತಿಗೊಳಿಸಲು</item>
+        <item>ನಿರ್ಗಮಿಸಲು</item>
+        <item>ನಿಮ್ಮ ಬುಕ್ಕಿಂಗ್‍ನ್ನು ಪೂರ್ತಿಗೊಳಿಸಲು</item>
+        <item>ನಿಮ್ಮ ಬುಕ್ಕಿಂಗ್‍ನೊಂದಿಗೆ ಮುಂದುವರಿಯಲು</item>
+        <item>ನಿಮ್ಮ ಬುಕ್ಕಿಂಗ್‍ನೊಂದಿಗೆ ಮುಂದುವರಿಯಲು</item>
+        <item>ವಿವರಗಳನ್ನು ಪಡೆದುಕೊಳ್ಳಲು</item>
+        <item>ಇನ್ನೂ ಹೆಚ್ಚಿನದನ್ನು ನೋಡಲು</item>
+        <item>ಓದುವುದನ್ನು ಮುಂದುವರಿಸಲು</item>
+        <item>ಮುಂದುವರಿಸಲು</item>
+        <item>ಹೊಸ ಅಪ್‍ಡೇಟ್‍ಗಳಿಗಾಗಿ</item>
+        <item>ಅಪ್‍ಡೇಟ್‍ಗಳನ್ನು ಪಡೆಯಲು</item>
+        <item>ಸಬ್‍ಸ್ಕ್ರೈಬ್ ಮಾಡಲು</item>
+        <item>ಸಬ್‍ಸ್ಕ್ರೈಬ್ ಮಾಡಲು ಮತ್ತು ಅಪ್‍ಡೇಟ್‍ಗಳನ್ನು ಪಡೆಯಲು</item>
+        <item>ಉತ್ತಮ ಬೆಲೆ ಪಡೆಯಲು</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>ದಯವಿಟ್ಟು ಮೊಬೈಲ್ ಸಂಖ್ಯೆಯನ್ನು ದೃಢೀಕರಿಸಿಕೊಳ್ಳಿ</item>
+        <item>ದಯವಿಟ್ಟು ಲಾಗಿನ್ ಮಾಡಿ</item>
+        <item>ದಯವಿಟ್ಟು ಸೈನಪ್ ಮಾಡಿ</item>
+        <item>ದಯವಿಟ್ಟು ಲಾಗಿನ್/ಸೈನಪ್ ಮಾಡಿ</item>
+        <item>ದಯವಿಟ್ಟು ನೋಂದಾಯಿಸಿಕೊಳ್ಳಿ</item>
+        <item>ದಯವಿಟ್ಟು ಸೈನ್ ಇನ್ ಮಾಡಿ</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>ಡೀಫಾಲ್ಟ್ ಸಿಮ್ ಸೆಟ್ ಮಾಡಿ</item>
+        <item>ಡೀಫಾಲ್ಟ್ ಸಿಮ್ - ಸಿಮ್ 1</item>
+        <item>ಡೀಫಾಲ್ಟ್ ಸಿಮ್ - ಸಿಮ್ 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>ಕ್ಷಮಿಸಿ, ನಾನೀಗ ಮಾತನಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ</item>
+        <item>ನಾನು ನಿಮಗೆ ನಂತರ ಕರೆ ಮಾಡುತ್ತೇನೆ</item>
+        <item>ನಾನು ನಿಮಗೆ ಮರಳಿ ಕರೆ ಮಾಡುತ್ತೇನೆ</item>
+        <item>ನಾನೀಗ ಮಾತನಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ. ನನಗೆ ನಂತರ ಕರೆ ಮಾಡುತ್ತೀರಾ?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>ಮೊದಲ ಹೆಸರು</item>
+        <item>ಕೊನೆಯ ಹೆಸರು</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>ಸೈಲೆಂಟ್</item>
+        <item>ಕಂಪನ ಮಾತ್ರ.</item>
+        <item>ಕೇವಲ ಧ್ವನಿ</item>
+        <item>ಧ್ವನಿ ಮತ್ತು ಕಂಪನ</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 ಪಟ್ಟು</item>
+        <item>0.5 ಪಟ್ಟು</item>
+        <item>0.75 ಪಟ್ಟು</item>
+        <item>ಸಾಮಾನ್ಯ</item>
+        <item>1.25 ಪಟ್ಟು</item>
+        <item>1.5 ಪಟ್ಟು</item>
+        <item>2 ಪಟ್ಟು</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>ಸಿಮ್ 1</item>
+        <item>ಸಿಮ್ 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>ಸಿಮ್ 1</item>
+        <item>ಸಿಮ್ 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>ಸೈಲೆಂಟ್</item>
+        <item>ಕಂಪನ ಮಾತ್ರ.</item>
+        <item>ಕೇವಲ ಧ್ವನಿ</item>
+        <item>ಧ್ವನಿ ಮತ್ತು ಕಂಪನ</item>
+    </string-array>
+</resources>

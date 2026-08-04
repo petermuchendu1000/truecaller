@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>may</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Proceed</item>
+        <item>Continue</item>
+        <item>Accept</item>
+        <item>Confirm</item>
+        <item>Use %s</item>
+        <item>Continue with %s</item>
+        <item>Proceed with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Use %s</item>
+        <item>Continue with %s</item>
+        <item>Proceed with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Login to %s</item>
+        <item>Signup with %s</item>
+        <item>Sign In to %s</item>
+        <item>Verify number with %s</item>
+        <item>Register with %s</item>
+        <item>Get Started with %s</item>
+        <item>Proceed with %s</item>
+        <item>Verify with %s</item>
+        <item>Verify profile with %s</item>
+        <item>Verify your profile with %s</item>
+        <item>Verify phone number with %s</item>
+        <item>Verify your number with %s</item>
+        <item>Continue with %s</item>
+        <item>Complete order with %s</item>
+        <item>Place order with %s</item>
+        <item>Complete booking with %s</item>
+        <item>Checkout with %s</item>
+        <item>Manage details with %s</item>
+        <item>Manage your details with %s</item>
+        <item>Login to %s with one tap</item>
+        <item>Subscribe to %s</item>
+        <item>Get updates from %s</item>
+        <item>Continue reading on %s</item>
+        <item>Get new updates from %s</item>
+        <item>Login/Signup with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Login to %s</item>
+        <item>Signup with %s</item>
+        <item>Sign In to %s</item>
+        <item>Verify number with %s</item>
+        <item>Register with %s</item>
+        <item>Get Started with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>To get started</item>
+        <item>To continue</item>
+        <item>To place order</item>
+        <item>To complete your purchase</item>
+        <item>To checkout</item>
+        <item>To complete your booking</item>
+        <item>To proceed with your booking</item>
+        <item>To continue with your booking</item>
+        <item>To get details</item>
+        <item>To view more</item>
+        <item>To continue reading</item>
+        <item>To proceed</item>
+        <item>For new updates</item>
+        <item>To get updates</item>
+        <item>To subscribe</item>
+        <item>To subscribe &amp; get updates</item>
+        <item>To get best price</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>please verify mobile number</item>
+        <item>please login</item>
+        <item>please signup</item>
+        <item>please login/signup</item>
+        <item>please register</item>
+        <item>please sign in</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Set default SIM</item>
+        <item>Default SIM - SIM 1</item>
+        <item>Default SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>"Sorry, I can't talk now"</item>
+        <item>"I'll call you later"</item>
+        <item>"I'll call you right back"</item>
+        <item>"Can't talk now. Call me later?"</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>First name</item>
+        <item>Last name</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Silent</item>
+        <item>Vibrate only</item>
+        <item>Sound only</item>
+        <item>Sound and Vibrate</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Silent</item>
+        <item>Vibrate only</item>
+        <item>Sound only</item>
+        <item>Sound and Vibrate</item>
+    </string-array>
+</resources>

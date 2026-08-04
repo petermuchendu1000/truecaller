@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <TextView android:textColor="?tcx_brandBackgroundBlue" android:gravity="center" android:id="@id/title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="@string/what_is_smart_message_title" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Headline.H6" />
+        <TextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/body" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/what_is_smart_message_body" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/title" style="@style/StyleX.Text.Caption" />
+        <ImageView android:id="@id/mainImage" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@null" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/body" app:srcCompat="?insights_img_what_is_smart_sms" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?insights_whats_smart_sms_footer_background_color">
+        <View android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <include android:id="@id/smart_sms_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_what_is_smart_sms_footer" />
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

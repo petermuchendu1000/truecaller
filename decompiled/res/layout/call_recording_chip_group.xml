@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.chip.ChipGroup android:padding="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" app:chipSpacingHorizontal="16.0dip" app:selectionRequired="true" app:singleSelection="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.chip.Chip android:id="@id/summaryChip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/CallRecordingDetailsSummary" app:chipIcon="@drawable/ic_call_recording_summary" style="@style/CallRecordingDetailsChip" />
+    <com.google.android.material.chip.Chip android:id="@id/transcriptionChip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/CallRecordingDetailsTranscription" app:chipIcon="@drawable/ic_call_recording_transcription" style="@style/CallRecordingDetailsChip" />
+</com.google.android.material.chip.ChipGroup>

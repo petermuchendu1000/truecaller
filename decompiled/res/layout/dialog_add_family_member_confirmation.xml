@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/background_premium_dialog" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/image" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:src="?tcx_familySharingIcon" android:contentDescription="@null" />
+        <LinearLayout android:orientation="vertical" android:id="@id/addMemberGroup" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+            <TextView android:gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Text.Headline.H6" />
+            <TextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/subtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/PremiumAddFamilyMemberConfirmationFailedSubTitle" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Text.Body.B2" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/actionsGroup" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:layout_marginBottom="3.0dip">
+            <View android:id="@id/action1divider" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textColor="?tcx_textSecondary" android:id="@id/action1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/StrDoItLater" style="@style/StyleX.Button.Secondary" />
+            <View android:id="@id/action2divider" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/action2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/StrPickSomeoneElse" style="@style/StyleX.Button.Secondary" />
+            <View android:id="@id/action3divider" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:id="@id/action3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/StrConfirm" style="@style/StyleX.Button.Secondary" />
+        </LinearLayout>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_search" android:id="@id/actionSearch" android:title="@string/global_search" app:iconTint="?tcx_backgroundPrimaryInvert" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_filter_contact" android:id="@id/actionFilter" android:visible="false" android:title="@string/contacts_list_menu_option_sort" app:iconTint="?tcx_backgroundPrimaryInvert" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_tcx_add_contact_outline_24dp" android:id="@id/actionAddContact" android:visible="false" android:title="@string/contacts_list_menu_option_new_contact" app:iconTint="?tcx_backgroundPrimaryInvert" app:showAsAction="always" />
+</menu>

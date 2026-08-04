@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_title_margin_top_suggested_apps">4.0dip</dimen>
+</resources>

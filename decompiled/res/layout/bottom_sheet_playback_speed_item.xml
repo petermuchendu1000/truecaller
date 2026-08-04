@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatRadioButton android:id="@id/radioButton" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:buttonTint="@color/playback_speed_selectable_option_tint" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textColor="?tcx_textPrimary" android:id="@id/speedText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/roboto_medium" android:layout_marginStart="20.0dip" app:layout_constraintStart_toEndOf="@id/radioButton" app:layout_constraintTop_toTopOf="@id/radioButton" />
+    <TextView android:textSize="16.0sp" android:textColor="?tcx_textSecondary" android:id="@id/speedTextAdditionalInfo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/roboto_regular" android:layout_marginStart="8.0dip" app:layout_constraintStart_toEndOf="@id/speedText" app:layout_constraintTop_toTopOf="@id/radioButton" />
+</androidx.constraintlayout.widget.ConstraintLayout>

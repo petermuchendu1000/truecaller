@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>1 月</item>
+        <item>2 月</item>
+        <item>3 月</item>
+        <item>4 月</item>
+        <item>5 月</item>
+        <item>6 月</item>
+        <item>7 月</item>
+        <item>8 月</item>
+        <item>9 月</item>
+        <item>10 月</item>
+        <item>11 月</item>
+        <item>12 月</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>繼續進行</item>
+        <item>繼續</item>
+        <item>接受</item>
+        <item>確認</item>
+        <item>使用 %s</item>
+        <item>使用 %s 繼續</item>
+        <item>使用 %s 繼續進行</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>使用 %s</item>
+        <item>使用 %s 繼續</item>
+        <item>使用 %s 繼續進行</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>登入 %s</item>
+        <item>使用 %s 註冊</item>
+        <item>登入 %s</item>
+        <item>使用 %s 驗證號碼</item>
+        <item>使用 %s 註冊</item>
+        <item>開始使用 %s</item>
+        <item>使用 %s 繼續</item>
+        <item>使用 %s 驗證</item>
+        <item>使用 %s 驗證個人檔案</item>
+        <item>使用 %s 驗證您的個人檔案</item>
+        <item>使用 %s 驗證電話號碼</item>
+        <item>使用 %s 驗證您的號碼</item>
+        <item>使用 %s 繼續</item>
+        <item>使用 %s 完成訂單</item>
+        <item>使用 %s 下單</item>
+        <item>使用 %s 完成預訂</item>
+        <item>使用 %s 結帳</item>
+        <item>使用 %s 管理詳細資訊</item>
+        <item>使用 %s 管理您的詳細資訊</item>
+        <item>輕觸一下即可登入 %s</item>
+        <item>訂閱 %s</item>
+        <item>取得 %s 的更新</item>
+        <item>在 %s 上繼續閱讀</item>
+        <item>取得來自 %s 的新更新</item>
+        <item>使用 %s 登入/註冊</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>登入 %s</item>
+        <item>使用 %s 註冊</item>
+        <item>登入 %s</item>
+        <item>使用 %s 驗證號碼</item>
+        <item>使用 %s 註冊</item>
+        <item>開始使用 %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>開始使用</item>
+        <item>繼續</item>
+        <item>下訂單</item>
+        <item>完成購買</item>
+        <item>結帳</item>
+        <item>完成您的預訂</item>
+        <item>繼續進行您的預訂</item>
+        <item>繼續您的預訂</item>
+        <item>取得詳細資訊</item>
+        <item>查看更多</item>
+        <item>繼續閱讀</item>
+        <item>繼續</item>
+        <item>取得新更新</item>
+        <item>取得更新</item>
+        <item>訂閱</item>
+        <item>訂閱並取得更新</item>
+        <item>取得最優惠價格</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>請驗證行動電話號碼</item>
+        <item>請登入</item>
+        <item>請註冊</item>
+        <item>請登入/註冊</item>
+        <item>請註冊</item>
+        <item>請登入</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>設定預設 SIM 卡</item>
+        <item>預設 SIM 卡 - SIM 1</item>
+        <item>預設 SIM 卡 - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>我現在不方便通話</item>
+        <item>我會稍後聯絡你</item>
+        <item>我會馬上回電</item>
+        <item>現在不方便通話。可以稍後打給我嗎？</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>名字</item>
+        <item>姓氏</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>靜音</item>
+        <item>只有震動</item>
+        <item>只有鈴音</item>
+        <item>鈴音並震動</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 倍</item>
+        <item>0.5 倍</item>
+        <item>0.75 倍</item>
+        <item>正常</item>
+        <item>1.25 倍</item>
+        <item>1.5 倍</item>
+        <item>2 倍</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 卡 1</item>
+        <item>SIM 卡 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 卡 1</item>
+        <item>SIM 卡 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>靜音</item>
+        <item>只有震動</item>
+        <item>只有鈴音</item>
+        <item>鈴音並震動</item>
+    </string-array>
+</resources>

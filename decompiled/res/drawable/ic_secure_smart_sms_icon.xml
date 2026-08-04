@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="16.0dip" android:width="12.0dip" android:viewportWidth="12.0" android:viewportHeight="16.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?tcx_secureSmartSmsCardIconTint" android:pathData="M6,0.667L0,3.333V7.333C0,11.033 2.56,14.493 6,15.333C9.44,14.493 12,11.033 12,7.333V3.333L6,0.667ZM6,7.993H10.667C10.313,10.74 8.48,13.187 6,13.953V8H1.333V4.2L6,2.127V7.993Z" />
+</vector>

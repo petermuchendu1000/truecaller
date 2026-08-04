@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/action_restart_app" android:title="Restart app" app:showAsAction="never" />
+    <item android:id="@id/action_reset_values" android:title="Reset values" app:showAsAction="never" />
+    <item android:id="@id/action_fetch_experiments" android:title="Force fetch experiments" app:showAsAction="never" />
+    <item android:id="@id/action_fetch_firebase" android:title="Force fetch Firebase configs" app:showAsAction="never" />
+    <item android:id="@id/action_fetch_internal" android:title="Force fetch Internal configs" app:showAsAction="never" />
+</menu>

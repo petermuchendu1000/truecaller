@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:motion="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@id/start" />
+    <ConstraintSet android:id="@id/end" />
+    <Transition motion:constraintSetEnd="@id/end" motion:constraintSetStart="@id/start" />
+    <ConstraintSet android:id="@id/prepareAnimation">
+        <Constraint android:id="@id/behindCardShadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/reject">
+        <Constraint android:id="@id/behindCardShadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="1.0" android:scaleX="1.0" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="0.2" android:translationX="-500.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="0.18" android:scaleX="0.5" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/reject" motion:constraintSetStart="@id/prepareAnimation" />
+    <ConstraintSet android:id="@id/accept">
+        <Constraint android:id="@id/behindCardShadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="1.0" android:scaleX="1.0" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="0.2" android:translationX="500.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="0.18" android:scaleX="0.5" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/accept" motion:constraintSetStart="@id/prepareAnimation" />
+    <ConstraintSet android:id="@id/postAnimation">
+        <Constraint android:id="@id/behindCardShadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="1.0" android:scaleX="1.0" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="0.2" android:translationX="500.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/postAnimation" motion:constraintSetStart="@id/accept" />
+    <Transition motion:constraintSetEnd="@id/postAnimation" motion:constraintSetStart="@id/reject" />
+    <Transition motion:constraintSetEnd="@id/start" motion:constraintSetStart="@id/postAnimation" motion:duration="1" />
+    <Transition motion:constraintSetEnd="@id/prepareAnimation" motion:constraintSetStart="@id/start" motion:duration="1" />
+    <ConstraintSet android:id="@id/singleItem">
+        <Constraint android:id="@id/topCard" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/singleItem" motion:constraintSetStart="@id/start" motion:duration="1" />
+    <ConstraintSet android:id="@id/multipleItems">
+        <Constraint android:id="@id/behindCard" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCard" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/multipleItems" motion:constraintSetStart="@id/start" motion:duration="1" />
+    <Transition motion:constraintSetEnd="@id/singleItem" motion:constraintSetStart="@id/postAnimation" motion:duration="1" />
+    <Transition motion:constraintSetEnd="@id/multipleItems" motion:constraintSetStart="@id/postAnimation" motion:duration="1" />
+    <ConstraintSet android:id="@id/singleItemAccept">
+        <Constraint android:id="@id/topCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="0.2" android:translationX="500.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/singleItemReject">
+        <Constraint android:id="@id/topCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:alpha="0.2" android:translationX="-500.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <ConstraintSet android:id="@id/prepareAnimationSingleItem">
+        <Constraint android:id="@id/topCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCard" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/behindCardShadow" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.18" android:scaleX="0.9" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+        <Constraint android:id="@id/topCardShadow" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" motion:layout_constraintEnd_toEndOf="parent" motion:layout_constraintStart_toStartOf="parent" motion:layout_constraintTop_toTopOf="parent" />
+    </ConstraintSet>
+    <Transition motion:constraintSetEnd="@id/prepareAnimationSingleItem" motion:constraintSetStart="@id/singleItem" motion:duration="1" />
+    <Transition motion:constraintSetEnd="@id/singleItemAccept" motion:constraintSetStart="@id/prepareAnimationSingleItem" />
+    <Transition motion:constraintSetEnd="@id/singleItemReject" motion:constraintSetStart="@id/prepareAnimationSingleItem" />
+    <Transition motion:constraintSetEnd="@id/singleItem" motion:constraintSetStart="@id/reject" motion:duration="1" />
+    <Transition motion:constraintSetEnd="@id/singleItem" motion:constraintSetStart="@id/accept" motion:duration="1" />
+</MotionScene>

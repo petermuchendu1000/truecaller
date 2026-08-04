@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Zuia na kuripoti %d Nambari kama taka?</item>
+        <item quantity="one">Zuia na kuripoti %d Nambari kama taka?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Imeshindwa kufuta simu zako za Mratibu. Tafadhali jaribu tena.</item>
+        <item quantity="one">Imeshindwa kufuta simu yako ya Mratibu. Tafadhali jaribu tena.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Simu za Mratibu zimefutwa.</item>
+        <item quantity="one">Simu ya Mratibu imefutwa.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Je, una uhakika unataka kufuta simu hizi za programu ya Mratibu? Kitendo hiki hakiwezi kutenduliwa.</item>
+        <item quantity="one">Je, una uhakika unataka kufuta simu hii ya programu ya Mratibu? Kitendo hiki hakiwezi kutenduliwa.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Futa simu za programu ya Mratibu zilizochaguliwa</item>
+        <item quantity="one">Futa simu ya programu ya Mratibu iliyochaguliwa</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">Rekodi %d</item>
+        <item quantity="one">Rekodi %d</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Jumbe imeongezwa kwenye kitufe muhimu</item>
+        <item quantity="one">Ujumbe imeongezwa kwenye kitufe muhimu</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d Mazungumzo yamewekewa alama kuwa yameshasomwa</item>
+        <item quantity="one">%d Mazungumzo imwekewa alama kuwa imeshasomwa</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">Maingizo %d yamefutwa</item>
+        <item quantity="one">%d ingizo limefutwa</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Futa ingizo %d ?</item>
+        <item quantity="one">Futa ingizo?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Mazungumzo yamewekewa pini</item>
+        <item quantity="one">Mazungumzo yamewekewa pini</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Hifadhi wawasiliani wote</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Mazungumzo yametolewa pini</item>
+        <item quantity="one">Mazungumzo yametolewa pini</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">Ujumbe %d ambao haujasomwa</item>
+        <item quantity="one">Ujumbe %d ambao haujasomwa</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Futa %d mazungumzo?</item>
+        <item quantity="one">Futa %d mazungumzo?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">Namba %d zimepatikana</item>
+        <item quantity="one">nambari %d imeptikana</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Jumbe zimeripotiwa</item>
+        <item quantity="one">Ujumbe umeripotiwa</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Jumbe zimetiwa alama kama salama</item>
+        <item quantity="one">Ujumbe umetiwa alama kama salama</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Jumbe zimeripotiwa</item>
+        <item quantity="one">Ujumbe umeripotiwa</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d wanachama</item>
+        <item quantity="one">%d mwanachama</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Una uhakika unataka kuondoa kizuizi Kwa nambari %d?</item>
+        <item quantity="one">Una uhakika unataka kuondoa kizuizi Kwa hii nambari</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Je, una hakika unataka kufuta faili %s za lugha?</item>
+        <item quantity="one">Je, una hakika unataka kufuta faili %s ya lugha?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Ujumbe umezuiwa • Mtumaji yuko kwenye orodha yako ya waliozuiwa</item>
+        <item quantity="one">Truecaller • Ujumbe umezuiwa • Mtumaji yuko kwenye orodha yako ya waliozuiwa</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s alipiga %2$d masaa yaliyopita.Gonga hapa kutazama katika Truecaller</item>
+        <item quantity="one">%1$s alipiga %2$d lisaa lililopita.Gonga hapa kutazama katika Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d Wawasiliani</item>
+        <item quantity="one">%d Muwasiliani</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d viambatanishi</item>
+        <item quantity="one">%1$d kiambatanishi</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d wawasiliani wengine</item>
+        <item quantity="one">%d muwasiliani mwingine</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d nambari zimeongezwa kwenye orodha ya nambari zilizozuiliwa</item>
+        <item quantity="one">Nambari imeongezwa kwenye orodha ya nambari zilizozuiliwa</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d simu zimezuiwa</item>
+        <item quantity="one">%d simu imezuiwa</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d simu zilizonyamazishwa</item>
+        <item quantity="one">%d simu iliyonyamazishwa</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">Siku %1$d la jaribio la bure kwa wanachama wapya tu</item>
+        <item quantity="one">Siku %1$d la jaribio la bure kwa wanachama wapya tu</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">Jaribio la miezi %1$d bila malipo kwa watumiaji wapya pekee</item>
+        <item quantity="one">Jaribio la mwezi %1$d bila malipo kwa watumiaji wapya pekee</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">Jaribio la miaka %1$d bila malipo kwa watumiaji wapya pekee</item>
+        <item quantity="one">Jaribio la mwaka %1$d bila malipo kwa watumiaji wapya pekee</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Wewe, %1$s na %2$s mko kwenye Premium ya Familia. Una nafasi %3$d zilizosalia</item>
+        <item quantity="one">Wewe, %1$s na %2$s mko kwenye Premium ya Familia. Una nafasi %3$d iliyosalia</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Unazo Akaunti %1$d zaidi zinazopatikana.</item>
+        <item quantity="one">Unayo Akaunti %1$d zaidi inayopatikana.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Wewe na %1$s mko kwenye Premium ya Familia. Una nafasi %2$d zilizosalia</item>
+        <item quantity="one">Wewe na %1$s mko kwenye Premium ya Familia. Una nafasi %2$d iliyosalia</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Usajili utaisha baada ya siku %d</item>
+        <item quantity="one">Usajili utaisha kesho</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">Jaribio bila malipo la siku %1$d halafu %2$s.</item>
+        <item quantity="one">Jaribio bila malipo la siku %1$d halafu %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">Jaribio bila malipo la miezi %1$d halafu %2$s.</item>
+        <item quantity="one">Jaribio bila malipo la mwezi %1$d halafu %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">Jaribio bila malipo la miaka %1$d halafu %2$s.</item>
+        <item quantity="one">Jaribio bila malipo la mwaka %1$d halafu %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">Jaribio La Bila Malipo la siku %1$d halafu</item>
+        <item quantity="one">Jaribio Bila Malipo la siku %1$d halafu</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">Jaribio Bila Malipo la miezi %1$d halafu</item>
+        <item quantity="one">Jaribio Bila Malipo la mwezi %1$d halafu</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">Jaribio Bila Malipo la miezi %1$d halafu</item>
+        <item quantity="one">Jaribio Bila Malipo la mwezi %1$d halafu</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Idadi ya mabadiliko ya orodha ya familia, kuondoa wanafamilia, ni chache. Yamesalia mabadiliko %1$d.</item>
+        <item quantity="one">Idadi ya mabadiliko ya orodha ya familia, kuondoa wanafamilia, ni chache. Limesalia badiliko %1$d.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">Mionekano %1$d mipya ya utafutaji</item>
+        <item quantity="one">Mwonekano 1 mpya wa utafutaji</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">Mitazamo %1$d mipya ya kontua</item>
+        <item quantity="one">Mtazamo 1 mpya wa kontua</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">Watu %1$d wametazama umbo lako hivyo karibuni</item>
+        <item quantity="one">Mtu ametazama umbo lako hivi karibuni</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d people (%3$d in %2$s) wametazama wasifa wako hivi karibuni.</item>
+        <item quantity="one">Mtu kutoka %2$s ametazama wasifa wako hivi karibuni.</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">Ujumbe wa SMS utatumwa kiotomatiki kwa sekunde %1$d…</item>
+        <item quantity="one">Ujumbe wa SMS utatumwa kiotomatiki kwa sekunde %1$d…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">wiki</item>
+        <item quantity="one">wiki</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">Siku %1$s</item>
+        <item quantity="one">Siku %1$s</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">Miezi</item>
+        <item quantity="one">Mwezi</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">miaka</item>
+        <item quantity="one">mwaka</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Jumbe zimetolewa nyota</item>
+        <item quantity="one">Ujumbe umetolewa nyota</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Umepitisha kipimo cha majaribio ya uthibitisho.Tafadhali jaribu tena nadni ya %dh</item>
+        <item quantity="one">Umepitisha kipimo cha majaribio ya uthibitisho.Tafadhali jaribu tena nadni ya %dh</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">Mionekano %d mipya ya utafutaji!</item>
+        <item quantity="one">Mwonekano %d mpya wa utafutaji!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">Mionekano %d ya utafutaji!</item>
+        <item quantity="one">Mwonekano %d wa utafutaji!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Wasifu wako ulionekana mara %1$d katika matokeo ya utafutaji hivi karibuni</item>
+        <item quantity="one">Wasifu wako ulionekana mara %1$d katika matokeo ya utafutaji hivi karibuni</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">Mionekano %1$d katika utafutaji hivi karibuni</item>
+        <item quantity="one">Mwonekano %1$d katika utafutaji hivi karibuni</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">Watu %1$d wametazama umbo lako</item>
+        <item quantity="one">Mtu ametazama umbo lako</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s na %2$s zaidi walitazama wasifu wako</item>
+        <item quantity="one">%1$s alitazama wasifu wako</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d watu (1 ndani %2$s ) wametazama umbo lako</item>
+        <item quantity="one">%1$d mtu kutoka %2$s ametazama umbo lako</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s kutoka %2$s na %3$s zaidi walitazama wasifu wako</item>
+        <item quantity="one">%1$s kutoka %2$s alitazama wasifu wako</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">Watu %1$d walitazama maelezo yako mafupi. Fahamu zaidi.</item>
+        <item quantity="one">Mtu 1 alitazama maelezo yako mafupi. Fahamu zaidi.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">Watu %1$d (%3$d kwa %2$s) walitazama maelezo yako mafupi. Fahamu zaidi.</item>
+        <item quantity="one">Mtu 1 kutoka %2$s alitazama maelezo yako mafupi. Fahamu zaidi.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha meshindwa mara nyingi.tafadhali jaribu tena baadae ndani ya masaa %1$d</item>
+        <item quantity="one">Recaptcha imeshindwa mara nyingi.tafadhali jaribu tena baadae ndani ya saa %1$d</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">maoni</item>
+        <item quantity="one">oni</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">Watu %1$d wametazama umbo lako</item>
+        <item quantity="one">Mtu %1$d ametazama wasifu wako</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">mazungumzo %s yamehifadhiwa</item>
+        <item quantity="one">mazungumzo %s yamehifadhiwa</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d jumbe zimepangwa</item>
+        <item quantity="one">%d ujumbe umepangwa</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Inapakua rekodi za simu za msaidizi</item>
+        <item quantity="one">Inapakua rekodi ya simu ya msaidizi</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d ofa za kipekee</item>
+        <item quantity="one">%d ofa ya kipekee</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Hifadhi nambari kwa anwani iliyopo</item>
+        <item quantity="one">Hifadhi nambari kwa anwani iliyopo</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d simu</item>
+        <item quantity="one">%1d simu</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">Siku %1d</item>
+        <item quantity="one">Siku %1d</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Sogeza mbele haraka kwa sekunde %d</item>
+        <item quantity="one">Sogeza mbele haraka kwa sekunde %d</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Rudisha nyuma kwa sekunde %d</item>
+        <item quantity="one">Rudisha nyuma kwa sekunde %d</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">Nafasi %d zimebaki</item>
+        <item quantity="one">Nafasi %d imebaki</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">Mialiko %d haikufaulu</item>
+        <item quantity="one">Mwaliko %d haukufaulu</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">Matatizo %d yametambuliwa</item>
+        <item quantity="one">Tatizo %d limetambuliwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Ofa zimefutwa</item>
+        <item quantity="one">Ofa imefutwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Jumbe za OTP zimefutwa</item>
+        <item quantity="one">Ujumbe wa OTP umefutwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Jumbe za promosheni zimefutwa</item>
+        <item quantity="one">Ujumbe wa promosheni umefutwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Jumbe za taka zimefutwa</item>
+        <item quantity="one">Ujumbe wa taka umefutwa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d jumbe</item>
+        <item quantity="one">%d ujumbe</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">Jumbe %d zilizo na ofa</item>
+        <item quantity="one">Ujumbe %d ulio na ofa</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTPs</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d jumbe taka</item>
+        <item quantity="one">%d ujumbe taka</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d jumbe zimefutwa</item>
+        <item quantity="one">%d ujumbe umefutwa</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Mialiko</item>
+        <item quantity="one">Mualiko</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Unaenda kufuta mafaili uliyoyachagua na %d ujumbe zinazohusika</item>
+        <item quantity="one">Unaenda kufuta mafaili uliyoyachagua na jumbe zinazohusika</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Futa jumbe?</item>
+        <item quantity="one">Futa ujumbe?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">Arifa %d mpya</item>
+        <item quantity="one">Arifa %d mpya</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">Marafiki</item>
+        <item quantity="one">Rafiki</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">Hisia %d mpya</item>
+        <item quantity="one">Hisia %d mpya</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">siku</item>
+        <item quantity="one">siku moja</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Itaisha baada ya saa %1$d</item>
+        <item quantity="one">Itaisha baada ya saa %1$d</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Inaisha baada ya dakika %1$d</item>
+        <item quantity="one">Inaisha baada ya dakika %1$d</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">maoni</item>
+        <item quantity="one">oni</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">Kuna maoni %1$d mapya kwenye chapisho</item>
+        <item quantity="one">Kuna maoni %1$d mapya kwenye chapisho</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Maoni</item>
+        <item quantity="one">Oni</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Machapisho</item>
+        <item quantity="one">Chapisho</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">Maoni %s</item>
+        <item quantity="one">Oni %s</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Tazama majibu %s</item>
+        <item quantity="one">Tazama jibu %s</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Kufuta sauti yako ya kidijitali kutaziondoa kutoka kwa Msaidizi wako na majibu yake yote.&lt;br>&lt;b>Kumbuka: Utakuwa na majaribio %d zaidi ya kuunda sauti &lt;/b> yako ya kidijitali</item>
+        <item quantity="one">Kufuta sauti yako ya kidijitali kutaiondoa kutoka kwa Msaidizi wako na majibu yake yote.&lt;br>&lt;b>Kumbuka: Utakuwa na jaribio %d zaidi la kuunda sauti &lt;/b> yako ya kidijitali</item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">watu +%s zaidi walitafuta wasifu wako hivi karibuni</item>
+        <item quantity="one">alitafuta wasifu wako hivi karibuni</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">watu +%s zaidi walitazama wasifu wako hivi karibuni</item>
+        <item quantity="one">alitazama wasifu wako hivi karibuni</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Jaribu tena baada ya saa %d</item>
+        <item quantity="one">Jaribu tena baada ya saa %d</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">mazungumzo %s yamefukuliwa</item>
+        <item quantity="one">mazungumzo %s yamefukuliwa</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Jumbe zimepokewa</item>
+        <item quantity="one">Ujumbe umepokewa</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Una uhakika unataka kufuta simu hizi za sauti? Kitendo hiki hakiwezi kutenduliwa.</item>
+        <item quantity="one">Una uhakika unataka kufuta simu hii ya sauti? Kitendo hiki hakiwezi kutenduliwa.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Futa simu za sauti zilizochaguliwa</item>
+        <item quantity="one">Futa simu ya sauti iliyochaguliwa</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Imeshindwa kufuta simu zako za sauti. Tafadhali jaribu tena.</item>
+        <item quantity="one">Imeshindwa kufuta simu yako ya sauti. Tafadhali jaribu tena.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Simu zote za sauti zimefutwa kwa mafanikio.</item>
+        <item quantity="one">Simu ya sauti imefutwa.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Inapakua rekodi za barua ya sauti.</item>
+        <item quantity="one">Inapakua rekodi ya barua ya sauti.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">Watu %1$d kutoka %2$s wametazama wasifu wako hivi karibuni</item>
+        <item quantity="one">Mtu kutoka %2$s ametazama wasifa wako hivi karibuni.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">Watu %1$d (%3$d kutoka %2$s) wametazama wasifu wako hivi karibuni</item>
+        <item quantity="one">Mtu kutoka %2$s ametazama wasifa wako hivi karibuni.</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">Watu %1$d (1 kutoka %2$s) wametazama wasifu wako</item>
+        <item quantity="one">%1$d mtu kutoka %2$s ametazama umbo lako</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">Watu %1$d (%3$d kutoka %2$s) wametazama wasifu wako. Fahamu zaidi.</item>
+        <item quantity="one">Mtu 1 kutoka %2$s alitazama maelezo yako mafupi. Fahamu zaidi.</item>
+    </plurals>
+</resources>

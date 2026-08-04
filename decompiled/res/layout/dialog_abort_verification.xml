@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start|center" android:orientation="vertical" android:padding="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="?tc_color_textSecondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verification_back_pressed_alert_title" />
+    <TextView android:textSize="20.0sp" android:textColor="?tc_color_textPrimary" android:id="@id/phoneNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:fontFamily="@font/roboto_medium" />
+    <TextView android:textSize="16.0sp" android:textColor="?tc_color_textSecondary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/verification_back_pressed_alert_message" android:fontFamily="@font/roboto_regular" />
+</LinearLayout>

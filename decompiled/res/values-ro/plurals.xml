@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Blochezi și raportezi %d numere ca spam?</item>
+        <item quantity="one">Blochezi și raportezi %d numere ca spam?</item>
+        <item quantity="few">Blochezi și raportezi %d numere ca spam?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Nu s-au putut șterge apelurile de la Asistent. Încercați din nou.</item>
+        <item quantity="one">Nu s-a putut șterge apelul de la Asistent. Încercați din nou.</item>
+        <item quantity="few">Nu s-au putut șterge apelurile de la Asistent. Încercați din nou.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Apeluri de la Asistent șterse.</item>
+        <item quantity="one">Apel de la Asistent șters.</item>
+        <item quantity="few">Apeluri de la Asistent șterse.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Sigur vrei să ștergi aceste apeluri Asistent? Această acțiune nu poate fi anulată.</item>
+        <item quantity="one">Sigur vrei să ștergi acest apel Asistent? Această acțiune nu poate fi anulată.</item>
+        <item quantity="few">Sigur vrei să ștergi aceste apeluri Asistent? Această acțiune nu poate fi anulată.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Șterge apelurile Asistent selectate</item>
+        <item quantity="one">Șterge apelul Asistent selectat</item>
+        <item quantity="few">Șterge apelurile Asistent selectate</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d înregistrări</item>
+        <item quantity="one">%d înregistrare</item>
+        <item quantity="few">%d înregistrări</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Mesaje adăugate la fila Important</item>
+        <item quantity="one">Mesaj adăugat la fila Important</item>
+        <item quantity="few">Mesaje adăugate la fila Important</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d conversații marcate ca citite</item>
+        <item quantity="one">%d conversație marcată ca citită</item>
+        <item quantity="few">%d conversații marcate ca citite</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d intrări au fost șterse</item>
+        <item quantity="one">%d intrare a fost ștearsă</item>
+        <item quantity="few">%d intrări au fost șterse</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Ștergi %d intrări?</item>
+        <item quantity="one">Ștergi intrarea?</item>
+        <item quantity="few">Ștergi %d intrări?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Conversații fixate</item>
+        <item quantity="one">Conversație fixată</item>
+        <item quantity="few">Conversații fixate</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Salvează toate contactele</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="few">Salvează toate contactele</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Anulare fixare conversații</item>
+        <item quantity="one">Anulare fixare conversație</item>
+        <item quantity="few">Anulare fixare conversații</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d mesaje necitite</item>
+        <item quantity="one">%d mesaj necitit</item>
+        <item quantity="few">%d mesaje necitite</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Ștergi %d conversații?</item>
+        <item quantity="one">Ștergi %d conversație?</item>
+        <item quantity="few">Ștergi %d conversații?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d numere identificate</item>
+        <item quantity="one">%d număr identificat</item>
+        <item quantity="few">%d numere identificate</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Mesaje raportate</item>
+        <item quantity="one">Mesaj raportat</item>
+        <item quantity="few">Mesaje raportate</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Mesaje marcate ca sigure</item>
+        <item quantity="one">Mesaj marcat ca sigur</item>
+        <item quantity="few">Mesaje marcate ca sigure</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Mesaje raportate</item>
+        <item quantity="one">Mesaj raportat</item>
+        <item quantity="few">Mesaje raportate</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d membri</item>
+        <item quantity="one">%d membru</item>
+        <item quantity="few">%d membri</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Sigur vrei să deblochezi %d numere?</item>
+        <item quantity="one">Sigur vrei să deblochezi acest număr?</item>
+        <item quantity="few">Sigur vrei să deblochezi %d numere?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Sigur vrei să ștergi %s fișiere lingvistice?</item>
+        <item quantity="one">Sigur vrei să ștergi %s fișier lingvistic?</item>
+        <item quantity="few">Sigur vrei să ștergi %s fișiere lingvistice?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Mesaje blocate • Expeditor în lista ta de blocări</item>
+        <item quantity="one">Truecaller • Mesaj blocat • Expeditor în lista ta de blocări</item>
+        <item quantity="few">Truecaller • Mesaje blocate • Expeditor în lista ta de blocări</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s a sunat acum %2$d ore. Atinge să vezi în Truecaller</item>
+        <item quantity="one">%1$s a sunat acum %2$d oră. Atinge să vezi în Truecaller</item>
+        <item quantity="few">%1$s a sunat acum %2$d ore. Atinge să vezi în Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d contacte</item>
+        <item quantity="one">%d contact</item>
+        <item quantity="few">%d contacte</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d atașamente</item>
+        <item quantity="one">%1$d atașament</item>
+        <item quantity="few">%1$d atașamente</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d alte contacte</item>
+        <item quantity="one">%d alt contact</item>
+        <item quantity="few">%d alte contacte</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d numere adăugate pe lista de numere blocate</item>
+        <item quantity="one">Număr adăugat pe lista de numere blocate</item>
+        <item quantity="few">%d numere adăugate pe lista de numere blocate</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d apeluri blocate</item>
+        <item quantity="one">%d apel blocat</item>
+        <item quantity="few">%d apeluri blocate</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d apeluri puse pe silențios</item>
+        <item quantity="one">%d apel pus pe silențios</item>
+        <item quantity="few">%d apeluri puse pe silențios</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">Încercare gratuită timp de %1$d zile doar pentru abonații noi</item>
+        <item quantity="one">Încercare gratuită timp de %1$d zi doar pentru abonații noi</item>
+        <item quantity="few">Încercare gratuită timp de %1$d zile doar pentru abonații noi</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">Încercare gratuită timp de %1$d luni, doar pentru abonații noi</item>
+        <item quantity="one">Încercare gratuită timp de %1$d lună, doar pentru abonații noi</item>
+        <item quantity="few">Încercare gratuită timp de %1$d luni, doar pentru abonații noi</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">Încercare gratuită timp de %1$d ani, doar pentru abonații noi</item>
+        <item quantity="one">Încercare gratuită timp de %1$d an, doar pentru abonații noi</item>
+        <item quantity="few">Încercare gratuită timp de %1$d ani, doar pentru abonații noi</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Tu, %1$s și %2$s sunteți Premium Family. Aveți %3$d locuri rămase disponibile</item>
+        <item quantity="one">Tu, %1$s și %2$s sunteți Premium Family. Aveți %3$d loc rămas disponibil</item>
+        <item quantity="few">Tu, %1$s și %2$s sunteți Premium Family. Aveți %3$d locuri rămase disponibile</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Mai ai %1$d conturi disponibile.</item>
+        <item quantity="one">Mai ai %1$d un cont disponibil.</item>
+        <item quantity="few">Mai ai %1$d conturi disponibile.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Tu și %1$s formați Premium Family. Aveți %2$d de locuri rămase disponibile</item>
+        <item quantity="one">Tu și %1$s formați Premium Family. Aveți %2$d loc rămas disponibil</item>
+        <item quantity="few">Tu și %1$s formați Premium Family. Aveți %2$d de locuri rămase disponibile</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Abonamentul se va încheia peste %d zile</item>
+        <item quantity="one">Abonamentul se va încheia mâine</item>
+        <item quantity="few">Abonamentul se va încheia peste %d zile</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">Perioadă de probă de %1$d de zile, apoi %2$s.</item>
+        <item quantity="one">Perioadă de probă de %1$d zi, apoi %2$s.</item>
+        <item quantity="few">Perioadă de probă de %1$d de zile, apoi %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">Perioadă de probă de %1$d de luni, apoi %2$s.</item>
+        <item quantity="one">Perioadă de probă de %1$d lună, apoi %2$s.</item>
+        <item quantity="few">Perioadă de probă de %1$d de luni, apoi %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">Perioadă de probă de %1$d de ani, apoi %2$s.</item>
+        <item quantity="one">Perioadă de probă de %1$d an, apoi %2$s.</item>
+        <item quantity="few">Perioadă de probă de %1$d de ani, apoi %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">Perioadă de încercare de %1$d zile, apoi</item>
+        <item quantity="one">Perioadă de încercare de %1$d zi, apoi</item>
+        <item quantity="few">Perioadă de încercare de %1$d zile, apoi</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">Perioadă de încercare de %1$d luni, apoi</item>
+        <item quantity="one">Perioadă de încercare de %1$d lună, apoi</item>
+        <item quantity="few">Perioadă de încercare de %1$d luni, apoi</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">Perioadă de încercare de %1$d ani, apoi</item>
+        <item quantity="one">Perioadă de încercare de %1$d an, apoi</item>
+        <item quantity="few">Perioadă de încercare de %1$d ani, apoi</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Numărul de modificări ale listei de familie, prin eliminarea membrilor familiei, este limitat. %1$d editări rămase.</item>
+        <item quantity="one">Numărul de modificări ale listei de familie, prin eliminarea membrilor familiei, este limitat. %1$d editare rămasă.</item>
+        <item quantity="few">Numărul de modificări ale listei de familie, prin eliminarea membrilor familiei, este limitat. %1$d editări rămase.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d apariții noi în căutări</item>
+        <item quantity="one">1 apariție nouă în căutări</item>
+        <item quantity="few">%1$d apariții noi în căutări</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d vizualizări profil noi</item>
+        <item quantity="one">1 vizualizare de profil nouă</item>
+        <item quantity="few">%1$d vizualizări profil noi</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d persoane ți-au văzut profilul recent</item>
+        <item quantity="one">Cineva ți-a văzut profilul recent</item>
+        <item quantity="few">%1$d persoane ți-au văzut profilul recent</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d persoane (%3$d din %2$s) ți-au vizualizat profilul recent</item>
+        <item quantity="one">Cineva din %2$s ți-a vizualizat profilul recent</item>
+        <item quantity="few">%1$d persoane (%3$d din %2$s) ți-au vizualizat profilul recent</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">SMS-ul va fi trimis automat peste %1$d de secunde…</item>
+        <item quantity="one">SMS-ul va fi trimis automat peste %1$d secundă…</item>
+        <item quantity="few">SMS-ul va fi trimis automat peste %1$d de secunde…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">săptămâni</item>
+        <item quantity="one">săptămână</item>
+        <item quantity="few">săptămâni</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s zile</item>
+        <item quantity="one">%1$s zi</item>
+        <item quantity="few">%1$s zile</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">luni</item>
+        <item quantity="one">lună</item>
+        <item quantity="few">luni</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">ani</item>
+        <item quantity="one">an</item>
+        <item quantity="few">ani</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Marcarea cu stea a mesajelor a fost anulată</item>
+        <item quantity="one">Marcarea cu stea a mesajului a fost anulată</item>
+        <item quantity="few">Marcarea cu stea a mesajelor a fost anulată</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Ai depășit limita încercărilor de verificare. Încearcă din nou peste %dh</item>
+        <item quantity="one">Ai depășit limita încercărilor de verificare. Încearcă din nou peste %dh</item>
+        <item quantity="few">Ai depășit limita încercărilor de verificare. Încearcă din nou peste %dh</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d apariții noi în căutări!</item>
+        <item quantity="one">%d apariție nouă în căutări!</item>
+        <item quantity="few">%d apariții noi în căutări!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d apariții în căutări!</item>
+        <item quantity="one">%d apariție în căutări!</item>
+        <item quantity="few">%d apariții în căutări!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Profilul dvs. a apărut de %1$d ori în rezultatele de căutare recent</item>
+        <item quantity="one">Profilul dvs. a apărut %1$d dată în rezultatele de căutare recent</item>
+        <item quantity="few">Profilul dvs. a apărut de %1$d ori în rezultatele de căutare recent</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d apariții în căutări recent</item>
+        <item quantity="one">%1$d apariție în căutări recent</item>
+        <item quantity="few">%1$d apariții în căutări recent</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d persoane ți-au văzut profilul</item>
+        <item quantity="one">Cineva ți-a văzut profilul</item>
+        <item quantity="few">%1$d persoane ți-au văzut profilul</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s și încă %2$s persoane v-au vizualizat profilul</item>
+        <item quantity="one">%1$s v-a vizualizat profilul</item>
+        <item quantity="few">%1$s și încă %2$s persoane v-au vizualizat profilul</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d persoane (1 din %2$s) ți-au vizualizat profilul</item>
+        <item quantity="one">%1$d persoană din %2$s ți-a vizualizat profilul</item>
+        <item quantity="few">%1$d persoane (1 din %2$s) ți-au vizualizat profilul</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s din %2$s și încă %3$s persoane v-au vizualizat profilul</item>
+        <item quantity="one">%1$s din %2$s v-a vizualizat profilul</item>
+        <item quantity="few">%1$s din %2$s și încă %3$s persoane v-au vizualizat profilul</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d persoane ți-au vizualizat profilul. Află mai multe.</item>
+        <item quantity="one">1 persoană ți-a vizualizat profilul. Află mai multe.</item>
+        <item quantity="few">%1$d persoane ți-au vizualizat profilul. Află mai multe.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d persoane (%3$d din %2$s) ți-au vizualizat profilul. Află mai multe.</item>
+        <item quantity="one">1 persoană de pe %2$s ți-a vizualizat profilul. Află mai multe.</item>
+        <item quantity="few">%1$d persoane (%3$d din %2$s) ți-au vizualizat profilul. Află mai multe.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha a eșuat de prea multe ori. Te rugăm să încerci din nou peste %1$d ore</item>
+        <item quantity="one">reCaptcha a eșuat de prea multe ori. Te rugăm să încerci din nou peste %1$d oră</item>
+        <item quantity="few">reCaptcha a eșuat de prea multe ori. Te rugăm să încerci din nou peste %1$d ore</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">comentarii</item>
+        <item quantity="one">comentariu</item>
+        <item quantity="few">comentarii</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d Persoane ți-au văzut profilul</item>
+        <item quantity="one">%1$d persoană ți-a văzut profilul</item>
+        <item quantity="few">%1$d Persoane ți-au văzut profilul</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s conversații arhivate</item>
+        <item quantity="one">%s conversație arhivată</item>
+        <item quantity="few">%s conversații arhivate</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d de mesaje organizate</item>
+        <item quantity="one">%d mesaj organizat</item>
+        <item quantity="few">%d de mesaje organizate</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Se descarcă înregistrările apelurilor de la asistent</item>
+        <item quantity="one">Se descarcă înregistrarea apelului de la asistent</item>
+        <item quantity="few">Se descarcă înregistrările apelurilor de la asistent</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d de oferte exclusive</item>
+        <item quantity="one">%d ofertă exclusivă</item>
+        <item quantity="few">%d oferte exclusive</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Salvează numerele pentru contactul existent</item>
+        <item quantity="one">Salvează numărul pentru contactul existent</item>
+        <item quantity="few">Salvează numerele pentru contactul existent</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d apeluri</item>
+        <item quantity="one">%1d apel</item>
+        <item quantity="few">%1d apeluri</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d zile</item>
+        <item quantity="one">%1d zi</item>
+        <item quantity="few">%1d zile</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Derulează rapid înainte cu %d de secunde</item>
+        <item quantity="one">Derulează rapid înainte cu %d secundă</item>
+        <item quantity="few">Derulează rapid înainte cu %d secunde</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Derulează înapoi cu %d de secunde</item>
+        <item quantity="one">Derulează înapoi cu %d secundă</item>
+        <item quantity="few">Derulează înapoi cu %d secunde</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">%d de locuri rămase</item>
+        <item quantity="one">%d loc rămas</item>
+        <item quantity="few">%d locuri rămase</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d de invitații au eșuat</item>
+        <item quantity="one">%d invitație a eșuat</item>
+        <item quantity="few">%d invitații au eșuat</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d de probleme identificate</item>
+        <item quantity="one">%d problemă identificată</item>
+        <item quantity="few">%d probleme identificate</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Oferte șterse</item>
+        <item quantity="one">Ofertă ștearsă</item>
+        <item quantity="few">Oferte șterse</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Mesaje OTP șterse</item>
+        <item quantity="one">Mesaj OTP șters</item>
+        <item quantity="few">Mesaje OTP șterse</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Mesaje promoționale șterse</item>
+        <item quantity="one">Mesaj promoțional șters</item>
+        <item quantity="few">Mesaje promoționale șterse</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Mesaje spam șterse</item>
+        <item quantity="one">Mesaj spam șters</item>
+        <item quantity="few">Mesaje spam șterse</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d mesaje</item>
+        <item quantity="one">%d mesaj</item>
+        <item quantity="few">%d mesaje</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d mesaje cu oferte</item>
+        <item quantity="one">%d mesaj cu oferte</item>
+        <item quantity="few">%d mesaje cu oferte</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP-uri</item>
+        <item quantity="one">%d OTP</item>
+        <item quantity="few">%d OTP-uri</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d mesaje spam</item>
+        <item quantity="one">%d mesaj spam</item>
+        <item quantity="few">%d mesaje spam</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d mesaje șterse</item>
+        <item quantity="one">%d mesaj șters</item>
+        <item quantity="few">%d mesaje șterse</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Invitații</item>
+        <item quantity="one">Invitație</item>
+        <item quantity="few">Invitații</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Vei șterge fișierele selectate și %d mesaje aferente</item>
+        <item quantity="one">Vei șterge fișierele selectate și mesajul aferent</item>
+        <item quantity="few">Vei șterge fișierele selectate și %d mesaje aferente</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Ștergi mesajele?</item>
+        <item quantity="one">Ștergi mesajul?</item>
+        <item quantity="few">Ștergi mesajele?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d de notificări noi</item>
+        <item quantity="one">%d notificare nouă</item>
+        <item quantity="few">%d notificări noi</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">de prieteni</item>
+        <item quantity="one">prieten</item>
+        <item quantity="few">de prieteni</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d de reacții noi</item>
+        <item quantity="one">%d reacție nouă</item>
+        <item quantity="few">%d de reacții noi</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">zile</item>
+        <item quantity="one">zi</item>
+        <item quantity="few">zile</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Expiră peste %1$d de ore</item>
+        <item quantity="one">Expiră peste %1$d oră</item>
+        <item quantity="few">Expiră peste %1$d de ore</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Expiră peste %1$d de minute</item>
+        <item quantity="one">Expiră peste %1$d minut</item>
+        <item quantity="few">Expiră peste %1$d de minute</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">comentarii</item>
+        <item quantity="one">comentariu</item>
+        <item quantity="few">comentarii</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">Există %1$d de comentarii noi la postare</item>
+        <item quantity="one">Există %1$d comentariu nou la postare</item>
+        <item quantity="few">Există %1$d comentarii noi la postare</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">de comentarii</item>
+        <item quantity="one">Comentariu</item>
+        <item quantity="few">Comentarii</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">de postări</item>
+        <item quantity="one">Postare</item>
+        <item quantity="few">Postări</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s de comentarii</item>
+        <item quantity="one">%s comentariu</item>
+        <item quantity="few">%s comentarii</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Vezi %s de răspunsuri</item>
+        <item quantity="one">Vezi %s răspuns</item>
+        <item quantity="few">Vezi %s răspunsuri</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Ștergerea vocii tale digitale o va elimina din Asistent și din toate răspunsurile acestuia.&lt;br>&lt;b>Notă: Vei avea %d încercări suplimentare pentru a-ți crea vocea digitală&lt;/b></item>
+        <item quantity="one">Ștergerea vocii tale digitale o va elimina din Asistent și din toate răspunsurile acestuia.&lt;br>&lt;b>Notă: Vei avea %d încercări suplimentare pentru a-ți crea vocea digitală&lt;/b></item>
+        <item quantity="few">Ștergerea vocii tale digitale o va elimina din Asistent și din toate răspunsurile acestuia.&lt;br>&lt;b>Notă: Vei avea %d încercări suplimentare pentru a-ți crea vocea digitală&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">alte +%s persoane ți-au căutat profilul recent</item>
+        <item quantity="one">ți-a căutat profilul recent</item>
+        <item quantity="few">alte +%s persoane ți-au căutat profilul recent</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">alte +%s persoane ți-au văzut profilul recent</item>
+        <item quantity="one">ți-a văzut profilul recent</item>
+        <item quantity="few">alte +%s persoane ți-au văzut profilul recent</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Încearcă din nou peste %d oră</item>
+        <item quantity="one">Încearcă din nou peste %d oră</item>
+        <item quantity="few">Încearcă din nou peste %d oră</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s conversații dezarhivate</item>
+        <item quantity="one">%s conversație dezarhivată</item>
+        <item quantity="few">%s conversații dezarhivate</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Mesaje primite</item>
+        <item quantity="one">Mesaj primit</item>
+        <item quantity="few">Mesaje primite</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Sigur doriți să ștergeți aceste apeluri de mesagerie vocală? Această acțiune este ireversibilă.</item>
+        <item quantity="one">Sigur doriți să ștergeți acest apel de mesagerie vocală? Această acțiune este ireversibilă.</item>
+        <item quantity="few">Sigur doriți să ștergeți aceste apeluri de mesagerie vocală? Această acțiune este ireversibilă.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Ștergeți apelurile de mesagerie vocală selectate</item>
+        <item quantity="one">Ștergeți apelul de mesagerie vocală selectat</item>
+        <item quantity="few">Ștergeți apelurile de mesagerie vocală selectate</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Nu s-au putut șterge apelurile de mesagerie vocală. Încercați din nou.</item>
+        <item quantity="one">Nu s-a putut șterge apelul de mesagerie vocală. Încercați din nou.</item>
+        <item quantity="few">Nu s-au putut șterge apelurile de mesagerie vocală. Încercați din nou.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Toate apelurile de mesagerie vocală au fost șterse cu succes.</item>
+        <item quantity="one">Apelul de mesagerie vocală a fost șters.</item>
+        <item quantity="few">Toate apelurile de mesagerie vocală au fost șterse cu succes.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Se descarcă înregistrările de mesagerie vocală.</item>
+        <item quantity="one">Se descarcă înregistrarea de mesagerie vocală.</item>
+        <item quantity="few">Se descarcă înregistrările de mesagerie vocală.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d de persoane din %2$s ți-au vizualizat profilul recent</item>
+        <item quantity="one">Cineva din %2$s ți-a vizualizat profilul recent</item>
+        <item quantity="few">%1$d persoane din %2$s ți-au vizualizat profilul recent</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d de persoane (%3$d din %2$s) ți-au vizualizat profilul recent</item>
+        <item quantity="one">Cineva din %2$s ți-a vizualizat profilul recent</item>
+        <item quantity="few">%1$d persoane (%3$d din %2$s) ți-au vizualizat profilul recent</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d de persoane (1 din %2$s) ți-au vizualizat profilul</item>
+        <item quantity="one">%1$d persoană din %2$s ți-a vizualizat profilul</item>
+        <item quantity="few">%1$d persoane (1 din %2$s) ți-au vizualizat profilul</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d de persoane (%3$d din %2$s) ți-au vizualizat profilul. Află mai multe.</item>
+        <item quantity="one">1 persoană de pe %2$s ți-a vizualizat profilul. Află mai multe.</item>
+        <item quantity="few">%1$d persoane (%3$d din %2$s) ți-au vizualizat profilul. Află mai multe.</item>
+    </plurals>
+</resources>

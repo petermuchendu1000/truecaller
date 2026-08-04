@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@mipmap/ic_launcher_dialer" android:enabled="true" android:shortcutId="shortcut-dialer-id" android:shortcutShortLabel="@string/dialer" android:shortcutLongLabel="@string/dialer">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.MAIN" android:targetClass="com.truecaller.ui.TruecallerInit">
+            <extra android:name="is_dial_pad_auto_open" android:value="true" />
+        </intent>
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/ic_launcher_messages" android:enabled="true" android:shortcutId="home-shortcut-messages-id" android:shortcutShortLabel="@string/TabBarMessaging" android:shortcutLongLabel="@string/TabBarMessaging">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.MAIN" android:targetClass="com.truecaller.messaging.MessagesActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+    <shortcut android:icon="@mipmap/ic_launcher_contacts" android:enabled="true" android:shortcutId="shortcut-contacts-id" android:shortcutShortLabel="@string/tab_contacts" android:shortcutLongLabel="@string/tab_contacts">
+        <intent android:targetPackage="com.truecaller" android:action="android.intent.action.MAIN" android:targetClass="com.truecaller.ui.ContactsActivity" />
+        <categories android:name="android.shortcut.conversation" />
+    </shortcut>
+</shortcuts>

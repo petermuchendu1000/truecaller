@@ -1,1 +1,0 @@
-<com.truecaller.insights.ui.notifications.smsid.widget.SmsIdBannerOverlayContainerView xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1"><include layout="@layout/layout_sms_id_overlay"/></com.truecaller.insights.ui.notifications.smsid.widget.SmsIdBannerOverlayContainerView>

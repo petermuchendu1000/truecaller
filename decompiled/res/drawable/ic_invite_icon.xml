@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="46.0dip" android:width="46.0dip" android:viewportWidth="46.0" android:viewportHeight="46.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_invite_icon__0" android:pathData="M-0,21.287L45.811,0L33.796,45.084L23.532,36.553L12.924,40.461L12.842,40.48L8.983,25.936L-0,21.287Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_invite_icon__1" android:pathData="M12.8,39.994L8.726,25.921L45.811,0L12.8,39.994Z" android:strokeAlpha="0.2" android:fillAlpha="0.2" android:fillType="evenOdd" />
+</vector>

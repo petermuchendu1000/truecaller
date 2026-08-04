@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAST Ad</title>
+    <link rel="stylesheet" type="text/css" href="style_audio.css">
+</head>
+<body>
+
+<div id="audioContainer" style="border: 2px solid red;">
+    <audio id="audioElement" autoplay >
+        <source src="URL_PLACEHOLDER" type="audio/mpeg" >
+    </audio>
+    <img id="closeButton"  src="close.png" alt="Close" />
+    <img id="muteButton" src="Formute.png" alt="Mute" style="display: none;">
+    <img id="unMuteButton" src="ForUnmute.png" alt="Unmute">
+    <div id="skipAdButton">Skip Ad in <span id="timer"></span></div>
+</div>
+<script src="audio_script.js"></script>
+</body>
+</html>

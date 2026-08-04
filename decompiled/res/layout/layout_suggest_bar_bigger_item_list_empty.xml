@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="12.0sp" android:textColor="?tcx_textSecondary" android:gravity="center_vertical" android:id="@id/empty_state" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/SuggestedEmpty" android:drawablePadding="@dimen/doubleSpace" app:drawableLeftCompat="@null" app:drawableTint="?tcx_textTertiary" app:drawableTintMode="src_in"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

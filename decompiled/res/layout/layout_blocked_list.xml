@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:background="?tc_color_containerFillPentanary" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="24.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="?tcx_textSecondary" android:id="@id/blocked_items_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="8.0dip" android:fontFamily="@font/roboto_medium" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/blocked_recycler_view" android:background="?tcx_backgroundPrimary" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</LinearLayout>

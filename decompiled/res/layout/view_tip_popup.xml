@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="?tc_color_textPrimary" android:gravity="start" android:id="@id/tvMessage" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="12.0sp" android:textColor="?tc_color_textTertiary" android:gravity="end|center" android:id="@id/tvStepCounter" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:minHeight="30.0dip" android:fontFamily="sans-serif-medium" android:layout_marginEnd="12.0dip" android:paddingVertical="7.0dip" app:layout_constraintEnd_toStartOf="@id/btnAction" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvMessage" app:layout_goneMarginEnd="0.0dip" />
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/btnAction" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/demo_call_popup_btn_next" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/tvMessage" style="@style/TutorialButton" />
+</merge>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">%d ቁጥሮችን እንደ አይፈለጌ መልዕክት አግድ እና ሪፖርት አድርግ?</item>
+        <item quantity="one">%d ቁጥሮችን እንደ አይፈለጌ መልዕክት አግድ እና ሪፖርት አድርግ?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">የእርስዎን የረዳት ጥሪዎች መሰረዝ አልተቻለም። እባክዎ እንደገና ይሞክሩ።</item>
+        <item quantity="one">የእርስዎን የረዳት ጥሪ መሰረዝ አልተቻለም። እባክዎ እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">የረዳት ጥሪዎች ተሰርዘዋል።</item>
+        <item quantity="one">የረዳት ጥሪ ተሰርዟል።</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">እነዚህን የረዳት ጥሪዎች መሰረዝ መፈለግዎን እርግጠኛ ነዎት? ይህን ድርጊት መቀልበስ አይቻልም።</item>
+        <item quantity="one">ይህን የረዳት ጥሪ መሰረዝ ይፈልጋሉ እርግጠኛ ነዎት? ይህን ድርጊት መቀልበስ አይችልም።</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">የተመረጡትን የረዳት ጥሪዎች ሰርዝ</item>
+        <item quantity="one">የተመረጠውን የረዳት ጥሪ ሰርዝ</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d ቅጂዎች</item>
+        <item quantity="one">%d ቅጂ</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">ወደ አስፈላጊ ትር የታከሉ መልዕክቶች</item>
+        <item quantity="one">መልእክት ወደ አስፈላጊ ትር ታክሏል</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d ንግግሮች እንደተነበቡ ምልክት ተደርጎባቸዋል</item>
+        <item quantity="one">%d ውይይት እንደተነበበ ምልክት ተደርጎበታል</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d ግቤቶች ተሰርዘዋል</item>
+        <item quantity="one">%d ግቤት ተሰርዟል</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">%d ግቤቶች ይሰረዙ?</item>
+        <item quantity="one">ግቤት ይሰረዝ?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">ንግግሮች ተሰክተዋል</item>
+        <item quantity="one">ውይይት ተሰክቷል</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">ሁሉንም እውቂያዎች አስቀምጥ</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">ንግግሮች ተነቅለዋል</item>
+        <item quantity="one">ውይይት ተነቅልይይት ተነቅሏል</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d ያልተነበቡ መልዕክቶች</item>
+        <item quantity="one">%d ያልተነበበ መልእክት</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d ንግግሮች ይሰረዙ?</item>
+        <item quantity="one">%d ውይይት ይሰረዝ?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d ቁጥሮች ተለይተዋል</item>
+        <item quantity="one">%d ቁጥር ተለይቷል</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">መልዕክቶች ተዘግበዋል</item>
+        <item quantity="one">መልእክት ተዘግቧል</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">መልዕክቶቹ እንደ ደህንነታቸው የተጠበቁ ተመድበዋል፡፡</item>
+        <item quantity="one">መልዕክቱ እንደ ደህንነቱ የተጠበቀ ተመድቧል፡፡</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">መልዕክቶች ተዘግበዋል</item>
+        <item quantity="one">መልእክት ተዘግቧል</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d አባላት</item>
+        <item quantity="one">%d አባል</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">እርግጠኛ ነዎት የ%d ቁጥሮችን እገዳ ማንሳት ይፈልጋሉ?</item>
+        <item quantity="one">እርግጠኛ ነዎት የዚህን ቁጥር እገዳ ማንሳት ይፈልጋሉ?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">እርግጠኛ ኖት የ%s ቋንቋ ፋይሎችን መሰረዝ ይፈልጋሉ?</item>
+        <item quantity="one">እርግጠኛ ኖት የ%s ቋንቋ ፋይልን መሰረዝ ይፈእጋሉ?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • መልዕክቶች ታግደዋል • ላኪው በእገዳ መዝገብዎ ውስጥ ይገኛል</item>
+        <item quantity="one">Truecaller • መልዕክት ታግዷል • ላኪው በእገዳ መዝገብዎ ውስጥ ይገኛል</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s ከ%2$d ሰዓቶች በፊት ተጠርቷል። ትሩኮለር ውስጥ ለማየት ይጫኑ</item>
+        <item quantity="one">%1$s ከ%2$d ሰዓት በፊት ተጠርቷል። ትሩኮለር ውስጥ ለማየት ይጫኑ</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d እውቂያዎች</item>
+        <item quantity="one">%d ሌላ እውቂያ</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d ማያያዣዎች</item>
+        <item quantity="one">%1$d ማያያዝ</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d ሌሎች እውቂያዎች</item>
+        <item quantity="one">%d ሌላ እውቂያ</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d ቁጥሮች ወደ እገዳ ዝርዝር ታክለዋል</item>
+        <item quantity="one">ቁጥር ወደ እገዳ ዝርዝር ታክሏል</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d የታገዱ ጥሪዎች</item>
+        <item quantity="one">%d የታገደ ጥሪ</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d ዝም እንዲሉ የተደረጉ ጥሪዎች</item>
+        <item quantity="one">%d ዝም እንዲል የተደረገ ጥሪ</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">የ %1$d ቀናት ነጻ ሙከራ ለአዲስ ተመዝጋቢዎች ብቻ</item>
+        <item quantity="one">የ %1$d ቀን ነጻ ሙከራ ለአዲስ ተመዝጋቢዎች ብቻ</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">የ %1$d ወራት ነጻ ሙከራ ለአዲስ ተመዝጋቢዎች ብቻ</item>
+        <item quantity="one">የ %1$d ወር ነጻ ሙከራ ለአዲስ ተመዝጋቢዎች ብቻ</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">የ %1$d ዓመታት ነጻ ሙከራ ለአዲስ ተመዝጋቢዎች ብቻ</item>
+        <item quantity="one">የ %1$d ዓመት ነጻ ሙከራ ለአዲስ ተመዝጋቢዎች ብቻ</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">እርስዎ፣ %1$s እና %2$s ፕሪሚየም ቤተሰብ ናችሁ። %3$d ክፍት ቦታዎች አሉዎት</item>
+        <item quantity="one">እርስዎ፣ %1$s እና %2$s ፕሪሚየም ቤተሰብ ናችሁ። የቀረው %3$d ክፍት ቦታዎች አለዎት</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">%1$d ተጨማሪ የሚገኙ መለያዎች አሉህ።</item>
+        <item quantity="one">%1$d ተጨማሪ የሚገኝ መለያ አለህ።</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">እርስዎ እና %1$s ፕሪሚየም ቤተሰብ ናችሁ። %2$d የሚቀሩ ክፍት ቦታዎች አሉዎት</item>
+        <item quantity="one">እርስዎ እና %1$s ፕሪሚየም ቤተሰብ ናችሁ። የቀረው %2$d ክፍት ቦታ አለዎት</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">የደንበኝነት ምዝገባ በ %d ቀናት ውስጥ ያበቃል</item>
+        <item quantity="one">የደንበኝነት ምዝገባ ነገ ያበቃል</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d ቀናት ነጻ ሙከራ ከዚያ %2$s።</item>
+        <item quantity="one">%1$d ቀን ነጻ ሙከራ ከዚያ %2$s።</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d ወራት ነጻ ሙከራ ከዚያ %2$s።</item>
+        <item quantity="one">%1$d ወር ነጻ ሙከራ ከዚያ %2$s።</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d ዓመታት ነፃ ሙከራ ከዚያ %2$s።</item>
+        <item quantity="one">%1$d ዓመት ነጻ ሙከራ ከዚያ %2$s።</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d ቀናት ነፃ ሙከራ ከዚያ</item>
+        <item quantity="one">%1$d ቀን ነጻ ሙከራ ከዚያ</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d ወራት ነፃ ሙከራ ከዚያ</item>
+        <item quantity="one">%1$d ወር ነፃ ሙከራ ከዚያ</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d የአመታት ነፃ ሙከራ ከዚያ</item>
+        <item quantity="one">%1$d ዓመት ነፃ ሙከራ ከዚያ</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">የቤተሰብ ዝርዝር አርትዖቶች፣ የቤተሰብ አባላትን በማስወገድ የተገደበ ነው። %1$d አርትዖቶች ቀርተዋል።</item>
+        <item quantity="one">የቤተሰብ ዝርዝር አርትዖቶች፣ የቤተሰብ አባላትን በማስወገድ የተገደበ ነው። %1$d አርትዕ ቀርቷል።</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d አዲስ የፍለጋ መልኮች</item>
+        <item quantity="one">1 አዲስ የፍለጋ መልክ</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d አዲስ የመገለጫ እይታዎች</item>
+        <item quantity="one">1 አዲስ የመገለጫ እይታ</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d ሰዎች በቅርቡ የእርስዎን መገለጫ አይተውታል</item>
+        <item quantity="one">የሆነ ሰው የእርስዎን መገለጫ በቅርቡ አይቶታል</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d ሰዎች (%3$d በ%2$s) በቅርቡ መገለጫዎ ቷይቷል</item>
+        <item quantity="one">የሆነ ሰው ከ %2$s በቅርቡ መገለጫዎ ቷይቷል</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">ኤስኤምኤስ በ%1$d ሰከንዶች ውስጥ በራስ-ሰር ይላካል…</item>
+        <item quantity="one">ኤስኤምኤስ በ%1$d ሰከንድ ውስጥ በራስ-ሰር ይላካል…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">ሳምንታት</item>
+        <item quantity="one">ሳምንት</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s ቀናት</item>
+        <item quantity="one">%1$s ቀን</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">ወራት</item>
+        <item quantity="one">ወር</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">ዓመታት</item>
+        <item quantity="one">ዓመት</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">ከመልዕክቶቹ ላይ ኮከብ ተነስቷል</item>
+        <item quantity="one">ከመልዕክቱ ላይ ኮከብ ተነስቷል</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">የማረጋገጫ ሙከራዎች ገደብ አልፈዋል። እባክዎ በ%d ሰአት ውስጥ እንደገና ይሞክሩ</item>
+        <item quantity="one">የማረጋገጫ ሙከራዎች ገደብ አልፈዋል። እባክዎ በ%d ሰአት ውስጥ እንደገና ይሞክሩ</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d አዲስ የፍለጋ እይታዎች!</item>
+        <item quantity="one">%d አዲስ የፍለጋ እይታ!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d የፍለጋ እይታዎች!</item>
+        <item quantity="one">%d የፍለጋ እይታ!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">በቅርብ ጊዜ በፍለጋ ውጤቶች ውስጥ %1$d ጊዜ መገለጫዎ ታይቷል</item>
+        <item quantity="one">በቅርብ ጊዜ በፍለጋ ውጤቶች ውስጥ %1$d</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d በቅርብ ጊዜ የፍለጋ እይታዎች</item>
+        <item quantity="one">%1$d በቅርብ ጊዜ የፍለጋ እይታ</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d ሰዎች መገለጫዎን አይተውታል።</item>
+        <item quantity="one">የሆነ ሰው መገለጫዎን አይቶታል</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s እና %2$s ተጨማሪ መገለጫዎን አይተዋል</item>
+        <item quantity="one">%1$s መገለጫዎን ይቷል</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d ሰዎች (1 በ %2$s) መገለጫዎን አይቷል።</item>
+        <item quantity="one">%1$d ሰው ከ%2$s መገለጫዎን ታይቷል</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s ክ %2$s እና%3$s እና ሌሎችም መገለጫዎን አይተዋል</item>
+        <item quantity="one">%1$s ከ %2$s መገለጫዎን አይተዋል</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d ሰዎች መገለጫዎን አይተውታል። የበለጠ እወቅ።</item>
+        <item quantity="one">1 ሰው መገለጫዎን አይቶታል። የበለጠ እወቅ።</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d ሰዎች (%3$d በ %2$s) መገለጫዎን አይቻለሁ። የበለጠ እወቅ።</item>
+        <item quantity="one">1 ሰው ከ %2$s መገለጫዎን አይቻለሁ። የበለጠ እወቅ።</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha ብዙ ጊዜ አልተሳካም። እባክዎ በ%1$d ሰዓቶች ውስጥ እንደገና ይሞክሩ</item>
+        <item quantity="one">reCaptcha ብዙ ጊዜ አልተሳካም። እባክዎ በ%1$d ሰዓት ውስጥ እንደገና ይሞክሩ</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">አስተያየቶች</item>
+        <item quantity="one">አስተያየት</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d ሰዎች መገለጫዎን አይተውታል።</item>
+        <item quantity="one">%1$d ሰው መገለጫዎን አይቶታል።</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s ንግግሮች በማህደር ተቀምጠዋል</item>
+        <item quantity="one">%s ውይይት በማህደር ተቀምጧል</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d መልዕክቶች ተደራጅተዋል</item>
+        <item quantity="one">%d መልእክት ተደራጅቷል</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">የረዳት የጥሪ ቀረጻዎችን በማውረድ ላይ</item>
+        <item quantity="one">የረዳት የጥሪ ቀረጻ በማውረድ ላይ</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d ልዩ ቅናሾች</item>
+        <item quantity="one">%d ልዩ ቅናሽ</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">ቁጥሮችን ወደ ነባር እውቂያ ያስቀምጡ</item>
+        <item quantity="one">ቁጥሩን ወደ ነባር እውቂያ ያስቀምጡ</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d ጥሪዎች</item>
+        <item quantity="one">%1d ጥሪ</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d ቀናት</item>
+        <item quantity="one">%1d ቀን</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+        <item quantity="one">በ%d ሰከንዶች በፍጥነት ወደፊት ያሳልፉ</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+        <item quantity="one">በ%d ሰከንዶች ወደኋላ ይመልሱ</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">%d ቦታዎች ቀርተዋል</item>
+        <item quantity="one">%d ቦታ ቀርቷል</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d ግብዣዎች አልተሳኩም።</item>
+        <item quantity="one">%d ግብዣ አልተሳካም።</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d ችግሮች ተለይተዋል</item>
+        <item quantity="one">%d ችግር ተለይቷል</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">ግብዣዎች ተሰርዘዋል</item>
+        <item quantity="one">ግብዣ ተሰርዟል</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">የኦቲፒ መልዕክቶች ተሰርዘዋል</item>
+        <item quantity="one">የኦቲፒ መልእክት ተሰርዟል</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">የማስተዋወቂያ መልዕክቶች ተሰርዘዋል</item>
+        <item quantity="one">የማስተዋወቂያ መልእክት ተሰርዟል</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">አይፈለጌ መልእክቶች ተሰርዟል</item>
+        <item quantity="one">አይፈለጌ መልእክት ተሰርዟል</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d መልዕክቶች</item>
+        <item quantity="one">%d መልእክት</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d የግብዣ መልዕክቶች</item>
+        <item quantity="one">%d የግብዣ መልእክት</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d ኦቲፒዎች</item>
+        <item quantity="one">%d ኦቲፒ</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d አይፈለጌ መልእክቶች</item>
+        <item quantity="one">%d አይፈለጌ መልእክት</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d መልዕክቶች ተሰርዘዋል</item>
+        <item quantity="one">%d መልእክት ተሰርዟል</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">ግብዣዎች</item>
+        <item quantity="one">ግብዣ</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">የተመረጡ ፋይሎችን እና %d ተዛማጅ መልዕክቶችን ሊሰርዙ ነው</item>
+        <item quantity="one">የተመረጡ ፋይሎችን እና ተዛማጅ መልዕክቶችን ሊሰርዙ ነው</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">መልዕክቶች ይሰረዙ?</item>
+        <item quantity="one">መልእክት ይሰረዝ?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d አዲስ ማሳወቂያዎች</item>
+        <item quantity="one">%d አዲስ ማሳወቂያዎች</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">ጓደኞች</item>
+        <item quantity="one">ጓደኛ</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d አዲስ ምላሾች</item>
+        <item quantity="one">%d አዲስ ምላሽ</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">ቀናት</item>
+        <item quantity="one">ቀን</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">በ%1$d ሰዓታት ውስጥ ጊዜው ያበቃል</item>
+        <item quantity="one">በ%1$d ሰዓት ውስጥ ጊዜው ያበቃል</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">በ%1$d ደቂቃዎች ውስጥ ጊዜው ያበቃል</item>
+        <item quantity="one">በ%1$d ደቂቃ ውስጥ ጊዜው ያበቃል</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">አስተያየቶች</item>
+        <item quantity="one">አስተያየት</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">በልጥፉ ላይ %1$d አዲስ አስተያየቶች አሉ</item>
+        <item quantity="one">በልጥፉ ላይ %1$d አዲስ አስተያየት አለ</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">አስተያየቶች</item>
+        <item quantity="one">አስተያየት</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">ልጥፎች</item>
+        <item quantity="one">ልጥፍ</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s አስተያየቶች</item>
+        <item quantity="one">%s አስተያየት</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">%s ምላሾችን ይመልከቱ</item>
+        <item quantity="one">%s ምላሽ ይመልከቱ</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">የእርስዎን ዲጂታል ድምጽ መሰረዝ ከረዳትዎ እና ከሁሉም ምላሾቹ ያስወግዳል።&lt;br>&lt;b>ማስታወሻ ፡ የእርስዎን ዲጂታል ድምጽ ለመፍጠር %d ተጨማሪ ሙከራዎች ይኖሩዎታል&lt;/b></item>
+        <item quantity="one">የእርስዎን ዲጂታል ድምጽ መሰረዝ ከረዳትዎ እና ሁሉንም ምላሾቹን ያስወግዳል።&lt;br>&lt;b>ማስታወሻ ፡ የእርስዎን ዲጂታል ድምጽ ለመፍጠር %d ተጨማሪ ሙከራ ይኖረዎታል&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">በቅርቡ +%s ተጨማሪ ሰዎች መገለጫህን ፈልገዋል</item>
+        <item quantity="one">በቅርቡ መገለጫዎን ፈልጎታል</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">በቅርቡ +%s ተጨማሪ ሰዎች መገለጫዎን አይተውታል።</item>
+        <item quantity="one">በቅርቡ መገለጫህን አይቻለሁ</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">በ%dሰአት ውስጥ እንደገና ይሞክሩ</item>
+        <item quantity="one">በ%dሰአት ውስጥ እንደገና ይሞክሩ</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s ንግግሮች ከማህደር ወጥተዋል</item>
+        <item quantity="one">%s ውይይት ከማህደር ወጥቷል</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">መልዕክቶች ደርሰዋል</item>
+        <item quantity="one">መልእክት ደርሷል</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">እነዚህን የድምፅ መልዕክት ጥሪዎች ለመሰረዝ እርግጠኛ ነዎት? ይህ እርምጃ ሊቀለበስ አይችልም።</item>
+        <item quantity="one">ይህን የድምፅ መልዕክት ጥሪ ለመሰረዝ እርግጠኛ ነዎት? ይህ እርምጃ ሊቀለበስ አይችልም።</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">የተመረጡትን የድምፅ መልዕክት ጥሪዎች ይሰርዙ</item>
+        <item quantity="one">የተመረጠውን የድምፅ መልዕክት ጥሪ ይሰርዙ</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">የድምፅ መልዕክት ጥሪዎችዎን መሰረዝ አልተቻለም። እባክዎ እንደገና ይሞክሩ።</item>
+        <item quantity="one">የድምፅ መልዕክት ጥሪዎን መሰረዝ አልተቻለም። እባክዎ እንደገና ይሞክሩ።</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">ሁሉም የድምፅ መልዕክት ጥሪዎች በተሳካ ሁኔታ ተሰርዘዋል።</item>
+        <item quantity="one">የድምፅ መልዕክት ጥሪው ተሰርዟል።</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">የድምፅ መልዕክት ቅጂዎችን በማውረድ ላይ ነው።</item>
+        <item quantity="one">የድምፅ መልዕክት ቅጂ በማውረድ ላይ ነው።</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">ከ%2$s የሆኑ %1$d ሰዎች በቅርቡ መገለጫዎን አይተዋል።</item>
+        <item quantity="one">የሆነ ሰው ከ %2$s በቅርቡ መገለጫዎ ቷይቷል</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d ሰዎች (%3$d ከ%2$s) በቅርቡ መገለጫዎን አይተዋል።</item>
+        <item quantity="one">የሆነ ሰው ከ %2$s በቅርቡ መገለጫዎ ቷይቷል</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d ሰዎች (1 ከ%2$s) መገለጫዎን አይተዋል።</item>
+        <item quantity="one">%1$d ሰው ከ%2$s መገለጫዎን ታይቷል</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d ሰዎች (%3$d ከ%2$s) መገለጫዎን አይተዋል። የበለጠ ይወቁ።</item>
+        <item quantity="one">1 ሰው ከ %2$s መገለጫዎን አይቻለሁ። የበለጠ እወቅ።</item>
+    </plurals>
+</resources>

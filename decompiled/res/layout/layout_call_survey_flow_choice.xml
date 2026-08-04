@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckBox android:textAppearance="@style/Widget.Bizmon.Medium" android:textColor="@drawable/biz_call_survey_flow_choice_text_color_selector" android:background="@drawable/background_call_survey_flow_choice_color_selector" android:paddingTop="@dimen/space" android:paddingBottom="@dimen/space" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:fontFamily="sans-serif" android:paddingStart="@dimen/doubleSpace" android:paddingEnd="@dimen/doubleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

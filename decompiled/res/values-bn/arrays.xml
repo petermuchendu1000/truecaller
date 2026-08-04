@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>জানু</item>
+        <item>ফেব্রু</item>
+        <item>মার্চ</item>
+        <item>এপ্রি</item>
+        <item>মে</item>
+        <item>জুন</item>
+        <item>জুল</item>
+        <item>আগ</item>
+        <item>সেপ</item>
+        <item>অক্টো</item>
+        <item>নভে</item>
+        <item>ডিসে</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>এগিয়ে যান</item>
+        <item>চালিয়ে যান</item>
+        <item>স্বীকার করুন</item>
+        <item>নিশ্চিত করুন</item>
+        <item>%s ব্যবহার করুন</item>
+        <item>%s-র সাথে এগিয়ে যান</item>
+        <item>%s-র সাথে অগ্রসর হন</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s ব্যবহার করুন</item>
+        <item>%s-র সাথে এগিয়ে যান</item>
+        <item>%s-র সাথে অগ্রসর হন</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s এ লগ ইন করুন</item>
+        <item>%s এর সাথে সাইনআপ করুন</item>
+        <item>%s এ সাইন ইন করুন</item>
+        <item>%s এর সাথে নম্বরের বৈধতা যাচাই করুন</item>
+        <item>%s এর সাথে রেজিস্টার করুন</item>
+        <item>%s দিয়ে শুরু করুন</item>
+        <item>%s -র সাথে অগ্রসর হন</item>
+        <item>%s দিয়ে যাচাই করুন</item>
+        <item>%s এর সাথে প্রোফাইল যাচাই করুন</item>
+        <item>%s দিয়ে আপনার প্রোফাইল যাচাই করুন</item>
+        <item>%s দিয়ে ফোন নম্বর যাচাই করুন</item>
+        <item>%s দিয়ে আপনার নম্বর যাচাই করুন</item>
+        <item>%s দিয়ে চালিয়ে যান</item>
+        <item>%s দিয়ে অর্ডার সম্পূর্ণ করুন</item>
+        <item>%s দিয়ে অর্ডার দিন</item>
+        <item>%s এর সাথে বুকিং সম্পূর্ণ করুন</item>
+        <item>%s দিয়ে চেকআউট করুন</item>
+        <item>%s দিয়ে বিশদ পরিচালনা করুন</item>
+        <item>%s দিয়ে আপনার বিবরণ পরিচালনা করুন</item>
+        <item>এক ট্যাপ দিয়ে %s-এ লগইন করুন</item>
+        <item>%s -এ সদস্যতা নিন</item>
+        <item>%s থেকে আপডেট পান</item>
+        <item>%s এ পড়া চালিয়ে যান</item>
+        <item>%s থেকে নতুন আপডেট পান</item>
+        <item>%s দিয়ে লগইন/সাইন আপ করুন</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s এ লগ ইন করুন</item>
+        <item>%s এর সাথে সাইনআপ করুন</item>
+        <item>%s এ সাইন ইন করুন</item>
+        <item>%s এর সাথে নম্বরের বৈধতা যাচাই করুন</item>
+        <item>%s এর সাথে রেজিস্টার করুন</item>
+        <item>%s দিয়ে শুরু করুন</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>শুরু করতে</item>
+        <item>এগিয়ে যেতে</item>
+        <item>অর্ডার দিতে</item>
+        <item>আপনার ক্রয় সম্পূর্ণ করতে</item>
+        <item>চেকআউট করতে</item>
+        <item>আপনার বুকিং সম্পূর্ণ করতে</item>
+        <item>আপনার বুকিং-এ অগ্রসর হতে</item>
+        <item>আপনার বুকিং-এর সাথে অগ্রসর হতে</item>
+        <item>বিবরণ পেতে</item>
+        <item>আরো দেখতে</item>
+        <item>আরো পড়তে</item>
+        <item>এগিয়ে যেতে</item>
+        <item>নতুন আপডেটগুলির জন্য</item>
+        <item>আপডেট পেতে</item>
+        <item>সাবস্ক্রাইব করতে</item>
+        <item>সাবস্ক্রাইব করতে আর আপডেট পেতে</item>
+        <item>সেরা দাম পেতে</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>অনুগ্রহ করে আপনার মোবাইল নম্বরের বৈধতা যাচাই করুন</item>
+        <item>অনুগ্রহ করে লগইন করুন</item>
+        <item>অনুগ্রহ করে সাইনআপ করুন</item>
+        <item>অনুগ্রহ করে লগইন/সাইনআপ করুন</item>
+        <item>অনুগ্রহ করে রেজিস্টার করুন</item>
+        <item>অনুগ্রহ করে সাইনইন করুন</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>ডিফল্ট সিম সেট করুন</item>
+        <item>ডিফল্ট সিম - সিম 1</item>
+        <item>ডিফল্ট সিম - সিম 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>দুঃখিত, আমি এখন কথা বলতে পারবনা</item>
+        <item>আমি পরে আপনাকে কল করব</item>
+        <item>আমি এক্ষুনি আপনাকে কল করছি</item>
+        <item>এখন কথা বলতে পারবনা। আমায় পরে কল করবেন?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>প্রথম নাম</item>
+        <item>শেষ নাম</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>নিঃশব্দ</item>
+        <item>শুধু স্পন্দন</item>
+        <item>শুধু শব্দ</item>
+        <item>শব্দ ও স্পন্দন</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>০.২৫x</item>
+        <item>০.৫x</item>
+        <item>০.৭৫x</item>
+        <item>স্বাভাবিক</item>
+        <item>১.২৫x</item>
+        <item>১.৫x</item>
+        <item>২x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>সিম 1</item>
+        <item>সিম 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>সিম 1</item>
+        <item>সিম 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>নিঃশব্দ</item>
+        <item>শুধু স্পন্দন</item>
+        <item>শুধু শব্দ</item>
+        <item>শব্দ ও স্পন্দন</item>
+    </string-array>
+</resources>

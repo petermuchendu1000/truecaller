@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Blokker og rapporter %d numre som spam?</item>
+        <item quantity="one">Blokker og rapporter %d numre som spam?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Kunne ikke slette assistentanropene dine. Prøv igjen.</item>
+        <item quantity="one">Kunne ikke slette assistentanropet ditt. Prøv igjen.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Assistentanropene er slettet.</item>
+        <item quantity="one">Assistentanropet er slettet.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Er du sikker på at du vil slette disse assistentanropene? Denne handlingen kan ikke angres.</item>
+        <item quantity="one">Er du sikker på at du vil slette dette assistentanropet? Denne handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Slett valgte assistentanrop</item>
+        <item quantity="one">Slett valgt assistentanrop</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d opptak</item>
+        <item quantity="one">%d opptak</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Meldinger lagt i Viktig-fanen</item>
+        <item quantity="one">Melding lagt i Viktig-fanen</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d samtaler markert som lest</item>
+        <item quantity="one">%d samtale markert som lest</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d oppføringer ble slettet</item>
+        <item quantity="one">%d oppføring ble slettet</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Slepp %d oppføringer?</item>
+        <item quantity="one">Slepp oppføring?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Samteler festet</item>
+        <item quantity="one">Samtale festet</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Lagre alle kontakter</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Festing av samtaler er opphevet</item>
+        <item quantity="one">Festing av samtalen er opphevet</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d uleste meldinger</item>
+        <item quantity="one">%d ulest melding</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Slett %d samtaler?</item>
+        <item quantity="one">Slett %d samtale?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d nummer identifisert</item>
+        <item quantity="one">%d nummer identifisert</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Meldinger er rapportert</item>
+        <item quantity="one">Meldingen er rapportert</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Meldinger merket som sikre</item>
+        <item quantity="one">Melding merket som sikker</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Meldinger er rapportert</item>
+        <item quantity="one">Meldingen er rapportert</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d medlemmer</item>
+        <item quantity="one">%d medlem</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Er du sikker på at du vil oppheve blokkeringen av disse %d numrene?</item>
+        <item quantity="one">Er du sikker på at du vil oppheve blokkeringen av dette nummeret?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Er du sikker på at du vil slette %s språkfiler?</item>
+        <item quantity="one">Er du sikker på at du vil slette %s språkfil?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Meldinger blokkert • Avsender i din blokkeringsliste</item>
+        <item quantity="one">Truecaller • Melding blokkert • Avsender i din blokkeringsliste</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s ringte for %2$d timer siden. Trykk for å se i Truecaller</item>
+        <item quantity="one">%1$s ringte for %2$d time siden. Trykk for å se i Truecaller</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d kontakter</item>
+        <item quantity="one">%d kontakt</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d vedlegg</item>
+        <item quantity="one">%1$d vedlegg</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d andre kontakter</item>
+        <item quantity="one">%d annen kontakt</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d nummer lagt til blokkeringslisten</item>
+        <item quantity="one">Nummer lagt til blokkeringslisten</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d Blokkerte samtaler</item>
+        <item quantity="one">%d Blokkert samtale</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d lydløs samtale</item>
+        <item quantity="one">%d lydløs samtale</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d dager med gratis prøveperiode for nye abonnementer</item>
+        <item quantity="one">%1$d dag med gratis prøveperiode for nye abonnementer</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d måneder gratis prøveperiode, kun for nye abonnenter</item>
+        <item quantity="one">%1$d måned gratis prøveperiode, kun for nye abonnenter</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d år gratis prøveperiode, kun for nye abonnenter</item>
+        <item quantity="one">%1$d år gratis prøveperiode, kun for nye abonnenter</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Du, %1$s og %2$s er Premium Family. Du har %3$d ledige plasser igjen</item>
+        <item quantity="one">Du, %1$s og %2$s er Premium Family. Du har %3$d ledig plass igjen</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Du har %1$d tilgjengelige kontoer igjen</item>
+        <item quantity="one">Du har %1$d tilgjengelig konto igjen</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Du og %1$s er Premium-familie. Du har %2$d ledige plasser igjen.</item>
+        <item quantity="one">Du og %1$s er Premium-familie. Du har %2$d ledig plass igjen.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Abonnementet avsluttes om %d dager</item>
+        <item quantity="one">Abonnementet avsluttes i morgen</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d dager gratis prøveperiode, og deretter %2$s.</item>
+        <item quantity="one">%1$d dag gratis prøveperiode, og deretter %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d måneder gratis prøveperiode, og deretter %2$s.</item>
+        <item quantity="one">%1$d måned gratis prøveperiode, og deretter %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d år gratis prøveperiode, og deretter %2$s.</item>
+        <item quantity="one">%1$d år gratis prøveperiode, og deretter %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d dager med gratis prøveperiode, og deretter</item>
+        <item quantity="one">%1$d dag med gratis prøveperiode, og deretter</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d måneder gratis prøveperiode, og deretter</item>
+        <item quantity="one">%1$d måned gratis prøveperiode, og deretter</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d år gratis prøveperiode, og deretter</item>
+        <item quantity="one">%1$d år gratis prøveperiode, og deretter</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Du kan bare redigere familielisten og fjerne familiemedlemmer et begrenset antall ganger. %1$d redigeringer igjen.</item>
+        <item quantity="one">Du kan bare redigere familielisten og fjerne familiemedlemmer et begrenset antall ganger. %1$d redigering igjen.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d nye søkevisninger</item>
+        <item quantity="one">1 ny søkevisning</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d nye profilvisninger</item>
+        <item quantity="one">1 ny profilvisning</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d personer har nylig sett på profilen din</item>
+        <item quantity="one">Noen har nylig sett på profilen din</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d personer (%3$d i %2$s) så nylig profilen din</item>
+        <item quantity="one">Noen fra %2$s så nylig profilen din</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">SMS-en sendes automatisk om %1$d sekunder …</item>
+        <item quantity="one">SMS-en sendes automatisk om %1$d sekund …</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">uker</item>
+        <item quantity="one">uke</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s dager</item>
+        <item quantity="one">%1$s dag</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">måneder</item>
+        <item quantity="one">måned</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">år</item>
+        <item quantity="one">år</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Stjernemarkering fjernet fra meldinger</item>
+        <item quantity="one">Stjernemarkering fjernet fra melding</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Du har overskredet grensen for bekreftelsesforsøk. Prøv igjen om %dt</item>
+        <item quantity="one">Du har overskredet grensen for bekreftelsesforsøk. Prøv igjen om %dt</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d nye søkevisninger!</item>
+        <item quantity="one">%d ny søkevisning!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d søkevisninger!</item>
+        <item quantity="one">%d søkevisning!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Profilen din ble nylig vist %1$d ganger i søkeresultater</item>
+        <item quantity="one">Profilen din ble nylig vist %1$d gang i søkeresultater</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d ganger nylig vist i søk</item>
+        <item quantity="one">%1$d gang nylig vist i søk</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d personer så på profilen din</item>
+        <item quantity="one">Noen så på profilen din</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s og %2$s flere så profilen din</item>
+        <item quantity="one">%1$s så profilen din</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d personer fra %2$s har sett profilen din</item>
+        <item quantity="one">%1$d person fra %2$s har sett profilen din</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s fra %2$s og %3$s flere så profilen din</item>
+        <item quantity="one">%1$s fra %2$s så profilen din</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d personer så profilen din. Finn ut mer.</item>
+        <item quantity="one">1 person så profilen din. Finn ut mer.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d personer (%3$ds i %2$s) å profilen din. Finn ut mer.</item>
+        <item quantity="one">1 person fra %2$s så profilen din. Finn ut mer.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha mislyktes for mange ganger. Prøv igjen om %1$d timer</item>
+        <item quantity="one">reCaptcha mislyktes for mange ganger. Prøv igjen om %1$d time</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">kommentarer</item>
+        <item quantity="one">kommentar</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d Personer så på profilen din</item>
+        <item quantity="one">%1$d person så på profilen din</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s samtaler arkivert</item>
+        <item quantity="one">%s samtale arkivert</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d meldinger ble organisert</item>
+        <item quantity="one">%d melding ble organisert</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Laster ned samtaleopptak fra assistent</item>
+        <item quantity="one">Laster ned ett samtaleopptak fra assistent</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d eksklusive tilbud</item>
+        <item quantity="one">%d eksklusivt tilbud</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Lagre numrene i eksisterende kontakt</item>
+        <item quantity="one">Lagre nummeret i eksisterende kontakt</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d anrop</item>
+        <item quantity="one">%1d anrop</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d dager</item>
+        <item quantity="one">%1d dag</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Spol %d sekunder fremover</item>
+        <item quantity="one">Spol %d sekund fremover</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Spol %d sekunder bakover</item>
+        <item quantity="one">Spol %d sekund bakover</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">%d plasser igjen</item>
+        <item quantity="one">%d plass igjen</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d invitasjoner mislyktes</item>
+        <item quantity="one">%d invitasjon mislyktes</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d problemer identifisert</item>
+        <item quantity="one">%d problem identifisert</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Tilbud slettet</item>
+        <item quantity="one">Tilbud slettet</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">OTP-meldinger slettet</item>
+        <item quantity="one">OTP-melding slettet</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Kampanjemeldinger slettet</item>
+        <item quantity="one">Kampanjemelding slettet</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Spammeldinger slettet</item>
+        <item quantity="one">Spammelding slettet</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d meldinger</item>
+        <item quantity="one">%d melding</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d meldinger med tilbud</item>
+        <item quantity="one">%d melding med tilbud</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d OTP-er</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d spammeldinger</item>
+        <item quantity="one">%d spammelding</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d meldinger slettet</item>
+        <item quantity="one">%d melding slettet</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Invitasjoner</item>
+        <item quantity="one">Invitasjon</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Du sletter nå de valgte filene og de %d relaterte meldingene</item>
+        <item quantity="one">Du sletter nå de valgte filene og den relaterte meldingen</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Slett meldingene?</item>
+        <item quantity="one">Slett meldingen?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">venner</item>
+        <item quantity="one">venn</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d nye reaksjoner</item>
+        <item quantity="one">%d ny reaksjon</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">dager</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Utløper om %1$d timer</item>
+        <item quantity="one">Utløper om %1$d time</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Utløper om %1$d minutter</item>
+        <item quantity="one">Utløper om %1$d minutt</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">kommentarer</item>
+        <item quantity="one">kommentar</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">Det er %1$d nye kommentarer på innlegget</item>
+        <item quantity="one">Det er %1$d ny kommentar på innlegget</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Kommentarer</item>
+        <item quantity="one">Kommenter</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Innlegg</item>
+        <item quantity="one">Innlegg</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s kommentarer</item>
+        <item quantity="one">%s kommentar</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Vis %s svar</item>
+        <item quantity="one">Vis %s svar</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Hvis du sletter den digitale stemmen din, fjernes den fra assistenten og alle svarene.&lt;br>&lt;b>Merk: Du har %d flere forsøk til for å opprette den digitale stemmen din&lt;/b></item>
+        <item quantity="one">Hvis du sletter den digitale stemmen din, fjernes den fra assistenten og alle svarene.&lt;br>&lt;b>Merk: Du har %d forsøk til for å opprette den digitale stemmen din&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">+%s personer til søkte nylig etter profilen din</item>
+        <item quantity="one">søkte nylig etter profilen din</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">+%s personer til så nylig profilen din</item>
+        <item quantity="one">så nylig på profilen din</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Prøv igjen om %d t</item>
+        <item quantity="one">Prøv igjen om %d t</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s samtaler fjernet fra arkiv</item>
+        <item quantity="one">%s samtale fjernet fra arkiv</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Meldinger mottatt</item>
+        <item quantity="one">Melding mottatt</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Er du sikker på at du vil slette disse talepostanropene? Handlingen kan ikke angres.</item>
+        <item quantity="one">Er du sikker på at du vil slette dette talepostanropet? Handlingen kan ikke angres.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Slett valgte talepostanrop</item>
+        <item quantity="one">Slett valgt talepostanrop</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Kunne ikke slette talepostanropene dine. Prøv på nytt.</item>
+        <item quantity="one">Kunne ikke slette talepostanropet ditt. Prøv på nytt.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Alle talepostanrop ble slettet.</item>
+        <item quantity="one">Talepostanropet ble slettet.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Laster ned Voicemail-opptak.</item>
+        <item quantity="one">Laster ned Voicemail-opptak.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d personer fra %2$s så nylig profilen din</item>
+        <item quantity="one">Noen fra %2$s så nylig profilen din</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d personer (%3$d fra %2$s) så nylig profilen din</item>
+        <item quantity="one">Noen fra %2$s så nylig profilen din</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d personer (1 fra %2$s) så profilen din</item>
+        <item quantity="one">%1$d person fra %2$s har sett profilen din</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d personer (%3$d fra %2$s) så profilen din. Finn ut mer.</item>
+        <item quantity="one">1 person fra %2$s så profilen din. Finn ut mer.</item>
+    </plurals>
+</resources>

@@ -1,1 +1,0 @@
-<ImageView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/custom_ad_main_image" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" android:maxHeight="@dimen/ads_native_banner_image_max_height"/>

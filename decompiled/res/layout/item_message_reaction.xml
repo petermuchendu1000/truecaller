@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.android.truemoji.widget.EmojiView android:textSize="@dimen/font_small" android:gravity="center" android:background="@drawable/reaction_message_item_bg" android:layout_width="@dimen/reaction_message_size" android:layout_height="@dimen/reaction_message_size" android:layout_margin="3.0dip" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,1 +1,0 @@
-<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:icon="@drawable/ic_action_search_24dp" android:id="@id/action_search" android:title="@string/StrSearch" app:actionViewClass="androidx.appcompat.widget.SearchView" app:iconTint="?7F040937" app:showAsAction="0x0000000A"/></menu>

@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">%d nummers blokkeren en als spam melden?</item>
+        <item quantity="one">%d nummers blokkeren en als spam melden?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Kon je Assistantgesprekken niet verwijderen. Probeer het opnieuw.</item>
+        <item quantity="one">Kon je Assistantgesprek niet verwijderen. Probeer het opnieuw.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Assistantgesprekken verwijderd.</item>
+        <item quantity="one">Assistantgesprek verwijderd.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Weet je zeker dat je deze Assistentoproepen wilt verwijderen? Dit kan niet ongedaan worden gemaakt.</item>
+        <item quantity="one">Weet je zeker dat je deze Assistentoproep wilt verwijderen? Dit kan niet ongedaan worden gemaakt.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Geselecteerde Assistentoproepen verwijderen</item>
+        <item quantity="one">Geselecteerde Assistentoproep verwijderen</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d opnames</item>
+        <item quantity="one">%d opname</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Berichten zijn toegevoegd aan tabblad Belangrijk</item>
+        <item quantity="one">Bericht is toegevoegd aan tabblad Belangrijk</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d gesprekken gemarkeerd als gelezen</item>
+        <item quantity="one">%d gesprek gemarkeerd als gelezen</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d items zijn verwijderd</item>
+        <item quantity="one">%d item is verwijderd</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">%d items verwijderen</item>
+        <item quantity="one">Item verwijderen?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">Gesprekken vastgemaakt</item>
+        <item quantity="one">Gesprek vastgemaakt</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Alle contactpersonen opslaan</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">Gesprekken losgemaakt</item>
+        <item quantity="one">Gesprek losgemaakt</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d ongelezen berichten</item>
+        <item quantity="one">%d ongelezen bericht</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d gesprekken verwijderen?</item>
+        <item quantity="one">%d gesprek verwijderen?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d nummers geïdentificeerd</item>
+        <item quantity="one">%d nummer geïdentificeerd</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">berichten gemeld</item>
+        <item quantity="one">bericht gemeld</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Berichten als veilig gemarkeerd</item>
+        <item quantity="one">Bericht als veilig gemarkeerd</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">berichten gemeld</item>
+        <item quantity="one">bericht gemeld</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d leden</item>
+        <item quantity="one">%d lid</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Weet je zeker dat je %d nummer wilt deblokkeren?</item>
+        <item quantity="one">Weet je zeker dat je dit nummer wilt deblokkeren?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Weet je zeker dat je %s taalbestanden wilt verwijderen</item>
+        <item quantity="one">Weet je zeker dat je %s taalbestand wilt verwijderen</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Berichten geblokkeerd • Afzender in je blokkeerlijst</item>
+        <item quantity="one">Truecaller • Bericht geblokkeerd • Afzender in je blokkeerlijst</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s belde %2$d uur geleden. Tik om in Truecaller te bekijken</item>
+        <item quantity="one">%1$s belde %2$d uur geleden. Tik om in Truecaller te bekijken</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d contacten</item>
+        <item quantity="one">%d contact</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d bijlagen</item>
+        <item quantity="one">%1$d bijlage</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d andere contactpersonen</item>
+        <item quantity="one">%d andere contactpersoon</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d nummers aan de blokkeringslijst toegevoegd</item>
+        <item quantity="one">Nummer aan de blokkeringslijst toegevoegd</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d geblokkeerde oproepen</item>
+        <item quantity="one">%d geblokkeerde oproep</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d gedempte oproepen</item>
+        <item quantity="one">%d gedempte oproep</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d dagen gratis op proef alleen voor nieuwe abonnees</item>
+        <item quantity="one">%1$d dag gratis op proef alleen voor nieuwe abonnees</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d maanden gratis op proef exclusief voor nieuwe abonnees</item>
+        <item quantity="one">%1$d maand gratis op proef exclusief voor nieuwe abonnees</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d jaar gratis op proef exclusief voor nieuwe abonnees</item>
+        <item quantity="one">%1$d jaar gratis op proef exclusief voor nieuwe abonnees</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">%1$s, %2$s en jij vormen nu een Premiumgezin. Je hebt nog ruimte voor %3$d extra personen</item>
+        <item quantity="one">%1$s, %2$s en jij vormen nu een Premiumgezin. Je hebt nog ruimte voor %3$d extra persoon</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Je hebt nog %1$d beschikbare accounts.</item>
+        <item quantity="one">Je hebt nog %1$d beschikbare account.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">%1$s en jij vormen nu een Premiumgezin. Je hebt nog ruimte voor %2$d extra personen</item>
+        <item quantity="one">%1$s en jij vormen nu een Premiumgezin. Je hebt nog ruimte voor %2$d extra persoon</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Abonnement loopt over %d dagen af</item>
+        <item quantity="one">Abonnement loopt morgen af</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d dagen gratis op proef, daarna %2$s.</item>
+        <item quantity="one">%1$d dag gratis op proef, daarna %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d maanden gratis op proef, daarna %2$s.</item>
+        <item quantity="one">%1$d maand gratis, daarna %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d jaar gratis op proef, daarna %2$s.</item>
+        <item quantity="one">%1$d jaar gratis op proef, daarna %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d dagen gratis op proef, daarna</item>
+        <item quantity="one">%1$d dag gratis op proef, daarna</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d maanden gratis op proef, daarna</item>
+        <item quantity="one">%1$d maand gratis op proef, daarna</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d jaar gratis op proef, daarna</item>
+        <item quantity="one">%1$d jaar gratis op proef, daarna</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Het aantal keer dat je de gezinsgroep kunt bewerken en een gezinslid kunt verwijderen, is beperkt. Nog %1$d bewerkingen over.</item>
+        <item quantity="one">Het aantal keer dat je de gezinsgroep kunt bewerken en een gezinslid kunt verwijderen, is beperkt. Nog %1$d bewerking over.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d nieuwe zoekresultaten</item>
+        <item quantity="one">1 nieuw zoekresultaat</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d nieuwe profielweergaven</item>
+        <item quantity="one">1 nieuwe profielweergave</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d mensen hebben je profiel recentelijk bekeken</item>
+        <item quantity="one">Iemand heeft je profiel recentelijk bekeken</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d personen (%3$d in %2$s) hebben je profiel onlangs bekeken</item>
+        <item quantity="one">Iemand in %2$s heeft je profiel onlangs bekeken</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">De sms wordt over %1$d seconden automatisch verzonden…</item>
+        <item quantity="one">De sms wordt over %1$d seconde automatisch verzonden…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">weken</item>
+        <item quantity="one">weken</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s dagen</item>
+        <item quantity="one">%1$s dag</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">maanden</item>
+        <item quantity="one">maand</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">jaar</item>
+        <item quantity="one">jaar</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Ster van berichten verwijderd</item>
+        <item quantity="one">Ster van bericht verwijderd</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">U hebt het aantal verificatiepogingen overschreden. Probeer het over %dh opnieuw.</item>
+        <item quantity="one">U hebt het aantal verificatiepogingen overschreden. Probeer het over %dh opnieuw.</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d nieuwe zoekresultaten!</item>
+        <item quantity="one">%d nieuw zoekresultaat!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d zoekresultaten!</item>
+        <item quantity="one">%d zoekresultaat!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Je profiel is recent %1$d keer in zoekresultaten verschenen</item>
+        <item quantity="one">Je profiel is recent %1$d keer in zoekresultaten verschenen</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d keer recent in zoekresultaten verschenen</item>
+        <item quantity="one">%1$d keer recent in zoekresultaten verschenen</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d mensen hebben je profiel bekeken</item>
+        <item quantity="one">Iemand heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s en nog %2$s anderen hebben je profiel bekeken</item>
+        <item quantity="one">%1$s heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d personen (1 in %2$s) hebben je profiel bekeken</item>
+        <item quantity="one">%1$d persoon uit %2$s heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s uit %2$s en nog %3$s anderen hebben je profiel bekeken</item>
+        <item quantity="one">%1$s uit %2$s heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d mensen hebben je profiel bekeken. Meer informatie</item>
+        <item quantity="one">1 persoon heeft je profiel bekeken. Meer informatie.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d mensen (%3$d van %2$s) hebben je profiel bekeken. Meer informatie.</item>
+        <item quantity="one">1 persoon uit %2$s heeft je profiel bekeken. Meer informatie.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha te vaak mislukt. Probeer het over %1$d uur opnieuw</item>
+        <item quantity="one">reCaptcha te vaak mislukt. Probeer het over %1$d uur opnieuw</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">opmerkingen</item>
+        <item quantity="one">opmerking</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d Mensen hebben je profiel bekeken</item>
+        <item quantity="one">%1$d persoon heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s gesprekken gearchiveerd</item>
+        <item quantity="one">%s gesprek gearchiveerd</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d berichten georganiseerd</item>
+        <item quantity="one">%d berichten georganiseerd</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Opnamen van assistentgesprekken aan het downloaden</item>
+        <item quantity="one">Opname van assistentgesprek aan het downloaden</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d exclusieve aanbiedingen</item>
+        <item quantity="one">%d exclusieve aanbieding</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Nummers voor bestaande contactpersoon opslaan</item>
+        <item quantity="one">Nummer voor bestaande contactpersoon opslaan</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d oproepen</item>
+        <item quantity="one">%1d oproep</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d dagen</item>
+        <item quantity="one">%1d dag</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d seconden vooruitspoelen</item>
+        <item quantity="one">%d seconde vooruitspoelen</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d seconden terugspoelen</item>
+        <item quantity="one">%d seconde terugspoelen</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">Nog %d plekken over</item>
+        <item quantity="one">Nog %d plek over</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d uitnodigingen mislukt</item>
+        <item quantity="one">%d uitnodiging mislukt</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d problemen geïdentificeerd</item>
+        <item quantity="one">%d probleem geïdentificeerd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Aanbiedingen verwijderd</item>
+        <item quantity="one">Aanbieding verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">OTP-berichten verwijderen</item>
+        <item quantity="one">OTP-bericht verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">reclameberichten verwijderd</item>
+        <item quantity="one">reclamebericht verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Spamberichten verwijderd</item>
+        <item quantity="one">Spambericht verwijderd</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d berichten</item>
+        <item quantity="one">%d bericht</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d berichten met aanbiedingen</item>
+        <item quantity="one">%d bericht met aanbiedingen</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">"%d OTP's"</item>
+        <item quantity="one">%d OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d spamberichten</item>
+        <item quantity="one">%d spambericht</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d berichten verwijderd</item>
+        <item quantity="one">%d bericht verwijderd</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Uitnodigingen</item>
+        <item quantity="one">Uitnodiging</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Je staat op het punt om de geselecteerde bestanden en de %d bijbehorende berichten te verwijderen</item>
+        <item quantity="one">Je staat op het punt om de geselecteerde bestanden en het bijbehorende bericht te verwijderen</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Berichten verwijderen?</item>
+        <item quantity="one">Bericht verwijderen?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">vrienden</item>
+        <item quantity="one">vriend</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d nieuwe reacties</item>
+        <item quantity="one">%d nieuwe reactie</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">dagen</item>
+        <item quantity="one">dag</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Vervalt over %1$d uur</item>
+        <item quantity="one">Vervalt over %1$d uur</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Vervalt over %1$d minuten</item>
+        <item quantity="one">Vervalt over %1$d minuut</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">opmerkingen</item>
+        <item quantity="one">opmerking</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">Er zijn %1$d nieuwe opmerkingen bij het bericht</item>
+        <item quantity="one">Er is %1$d nieuwe opmerking bij het bericht</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Opmerkingen</item>
+        <item quantity="one">Opmerking</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Berichten</item>
+        <item quantity="one">Bericht</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s opmerkingen</item>
+        <item quantity="one">%s opmerking</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Bekijk %s antwoorden</item>
+        <item quantity="one">Bekijk %s antwoord</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Als je je digitale stem verwijdert, wordt hij uit je Assistent en alle reacties verwijderd.&lt;br>&lt;b>Let op: Je hebt nog %d pogingen om je digitale stem aan te maken&lt;/b></item>
+        <item quantity="one">Als je je digitale stem verwijdert, wordt hij uit je Assistent en alle reacties verwijderd.&lt;br>&lt;b>Let op: Je hebt nog %d poging om je digitale stem aan te maken&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">+ nog %s personen hebben je profiel recentelijk opgezocht</item>
+        <item quantity="one">heeft je profiel recentelijk opgezocht</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">+ nog %s personen hebben je profiel recentelijk bekeken</item>
+        <item quantity="one">heeft je profiel recentelijk bekeken</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Probeer het over %d uur opnieuw</item>
+        <item quantity="one">Probeer het over %d uur opnieuw</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s gesprekken gedearchiveerd</item>
+        <item quantity="one">%s gesprek gedearchiveerd</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Berichten ontvangen</item>
+        <item quantity="one">Bericht ontvangen</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Weet u zeker dat u deze voicemailoproepen wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.</item>
+        <item quantity="one">Weet u zeker dat u deze voicemailoproep wilt verwijderen? Deze actie kan niet ongedaan worden gemaakt.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Geselecteerde voicemailoproepen verwijderen</item>
+        <item quantity="one">Geselecteerde voicemailoproep verwijderen</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Kon uw voicemailoproepen niet verwijderen. Probeer het opnieuw.</item>
+        <item quantity="one">Kon uw voicemailoproep niet verwijderen. Probeer het opnieuw.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Alle voicemailoproepen zijn succesvol verwijderd.</item>
+        <item quantity="one">De voicemailoproep is verwijderd.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Voicemailopnamen downloaden.</item>
+        <item quantity="one">Voicemailopname downloaden.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d mensen uit %2$s hebben je profiel onlangs bekeken.</item>
+        <item quantity="one">Iemand in %2$s heeft je profiel onlangs bekeken</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d personen (%3$d uit %2$s) hebben je profiel onlangs bekeken.</item>
+        <item quantity="one">Iemand in %2$s heeft je profiel onlangs bekeken</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d personen (1 uit %2$s) hebben je profiel bekeken.</item>
+        <item quantity="one">%1$d persoon uit %2$s heeft je profiel bekeken</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d mensen (%3$d van %2$s) hebben je profiel bekeken. Meer informatie.</item>
+        <item quantity="one">1 persoon uit %2$s heeft je profiel bekeken. Meer informatie.</item>
+    </plurals>
+</resources>

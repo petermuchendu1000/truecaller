@@ -1,1 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="0"><solid android:color="@color/tcx_priority_badge"/><corners android:radius="@dimen/incallui_caller_label_radius"/></shape>

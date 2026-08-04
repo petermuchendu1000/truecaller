@@ -1,1 +1,0 @@
-<com.truecaller.premium.ui.friendpromo.PremiumFriendUpgradedPromoView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/friendUpgradedPromoView" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="8.000000dip"/>

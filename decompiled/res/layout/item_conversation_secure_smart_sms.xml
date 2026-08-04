@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/secure_message_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="16.0dip" app:cardBackgroundColor="?tc_color_chatBgBlue" app:cardCornerRadius="4.0dip" app:cardElevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/secure_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_secure_smart_sms_icon" android:layout_marginStart="18.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:id="@id/secure_text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/smart_sms_secure_message" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" android:layout_marginVertical="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/secure_icon" app:layout_constraintTop_toTopOf="parent" style="@style/TextAppearance.Insights.SecureMessage" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

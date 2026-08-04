@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>már</item>
+        <item>ápr</item>
+        <item>máj</item>
+        <item>jún</item>
+        <item>júl</item>
+        <item>aug</item>
+        <item>szep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Folytatás</item>
+        <item>Folytatás</item>
+        <item>Elfogadom</item>
+        <item>Megerősítés</item>
+        <item>%s használata</item>
+        <item>Folytatás a következővel: %s</item>
+        <item>Folytatás a következővel: %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s használata</item>
+        <item>Folytatás a következővel: %s</item>
+        <item>Folytatás a következővel: %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Bejelentkezés ide: %s</item>
+        <item>Regisztráció a következővel: %s</item>
+        <item>Bejelentkezés a következőbe: %s</item>
+        <item>Szám ellenőrzése a következővel: %s</item>
+        <item>Regisztráció a következővel: %s</item>
+        <item>Első lépések a következővel: %s</item>
+        <item>Folytatás a következővel: %s</item>
+        <item>Ellenőrzés a következővel: %s</item>
+        <item>Profil ellenőrzése a következővel: %s</item>
+        <item>Profilod ellenőrzése a következővel: %s</item>
+        <item>Telefonszám ellenőrzése a következővel: %s</item>
+        <item>Számod ellenőrzése a következővel: %s</item>
+        <item>Folytatás a következővel: %s</item>
+        <item>Rendelés befejezése a következővel: %s</item>
+        <item>Rendelés leadása a következővel: %s</item>
+        <item>Foglalás befejezése a következővel: %s</item>
+        <item>Fizetés a következővel: %s</item>
+        <item>Adatok kezelése a következővel: %s</item>
+        <item>Adataid kezelése a következővel: %s</item>
+        <item>Egy érintéses bejelentkezés a következőbe: %s</item>
+        <item>Feliratkozás a következőre: %s</item>
+        <item>Értesítések fogadása a következőtől: %s</item>
+        <item>Olvasás folytatása itt: %s</item>
+        <item>Új értesítések fogadása a következőtől: %s</item>
+        <item>Bejelentkezés/regisztráció a következővel: %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Bejelentkezés ide: %s</item>
+        <item>Regisztráció a következővel: %s</item>
+        <item>Bejelentkezés a következőbe: %s</item>
+        <item>Szám ellenőrzése a következővel: %s</item>
+        <item>Regisztráció a következővel: %s</item>
+        <item>Első lépések a következővel: %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>A kezdéshez</item>
+        <item>A folytatáshoz</item>
+        <item>A rendelés leadásához</item>
+        <item>A vásárlás befejezéséhez</item>
+        <item>A fizetéshez</item>
+        <item>A foglalás befejezéséhez</item>
+        <item>A foglalás folytatásához</item>
+        <item>A foglalás folytatásához</item>
+        <item>A részletek lehívásához</item>
+        <item>A továbbiak megtekintéséhez</item>
+        <item>Az olvasás folytatásához</item>
+        <item>A folytatáshoz</item>
+        <item>Az új frissítésekhez</item>
+        <item>Frissítések fogadásához</item>
+        <item>A feliratkozáshoz</item>
+        <item>A feliratkozáshoz és a frissítések fogadásához</item>
+        <item>A legjobb ár eléréséhez</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>kérjük, ellenőrizd a mobilszámod</item>
+        <item>kérjük, jelentkezz be</item>
+        <item>kérjük, regisztrálj</item>
+        <item>kérjük, jelentkezz be/regisztrálj</item>
+        <item>kérjük, regisztrálj</item>
+        <item>kérjük, jelentkezz be</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Alapértelmezett SIM beállítása</item>
+        <item>Alapértelmezett SIM - SIM 1</item>
+        <item>Alapértelmezett SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Elnézést, most nem beszélhetek</item>
+        <item>Később visszahívlak</item>
+        <item>Azonnal visszahívlak</item>
+        <item>Most nem beszélhetek. Felhívsz később?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Keresztnév</item>
+        <item>Vezetéknév</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Csendes</item>
+        <item>Csak rezgés</item>
+        <item>Csak hang</item>
+        <item>Hang és rezgés</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25×</item>
+        <item>0,5×</item>
+        <item>0,75×</item>
+        <item>Normál</item>
+        <item>1,25×</item>
+        <item>1,5×</item>
+        <item>2×</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Csendes</item>
+        <item>Csak rezgés</item>
+        <item>Csak hang</item>
+        <item>Hang és rezgés</item>
+    </string-array>
+</resources>

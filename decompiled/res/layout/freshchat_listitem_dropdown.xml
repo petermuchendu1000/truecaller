@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="horizontal" android:id="@id/item_layout" android:background="@drawable/freshchat_bottomsheet_list_item_selector" android:paddingLeft="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="52.0dip" android:paddingStart="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox android:id="@id/freshchat_selection_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="14.0dip" android:button="@drawable/freshchat_checkbox_bg" android:layout_marginEnd="12.0dip" />
+    <TextView android:ellipsize="end" android:gravity="center" android:layout_gravity="center" android:id="@id/drop_down_list_item_text" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="16.0dip" android:maxLines="1" android:layout_marginEnd="16.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+</androidx.appcompat.widget.LinearLayoutCompat>

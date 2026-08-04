@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_secureContactCardTextColor" android:gravity="start|center" android:background="@drawable/secure_contact_view_bg" android:padding="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/doubleSpace" android:minHeight="64.0dip" android:text="@string/SecureContactPromoMessage" android:drawablePadding="@dimen/doubleSpace" android:layout_marginStart="@dimen/doubleSpace" android:layout_marginEnd="@dimen/doubleSpace" app:drawableStartCompat="@drawable/wizard_ic_security_note" app:drawableTint="?tcx_secureContactCardIconTint" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Caption" />
+</androidx.constraintlayout.widget.ConstraintLayout>

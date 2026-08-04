@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="end" android:id="@id/replyContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="16.0dip" android:layout_marginVertical="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textSecondary" android:id="@id/replyText" android:background="@drawable/background_link_preview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="viewStart" android:paddingHorizontal="16.0dip" android:paddingVertical="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Body.B1" />
+</androidx.constraintlayout.widget.ConstraintLayout>

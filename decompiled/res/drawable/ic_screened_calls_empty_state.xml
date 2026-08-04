@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="72.0dip" android:width="72.0dip" android:viewportWidth="72.0" android:viewportHeight="72.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="?tcx_textQuarternary" android:pathData="M28.4993,48L36,58.001L43.5007,48H57C58.6568,48 60,46.6569 60,45V15C60,13.3431 58.6568,12 57,12H15C13.3431,12 12,13.3431 12,15V45C12,46.6569 13.3431,48 15,48H28.4993ZM33.6,64.801L25.4993,54H15C10.0294,54 6,49.9706 6,45V15C6,10.0294 10.0294,6 15,6H57C61.9705,6 66,10.0294 66,15V45C66,49.9706 61.9705,54 57,54H46.5007L38.4,64.801C37.2,66.401 34.8,66.401 33.6,64.801Z" />
+    <path android:fillColor="?tcx_textQuarternary" android:pathData="M33,21C33,19.3431 34.3431,18 36,18C37.6569,18 39,19.3431 39,21V39C39,40.6569 37.6569,42 36,42C34.3431,42 33,40.6569 33,39V21Z" />
+    <path android:fillColor="?tcx_textQuarternary" android:pathData="M45,25.5C45,23.8431 46.3431,22.5 48,22.5C49.6569,22.5 51,23.8431 51,25.5V34.5C51,36.1569 49.6569,37.5 48,37.5C46.3431,37.5 45,36.1569 45,34.5V25.5Z" />
+    <path android:fillColor="?tcx_textQuarternary" android:pathData="M21,25.5C21,23.8431 22.3431,22.5 24,22.5C25.6569,22.5 27,23.8431 27,25.5V34.5C27,36.1569 25.6569,37.5 24,37.5C22.3431,37.5 21,36.1569 21,34.5V25.5Z" />
+</vector>

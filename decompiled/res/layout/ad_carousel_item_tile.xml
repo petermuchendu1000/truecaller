@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:id="@id/cardView" android:layout_width="@dimen/ads_carousel_tile_item_width" android:layout_height="fill_parent" android:layout_margin="@dimen/control_mini_space" app:cardBackgroundColor="?tcx_backgroundPrimary" app:cardCornerRadius="0.0dip" app:cardElevation="2.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/control_mini_space" android:scaleType="fitXY" android:contentDescription="@null" app:layout_constraintBottom_toTopOf="@id/cta" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <com.truecaller.ads.ui.CtaButtonX android:id="@id/cta" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_mini_space" android:layout_marginBottom="@dimen/control_mini_space" android:layout_marginStart="@dimen/control_space" android:layout_marginEnd="@dimen/control_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Ads.Carousel.Tile.Button.Compact" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

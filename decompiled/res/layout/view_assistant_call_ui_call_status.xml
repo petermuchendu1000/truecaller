@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.truecaller.common.ui.textview.GoldShineChronometer android:textSize="14.0sp" android:textColor="@color/assistantTextWhite" android:id="@id/chronometer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+    <com.truecaller.common.ui.textview.GoldShineTextView android:textSize="14.0sp" android:textColor="@color/assistantTextWhite" android:id="@id/textStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" android:layout_marginEnd="2.0dip" />
+</LinearLayout>

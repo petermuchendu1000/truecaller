@@ -1,0 +1,8 @@
+jio alert: spam
+jio alert : spam
+vi alert: spam
+vi alert : spam
+airtel warning: spam
+airtel warning : spam
+vi suspected spam:
+vi suspected spam :

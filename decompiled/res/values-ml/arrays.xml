@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ജനു</item>
+        <item>ഫെബ്രു</item>
+        <item>മാര്‍</item>
+        <item>ഏപ്രി</item>
+        <item>മെയ്</item>
+        <item>ജൂണ്‍</item>
+        <item>ജൂലൈ</item>
+        <item>ഓഗ</item>
+        <item>സെപ്</item>
+        <item>ഒക്ടോ</item>
+        <item>നവം</item>
+        <item>ഡിസം</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>മുന്നോട്ട്പോകുക</item>
+        <item>തുടരുക</item>
+        <item>സ്വീകരിക്കുക</item>
+        <item>സ്ഥിരീകരിക്കുക</item>
+        <item>%s ഉപയോഗിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് തുടരുക</item>
+        <item>%s ഉപയോഗിച്ച് മുന്നോട്ട്പോകുക</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s ഉപയോഗിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് തുടരുക</item>
+        <item>%s ഉപയോഗിച്ച് മുന്നോട്ട്പോകുക</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s -ലേക്ക് ലോഗിന്‍ ചെയ്യുക</item>
+        <item>%s വഴി സൈന്‍അപ് ചെയ്യുക</item>
+        <item>%s -ലേക്ക് സൈന്‍ ഇന്‍ ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് നമ്പര്‍ വേരിഫൈ ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് രജിസ്റ്റര്‍ ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് ആരംഭിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് മുന്നോട്ട്പോകുക</item>
+        <item>%s ഉപയോഗിച്ച് പരിശോധിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് പ്രൊഫൈൽ പരിശോധിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് നിങ്ങളുടെ പ്രൊഫൈൽ പരിശോധിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് ഫോൺ നമ്പർ സ്ഥിരീകരിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് നിങ്ങളുടെ നമ്പർ പരിശോധിച്ചുറപ്പിക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് തുടരുക</item>
+        <item>%s ഉപയോഗിച്ച് ഓർഡർ പൂർത്തിയാക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് ഓർഡർ നൽകുക</item>
+        <item>%s ഉപയോഗിച്ച് ബുക്കിംഗ് പൂർത്തിയാക്കുക</item>
+        <item>%s ഉപയോഗിച്ച് ചെക്ക്ഔട്ട് ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് വിശദാംശങ്ങൾ കൈകാര്യം ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് നിങ്ങളുടെ വിശദാംശങ്ങൾ നിയന്ത്രിക്കുക</item>
+        <item>ഒറ്റ ടാപ്പിലൂടെ %s-ലേക്ക് ലോഗിൻ ചെയ്യുക</item>
+        <item>%s -ലേക്ക് സബ്‌സ്‌ക്രൈബ് ചെയ്യുക</item>
+        <item>%s -ൽ നിന്ന് അപ്‌ഡേറ്റുകൾ നേടുക</item>
+        <item>%s -ൽ വായന തുടരുക</item>
+        <item>%s -ൽ നിന്ന് പുതിയ അപ്ഡേറ്റുകൾ നേടുക</item>
+        <item>%s ഉപയോഗിച്ച് ലോഗിൻ ചെയ്യുക/സൈൻ അപ്പ് ചെയ്യുക</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s-ലേക്ക് ലോഗിന്‍ ചെയ്യുക</item>
+        <item>%s വഴി സൈന്‍അപ് ചെയ്യുക</item>
+        <item>%s-ലേക്ക് സൈന്‍ ഇന്‍ ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് നമ്പര്‍ വേരിഫൈ ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് രജിസ്റ്റര്‍ ചെയ്യുക</item>
+        <item>%s ഉപയോഗിച്ച് ആരംഭിക്കുക</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>ആരംഭിക്കാന്‍</item>
+        <item>തുടരാന്‍</item>
+        <item>ഓര്‍ഡര്‍ നല്‍കാന്‍</item>
+        <item>നിങ്ങളുടെ പര്‍ച്ചേസ് പൂര്‍ത്തിയാക്കാന്‍</item>
+        <item>ചെക്ക് ഔട്ട് ചെയ്യാന്‍</item>
+        <item>നിങ്ങളുടെ ബുക്കിംഗ് പൂര്‍ത്തിയാക്കാന്‍</item>
+        <item>നിങ്ങളുടെ ബുക്കിംഗും ആയി മുന്നോട്ട് പോകാന്‍</item>
+        <item>നിങ്ങളുടെ ബുക്കിംഗ് തുടരാന്‍</item>
+        <item>വിശദാംശങ്ങള്‍ നേടാന്‍</item>
+        <item>കൂടുതല്‍ കാണാന്‍</item>
+        <item>വായിക്കുന്നത് തുടരാന്‍</item>
+        <item>മുന്നോട്ട്പോകാന്‍</item>
+        <item>പുതിയ അപ്ഡേറ്റുകള്‍ക്ക്</item>
+        <item>അപ്ഡേറ്റുകള്‍ കിട്ടാന്‍</item>
+        <item>സബ്‍സ്ക്രൈബ് ചെയ്യാന്‍</item>
+        <item>സബ്‍സ്ക്രൈബ് ചെയ്യാനും അപ്ഡേറ്റുകള്‍ കിട്ടാനും</item>
+        <item>മികച്ച വില ലഭിക്കുന്നതിന്</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>മൊബൈല്‍ നമ്പര്‍ വേരിഫൈ ചെയ്യുക</item>
+        <item>ലോഗിന്‍ ചെയ്യുക</item>
+        <item>സൈന്‍ അപ് ചെയ്യുക</item>
+        <item>ലോഗിന്‍ ചെയ്യുക/സൈന്‍ അപ് ചെയ്യുക</item>
+        <item>രജിസ്റ്റര്‍ ചെയ്യുക</item>
+        <item>സൈന്‍ ഇന്‍ ചെയ്യുക</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>ഡീഫാള്‍ട്ട് SIM ക്രമീകരിക്കുക</item>
+        <item>ഡീഫാള്‍ട്ട് SIM - SIM 1</item>
+        <item>ഡീഫാള്‍ട്ട് SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>ക്ഷമിക്കണം, എനിക്കിപ്പോള്‍ സംസാരിക്കാന്‍ കഴിയില്ല</item>
+        <item>ഞാന്‍ പിന്നിട് വിളിക്കാം</item>
+        <item>ഞാനിപ്പോള്‍ തന്നെ തിരിച്ച് വിളിക്കാം</item>
+        <item>ഇപ്പോള്‍ സംസാരിക്കാന്‍ കഴിയില്ല. പിന്നീട് വിളിക്കാമോ?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>പേരിന്‍റെ ആദ്യഭാഗം</item>
+        <item>പേരിന്‍റെ അവസാനഭാഗം</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>നിശ്ശബ്ദമായ</item>
+        <item>വൈബ്രേറ്റ് മാത്രം</item>
+        <item>ശബ്ദം മാത്രം</item>
+        <item>ശബ്ദവും വൈബ്രേറ്റും</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>സാധാരണ വേഗത്തിൽ</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>നിശ്ശബ്ദമായ</item>
+        <item>വൈബ്രേറ്റ് മാത്രം</item>
+        <item>ശബ്ദം മാത്രം</item>
+        <item>ശബ്ദവും വൈബ്രേറ്റും</item>
+    </string-array>
+</resources>

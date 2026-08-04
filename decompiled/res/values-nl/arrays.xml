@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mrt</item>
+        <item>apr</item>
+        <item>mei</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Doorgaan</item>
+        <item>Doorgaan</item>
+        <item>Accepteren</item>
+        <item>Bevestigen</item>
+        <item>%s gebruiken</item>
+        <item>Doorgaan met %s</item>
+        <item>Doorgaan met %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s gebruiken</item>
+        <item>Doorgaan met %s</item>
+        <item>Doorgaan met %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Inloggen bij %s</item>
+        <item>Aanmelden met %s</item>
+        <item>Aanmelden bij %s</item>
+        <item>Nummer verifiëren met %s</item>
+        <item>Registreren met %s</item>
+        <item>Aan de slag met %s</item>
+        <item>Doorgaan met %s</item>
+        <item>Verifiëren met %s</item>
+        <item>Profiel verifiëren met %s</item>
+        <item>Je profiel verifiëren met %s</item>
+        <item>Telefoonnummer verifiëren met %s</item>
+        <item>Je nummer verifiëren met %s</item>
+        <item>Doorgaan met %s</item>
+        <item>Bestelling voltooien met %s</item>
+        <item>Bestelling plaatsen met %s</item>
+        <item>Boeking voltooien met %s</item>
+        <item>Afrekenen met %s</item>
+        <item>Gegevens beheren met %s</item>
+        <item>Je gegevens beheren met %s</item>
+        <item>Inloggen bij %s met één tik</item>
+        <item>Abonneren op %s</item>
+        <item>Updates ontvangen van %s</item>
+        <item>Verder lezen op %s</item>
+        <item>Nieuwe updates ontvangen van %s</item>
+        <item>Inloggen/aanmelden met %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Inloggen bij %s</item>
+        <item>Aanmelden met %s</item>
+        <item>Aanmelden bij %s</item>
+        <item>Nummer verifiëren met %s</item>
+        <item>Registreren met %s</item>
+        <item>Aan de slag met %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Om te beginnen</item>
+        <item>Om verder te gaan</item>
+        <item>Om een bestelling te plaatsen</item>
+        <item>Om je aankoop te voltooien</item>
+        <item>Naar de kassa</item>
+        <item>Om je boeking te voltooien</item>
+        <item>Om verder te gaan met je boeking</item>
+        <item>Om verder te gaan met je boeking</item>
+        <item>Om details te ontvangen</item>
+        <item>Om meer te bekijken</item>
+        <item>Om verder te lezen</item>
+        <item>Om verder te gaan</item>
+        <item>Voor nieuwe updates</item>
+        <item>Om updates te ontvangen</item>
+        <item>Om te abonneren</item>
+        <item>Om je te abonneren &amp; updates te ontvangen</item>
+        <item>Voor de beste prijs</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>verifieer het mobiele nummer</item>
+        <item>meld je aan</item>
+        <item>meld je aan</item>
+        <item>meld je aan/registreer je</item>
+        <item>registreer je</item>
+        <item>log in</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Standaard sim instellen</item>
+        <item>Standaard sim - sim 1</item>
+        <item>Standaard sim - sim 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Sorry, ik ben niet beschikbaar</item>
+        <item>Ik bel je later terug</item>
+        <item>Ik bel je zo terug</item>
+        <item>Ik heb nu geen tijd. Bel je later terug?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Voornaam</item>
+        <item>Achternaam</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Stil</item>
+        <item>Alleen trillen</item>
+        <item>Alleen geluid</item>
+        <item>Geluid en trillen</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normaal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Stil</item>
+        <item>Alleen trillen</item>
+        <item>Alleen geluid</item>
+        <item>Geluid en trillen</item>
+    </string-array>
+</resources>

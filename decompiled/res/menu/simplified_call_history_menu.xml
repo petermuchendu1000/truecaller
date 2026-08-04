@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_recordigns_border_24dp" android:id="@id/action_recording" android:visible="false" android:title="@string/CallRecordingCallsTabTitle" app:iconTint="?tc_color_iconFillActiveGrey" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_call_log_menu_outgoing_24" android:id="@id/action_outgoing_calls" android:title="@string/dialer_outgoing_calls" app:iconTint="?tc_color_iconFillActiveBlue" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_call_log_menu_incoming_24" android:id="@id/action_incoming_calls" android:title="@string/dialer_incoming_calls" app:iconTint="?tc_color_iconFillActiveGreen" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_call_log_menu_missed_24" android:id="@id/action_missed_calls" android:title="@string/dialer_missed_calls" app:iconTint="?tc_color_iconFillActiveRed" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_block_24dp" android:id="@id/action_blocked_calls" android:title="@string/dialer_blocked_calls" app:iconTint="?tc_color_iconFillActiveRed" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_sim_select" android:id="@id/action_set_default_sim" android:title="@string/pref_set_default_sim" app:iconTint="?tc_color_iconFillActiveGrey" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_call" android:id="@id/action_default_dialer" android:title="@string/DefaultApp_title_default_dialer" app:iconTint="?tc_color_iconFillActiveGrey" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_action_delete_outline_24dp" android:id="@id/action_delete_all_calls" android:title="@string/dialer_menu_clear_calllogs" app:iconTint="?tc_color_iconFillActiveGrey" app:showAsAction="never" />
+    <item android:icon="@drawable/ic_tcx_settings" android:id="@id/action_settings" android:title="@string/dialer_main_drawer_settings" app:iconTint="?tc_color_iconFillActiveGrey" app:showAsAction="never" />
+</menu>

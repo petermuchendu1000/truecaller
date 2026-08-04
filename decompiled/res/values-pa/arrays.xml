@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ਜਨਵਰੀ</item>
+        <item>ਫਰਵਰੀ</item>
+        <item>ਮਾਰਚ</item>
+        <item>ਅਪ੍ਰੈਲ</item>
+        <item>ਮਈ</item>
+        <item>ਜੂਨ</item>
+        <item>ਜੁਲਾਈ</item>
+        <item>ਅਗਸਤ</item>
+        <item>ਸਤੰਬਰ</item>
+        <item>ਅਕਤੂਬਰ</item>
+        <item>ਨਵੰਬਰ</item>
+        <item>ਦਸੰਬਰ</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>ਅੱਗੇ ਵੱਧੋ</item>
+        <item>ਜਾਰੀ ਰੱਖੋ</item>
+        <item>ਮਨਜ਼ੂਰ ਕਰੋ</item>
+        <item>ਪੁਸ਼ਟੀ</item>
+        <item>%s ਵਰਤੋ</item>
+        <item>%s ਨਾਲ ਜਾਰੀ ਰੱਖੋ</item>
+        <item>%s ਨਾਲ ਅੱਗੇ ਵਧੋ</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s ਵਰਤੋ</item>
+        <item>%s ਨਾਲ ਜਾਰੀ ਰੱਖੋ</item>
+        <item>%s ਨਾਲ ਅੱਗੇ ਵਧੋ</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s ਤੇ ਲਾਗਇਨ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਸਾਇਨਅਪ ਕਰੋ</item>
+        <item>%s ਤੇ ਸਾਈਨ ਇਨ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਨੰਬਰ ਦੀ ਤਸਦੀਕ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਰਜਿਸਟਰ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਅੱਗੇ ਵਧੋ</item>
+        <item>%s ਨਾਲ ਪੁਸ਼ਟੀ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਪ੍ਰੋਫਾਈਲ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਆਪਣੇ ਪ੍ਰੋਫਾਈਲ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਫ਼ੋਨ ਨੰਬਰ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਆਪਣੇ ਨੰਬਰ ਦੀ ਪੁਸ਼ਟੀ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਜਾਰੀ ਰੱਖੋ</item>
+        <item>%s ਨਾਲ ਆਰਡਰ ਪੂਰਾ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਆਰਡਰ ਦਿਓ</item>
+        <item>%s ਨਾਲ ਬੁਕਿੰਗ ਪੂਰੀ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਚੈੱਕਆਉਟ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਵੇਰਵਿਆਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਆਪਣੇ ਵੇਰਵਿਆਂ ਦਾ ਪ੍ਰਬੰਧਨ ਕਰੋ</item>
+        <item>ਇੱਕ ਟੈਪ ਨਾਲ %s ਵਿੱਚ ਲੌਗਇਨ ਕਰੋ</item>
+        <item>%s ਦੇ ਗਾਹਕ ਬਣੋ</item>
+        <item>%s ਤੋਂ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>%s ਤੇ ਪੜ੍ਹਨਾ ਜਾਰੀ ਰੱਖੋ</item>
+        <item>%s ਤੋਂ ਨਵੇਂ ਅੱਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਲੌਗਇਨ/ਸਾਈਨ ਅੱਪ ਕਰੋ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s ਤੇ ਲਾਗਇਨ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਸਾਇਨਅਪ ਕਰੋ</item>
+        <item>%s ਤੇ ਸਾਈਨ ਇਨ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਨੰਬਰ ਦੀ ਤਸਦੀਕ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਰਜਿਸਟਰ ਕਰੋ</item>
+        <item>%s ਨਾਲ ਸ਼ੁਰੂਆਤ ਕਰੋ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>ਸ਼ੁਰੂ ਕਰਨ ਲਈ</item>
+        <item>ਜਾਰੀ ਰੱਖਣ ਲਈ</item>
+        <item>ਆਰਡਰ ਦੇਣ ਲਈ</item>
+        <item>ਆਪਣੀ ਖਰੀਦ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ</item>
+        <item>ਚੈਕਆਉਟ ਕਰਨ ਲਈ</item>
+        <item>ਆਪਣੀ ਬੁਕਿੰਗ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ</item>
+        <item>ਆਪਣੀ ਬੁਕਿੰਗ ਨੂੰ ਜਾਰੀ ਰੱਖਣ ਲਈ</item>
+        <item>ਆਪਣੀ ਬੁਕਿੰਗ ਨੂੰ ਜਾਰੀ ਰੱਖਣ ਲਈ</item>
+        <item>ਵੇਰਵੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ</item>
+        <item>ਹੋਰ ਵੇਖਣ ਲਈ</item>
+        <item>ਪੜ੍ਹਨਾ ਜਾਰੀ ਰੱਖਣ ਲਈ</item>
+        <item>ਅੱਗੇ ਵਧਣ ਲਈ</item>
+        <item>ਨਵੇਂ ਅਪਡੇਟਾਂ ਲਈ</item>
+        <item>ਅਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ</item>
+        <item>ਸਬਸਕ੍ਰਾਈਬ ਕਰਨ ਲਈ</item>
+        <item>ਸਬਸਕ੍ਰਾਈਬ ਕਰਨ ਅਤੇ ਅਪਡੇਟ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ</item>
+        <item>ਵਧੀਆ ਕੀਮਤ ਲੈਣ ਲਈ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>ਕਿਰਪਾ ਕਰਕੇ ਮੋਬਾਈਲ ਨੰਬਰ ਦੀ ਤਸਦੀਕ ਕਰੋ</item>
+        <item>ਕਿਰਪਾ ਕਰਕੇ ਲੌਗਇਨ ਕਰੋ</item>
+        <item>ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਅਪ ਕਰੋ</item>
+        <item>ਕਿਰਪਾ ਕਰਕੇ ਲੌਗਇਨ/ਸਾਈਨਅਪ ਕਰੋ</item>
+        <item>ਕਿਰਪਾ ਕਰਕੇ ਰਜਿਸਟਰ ਕਰੋ</item>
+        <item>ਕਿਰਪਾ ਕਰਕੇ ਸਾਈਨ ਇਨ ਕਰੋ</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>ਸੈੱਟ ਡਿਫੌਲਟ ਸਿਮ</item>
+        <item>ਡਿਫੌਲਟ ਸਿਮ - ਸਿਮ 1</item>
+        <item>ਡਿਫੌਲਟ ਸਿਮ - ਸਿਮ 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>ਸਾਫ਼ ਕਰਨਾ, ਮੈ ਹੁਣ ਗੱਲ ਨਹੀਂ ਕਰ ਸਕਦਾ</item>
+        <item>ਮੈਂ ਤੁਹਾਨੂੰ ਬਾਅਦ ਵਿੱਚ ਕਾਲ ਕਰਾਂਗਾ।</item>
+        <item>ਮੈਂ ਤੁਹਾਨੂੰ ਵਾਪਸ ਕਾਲ ਕਰਾਂਗਾ</item>
+        <item>ਹੁਣੇ ਗੱਲ ਨਹੀਂ ਕਰ ਸਕਦਾ। ਮੈਨੂੰ ਬਾਅਦ ਵਿੱਚ ਕਾਲ ਕਰੋ?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>ਪਹਿਲਾਂ ਨਾਮ</item>
+        <item>ਆਖਰੀ ਨਾਮ</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>ਮੂਕ</item>
+        <item>ਸਿਰਫ ਵਾਇਬ੍ਰੈਸ਼ਨ</item>
+        <item>ਸਿਰਫ ਆਵਾਜ਼</item>
+        <item>ਆਵਾਜ਼ ਅਤੇ ਵਾਇਬ੍ਰੈਸ਼ਨ</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>ਸਧਾਰਨ</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>ਸਿਮ 1</item>
+        <item>ਸਿਮ 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>ਸਿਮ 1</item>
+        <item>ਸਿਮ 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>ਮੂਕ</item>
+        <item>ਸਿਰਫ ਵਾਇਬ੍ਰੈਸ਼ਨ</item>
+        <item>ਸਿਰਫ ਆਵਾਜ਼</item>
+        <item>ਆਵਾਜ਼ ਅਤੇ ਵਾਇਬ੍ਰੈਸ਼ਨ</item>
+    </string-array>
+</resources>

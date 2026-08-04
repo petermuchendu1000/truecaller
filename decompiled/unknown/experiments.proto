@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "com.truecaller.remoteconfig.experiment";
+option java_multiple_files = true;
+
+message ExperimentActivation {
+  // Resolve Id from original response
+  string resolveId = 1;
+
+  // Token Id from original response
+  string token = 2;
+
+  // Flag's name
+  string name = 3;
+
+  // Activation timestamp
+  int64 timestamp = 4;
+
+  // Activation status
+  ExperimentActivationStatus status = 5;
+}
+
+enum ExperimentActivationStatus {
+  // Flag is registered for activation
+  REGISTERED = 0;
+
+  // Activation is sent for the flag
+  COMPLETED = 1;
+}
+
+message ExperimentActivationRequests {
+  repeated ExperimentActivation activation = 1;
+}

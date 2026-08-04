@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="?ic_assistant_chat_message" android:id="@id/screened_call_chat_menu_message" android:title="@string/StrMessage" />
+    <item android:icon="@drawable/ic_tcx_action_whatsapp_outline_24dp" android:id="@id/screened_call_chat_menu_whatsapp" android:title="@string/call_assistant_screened_call_item_whats_app" />
+    <item android:id="@id/screened_call_chat_menu_blockUnblock" android:title="@string/Block" />
+    <item android:icon="@drawable/ic_assistant_delete" android:id="@id/screened_call_chat_menu_delete" android:title="@string/StrDelete" />
+</menu>

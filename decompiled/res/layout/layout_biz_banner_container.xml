@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/bannerTextOnlyViewStub" android:layout="@layout/item_banner_text_only" android:inflatedId="@id/itemBizBannerTextOnly" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/bannerImageOnlyViewStub" android:layout="@layout/item_banner_image_only" android:inflatedId="@id/itemBizBannerImageOnly" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/bannerLeftImageViewStub" android:layout="@layout/item_banner_left_image_with_text" android:inflatedId="@id/itemBizBannerLeftImageWithText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/bannerRightImageViewStub" android:layout="@layout/item_banner_right_image_with_text" android:inflatedId="@id/itemBizBannerRightImageWithText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</merge>

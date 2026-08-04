@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?tcx_brandBackgroundBlue" android:layout_width="fill_parent" android:layout_height="@dimen/ads_offers_toolbar_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:menu="@menu/offers_menu" app:titleMarginStart="@dimen/ads_offers_toolbar_title_margin" app:titleTextColor="@color/ad_white_color" style="@style/StyleX.Toolbar" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/offersRv" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@id/adProgress" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <ProgressBar android:id="@id/adProgress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/offersRv" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:id="@id/cardView" android:layout_width="@dimen/ads_carousel_grid_item_width" android:layout_height="@dimen/ads_carousel_grid_item_height" android:layout_marginTop="@dimen/control_mini_space" android:layout_marginBottom="@dimen/control_mini_space" app:cardBackgroundColor="?tcx_backgroundPrimary" app:cardCornerRadius="4.0dip" app:cardElevation="2.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitXY" android:contentDescription="@null" app:layout_constraintBottom_toTopOf="@id/cta" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center" android:id="@id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_mini_space" android:layout_marginBottom="@dimen/control_mini_space" android:layout_marginStart="@dimen/control_micro_space" android:layout_marginEnd="@dimen/control_micro_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/Ads.Carousel.Grid.TextView.Cta" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

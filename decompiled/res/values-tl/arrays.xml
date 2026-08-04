@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ene</item>
+        <item>peb</item>
+        <item>mar</item>
+        <item>abr</item>
+        <item>may</item>
+        <item>hun</item>
+        <item>hul</item>
+        <item>ago</item>
+        <item>set</item>
+        <item>okt</item>
+        <item>nob</item>
+        <item>dis</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Magpatuloy</item>
+        <item>Magpatuloy</item>
+        <item>Tanggapin</item>
+        <item>Kumpirmahin</item>
+        <item>Gamitin ang %s</item>
+        <item>Magpatuloy gamit ang %s</item>
+        <item>Magpatuloy gamit ang %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Gamitin ang %s</item>
+        <item>Magpatuloy gamit ang %s</item>
+        <item>Magpatuloy gamit ang %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Mag-login sa %s</item>
+        <item>Mag-sign up gamit ang %s</item>
+        <item>Mag-sign In sa %s</item>
+        <item>I-verify ang numero gamit ang %s</item>
+        <item>Magrehistro sa %s</item>
+        <item>Magsimula gamit ang %s</item>
+        <item>Magpatuloy gamit ang %s</item>
+        <item>Mag-verify gamit ang %s</item>
+        <item>I-verify ang profile gamit ang %s</item>
+        <item>I-verify ang profile mo gamit ang %s</item>
+        <item>I-verify ang numero ng telepono gamit ang %s</item>
+        <item>I-verify ang numero mo gamit ang %s</item>
+        <item>Magpatuloy gamit ang %s</item>
+        <item>Kumpletuhin ang order gamit ang %s</item>
+        <item>Mag-order gamit ang %s</item>
+        <item>Tapusin ang pag-book gamit ang %s</item>
+        <item>Mag-checkout gamit ang %s</item>
+        <item>Pamahalaan ang mga detalye gamit ang %s</item>
+        <item>Pamahalaan ang mga detalye mo gamit ang %s</item>
+        <item>Mag-login sa %s sa isang pag-tap</item>
+        <item>Mag-subscribe sa %s</item>
+        <item>Kumuha ng mga update mula sa %s</item>
+        <item>Ituloy ang pagbabasa sa %s</item>
+        <item>Kumuha ng mga bagong update mula sa %s</item>
+        <item>Mag-login/Mag-sign up gamit ang %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Mag-login sa %s</item>
+        <item>Mag-sign up gamit ang %s</item>
+        <item>Mag-sign In sa %s</item>
+        <item>I-verify ang numero gamit ang %s</item>
+        <item>Magrehistro sa %s</item>
+        <item>Magsimula gamit ang %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Para magsimula</item>
+        <item>Para magpatuloy</item>
+        <item>Para mag-order</item>
+        <item>Para kumpletuhin ang pagbili mo</item>
+        <item>Para mag-checkout</item>
+        <item>Para kumpletuhin ang pag-book mo</item>
+        <item>Para ituloy ang pag-book mo</item>
+        <item>Para magpatuloy sa pag-book mo</item>
+        <item>Para makakuha ng mga detalye</item>
+        <item>Para tingnan pa</item>
+        <item>Para magpatuloy sa pagbasa</item>
+        <item>Para magpatuloy</item>
+        <item>Para sa mga bagong update</item>
+        <item>Para makakuha ng mga update</item>
+        <item>Para mag-subscribe</item>
+        <item>Para mag-subscribe at makakuha ng mga update</item>
+        <item>Para makuha ang pinakamagandang presyo</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>paki-verify ang numero ng mobile</item>
+        <item>mangyaring mag-login</item>
+        <item>mangyaring mag-sign up</item>
+        <item>mangyaring mag-login/mag-sign up</item>
+        <item>mangyaring magrehistro</item>
+        <item>mangyaring mag-sign in</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>I-set ang default na SIM</item>
+        <item>Default na SIM - SIM 1</item>
+        <item>Default na SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Pasensya na, hindi ako maaaring makipag-usap ngayon</item>
+        <item>Tatawagan na lang kita mamaya</item>
+        <item>Tatawagan kita kaagad</item>
+        <item>Hindi ako makakausap ngayon. Tawagan ako mamaya?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Pangalan</item>
+        <item>Apelyido</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Tahimik</item>
+        <item>Mag-vibrate lang</item>
+        <item>Tunog lang</item>
+        <item>Tunog at I-vibrate</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Tahimik</item>
+        <item>Mag-vibrate lang</item>
+        <item>Tunog lang</item>
+        <item>Tunog at I-vibrate</item>
+    </string-array>
+</resources>

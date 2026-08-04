@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="chronometer_font_size">20.0sp</dimen>
+    <dimen name="manual_carousel_arrow">36.0dip</dimen>
+    <dimen name="padding_vertical">8.0dip</dimen>
+</resources>

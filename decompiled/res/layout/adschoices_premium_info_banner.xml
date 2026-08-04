@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/rootTipLayout" android:background="@drawable/rounded_corners_16_rectangle_no_ads" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/doubleSpace">
+        <ImageView android:id="@id/iconView" android:background="@drawable/ic_ads_choice_premium_info" android:visibility="visible" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="@dimen/doubleSpace" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <TextView android:textColor="?tcx_textSecondary" android:id="@id/text" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace" android:text="@string/AdsChoices_premium_tip_banner_text" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iconView" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Roboto.Regular.12" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

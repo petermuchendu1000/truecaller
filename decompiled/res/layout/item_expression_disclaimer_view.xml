@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/disclaimerContainer" android:background="?tcx_buttonActionBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textSecondary" android:id="@id/disclaimerText" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/expression_disclaimer_text" android:textAlignment="center" android:paddingHorizontal="36.0dip" android:paddingVertical="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Caption" />
+</androidx.constraintlayout.widget.ConstraintLayout>

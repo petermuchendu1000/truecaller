@@ -1,1 +1,0 @@
-<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="#FFFFFFFF"><item><shape><solid android:color="@color/assistant_incoming_spam_button_color"/><corners android:radius="24.000000dip"/></shape></item></ripple>

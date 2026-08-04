@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/pickerCardView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:layout_marginStart="1.0dip" android:layout_marginEnd="1.0dip" app:cardBackgroundColor="?tcx_conversationBackgroundColor" app:cardCornerRadius="16.0dip" app:cardElevation="2.0dip" app:cardPreventCornerOverlap="false" app:cardUseCompatPadding="true">
+        <com.truecaller.messaging.conversation.atttachmentPicker.AttachmentPicker android:id="@id/attachmentPicker" android:paddingTop="@dimen/space" android:paddingBottom="@dimen/space" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

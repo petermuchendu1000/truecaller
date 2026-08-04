@@ -1,1 +1,0 @@
-<com.truecaller.acs.ui.callhero_assistant.CallAssistantAcsWidget xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/call_assistant_widget_popup_background" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="9.000000dip"/>

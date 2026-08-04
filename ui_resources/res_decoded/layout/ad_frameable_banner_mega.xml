@@ -1,1 +1,0 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:maxHeight="@dimen/ads_mega_image_max_height"/>

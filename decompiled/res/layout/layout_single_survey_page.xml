@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.core.widget.NestedScrollView android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="8.0dip" android:text="Filter by flow:" style="@style/StyleX.Text.Body" />
+            <Spinner android:id="@id/surveyFlowSpinner" android:layout_width="fill_parent" android:layout_height="36.0dip" android:popupTheme="@style/ThemeX.Light" style="@style/StyleX.Spinner" />
+            <TextView android:id="@id/surveyId" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" style="@style/StyleX.Text.Body" />
+            <TextView android:id="@id/surveyContext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" style="@style/StyleX.Text.Body" />
+            <TextView android:id="@id/surveyFlow" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" style="@style/StyleX.Text.Body" />
+            <TextView android:id="@id/surveyJson" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="8.0dip" style="@style/StyleX.Text.Body" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/qaSurveyDetailsHolder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include android:id="@id/qaSurveyDetails" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="16.0dip" app:layout_constraintBottom_toTopOf="@id/updateSurveyButton" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/view_qa_survey_details" />
+        <Button android:id="@id/updateSurveyButton" android:layout_width="0.0dip" android:layout_height="36.0dip" android:layout_margin="16.0dip" android:text="Update" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/StyleX.Button.Primary" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

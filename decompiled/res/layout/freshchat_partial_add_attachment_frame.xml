@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/freshchat_conv_detail_upload_attachment_layout" android:foreground="?freshchatActionSelectableItemBackground" style="?freshchatMessageReplyViewStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center_vertical" android:id="@id/freshchat_upload_attachment_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/freshchat_content_description_attach_picture" app:srcCompat="?freshchatConversationUploadAttachmentIcon" />
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@id/freshchat_upload_attachment_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Upload a file/image" style="?freshchatMessageReplyWithAttachmentInputViewStyle" />
+</LinearLayout>

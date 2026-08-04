@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">您要封鎖並舉報 %d 筆號碼為垃圾號碼嗎？</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">無法刪除您的助理通話。請再試一次。</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">助理通話已刪除。</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">是否確定要刪除此助理通話？一經刪除後則無法復原。</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">刪除所選的助理通話</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d 段錄音</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">訊息已添加到「重要」標籤頁</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">已標記 %d 組對話為已讀取</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">已將 %d 個條目刪除</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">刪除 %d 個條目？</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">已釘選對話</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">儲存所有聯絡人</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">已取消釘選對話</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d 則未讀訊息</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">刪除 %d 段對話？</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">已識別%d個號碼</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">已舉報的訊息</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">已標示為安全的訊息</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">已舉報的訊息</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d 個成員</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">您確定要將這%d個號碼解除封鎖？</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">您確定要刪除 %s 的語言檔案嗎？</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • 訊息已封鎖 • 寄件者在您的封鎖清單中</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s 於 %2$d 小時前來電。點一下可在 Truecaller 中查看</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d 名聯絡人</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d 個附件</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d其他聯絡人</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">已將 %d 筆號碼新增至封鎖名單</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d 被封鎖的來電</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d 靜音來電</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d 天免費試用（僅限新訂閱者）</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d 個月免費試用僅提供給新訂閱者</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d 年免費試用僅提供給新訂閱者</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">%1$s、%2$s 和您是 Premium 家人。您還剩 %3$d 個可用欄位</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">您還有 %1$d 個可用帳戶</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">您和 %1$s 是 Premium 家人。您還剩 %2$d 個可用欄位</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">訂閱將於 %d 天內結束</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d 天免費試用，其後 %2$s</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d 個月免費試用，其後 %2$s</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d 年免費試用，其後 %2$s。</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d 天免費試用，其後</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d 個月免費試用，其後</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d 年免費試用，其後</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">編輯家人清單、移除家庭成員有次數限制。剩下 %1$d 次。</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d 個新的搜尋結果</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">有 %1$d 位新的人查看了個人檔案</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">最近有 %1$d 人查看了您的個人檔案</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">最近有 %1$d 人(%3$d來自%2$s)查看你的個人檔案</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">SMS 簡訊將在 %1$d 秒後自動發送…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">週</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s 天</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">個月</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">年</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">訊息已取消標記為重要</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">您已經超過了嘗試驗證次數的上限。請於 %d 小時後再試。</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d 個新的搜尋結果！</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d 個搜尋結果！</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">您的個人檔案最近在搜尋結果中出現 %1$d 次</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">目前有 %1$d 個搜尋結果</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d 人查看了您的個人檔案</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s 及 %2$s 等曾查看您的個人檔案</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">有 %1$d 人（1 人在%2$s）查看了您的個人檔案</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">來自%2$s的 %1$s 及 %3$s 等曾查看您的個人檔案</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d 人查看了您的個人檔案。搜尋更多。</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d 人（%3$d 個來自%2$s）查看了您的個人檔案。搜尋更多。</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha失敗太多次了。請在 %1$d 小時後重試</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">評論</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d 人查看了您的個人檔案</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s 對話已封存</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">已整理 %d 則訊息</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">正在下載助理通話錄音</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d 項專屬優惠</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">將號碼儲存為現有聯絡人</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d 個通話</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d 天</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">快轉 %d 秒</item>
+        <item quantity="one">快轉 %d 秒</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">倒轉 %d 秒</item>
+        <item quantity="one">倒轉 %d 秒</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">剩下 %d 個名額</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d 個邀請失敗</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">已識別 %d 個問題</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">優惠已刪除</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">已刪除 OTP 訊息</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">已刪除促銷訊息</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">已刪除垃圾訊息</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d 則新訊息</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d 則優惠訊息</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d 則 OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d 則垃圾訊息</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">已刪除 %d 則訊息</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">邀請函</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">你將刪除已選的檔案及 %d 個相關訊息</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">刪除訊息？</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d 則新通知</item>
+        <item quantity="one">%d 則新通知</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">好友</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d 個新心情</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">天</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">%1$d 小時後到期</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">%1$d 分鐘後到期</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">評論</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">貼文有 %1$d 則新留言</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">留言</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">貼文</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s 則評價</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">檢視 %s 則回覆</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">刪除您的數位語音會從您的助理和所有回應中移除。&lt;br>&lt;b>注意： 您還有 %d 次機會來建立您的數位語音&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">最近有 +%s 人搜尋了您的檔案</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">最近有 +%s 人查看了您的檔案</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">%d 小時後再試一次</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s 已封存對話被取消</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">已收到訊息</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">您確定要刪除這些語音信箱通話嗎？此操作無法復原。</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">刪除所選的語音信箱通話</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">無法刪除您的語音信箱通話。請再試一次。</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">所有語音信箱通話已成功刪除。</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">正在下載語音信箱錄音。</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">最近有 %1$d 位來自 %2$s 的人查看了您的個人檔案</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">最近有 %1$d 人 (%3$d 人來自 %2$s) 查看了您的個人檔案</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">有 %1$d 人 (1 人來自 %2$s) 查看了您的個人檔案</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d 人 (%3$d 人來自 %2$s) 查看了您的個人檔案。了解更多。</item>
+    </plurals>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="18.0sp" android:textColor="?tcx_textPrimary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:layout_marginBottom="16.0dip" android:text="Build you own ad request" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/placementTextInputLayout" android:hint="Placement" style="@style/Ads.LeadGen.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:ellipsize="end" android:id="@id/placementTextView" android:focusable="false" android:focusableInTouchMode="false" android:cursorVisible="false" android:inputType="none" style="@style/Ads.LeadGen.TextInputLayout.TextInputEditText.AutoComplete" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/adUnitIdTextInputLayout" android:hint="Ad Unit Id" style="@style/Ads.LeadGen.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            <androidx.appcompat.widget.AppCompatAutoCompleteTextView android:ellipsize="end" android:id="@id/adUnitIdTextView" android:inputType="text" style="@style/Ads.LeadGen.TextInputLayout.TextInputEditText.AutoComplete" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Ad Type" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" />
+        <RadioGroup android:orientation="vertical" android:id="@id/adTypeRadioGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/nativeAdTypeRadioButton" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Native" style="@style/StyleX.RadioButton" />
+            <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/bannerAdTypeRadioButton" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Banner" style="@style/StyleX.RadioButton" />
+            <com.google.android.material.radiobutton.MaterialRadioButton android:id="@id/customAdTypeRadioButton" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Custom Template" style="@style/StyleX.RadioButton" />
+        </RadioGroup>
+        <LinearLayout android:orientation="vertical" android:id="@id/supportedBannersLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="Supported Banners" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/customTemplatesLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip">
+            <androidx.appcompat.widget.AppCompatTextView android:textSize="16.0sp" android:textColor="?tcx_textPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="Custom Templates" />
+        </LinearLayout>
+        <com.google.android.material.button.MaterialButton android:id="@id/saveButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:text="Save" android:layout_marginStart="16.0dip" android:layout_marginEnd="16.0dip" style="@style/StyleX.Button.Primary" />
+        <com.google.android.material.button.MaterialButton android:id="@id/clearButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="Clear" style="@style/StyleX.Button.Primary" />
+    </LinearLayout>
+</ScrollView>

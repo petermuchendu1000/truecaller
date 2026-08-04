@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/layoutBizViewContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/space">
+        <ViewStub android:id="@id/viewStubBizCallMeBack" android:layout="@layout/layout_biz_call_me_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" />
+        <ViewStub android:id="@id/viewStubBizCallSurvey" android:layout="@layout/layout_biz_call_survey" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" />
+        <ViewStub android:id="@id/videoPlayer" android:visibility="gone" android:layout="@layout/view_stub_landscape_video_player" android:inflatedId="@id/video_player_landscape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" />
+        <ViewStub android:layout_gravity="center" android:id="@id/viewStubBizFacsButtons" android:layout="@layout/layout_biz_facs_buttons" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+        <ViewStub android:id="@id/baseCallFeedbackSingleView" android:layout="@layout/view_base_call_feedback_single_view" android:inflatedId="@id/baseCallFeedbackSingleView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/space" />
+    </LinearLayout>
+</merge>

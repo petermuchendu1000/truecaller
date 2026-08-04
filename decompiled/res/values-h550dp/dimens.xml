@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ads_full_screen_native_max_height">330.0dip</dimen>
+    <dimen name="caller_label_radius">10.0dip</dimen>
+    <dimen name="fullscreen_acs_alt_name_font_size">14.0sp</dimen>
+    <dimen name="fullscreen_acs_caller_label_font_size">10.0sp</dimen>
+    <dimen name="fullscreen_acs_caller_label_height">20.0dip</dimen>
+    <dimen name="fullscreen_acs_caller_label_radius">10.0dip</dimen>
+    <dimen name="fullscreen_acs_name_font_size">20.0sp</dimen>
+    <dimen name="fullscreen_acs_phonebook_number_font_size">16.0sp</dimen>
+    <dimen name="fullscreen_acs_profile_image_size">56.0dip</dimen>
+    <dimen name="fullscreen_acs_status_font_size">12.0sp</dimen>
+    <dimen name="fullscreen_acs_truecaller_logo_width">60.0dip</dimen>
+    <dimen name="fullscreen_acs_unknown_name_font_size">16.0sp</dimen>
+    <dimen name="fullscreen_view_profile_bottom_margin">8.0dip</dimen>
+    <item type="dimen" name="fullscreen_view_profile_bottom_margin_ratio">4.0</item>
+</resources>

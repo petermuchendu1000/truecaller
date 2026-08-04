@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="?tcx_textPrimary" android:gravity="center" android:id="@id/textView9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/PremiumTierDiscoverFeaturesLabel" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Text.Caption" />
+    <ImageView android:id="@id/imageView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11.0dip" android:src="@drawable/ic_premium_paywall_feature_drop_down" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="@id/textView9" app:layout_constraintStart_toStartOf="@id/textView9" app:layout_constraintTop_toBottomOf="@id/textView9" />
+</androidx.constraintlayout.widget.ConstraintLayout>

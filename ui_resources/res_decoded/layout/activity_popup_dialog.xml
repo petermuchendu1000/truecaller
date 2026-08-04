@@ -1,1 +1,0 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00000050" android:id="@id/fragment_container" android:background="?7F04099F" android:focusable="true" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:elevation="16.000000dip"/>

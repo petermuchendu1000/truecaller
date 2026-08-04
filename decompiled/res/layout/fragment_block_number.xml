@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.truecaller.ui.view.VerticalNestedScrollView android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/doubleSpace">
+        <FrameLayout android:background="@drawable/background_tcx_rectangle_outline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space">
+            <Spinner android:theme="@style/StyleX.SpinnerItemStyle" android:id="@id/country_spinner" android:layout_width="fill_parent" android:layout_height="54.0dip" style="@style/StyleX.Spinner" />
+        </FrameLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tripleSpace">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/number_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BlockAddInputNumber" android:inputType="phone" android:imeOptions="actionNext" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/tripleSpace">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/name_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/BlockAddInputName" android:imeOptions="actionDone" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/radio_group" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:layout_marginBottom="@dimen/control_space" android:checkedButton="@id/business_button">
+            <RadioButton android:id="@id/business_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/SuggestNameCompany" android:layout_weight="1.0" style="@style/StyleX.RadioButton" />
+            <RadioButton android:id="@id/person_button" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/SuggestNamePerson" android:layout_weight="1.5" style="@style/StyleX.RadioButton" />
+        </RadioGroup>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="56.0dip" android:layout_marginTop="@dimen/doubleSpace">
+            <com.google.android.material.button.MaterialButton android:id="@id/block_button" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/acs_block" style="@style/StyleX.Button.Primary.Disableable" />
+            <ProgressBar android:layout_gravity="center" android:id="@id/block_button_progress" android:visibility="gone" android:layout_width="40.0dip" android:layout_height="40.0dip" android:indeterminate="true" android:elevation="2.0dip" android:indeterminateTint="?tcx_backgroundPrimary" />
+        </FrameLayout>
+        <include layout="@layout/layout_blocked_list" />
+    </LinearLayout>
+</com.truecaller.ui.view.VerticalNestedScrollView>

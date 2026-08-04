@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+option java_package = "com.truecaller.account.domain.auth";
+option java_multiple_files = true;
+
+message AuthData {
+  AuthConfig config = 1;
+  map<string, AuthToken> tokens = 2;
+}
+
+message AuthConfig {
+  int32 version = 1;
+  repeated Endpoint endpoint = 2;
+  int64 expiresAt = 3;
+  int64 createdAt = 4;
+}
+
+message Endpoint {
+  string name = 1;
+  repeated AuthTokenSpec specs = 2;
+}
+
+message AuthTokenSpec {
+  string id = 1;
+  string path = 2;
+}
+
+message AuthToken {
+  string id = 1;
+  string token = 2;
+  int64 expiresAt = 4;
+  int64 createdAt = 5;
+}

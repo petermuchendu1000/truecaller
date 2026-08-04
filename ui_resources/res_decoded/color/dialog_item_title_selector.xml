@@ -1,1 +1,0 @@
-<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:010E0000"><item android:state_enabled="false" android:color="?7F040938"/><item android:color="?7F040933"/></selector>

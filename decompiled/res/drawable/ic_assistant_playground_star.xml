@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="13.0dip" android:width="13.0dip" android:viewportWidth="13.0" android:viewportHeight="13.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_assistant_playground_star__0" android:pathData="M0.18,6.636C4.169,7.86 5.061,8.782 6.145,12.812C6.175,12.921 6.273,13 6.388,13C6.503,13 6.604,12.929 6.636,12.82C7.86,8.831 8.782,7.939 12.812,6.855C12.921,6.825 13,6.727 13,6.612C13,6.497 12.929,6.396 12.82,6.364C8.831,5.14 7.939,4.218 6.855,0.188C6.825,0.079 6.727,0 6.612,0C6.497,0 6.396,0.071 6.364,0.18C5.14,4.171 4.218,5.061 0.188,6.145C0.079,6.175 0,6.273 0,6.388C0,6.503 0.071,6.604 0.18,6.636Z" />
+</vector>

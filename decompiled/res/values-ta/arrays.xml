@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ஜன</item>
+        <item>ஃபெப்</item>
+        <item>மார்</item>
+        <item>ஏப்ர</item>
+        <item>மே</item>
+        <item>ஜூன்</item>
+        <item>ஜூலை</item>
+        <item>ஆக</item>
+        <item>செப்</item>
+        <item>அக்</item>
+        <item>நவ</item>
+        <item>டிச</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>மேலும் தொடர்க</item>
+        <item>தொடரவும்</item>
+        <item>ஏற்றுக்கொள்</item>
+        <item>உறுதிப்படுத்து</item>
+        <item>%s உபயோகி</item>
+        <item>%s உடன் தொடர்</item>
+        <item>%s உடன் தொடர்</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s உபயோகி</item>
+        <item>%s உடன் தொடர்</item>
+        <item>%s உடன் தொடர்</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s -ல் உள் நுழைக</item>
+        <item>%s உடன் இணையவும்</item>
+        <item>%s -ல் உள் நுழைக</item>
+        <item>%s உடன் எண்ணை சரிபார்க்கவும்</item>
+        <item>%s உடன் பதிவுசெய்க</item>
+        <item>%s உடன் துவங்கவும்</item>
+        <item>%s உடன் தொடர்</item>
+        <item>%s உடன் சரிபார்க்கவும்</item>
+        <item>%s மூலம் சுயவிவரத்தைச் சரிபார்க்கவும்</item>
+        <item>%s மூலம் உங்கள் சுயவிவரத்தைச் சரிபார்க்கவும்</item>
+        <item>%s உடன் ஃபோன் எண்ணைச் சரிபார்க்கவும்</item>
+        <item>%s உடன் உங்கள் எண்ணைச் சரிபார்க்கவும்</item>
+        <item>%s உடன் தொடரவும்</item>
+        <item>%s உடன் ஆர்டரை முடிக்கவும்</item>
+        <item>%s உடன் ஆர்டர் செய்யுங்கள்</item>
+        <item>%s உடன் முன்பதிவை முடிக்கவும்</item>
+        <item>%s உடன் வெளியேறவும்</item>
+        <item>%s உடன் விவரங்களை நிர்வகிக்கவும்</item>
+        <item>%s மூலம் உங்கள் விவரங்களை நிர்வகிக்கவும்</item>
+        <item>ஒரே தட்டினால் %s இல் உள்நுழைக</item>
+        <item>%s இல் குழுசேரவும்</item>
+        <item>%s இலிருந்து புதுப்பிப்புகளைப் பெறவும்</item>
+        <item>%s இல் தொடர்ந்து படிக்கவும்</item>
+        <item>%s இலிருந்து புதிய புதுப்பிப்புகளைப் பெறவும்</item>
+        <item>%s உடன் உள்நுழையவும்/பதிவு செய்யவும்</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s-ல் உள் நுழைக</item>
+        <item>%s உடன் இணையவும்</item>
+        <item>%s-ல் உள் நுழைக</item>
+        <item>%s உடன் எண்ணை சரிபார்க்கவும்</item>
+        <item>%s உடன் பதிவுசெய்க</item>
+        <item>%s உடன் துவங்கவும்</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>துவங்குவதற்கு</item>
+        <item>தொடர</item>
+        <item>ஆர்டர் செய்ய</item>
+        <item>உங்கள் கொள்முதலை நிறைவுசெய்ய</item>
+        <item>சரிபார்த்து வெளியேற</item>
+        <item>உங்கள் பதிவை நிறைவுசெய்ய</item>
+        <item>உங்கள் பதிவைத் தொடர</item>
+        <item>உங்கள் பதிவைத் தொடர</item>
+        <item>விபரங்களைப் பெற</item>
+        <item>மேலும் காண</item>
+        <item>தொடர்ந்து வாசிக்க</item>
+        <item>தொடர்வதற்கு</item>
+        <item>புதுப்பித்தல்களுக்கு</item>
+        <item>புதுப்பித்தல்களைப் பெற</item>
+        <item>சந்தா செலுத்த</item>
+        <item>சந்தா செலுத்தவும் &amp; புதுப்பித்தல்களைப் பெறவும்</item>
+        <item>சிறந்த விலையைப் பெற</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>செல்பேசி எண்ணை தயவுசெய்து சரிபார்க்கவும்</item>
+        <item>தயவுசெய்து உள்நுழைக</item>
+        <item>தயவுசெய்து இணையவும்</item>
+        <item>உள்நுழைய/இணைய</item>
+        <item>தயவுசெய்து பதிவுசெய்க</item>
+        <item>தயவுசெய்து உள்நுழைக</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>இயல்பான சிம்மை அமைக்கவும்</item>
+        <item>இயல்பான சிம் - சிம் 1</item>
+        <item>இயல்பான சிம் - சிம் 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>மன்னிக்கவும். என்னால் இப்போது பேசமுடியாது</item>
+        <item>பிறகு அழைக்கிறேன்</item>
+        <item>உடனே திரும்ப அழைக்கிறேன்</item>
+        <item>இப்போது பேச முடியாது. பிறகு கூப்பிடுகிறீர்களா?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>முதற்பெயர்</item>
+        <item>கடைசிப்பெயர்</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>ஓசையின்றி</item>
+        <item>அதிர்வு மட்டும்</item>
+        <item>ஒலி மட்டும்</item>
+        <item>ஒலி மற்றும் அதிர்வு</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>இயல்பு</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>சிம் 1</item>
+        <item>சிம் 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>சிம் 1</item>
+        <item>சிம் 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>ஓசையின்றி</item>
+        <item>அதிர்வு மட்டும்</item>
+        <item>ஒலி மட்டும்</item>
+        <item>ஒலி மற்றும் அதிர்வு</item>
+    </string-array>
+</resources>

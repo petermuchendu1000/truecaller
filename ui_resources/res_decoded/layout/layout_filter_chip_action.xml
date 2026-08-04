@@ -1,1 +1,0 @@
-<com.google.android.material.chip.Chip xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-2" android:text="@string/more_filters" app:chipIcon="@drawable/ic_more_filters" style="@style/StyleX.Chip.Filter.Action"/>

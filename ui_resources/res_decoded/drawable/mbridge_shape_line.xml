@@ -1,1 +1,0 @@
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item android:left="1.000000dip" android:right="1.000000dip"><shape><solid android:color="#FFFFFF00"/></shape></item><item android:bottom="20.000000dip"><shape><solid android:color="@color/mbridge_white"/></shape></item></layer-list>

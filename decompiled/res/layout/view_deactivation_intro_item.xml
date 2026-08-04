@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBox android:id="@id/deactivation_intro_checkbox" android:layout_width="0.0dip" android:layout_height="wrap_content" android:buttonTint="@color/color_deactivation_checkbox" app:layout_constraintEnd_toStartOf="@id/deactivation_intro_icon" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/DeactivationItemTitle" />
+    <TextView android:id="@id/deactivation_intro_subtitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="46.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toEndOf="@id/deactivation_intro_checkbox" app:layout_constraintStart_toStartOf="@id/deactivation_intro_checkbox" app:layout_constraintTop_toBottomOf="@id/deactivation_intro_checkbox" style="@style/DeactivationItemSubtitle" />
+    <ImageView android:id="@id/deactivation_intro_icon" android:background="@drawable/bg_deactivation_icon_background" android:padding="10.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:contentDescription="@null" android:layout_marginEnd="26.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="@id/deactivation_intro_checkbox" />
+</merge>

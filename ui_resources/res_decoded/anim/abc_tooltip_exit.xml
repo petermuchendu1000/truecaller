@@ -1,1 +1,0 @@
-<alpha xmlns:android="http://schemas.android.com/apk/res/android" android:interpolator="@android:010C0000" android:duration="@integer/config_tooltipAnimTime" android:fromAlpha="1.000000" android:toAlpha="0.000000"/>

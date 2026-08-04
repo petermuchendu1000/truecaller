@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:background="?tcx_backgroundPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/gridContainer" layout="@layout/ad_carousel_grid" />
+    <include android:id="@id/tileContainer" layout="@layout/ad_carousel_tile" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/adRecyclerView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_micro_space" android:maxHeight="240.0dip" android:layout_marginStart="@dimen/control_mini_space" android:layout_marginEnd="@dimen/control_mini_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <com.truecaller.common.ui.TcxPagerIndicator android:id="@id/adPageIndicator" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/control_mini_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/adRecyclerView" app:pagerIndicatorActiveColor="#ff0a6cff" app:pagerIndicatorHeight="@dimen/ads_carousel_indicator_height" app:pagerIndicatorInactiveColor="#ffcdd0d4" app:pagerIndicatorSpacing="@dimen/ads_carousel_indicator_space" app:pagerIndicatorWidth="@dimen/ads_carousel_indicator_height" />
+</merge>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardBackgroundColor="?tc_color_containerFillCustom" app:cardPreventCornerOverlap="false" style="@style/StyleX.CardView"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:padding="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="?ic_throttled" />
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:textStyle="bold" android:textColor="?tc_color_textPrimary" android:gravity="center" android:id="@id/throttleTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleX.Text.Roboto.Medium.16" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?tc_color_textPrimary" android:gravity="center" android:id="@id/throttleSubTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/StyleX.Text.Roboto.Regular.14" />
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?tc_color_textPrimary" android:id="@id/throttleDescription" android:background="@drawable/wizard_bg_footer_permissions" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/throttled_limit_description" android:drawablePadding="12.0dip" android:drawableStart="@drawable/ic_throttle_notification" android:backgroundTint="?tc_color_chatBgBlue" style="@style/StyleX.Text.Roboto.Regular.12" />
+            <androidx.appcompat.widget.AppCompatTextView android:textColor="?tc_color_textPrimary" android:id="@id/throttleErrorDescription" android:background="@drawable/wizard_bg_footer_permissions" android:padding="12.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/throttled_limit_error_description" android:drawablePadding="12.0dip" android:drawableStart="@drawable/ic_avatar_warning" android:backgroundTint="?tc_color_chatBgGrey" android:drawableTint="@color/tcx_alertBackgroundOrange_light" style="@style/StyleX.Text.Roboto.Regular.12" />
+            <Space android:layout_width="fill_parent" android:layout_height="24.0dip" />
+            <androidx.appcompat.widget.AppCompatButton android:textColor="?tc_color_alertFillBlue" android:id="@id/action_button" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/StrGotIt" android:textAllCaps="false" android:layout_marginEnd="8.0dip" style="@style/StyleX.Button.Small.Dialog" />
+            <androidx.appcompat.widget.AppCompatButton android:textColor="?tc_color_alertFillBlue" android:id="@id/supportButton" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/wizard_verification_action_contact_support" android:textAllCaps="false" android:layout_marginEnd="8.0dip" style="@style/StyleX.Button.Small.Dialog" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.cardview.widget.CardView>

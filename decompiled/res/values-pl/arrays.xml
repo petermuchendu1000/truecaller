@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>sty</item>
+        <item>lut</item>
+        <item>mar</item>
+        <item>kwi</item>
+        <item>maj</item>
+        <item>cze</item>
+        <item>lip</item>
+        <item>sie</item>
+        <item>wrz</item>
+        <item>paź</item>
+        <item>lis</item>
+        <item>gru</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Kontynuuj</item>
+        <item>Kontynuj</item>
+        <item>Akceptuj</item>
+        <item>Potwierdź</item>
+        <item>Użyj %s</item>
+        <item>Kontynuuj z %s</item>
+        <item>Kontynuuj z %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Użyj %s</item>
+        <item>Kontynuuj z %s</item>
+        <item>Kontynuuj z %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Zaloguj się do %s</item>
+        <item>Zarejestruj się za pomocą %s</item>
+        <item>Zaloguj się do %s</item>
+        <item>Weryfikuj numer przez %s</item>
+        <item>Zarejestruj przez %s</item>
+        <item>Rozpocznij przez %s</item>
+        <item>Kontynuuj z %s</item>
+        <item>Zweryfikuj za pomocą %s</item>
+        <item>Zweryfikuj profil za pomocą %s</item>
+        <item>Zweryfikuj swój profil za pomocą %s</item>
+        <item>Zweryfikuj numer telefonu za pomocą %s</item>
+        <item>Zweryfikuj swój numer za pomocą %s</item>
+        <item>Kontynuuj z %s</item>
+        <item>Ukończ zamówienie: %s</item>
+        <item>Złóż zamówienie: %s</item>
+        <item>Zakończ rezerwację: %s</item>
+        <item>Do kasy: %s</item>
+        <item>Zarządzaj danymi: %s</item>
+        <item>Zarządzaj swoimi danymi: %s</item>
+        <item>Zaloguj się w %s jednym dotknięciem</item>
+        <item>Subskrybuj %s</item>
+        <item>Otrzymuj aktualizacje od %s</item>
+        <item>Czytaj dalej na %s</item>
+        <item>Otrzymuj nowe aktualizacje od %s</item>
+        <item>Zaloguj się/Zarejestruj się przez %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Zaloguj się do %s</item>
+        <item>Zarejestruj się przez %s</item>
+        <item>Zaloguj się do %s</item>
+        <item>Weryfikuj numer przez %s</item>
+        <item>Zarejestruj przez %s</item>
+        <item>Rozpocznij przez %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Aby rozpocząć</item>
+        <item>Aby kontynuować</item>
+        <item>Aby złożyć zamówienie</item>
+        <item>Aby dokończyć zakup</item>
+        <item>Aby przejść do kasy</item>
+        <item>Aby zakończyć rezerwację</item>
+        <item>Aby kontynuować rezerwację</item>
+        <item>Aby kontynuować rezerwację</item>
+        <item>Aby uzyskać szczegóły</item>
+        <item>Aby zobaczyć więcej</item>
+        <item>Aby kontynuować czytanie</item>
+        <item>Aby kontynuować</item>
+        <item>Aby otrzymywać nowe aktualizacje</item>
+        <item>Aby otrzymywać aktualizacje</item>
+        <item>Aby subskrybować</item>
+        <item>Aby subskrybować i otrzymywać aktualizacje</item>
+        <item>Aby uzyskać najlepszą cenę</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>zweryfikuj numer telefonu komórkowego</item>
+        <item>zaloguj się</item>
+        <item>zarejestruj się</item>
+        <item>zaloguj się/zarejestruj się</item>
+        <item>zarejestruj się</item>
+        <item>zaloguj się</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Ustaw domyślną kartę SIM</item>
+        <item>Domyślna karta SIM - SIM 1</item>
+        <item>Domyślna karta SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Przepraszam, nie mogę teraz rozmawiać</item>
+        <item>Oddzwonię później</item>
+        <item>Za chwilę oddzwonię</item>
+        <item>Nie mogę teraz rozmawiać. Czy możesz zadzwonić później?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Imię</item>
+        <item>Nazwisko</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Wyciszony</item>
+        <item>Tylko wibracja</item>
+        <item>Tylko dźwięk</item>
+        <item>Dźwięk i wibracja</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normalna</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Wyciszony</item>
+        <item>Tylko wibracja</item>
+        <item>Tylko dźwięk</item>
+        <item>Dźwięk i wibracja</item>
+    </string-array>
+</resources>

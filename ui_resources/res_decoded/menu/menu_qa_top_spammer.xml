@@ -1,1 +1,0 @@
-<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:icon="@android:0108004F" android:id="@id/actionTopSpammerSearch" android:title="Search" app:actionViewClass="androidx.appcompat.widget.SearchView" app:showAsAction="0x00000002"/></menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/background_tcx_activatable_item" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.truecaller.common.ui.listitem.ListItemX android:id="@id/listItem" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/smartCardOuterContainer" android:background="@drawable/rounded_search_smart_card_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:layout_marginStart="72.0dip" android:layout_marginEnd="8.0dip" android:elevation="4.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/listItem">
+        <include android:id="@id/smartCardContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/insights_search_smart_card" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="?tcx_backgroundSecondary" />
+    <corners android:radius="@dimen/tcx_premium_user_tab_card_corner_radius" />
+</shape>

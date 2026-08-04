@@ -1,0 +1,403 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="BlockAdvancedTypes">
+        <item>@string/BlockAdvancedStartTitle</item>
+        <item>@string/BlockAdvancedContainTitle</item>
+        <item>@string/BlockAdvancedEndTitle</item>
+    </string-array>
+    <string-array name="MmsEmptySubject">
+        <item>no title</item>
+        <item>untitled</item>
+        <item>no subject</item>
+        <item>nosubject</item>
+        <item>geen onderwerp nie</item>
+        <item>ርዕሰ-ጉዳይ የሌለው</item>
+        <item>ምንም ርእስ የለውም</item>
+        <item>بدون موضوع</item>
+        <item>mövzu yoxdur</item>
+        <item>без тема</item>
+        <item>няма тема</item>
+        <item>কোনো বিষয় নেই</item>
+        <item>বিষয়হীন</item>
+        <item>sense assumpte</item>
+        <item>bez předmětu</item>
+        <item>bezpředmětu</item>
+        <item>intet emne</item>
+        <item>kein betreff</item>
+        <item>χωρίς θέμα</item>
+        <item>sin asunto</item>
+        <item>sinasunto</item>
+        <item>teema puudub</item>
+        <item>gairik ez</item>
+        <item>بدون موضوع</item>
+        <item>ei aihetta</item>
+        <item>aucun objet</item>
+        <item>sans objet</item>
+        <item>sen asunto</item>
+        <item>senasunto</item>
+        <item>કોઇ વિષય નહીં</item>
+        <item>વિષય નથી</item>
+        <item>कोई विषय नहीं</item>
+        <item>nema predmeta</item>
+        <item>nincs tárgy</item>
+        <item>անվերնագիր</item>
+        <item>tanpa subjek</item>
+        <item>ekkert efni</item>
+        <item>ekkertefni</item>
+        <item>nessun oggetto</item>
+        <item>ללא נושא</item>
+        <item>件名なし</item>
+        <item>უსათაურო</item>
+        <item>тақырыпсыз</item>
+        <item>тақырып жоқ</item>
+        <item>គ្មាន​ប្រធានបទ</item>
+        <item>제목 없음</item>
+        <item>темасы жок</item>
+        <item>темасыжок</item>
+        <item>ບໍ່ມີຫົວຂໍ້</item>
+        <item>nėra temos</item>
+        <item>bez temata</item>
+        <item>без наслов</item>
+        <item>без тема</item>
+        <item>വിഷയമില്ല</item>
+        <item>വിഷയമൊന്നുമില്ല</item>
+        <item>гарчиггүй</item>
+        <item>कोणताही विषय नाही</item>
+        <item>tiada subjek</item>
+        <item>အကြောင်းအရာ မရှိ</item>
+        <item>အကြောင်းအရာမဲ့</item>
+        <item>emne mangler</item>
+        <item>ikke noe emne</item>
+        <item>शीर्षक नभएको</item>
+        <item>विषय छैन</item>
+        <item>geen onderwerp</item>
+        <item>geenonderwerp</item>
+        <item>ਕੋਈ ਵਿਸ਼ਾ ਨਹੀਂ</item>
+        <item>brak tematu</item>
+        <item>braktematu</item>
+        <item>sem assunto</item>
+        <item>fără subiect</item>
+        <item>без темы</item>
+        <item>කාරණාවක් නොමැත</item>
+        <item>bez predmetu</item>
+        <item>žiadny predmet</item>
+        <item>brez zadeve</item>
+        <item>nizadeve</item>
+        <item>pa subjekt</item>
+        <item>без наслова</item>
+        <item>нема наслова</item>
+        <item>inget ämne</item>
+        <item>kichwa hakijaongezwa</item>
+        <item>தலைப்பு இல்லை</item>
+        <item>ไม่มีเรื่อง</item>
+        <item>ไม่มีชื่อเรื่อง</item>
+        <item>walang paksa</item>
+        <item>konu yok</item>
+        <item>без теми</item>
+        <item>بلا عنوان</item>
+        <item>mavzu yo‘q</item>
+        <item>không có chủ đề</item>
+        <item>无主题</item>
+        <item>沒有主旨</item>
+        <item>無主旨</item>
+        <item>asikho isihloko</item>
+    </string-array>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>may</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>oct</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="Profile_PhotoMenu">
+        <item>@string/Profile_TakePhoto</item>
+        <item>@string/Profile_SelectFromGallery</item>
+    </string-array>
+    <string-array name="Profile_PhotoMenuWithRemove">
+        <item>@string/Profile_TakePhoto</item>
+        <item>@string/Profile_SelectFromGallery</item>
+        <item>@string/Profile_RemovePhoto</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Proceed</item>
+        <item>Continue</item>
+        <item>Accept</item>
+        <item>Confirm</item>
+        <item>Use %s</item>
+        <item>Continue with %s</item>
+        <item>Proceed with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Use %s</item>
+        <item>Continue with %s</item>
+        <item>Proceed with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Login to %s</item>
+        <item>Signup with %s</item>
+        <item>Sign In to %s</item>
+        <item>Verify number with %s</item>
+        <item>Register with %s</item>
+        <item>Get Started with %s</item>
+        <item>Proceed with %s</item>
+        <item>Verify with %s</item>
+        <item>Verify profile with %s</item>
+        <item>Verify your profile with %s</item>
+        <item>Verify phone number with %s</item>
+        <item>Verify your number with %s</item>
+        <item>Continue with %s</item>
+        <item>Complete order with %s</item>
+        <item>Place order with %s</item>
+        <item>Complete booking with %s</item>
+        <item>Checkout with %s</item>
+        <item>Manage details with %s</item>
+        <item>Manage your details with %s</item>
+        <item>Login to %s with one tap</item>
+        <item>Subscribe to %s</item>
+        <item>Get updates from %s</item>
+        <item>Continue reading on %s</item>
+        <item>Get new updates from %s</item>
+        <item>Login/Signup with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Login to %s</item>
+        <item>Signup with %s</item>
+        <item>Sign In to %s</item>
+        <item>Verify number with %s</item>
+        <item>Register with %s</item>
+        <item>Get Started with %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>To get started</item>
+        <item>To continue</item>
+        <item>To place order</item>
+        <item>To complete your purchase</item>
+        <item>To checkout</item>
+        <item>To complete your booking</item>
+        <item>To proceed with your booking</item>
+        <item>To continue with your booking</item>
+        <item>To get details</item>
+        <item>To view more</item>
+        <item>To continue reading</item>
+        <item>To proceed</item>
+        <item>For new updates</item>
+        <item>To get updates</item>
+        <item>To subscribe</item>
+        <item>To subscribe &amp; get updates</item>
+        <item>To get best price</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>please verify mobile number</item>
+        <item>please login</item>
+        <item>please signup</item>
+        <item>please login/signup</item>
+        <item>please register</item>
+        <item>please sign in</item>
+    </string-array>
+    <array name="callGradientGold">
+        <item>#fff6e27a</item>
+        <item>#ffe0bd65</item>
+        <item>#dbcb9b51</item>
+        <item>#00000000</item>
+    </array>
+    <array name="callGradientIdentified">
+        <item>#ff0a6cff</item>
+        <item>#ff0a6cff</item>
+        <item>#ff0b48b4</item>
+        <item>#ff000000</item>
+    </array>
+    <array name="callGradientPriority">
+        <item>#ff7042cd</item>
+        <item>#00000000</item>
+    </array>
+    <array name="callGradientSmallBusiness">
+        <item>#ff0a6cff</item>
+        <item>#00000000</item>
+    </array>
+    <array name="callGradientSpam">
+        <item>#ffe91f0c</item>
+        <item>#ff000000</item>
+    </array>
+    <array name="callGradientVerifiedBusiness">
+        <item>#ff188c4e</item>
+        <item>#00000000</item>
+    </array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Set default SIM</item>
+        <item>Default SIM - SIM 1</item>
+        <item>Default SIM - SIM 2</item>
+    </string-array>
+    <string-array name="carrier_telenor_actions">
+        <item>3G Weekly</item>
+        <item>3G 3 Day</item>
+        <item>3G Daily</item>
+    </string-array>
+    <string-array name="carrier_telenor_links">
+        <item>smsto:5221?body=3G_WEEKLY</item>
+        <item>smsto:5221?body=3G_3DAY</item>
+        <item>smsto:5221?body=DailyLite_Bundle</item>
+    </string-array>
+    <string-array name="carrier_tim_actions">
+        <item>TIM Avisa Premium</item>
+        <item>Meu Saldo</item>
+        <item>Recarga</item>
+        <item>Meu Tim</item>
+    </string-array>
+    <string-array name="carrier_tim_links">
+        <item>http://wap.tim.com.br/lp/truecallerapp</item>
+        <item>http://www.tim.com.br/rj/para-voce/servicos-tim/facilidades/consulta-de-saldo</item>
+        <item>http://www.tim.com.br/rj/para-voce/recarga/recarga-express</item>
+        <item>https://meutim.tim.com.br/login</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>"Sorry, I can't talk now"</item>
+        <item>"I'll call you later"</item>
+        <item>"I'll call you right back"</item>
+        <item>"Can't talk now. Call me later?"</item>
+    </string-array>
+    <string-array name="cdm_messages_ids">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>First name</item>
+        <item>Last name</item>
+    </string-array>
+    <array name="crypto_fingerprint_fallback_prefixes" />
+    <string-array name="crypto_fingerprint_fallback_vendors">
+        <item>samsung</item>
+    </string-array>
+    <string-array name="delay_showing_prompt_models">
+        <item>Pixel 4</item>
+        <item>Pixel 4 XL</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Silent</item>
+        <item>Vibrate only</item>
+        <item>Sound only</item>
+        <item>Sound and Vibrate</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <array name="fullScreenPhoneBook">
+        <item>#70000000</item>
+        <item>#00000000</item>
+        <item>#ff202124</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_gold">
+        <item>#fff6e27a</item>
+        <item>#ffe0bd65</item>
+        <item>#dbcb9b51</item>
+        <item>#00000000</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_identified">
+        <item>#ff0a6cff</item>
+        <item>#cc0674d7</item>
+        <item>#00202124</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_phonebook">
+        <item>#e6000000</item>
+        <item>#00000000</item>
+        <item>#e6000000</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_priority">
+        <item>#ff7042cd</item>
+        <item>#ff5f38ae</item>
+        <item>#ff000000</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_small_business">
+        <item>#ff0a6cff</item>
+        <item>#cc0674d7</item>
+        <item>#00202124</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_spam">
+        <item>#fffa301e</item>
+        <item>#ccc4554b</item>
+        <item>#00202124</item>
+    </array>
+    <array name="fullscreen_acs_caller_gradient_verified_business">
+        <item>#ff188c4e</item>
+        <item>#ff147742</item>
+        <item>#ff000000</item>
+    </array>
+    <string-array name="hide_fingerprint_instantly_prefixes">
+        <item>SM-A50</item>
+        <item>SM-G973</item>
+        <item>SM-G975</item>
+        <item>SM-G977</item>
+        <item>SM-G770</item>
+        <item>SM-N970</item>
+        <item>SM-N971</item>
+        <item>SM-N975</item>
+        <item>SM-N976</item>
+        <item>SM-N770</item>
+        <item>SC-03L</item>
+        <item>SC-04L</item>
+        <item>SC-05L</item>
+        <item>SC-01M</item>
+        <item>SCV41</item>
+        <item>SCV42</item>
+        <item>SCV45</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="qa_survey_context_types">
+        <item>Acs</item>
+        <item>DetailsView</item>
+        <item>Block</item>
+    </string-array>
+    <string-array name="qa_survey_flow_types">
+        <item>Acs</item>
+        <item>AcsBizmon</item>
+        <item>NameSuggestion</item>
+        <item>NameQualityFeedback</item>
+        <item>DetailsView</item>
+        <item>DetailsViewNameSuggestion</item>
+        <item>DetailsViewNameQualityFeedback</item>
+        <item>ReportProfile</item>
+        <item>AcsPositiveResponseNameSuggestion</item>
+        <item>DetailsViewPositiveResponseNameSuggestion</item>
+        <item>BlockDynamicComment</item>
+        <item>BlockDynamicNameSurvey</item>
+        <item>BlockNameQualityFeedback</item>
+        <item>BlockTopComment</item>
+        <item>BlockSpamCategories</item>
+        <item>BlockNameSuggestion</item>
+        <item>BlockComments</item>
+    </string-array>
+    <string-array name="qa_survey_question_types">
+        <item>Binary</item>
+        <item>SingleChoice</item>
+        <item>FreeText</item>
+        <item>Rating</item>
+        <item>Confirmation</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Silent</item>
+        <item>Vibrate only</item>
+        <item>Sound only</item>
+        <item>Sound and Vibrate</item>
+    </string-array>
+</resources>

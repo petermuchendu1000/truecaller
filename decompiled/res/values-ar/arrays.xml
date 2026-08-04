@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>يناير</item>
+        <item>فبراير</item>
+        <item>مارس</item>
+        <item>أبريل</item>
+        <item>ماي</item>
+        <item>يونيو</item>
+        <item>يوليو</item>
+        <item>أغسطس</item>
+        <item>سبتمبر</item>
+        <item>أكتوبر</item>
+        <item>نوفمبر</item>
+        <item>ديسمبر</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>تقدم</item>
+        <item>مواصلة</item>
+        <item>قبول</item>
+        <item>تأكيد</item>
+        <item>استخدم %s</item>
+        <item>واصل باستخدام %s</item>
+        <item>واصل باستخدام %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>استخدم %s</item>
+        <item>واصل باستخدام %s</item>
+        <item>واصل باستخدام %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>تسجيل الدخول إلى %s</item>
+        <item>الاشتراك باستخدام %s</item>
+        <item>تسجيل الدخول إلى %s</item>
+        <item>مصادقة الرقم باستخدام %s</item>
+        <item>التسجيل باستخدام %s</item>
+        <item>ابدأ بـ %s</item>
+        <item>واصل باستخدام %s</item>
+        <item>تحقق مع %s</item>
+        <item>تحقق من الملف الشخصي مع %s</item>
+        <item>تحقق من ملفك الشخصي مع %s</item>
+        <item>تحقق من رقم الهاتف مع %s</item>
+        <item>تحقق من رقمك مع %s</item>
+        <item>تابع مع %s</item>
+        <item>إكمال الطلب مع %s</item>
+        <item>تقديم الطلب مع %s</item>
+        <item>إكمال الحجز مع %s</item>
+        <item>تسجيل الخروج مع %s</item>
+        <item>إدارة التفاصيل مع %s</item>
+        <item>إدارة التفاصيل الخاصة بك مع %s</item>
+        <item>قم بتسجيل الدخول إلى %s بنقرة واحدة</item>
+        <item>اشترك في %s</item>
+        <item>احصل على تحديثات من %s</item>
+        <item>تابع القراءة على %s</item>
+        <item>احصل على تحديثات جديدة من %s</item>
+        <item>تسجيل الدخول / التسجيل مع %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>تسجيل الدخول إلى %s</item>
+        <item>الاشتراك باستخدام %s</item>
+        <item>تسجيل الدخول إلى %s</item>
+        <item>مصادقة الرقم باستخدام %s</item>
+        <item>التسجيل باستخدام %s</item>
+        <item>ابدأ بـ %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>للبدء</item>
+        <item>للمواصلة</item>
+        <item>لوضع طلب</item>
+        <item>لإكمال الشراء</item>
+        <item>للدفع والخروج</item>
+        <item>لإكمال حجزك</item>
+        <item>لمواصلة حجزك</item>
+        <item>لمواصلة حجزك</item>
+        <item>للحصول على التفاصيل</item>
+        <item>لمشاهدة المزيد</item>
+        <item>لمواصلة القراءة</item>
+        <item>للمواصلة</item>
+        <item>للتحديثات الجديدة</item>
+        <item>للحصول على التحديثات</item>
+        <item>للاشتراك</item>
+        <item>للاشتراك والحصول على التحديثات</item>
+        <item>للحصول على أفضل سعر</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>فضلاً قم بمصادقة رقم الهاتف</item>
+        <item>يرجى تسجيل الدخول</item>
+        <item>يرجى الاشتراك</item>
+        <item>يرجى تسجيل الدخول/الاشتراك</item>
+        <item>يرجى التسجيل</item>
+        <item>يرجى تسجيل الدخول</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>التعيين كشريحة افتراضية</item>
+        <item>الشريحة الافتراضية - شريحة 1</item>
+        <item>الشريحة الافتراضية - شريحة 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>أعتذر، لا يمكنني التحدث حاليًا</item>
+        <item>سأعاود الاتصال بك</item>
+        <item>سأعاود الاتصال بك بعد قليل</item>
+        <item>لا يمكنني التحدث الآن. هل يمكنك الاتصال بي لاحقًا؟</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>الاسم</item>
+        <item>اسم العائلة</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>صامت</item>
+        <item>إهتزاز فقط</item>
+        <item>صوتي فقط</item>
+        <item>صوت و إهتزاز</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>أسرع بـ 0.25 مرة</item>
+        <item>أسرع بـ 0.5 مرات</item>
+        <item>أسرع بـ 0.75 مرة</item>
+        <item>عادية</item>
+        <item>أسرع بـ 1.25 مرة</item>
+        <item>أسرع بـ 1.5 مرة</item>
+        <item>أسرع بمرتين</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>شريحة 1</item>
+        <item>شريحة 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>شريحة 1</item>
+        <item>شريحة 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>صامت</item>
+        <item>إهتزاز فقط</item>
+        <item>صوتي فقط</item>
+        <item>صوت و إهتزاز</item>
+    </string-array>
+</resources>

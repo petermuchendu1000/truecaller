@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:id="@id/qa_contact_badge_number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:hint="Enter contact number..." android:inputType="phone" app:layout_constraintTop_toTopOf="parent" style="@style/StyleX.Input.Outline" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/qa_contact_badge_list" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginVertical="16.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toTopOf="@id/qa_add_contact_badge_button" app:layout_constraintTop_toBottomOf="@id/qa_contact_badge_number" />
+    <Button android:id="@id/qa_add_contact_badge_button" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_margin="16.0dip" android:text="Save" app:layout_constraintBottom_toBottomOf="parent" style="@style/StyleX.Button.Primary" />
+</androidx.constraintlayout.widget.ConstraintLayout>

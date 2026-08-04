@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/deactivation_fragment_graph" app:startDestination="@id/navigation_deactivation_intro"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.truecaller.deactivation.impl.ui.intro.DeactivationIntroFragment" android:id="@id/navigation_deactivation_intro">
+        <action android:id="@id/to_stats" app:destination="@id/navigation_deactivation_stats" />
+        <action android:id="@id/to_questionnaire" app:destination="@id/navigation_deactivation_questionnaire" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.stats.DeactivationStatsFragment" android:id="@id/navigation_deactivation_stats">
+        <action android:id="@id/to_questionnaire" app:destination="@id/navigation_deactivation_questionnaire" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.questionnaire.DeactivationQuestionnaireFragment" android:id="@id/navigation_deactivation_questionnaire">
+        <argument android:name="source" android:defaultValue="" app:argType="string" />
+        <action android:id="@id/to_other" app:destination="@id/navigation_deactivation_questionnaire_other" />
+        <action android:id="@id/to_change_name" app:destination="@id/navigation_deactivation_questionnaire_change_name" />
+        <action android:id="@id/to_change_number" app:destination="@id/navigation_deactivation_questionnaire_change_number" />
+        <action android:id="@id/to_troubleshoot" app:destination="@id/navigation_deactivation_questionnaire_troubleshoot" />
+        <action android:id="@id/to_storage" app:destination="@id/navigation_deactivation_questionnaire_storage" />
+        <action android:id="@id/to_spam_calls" app:destination="@id/navigation_deactivation_questionnaire_spam_calls" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.questionnaire.questions.storage.DeactivationStorageFragment" android:id="@id/navigation_deactivation_questionnaire_storage">
+        <action android:id="@id/to_confirmation" app:destination="@id/navigation_deactivation_confirmation" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.questionnaire.questions.spamcalls.DeactivationSpamCallsFragment" android:id="@id/navigation_deactivation_questionnaire_spam_calls">
+        <action android:id="@id/to_confirmation" app:destination="@id/navigation_deactivation_confirmation" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.questionnaire.questions.other.DeactivationOtherFragment" android:id="@id/navigation_deactivation_questionnaire_other">
+        <action android:id="@id/to_confirmation" app:destination="@id/navigation_deactivation_confirmation" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.questionnaire.questions.changename.DeactivationChangeNameFragment" android:id="@id/navigation_deactivation_questionnaire_change_name">
+        <action android:id="@id/to_confirmation" app:destination="@id/navigation_deactivation_confirmation" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.questionnaire.questions.changenumber.DeactivationChangeNumberFragment" android:id="@id/navigation_deactivation_questionnaire_change_number">
+        <action android:id="@id/to_confirmation" app:destination="@id/navigation_deactivation_confirmation" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.questionnaire.questions.troubleshoot.DeactivationTroubleshootFragment" android:id="@id/navigation_deactivation_questionnaire_troubleshoot">
+        <action android:id="@id/to_confirmation" app:destination="@id/navigation_deactivation_confirmation" />
+    </fragment>
+    <fragment android:name="com.truecaller.deactivation.impl.ui.confirmation.DeactivationConfirmationFragment" android:id="@id/navigation_deactivation_confirmation">
+        <argument android:name="analyticsReason" app:argType="com.truecaller.deactivation.impl.common.QuestionnaireReason" />
+        <argument android:name="comment" android:defaultValue="" app:argType="string" />
+        <argument android:name="commentType" android:defaultValue="NONE" app:argType="com.truecaller.deactivation.impl.ui.questionnaire.CommentType" />
+    </fragment>
+</navigation>

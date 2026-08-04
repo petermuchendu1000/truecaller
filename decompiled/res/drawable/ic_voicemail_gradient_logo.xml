@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="161.0dip" android:width="196.0dip" android:viewportWidth="196.0" android:viewportHeight="161.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_voicemail_gradient_logo__0" android:pathData="M2.04,75.29a59.1,95.96 90,1 1,191.92 -0a59.1,95.96 90,1 1,-191.92 -0z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="@drawable/$ic_voicemail_gradient_logo__1" android:pathData="M14.29,73.25a57.06,83.71 90,1 1,167.42 -0a57.06,83.71 90,1 1,-167.42 -0z" android:strokeAlpha="0.2" android:fillAlpha="0.2" />
+    <path android:fillColor="@drawable/$ic_voicemail_gradient_logo__2" android:pathData="M46.96,68.15a51.97,51.04 90,1 1,102.08 -0a51.97,51.04 90,1 1,-102.08 -0z" android:strokeAlpha="0.4" android:fillAlpha="0.4" />
+    <path android:fillColor="#ff0a6cff" android:pathData="M124.36,57.65C112.03,57.65 102.06,67.87 102.06,80.49C102.06,86.02 103.96,91.08 107.17,95.03H88.84C92.04,91.08 93.95,86.02 93.95,80.49C93.95,67.87 83.98,57.65 71.65,57.65C59.32,57.65 49.35,67.87 49.35,80.49C49.35,93.12 59.32,103.33 71.65,103.33H124.36C136.69,103.33 146.66,93.12 146.66,80.49C146.66,67.87 136.69,57.65 124.36,57.65ZM71.65,95.03C63.82,95.03 57.46,88.51 57.46,80.49C57.46,72.48 63.82,65.96 71.65,65.96C79.47,65.96 85.84,72.48 85.84,80.49C85.84,88.51 79.47,95.03 71.65,95.03ZM124.36,95.03C116.54,95.03 110.17,88.51 110.17,80.49C110.17,72.48 116.54,65.96 124.36,65.96C132.19,65.96 138.55,72.48 138.55,80.49C138.55,88.51 132.19,95.03 124.36,95.03Z" />
+</vector>

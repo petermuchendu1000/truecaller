@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/freshchat_list_item_with_new_message_divider" />
+    <com.freshchat.consumer.sdk.ui.FlowLayout android:id="@id/freshchat_chips_flowlayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="16.0dip" android:splitMotionEvents="false" android:layout_marginHorizontal="56.0dip" app:freshchatFlChildSpacing="@dimen/freshchat_message_item_agent_start_margin" app:freshchatFlChildSpacingForLastRow="align" app:freshchatFlRowSpacing="@dimen/freshchat_quick_reply_view_row_padding" />
+</LinearLayout>

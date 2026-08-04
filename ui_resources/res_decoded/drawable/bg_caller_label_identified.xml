@@ -1,1 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="0"><solid android:color="#FF0A6CFF"/><corners android:radius="@dimen/caller_label_radius"/></shape>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="28.0sp" android:textColor="#ffeff1f1" android:gravity="center" android:id="@id/softThrottledCallerIdTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/acs_soft_throttled_caller_id_title" />
+    <TextView android:textSize="14.0sp" android:textColor="#b3ffffff" android:gravity="center" android:id="@id/softThrottledCallerIdSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/acs_soft_throttled_caller_id_subtitle" android:layout_marginStart="62.0dip" android:layout_marginEnd="62.0dip" />
+</LinearLayout>

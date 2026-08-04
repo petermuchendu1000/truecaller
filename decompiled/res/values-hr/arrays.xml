@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>sij</item>
+        <item>velj</item>
+        <item>ožu</item>
+        <item>tra</item>
+        <item>svi</item>
+        <item>lip</item>
+        <item>srp</item>
+        <item>kol</item>
+        <item>ruj</item>
+        <item>lis</item>
+        <item>stu</item>
+        <item>pro</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Nastavi</item>
+        <item>Nastavi</item>
+        <item>Prihvaćam</item>
+        <item>Potvrdi</item>
+        <item>Upotrijebite %s</item>
+        <item>Nastavite s %s</item>
+        <item>Nastavite s %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Upotrijebite %s</item>
+        <item>Nastavite s %s</item>
+        <item>Nastavite s %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Prijavite se na %s</item>
+        <item>Registrirajte se putem %s</item>
+        <item>Prijavite se u %s</item>
+        <item>Potvrdite broj putem %s</item>
+        <item>Registrirajte se putem %s</item>
+        <item>Započnite s %s</item>
+        <item>Nastavite s %s</item>
+        <item>Potvrdite putem %s</item>
+        <item>Potvrdite profil putem %s</item>
+        <item>Potvrdite svoj profil putem %s</item>
+        <item>Potvrdite telefonski broj putem %s</item>
+        <item>Potvrdite svoj broj putem %s</item>
+        <item>Nastavite s %s</item>
+        <item>Dovršite narudžbu putem %s</item>
+        <item>Naručite putem %s</item>
+        <item>Dovršite rezervaciju putem %s</item>
+        <item>Plaćanje putem %s</item>
+        <item>Upravljajte pojedinostima putem %s</item>
+        <item>Upravljajte svojim pojedinostima putem %s</item>
+        <item>Prijavite se na %s jednim dodirom</item>
+        <item>Pretplatite se na %s</item>
+        <item>Primajte novosti od %s</item>
+        <item>Nastavite čitati na %s</item>
+        <item>Primajte nove novosti od %s</item>
+        <item>Prijava/registracija putem %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Prijavite se na %s</item>
+        <item>Registrirajte se putem %s</item>
+        <item>Prijavite se u %s</item>
+        <item>Potvrdite broj putem %s</item>
+        <item>Registrirajte se putem %s</item>
+        <item>Započnite s %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Za početak</item>
+        <item>Za nastavak</item>
+        <item>Za narudžbu</item>
+        <item>Za dovršetak kupnje</item>
+        <item>Za plaćanje</item>
+        <item>Da biste dovršili svoju rezervaciju</item>
+        <item>Da biste nastavili s rezervacijom</item>
+        <item>Da biste nastavili sa svojom rezervacijom</item>
+        <item>Da biste dobili pojedinosti</item>
+        <item>Da biste vidjeli više</item>
+        <item>Da biste nastavili čitati</item>
+        <item>Za nastavak</item>
+        <item>Za nove novosti</item>
+        <item>Da biste primali novosti</item>
+        <item>Za pretplatu</item>
+        <item>Za pretplatu i primanje novosti</item>
+        <item>Da biste dobili najbolju cijenu</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>potvrdite broj mobilnog telefona</item>
+        <item>prijavite se</item>
+        <item>registrirajte se</item>
+        <item>prijavite se/registrirajte se</item>
+        <item>registrirajte se</item>
+        <item>prijavite se</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Postavi zadani SIM</item>
+        <item>Zadani SIM: SIM 1</item>
+        <item>Zadani SIM: SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Žao mi je, ne mogu sada razgovarati</item>
+        <item>Nazvat ću Vas kasnije</item>
+        <item>Odmah ću Vas nazvati</item>
+        <item>Ne mogu sada razgovarati. Možeš li me nazvati kasnije?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Osobno ime</item>
+        <item>Prezime</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Bešumno</item>
+        <item>Samo vibracija</item>
+        <item>Samo zvuk</item>
+        <item>Zvuk i vibracija</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25 x</item>
+        <item>0,5 x</item>
+        <item>0,75 x</item>
+        <item>Uobičajeno</item>
+        <item>1,25 x</item>
+        <item>1,5 x</item>
+        <item>2 x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Bešumno</item>
+        <item>Samo vibracija</item>
+        <item>Samo zvuk</item>
+        <item>Zvuk i vibracija</item>
+    </string-array>
+</resources>

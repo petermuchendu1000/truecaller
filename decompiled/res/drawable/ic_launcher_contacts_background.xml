@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="108.0dip" android:width="108.0dip" android:viewportWidth="432.0" android:viewportHeight="432.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_launcher_contacts_background__0" android:pathData="M432,0H0V432H432V0Z" />
+    <path android:fillColor="#ff0027ff" android:pathData="M226.17,432H432V0H0V270V352C0,372 0,372.5 0,399.58C106.88,300.51 225.68,272.95 226.17,432Z" />
+    <path android:fillColor="#00000000" android:pathData="M0.5,0.5h431v431h-431z" android:strokeColor="#ff000000" android:strokeWidth="1.0" />
+</vector>

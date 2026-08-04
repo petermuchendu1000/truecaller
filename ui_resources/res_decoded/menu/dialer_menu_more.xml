@@ -1,1 +1,0 @@
-<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:icon="@drawable/ic_tcx_more_vert_24dp" android:id="@id/menu" android:title="@string/dialer_more" app:actionLayout="@layout/layout_menu_item" app:showAsAction="0x00000002"/></menu>

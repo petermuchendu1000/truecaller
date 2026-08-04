@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">번호 %d개를 스팸으로 차단 및 신고할까요?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">어시스턴트 통화를 삭제할 수 없습니다. 다시 시도해 주세요.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">어시스턴트 통화가 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">이 어시스턴트 통화를 삭제하시겠습니까? 이 작업은 실행 취소할 수 없습니다.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">선택한 어시스턴트 통화 삭제</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">녹음 %d개</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">중요 탭에 추가된 메시지</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d개의 대화가 읽음으로 표시됨</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">엔트리 %d개가 삭제되었습니다</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">엔트리 %d개를 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">대화 고정됨</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">모든 연락처 저장</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">대화 고정 해제됨</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">읽지 않은 메시지 %d개</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">%d개의 대화를 삭제할까요?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d개의 번호 식별됨</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">신고된 메시지</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">메시지가 안전 처리됨</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">신고된 메시지</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d명</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">%d개 번호의 차단을 해제하시겠어요?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">정말로 언어 파일 %s개를 삭제하시겠습니까?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • 차단된 메시지 • 차단 목록에 있는 발신자</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s님이 %2$d시간 전에 전화했습니다. 탭하여 Truecaller에서 확인하세요.</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">연락처 %d개</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d개의 첨부</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">다른 %d개 연락처</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d개의 번호가 차단 목록에 추가됨</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d개의 차단된 통화</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d개의 무음 통화</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">신규 구독자만 %1$d일 무료 체험 혜택</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">신규 구독자 전용 %1$d개월 무료 체험</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">신규 구독자 전용 %1$d년 무료 체험</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">귀하, %1$s 및 %2$s 은(는) Premium 가족입니다. 남은 자리는 %3$d 개입니다</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">남은 계정이 %1$d개 있습니다.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">귀하 및 %1$s은(는) Premium 가족입니다. 남은 자리는 %2$d개입니다</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">구독이 %d일 후에 종료됩니다</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d일 무료 체험 이후 %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d개월 무료 체험 이후 %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d년 무료 체험 이후 %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d일 무료 체험 이후</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d개월 무료 체험 이후</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d년 무료 체험 이후</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">가족 구성원을 제거하는 가족 목록 편집 횟수가 제한되어 있습니다. %1$d번의 편집 횟수가 남았습니다.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d 새 검색 표시</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d개의 새로운 프로필 뷰</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">최근에 %1$d명이 내 프로필을 봄</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">최근 %1$d명(%2$s의 %3$d)이 회원님의 프로필을 보았습니다</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">%1$d초 후에 SMS가 자동으로 전송됩니다…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">주</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s일</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">개월</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">년</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">별 표시되지 않은 메시지</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">인증 시도 제한을 초과했습니다. %d시간 후에 다시 시도하세요.</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d 새 검색 표시!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d 검색 표시!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">최근 검색 결과에서 회원님 프로필이 %1$d회 나타났습니다</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d 최근 검색 표시</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d명이 내 프로필을 봄</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s 외 %2$s명이 프로필을 봤습니다</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d명(%2$s에서 1명)이 프로필을 봤습니다</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%2$s의 %1$s 외 %3$s명이 프로필을 봤습니다</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d명이 프로필을 봤습니다. 더 알아보세요.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d명(%2$s의 %3$d)이 프로필을 봤습니다. 더 알아보세요.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha를 너무 많이 실패했습니다. %1$d시간 후에 다시 시도하세요</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">댓글</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d명이 내 프로필을 봄</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">대화 %s개 보관됨</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">메시지 %d개가 정리됨</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">어시스턴트 통화 녹음 다운로드 중</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d개의 독점 혜택</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">기존 연락처에 번호 저장</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">통화 %1d개</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d일</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">%d초 빨리 감기</item>
+        <item quantity="one">%d초 빨리 감기</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">%d초 되감기</item>
+        <item quantity="one">%d초 되감기</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">남은 자리 %d개</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d개의 초대가 실패했습니다</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d개의 문제 식별됨</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">제안 삭제됨</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">비워진 OTP 메시지</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">삭제된 홍보 메시지</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">비워진 스팸 메시지</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">메시지 %d개</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">제안이 있는 메시지 %d개</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">OTP %d개</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">스팸 메시지 %d개</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">비운 메시지 %d개</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">초대</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">선택한 파일과 %d개의 관련 메시지를 삭제하려고 합니다</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">메시지를 삭제할까요?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">친구</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d개의 새로운 반응</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">일</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">%1$d시간 후 만료</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">%1$d분 후 만료</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">댓글</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">게시물에 %1$d개의 새로운 댓글이 있습니다</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">댓글</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">게시물</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">댓글 %s개</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">답글 %s개 보기</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">디지털 음성을 삭제하면 어시스턴트와 모든 응답에서 제거됩니다.&lt;br>&lt;b>참고: 디지털 음성을 생성할 수 있는 횟수가 %d번 더 남았습니다.&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">최근에 +%s명이 내 프로필을 검색함</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">최근에 +%s명이 내 프로필을 봄</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">%d시간 후에 다시 시도</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">대화 %s개 보관 해제됨</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">받은 메시지</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">이 음성사서함 통화를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">선택한 음성사서함 통화 삭제</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">음성사서함 통화를 삭제할 수 없습니다. 다시 시도해 주세요.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">모든 음성사서함 통화가 성공적으로 삭제되었습니다.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">음성 사서함 녹음 다운로드 중.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">최근 %2$s에서 %1$d명이 회원님의 프로필을 봤습니다.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">최근 %1$d명(%2$s에서 %3$d명)이 회원님의 프로필을 보았습니다.</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d명(%2$s에서 1명)이 프로필을 봤습니다.</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d명(%2$s에서 %3$d명)이 프로필을 봤습니다. 더 알아보세요.</item>
+    </plurals>
+</resources>

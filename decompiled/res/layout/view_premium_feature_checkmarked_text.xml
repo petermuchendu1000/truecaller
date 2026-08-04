@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="top" android:id="@id/statusIcon" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/ic_premium_feature_checkmark" android:contentDescription="@null" android:layout_marginEnd="8.0dip" />
+    <TextView android:textColor="@color/tcx_textPrimary_dark" android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleX.Text.Roboto.Regular.12" />
+</merge>

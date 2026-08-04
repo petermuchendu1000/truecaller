@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+option java_package = "com.truecaller.account.domain.unauthenticatedheader";
+option java_multiple_files = true;
+
+message Unauthenticatedheader {
+  string header_id = 1;
+}

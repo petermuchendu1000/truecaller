@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ads_frame_full_padding">16.0dip</dimen>
+</resources>

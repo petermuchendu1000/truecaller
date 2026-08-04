@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>1月</item>
+        <item>2月</item>
+        <item>3月</item>
+        <item>4月</item>
+        <item>5月</item>
+        <item>6月</item>
+        <item>7月</item>
+        <item>8月</item>
+        <item>9月</item>
+        <item>10月</item>
+        <item>11月</item>
+        <item>12月</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>先に進む</item>
+        <item>続行</item>
+        <item>承認</item>
+        <item>確認</item>
+        <item>%sを使用</item>
+        <item>%sで続行</item>
+        <item>%sで先に進む</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%sを使用</item>
+        <item>%sで続行</item>
+        <item>%sで先に進む</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%sにログイン</item>
+        <item>%sでサインアップ</item>
+        <item>%sにサインイン</item>
+        <item>%sで番号を確認する</item>
+        <item>%sを登録</item>
+        <item>%sで開始する</item>
+        <item>%sで続行</item>
+        <item>%sで認証</item>
+        <item>%sでプロフィールを認証</item>
+        <item>%sでプロフィールを認証</item>
+        <item>%sで電話番号を認証</item>
+        <item>%sで電話番号を認証</item>
+        <item>%sで続行</item>
+        <item>%sで注文を完了</item>
+        <item>%sで注文</item>
+        <item>%sで予約を完了</item>
+        <item>%sでチェックアウト</item>
+        <item>%sで詳細を管理</item>
+        <item>%sで詳細を管理</item>
+        <item>ワンタップで%sにログイン</item>
+        <item>%sを購読</item>
+        <item>%sから最新情報を入手</item>
+        <item>%sで読み続ける</item>
+        <item>%sから最新情報を入手</item>
+        <item>%sでログインまたはサインアップ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%sにログイン</item>
+        <item>%sでサインアップ</item>
+        <item>%sにサインイン</item>
+        <item>%sで番号を確認する</item>
+        <item>%sで登録する</item>
+        <item>%sで開始する</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>始めるには</item>
+        <item>続行するには</item>
+        <item>注文するには</item>
+        <item>購入を完了するには</item>
+        <item>チェックアウトするには</item>
+        <item>予約を完了するには</item>
+        <item>予約を進めるには</item>
+        <item>予約を続行するには</item>
+        <item>詳細を入手するには</item>
+        <item>もっと見るには</item>
+        <item>読み続けるには</item>
+        <item>先に進むには</item>
+        <item>最新情報については</item>
+        <item>最新情報を入手するには</item>
+        <item>購読するには</item>
+        <item>購読して最新情報を入手するには</item>
+        <item>最高の価格を得るには</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>携帯電話番号を認証してください</item>
+        <item>ログインしてください</item>
+        <item>サインアップしてください</item>
+        <item>ログインまたはサインアップしてください</item>
+        <item>登録してください</item>
+        <item>サインインしてください</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>デフォルトのSIMを設定する</item>
+        <item>デフォルトのSIM - SIM 1</item>
+        <item>デフォルトのSIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>ごめんなさい。今話せません</item>
+        <item>後でかけ直します</item>
+        <item>すぐにかけ直します</item>
+        <item>今話せません。後でかけ直してもらえますか？</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>名</item>
+        <item>姓</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>サイレント</item>
+        <item>バイブレーションのみ</item>
+        <item>サウンドのみ</item>
+        <item>サウンドとバイブレーション</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>標準</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>サイレント</item>
+        <item>バイブレーションのみ</item>
+        <item>サウンドのみ</item>
+        <item>サウンドとバイブレーション</item>
+    </string-array>
+</resources>

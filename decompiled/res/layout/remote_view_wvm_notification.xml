@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/wvmNotificationContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Title" android:textSize="14.0sp" android:id="@id/wvmNotificationTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="2.0dip" android:includeFontPadding="false" />
+    <TextView android:textAppearance="@style/TextAppearance.Material.Notification.Subtitle" android:textSize="14.0sp" android:id="@id/wvmNotificationSubtitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:includeFontPadding="false" />
+</LinearLayout>

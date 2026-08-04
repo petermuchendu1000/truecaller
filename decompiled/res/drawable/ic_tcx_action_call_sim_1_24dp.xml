@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="24.0dip" android:width="24.0dip" android:viewportWidth="24.0" android:viewportHeight="24.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/dialog_item_icon_selector" android:pathData="M5.5,8H2.778C2.35,8 2,8.35 2,8.778C2,16.081 7.919,22 15.222,22C15.65,22 16,21.65 16,21.222V18.508C16,18.08 15.65,17.73 15.222,17.73C14.258,17.73 13.317,17.574 12.446,17.287C12.368,17.256 12.282,17.248 12.204,17.248C12.002,17.248 11.808,17.326 11.652,17.473L9.941,19.184C7.74,18.057 5.936,16.26 4.816,14.059L6.527,12.348C6.744,12.13 6.807,11.827 6.721,11.554C6.433,10.683 6.278,9.75 6.278,8.778C6.278,8.35 5.928,8 5.5,8Z" android:fillAlpha="0.75" />
+    <path android:fillColor="@color/dialog_item_icon_selector" android:pathData="M13.759,1H19.625C20.384,1 21,1.582 21,2.3V12.7C21,13.418 20.384,14 19.625,14H11.375C10.616,14 10,13.418 10,12.7V5.135C10,4.983 10.056,4.836 10.159,4.719L13.231,1.234C13.362,1.086 13.556,1 13.759,1ZM14.897,12.5H17.042V3.258H16.846L12.79,4.661V6.286L14.897,5.67V12.5Z" android:fillAlpha="0.75" android:fillType="evenOdd" />
+</vector>

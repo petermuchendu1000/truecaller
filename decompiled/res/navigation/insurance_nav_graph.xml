@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/insurance_nav_graph" app:startDestination="@id/loadingFragment"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:label="fragment_loading" android:name="com.truecaller.premium.insurance.ui.LoadingFragment" android:id="@id/loadingFragment">
+        <action android:id="@id/toNotRegistered" app:destination="@id/notRegisteredFragment" app:popUpTo="@id/loadingFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/toRegister" app:destination="@id/registeredFragment" app:popUpTo="@id/loadingFragment" app:popUpToInclusive="true" />
+        <action android:id="@id/toProcessing" app:destination="@id/activationProcessingFragment" app:popUpTo="@id/loadingFragment" app:popUpToInclusive="true" />
+    </fragment>
+    <fragment android:label="RegisterWebView" android:name="com.truecaller.premium.insurance.ui.RegisterWebView" android:id="@id/registerWebViewFragment">
+        <argument android:name="WEB_VIEW_URL_ARGUMENT" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="FAQWebView" android:name="com.truecaller.premium.insurance.ui.FAQWebView" android:id="@id/faqWebViewFragment">
+        <argument android:name="WEB_VIEW_URL_ARGUMENT" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="RegisterWebView" android:name="com.truecaller.premium.insurance.ui.registered.RaiseClaimWebView" android:id="@id/raiseClaimWebViewFragment">
+        <argument android:name="WEB_VIEW_URL_ARGUMENT" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="FAQWebView" android:name="com.truecaller.premium.insurance.ui.registered.MoreOptionsWebView" android:id="@id/moreOptionsWebViewFragment">
+        <argument android:name="WEB_VIEW_URL_ARGUMENT" app:argType="string" app:nullable="true" />
+    </fragment>
+    <fragment android:label="RegisteredFragment" android:name="com.truecaller.premium.insurance.ui.registered.RegisteredFragment" android:id="@id/registeredFragment">
+        <action android:id="@id/toFaq" app:destination="@id/faqWebViewFragment" />
+        <action android:id="@id/toRaiseClaim" app:destination="@id/raiseClaimWebViewFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <action android:id="@id/toMoreOptions" app:destination="@id/moreOptionsWebViewFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <action android:id="@id/toUpdateNumber" app:destination="@id/insuranceNumberUpdateWebViewFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <argument android:name="FRAGMENT_TOOLBAR_TITLE" app:argType="string" />
+    </fragment>
+    <fragment android:label="NotRegisteredFragment" android:name="com.truecaller.premium.insurance.ui.notregistered.NotRegisteredFragment" android:id="@id/notRegisteredFragment">
+        <action android:id="@id/toRegisterNativePage" app:destination="@id/registerFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <action android:id="@id/toRegister" app:destination="@id/registerWebViewFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <action android:id="@id/toFaq" app:destination="@id/faqWebViewFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <argument android:name="FRAGMENT_TOOLBAR_TITLE" app:argType="string" />
+    </fragment>
+    <fragment android:label="InsuranceNumberUpdateWebViewFragment" android:name="com.truecaller.premium.insurance.ui.webFragments.InsuranceNumberUpdateWebViewFragment" android:id="@id/insuranceNumberUpdateWebViewFragment">
+        <argument android:name="WEB_VIEW_URL_ARGUMENT" app:argType="string" />
+    </fragment>
+    <fragment android:label="RegisterFragment" android:name="com.truecaller.premium.insurance.ui.register.RegisterFragment" android:id="@id/registerFragment">
+        <action android:id="@id/toFaq" app:destination="@id/faqWebViewFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <action android:id="@id/toSalutationSelection" app:destination="@id/salutationSelection" />
+        <argument android:name="FRAGMENT_TOOLBAR_TITLE" app:argType="string" />
+    </fragment>
+    <dialog android:label="SalutationSelectionBottomSheet" android:name="com.truecaller.premium.insurance.ui.bottomsheet.SalutationSelectionBottomSheet" android:id="@id/salutationSelection" />
+    <fragment android:label="ActivationProcessingFragment" android:name="com.truecaller.premium.insurance.ui.processing.ActivationProcessingFragment" android:id="@id/activationProcessingFragment">
+        <action android:id="@id/toFaq" app:destination="@id/faqWebViewFragment" app:enterAnim="@anim/slide_in_up" app:popExitAnim="@anim/slide_out_down" />
+        <argument android:name="FRAGMENT_TOOLBAR_TITLE" app:argType="string" />
+    </fragment>
+</navigation>

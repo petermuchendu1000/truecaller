@@ -1,1 +1,0 @@
-<com.google.android.material.button.MaterialButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="40.000000dip" android:text="@string/ConversationTrueHelperPremium" android:backgroundTint="?7F04086B" style="@style/StyleX.Button.Primary"/>

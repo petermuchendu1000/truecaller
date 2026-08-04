@@ -1,1 +1,0 @@
-<set xmlns:android="http://schemas.android.com/apk/res/android"><translate android:interpolator="@android:010A0006" android:duration="@android:010E0001" android:fromYDelta="100.000000%p" android:toYDelta="0.000000"/><alpha android:duration="@android:010E0001" android:fromAlpha="0.000000" android:toAlpha="1.000000"/></set>

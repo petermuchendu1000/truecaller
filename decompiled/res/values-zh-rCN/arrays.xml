@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>一月</item>
+        <item>二月</item>
+        <item>三月</item>
+        <item>四月</item>
+        <item>五月</item>
+        <item>六月</item>
+        <item>七月</item>
+        <item>八月</item>
+        <item>九月</item>
+        <item>十月</item>
+        <item>十一月</item>
+        <item>十二月</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>继续</item>
+        <item>继续</item>
+        <item>接受</item>
+        <item>确认</item>
+        <item>使用%s</item>
+        <item>继续使用%s</item>
+        <item>继续使用%s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>使用%s</item>
+        <item>继续使用%s</item>
+        <item>继续使用%s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>登录到%s</item>
+        <item>使用%s注册</item>
+        <item>登录到%s</item>
+        <item>通过%s验证号码</item>
+        <item>使用%s注册</item>
+        <item>开始使用%s</item>
+        <item>继续使用%s</item>
+        <item>通过%s验证</item>
+        <item>通过%s验证个人资料</item>
+        <item>通过%s验证您的个人资料</item>
+        <item>通过%s验证电话号码</item>
+        <item>通过%s验证您的号码</item>
+        <item>继续使用%s</item>
+        <item>使用%s完成订单</item>
+        <item>通过%s下单</item>
+        <item>使用%s完成预订</item>
+        <item>使用%s结账</item>
+        <item>使用%s管理详细信息</item>
+        <item>使用%s管理您的详细信息</item>
+        <item>一键登录%s</item>
+        <item>订阅%s</item>
+        <item>获取%s更新</item>
+        <item>继续在%s上阅读</item>
+        <item>获取%s的最新消息</item>
+        <item>使用%s登录/注册</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>登录到%s</item>
+        <item>使用%s注册</item>
+        <item>登录到%s</item>
+        <item>通过%s验证号码</item>
+        <item>使用%s注册</item>
+        <item>开始使用%s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>要开始使用</item>
+        <item>如要继续</item>
+        <item>要下单</item>
+        <item>要完成购买</item>
+        <item>要结账</item>
+        <item>要完成预订</item>
+        <item>要继续预订</item>
+        <item>要继续您的预订</item>
+        <item>要获取详细信息</item>
+        <item>如需查看更多信息</item>
+        <item>要继续阅读</item>
+        <item>如需继续</item>
+        <item>要获取更新</item>
+        <item>要获取更新</item>
+        <item>如需订阅</item>
+        <item>要订阅并获取更新</item>
+        <item>获取最优价格</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>请验证手机号码</item>
+        <item>请登录</item>
+        <item>请注册</item>
+        <item>请登录/注册</item>
+        <item>请注册</item>
+        <item>请登录</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>设置默认SIM卡</item>
+        <item>默认SIM卡 - SIM卡1</item>
+        <item>默认SIM卡 - SIM卡2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>抱歉，我现在不能说话</item>
+        <item>我会稍后回电</item>
+        <item>我会马上回电</item>
+        <item>现在不能说话。稍后打给我？</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>名字</item>
+        <item>姓氏</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>静音</item>
+        <item>只有振动</item>
+        <item>只有声音</item>
+        <item>声音并振动</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25 倍</item>
+        <item>0.5 倍</item>
+        <item>0.75 倍</item>
+        <item>正常</item>
+        <item>1.25 倍</item>
+        <item>1.5 倍</item>
+        <item>2 倍</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM卡1</item>
+        <item>SIM卡2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM卡1</item>
+        <item>SIM卡2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>静音</item>
+        <item>只有振动</item>
+        <item>只有声音</item>
+        <item>声音并振动</item>
+    </string-array>
+</resources>

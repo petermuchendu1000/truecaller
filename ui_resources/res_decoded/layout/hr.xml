@@ -1,1 +1,0 @@
-<View xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00000030" android:id="@id/hr" android:background="?7F0409A2" android:layout_width="-1" android:layout_height="@dimen/border"/>

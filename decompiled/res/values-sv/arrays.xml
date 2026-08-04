@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>maj</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>aug</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>dec</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Fortsätt</item>
+        <item>Fortsätt</item>
+        <item>Godkänn</item>
+        <item>Bekräfta</item>
+        <item>Använd %s</item>
+        <item>Fortsätt med %s</item>
+        <item>Fortsätt med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Använd %s</item>
+        <item>Fortsätt med %s</item>
+        <item>Fortsätt med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Logga in på %s</item>
+        <item>Registrera dig med %s</item>
+        <item>Logga in på %s</item>
+        <item>Verifiera nummer med %s</item>
+        <item>Registrera dig hos %s</item>
+        <item>Kom igång med %s</item>
+        <item>Fortsätt med %s</item>
+        <item>Verifiera med %s</item>
+        <item>Verifiera profilen med %s</item>
+        <item>Verifiera din profil med %s</item>
+        <item>Verifiera telefonnummer med %s</item>
+        <item>Verifiera ditt nummer med %s</item>
+        <item>Fortsätt med %s</item>
+        <item>Slutför beställningen med %s</item>
+        <item>Gör en beställning hos %s</item>
+        <item>Slutför bokningen med %s</item>
+        <item>Checka ut med %s</item>
+        <item>Hantera information med %s</item>
+        <item>Hantera din information med %s</item>
+        <item>Logga in på %s med ett tryck</item>
+        <item>Abonnera på %s</item>
+        <item>Få uppdateringar från %s</item>
+        <item>Fortsätt läsa på %s</item>
+        <item>Få nya uppdateringar från %s</item>
+        <item>Logga in/Registrera med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Logga in på %s</item>
+        <item>Registrera dig med %s</item>
+        <item>Logga in på %s</item>
+        <item>Verifiera nummer med %s</item>
+        <item>Registrera dig hos %s</item>
+        <item>Kom igång med %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>För att komma igång</item>
+        <item>För att fortsätta</item>
+        <item>För att göra en beställning</item>
+        <item>För att slutföra ditt köp</item>
+        <item>Till kassan</item>
+        <item>För att slutföra din bokning</item>
+        <item>För att fortsätta med din bokning</item>
+        <item>För att fortsätta med din bokning</item>
+        <item>För att få information</item>
+        <item>För att visa mer</item>
+        <item>För att fortsätta läsa</item>
+        <item>För att fortsätta</item>
+        <item>För nya uppdateringar</item>
+        <item>För att få uppdateringar</item>
+        <item>För att abonnera</item>
+        <item>För att abonnera och få uppdateringar</item>
+        <item>För att få bästa pris</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>verifiera mobilnummer</item>
+        <item>logga in</item>
+        <item>registrera dig</item>
+        <item>logga in/registrera dig</item>
+        <item>registrera dig</item>
+        <item>logga in</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Ange standard-SIM</item>
+        <item>Standard-SIM – SIM 1</item>
+        <item>Standard-SIM – SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Tyvärr kan jag inte prata nu</item>
+        <item>Jag ringer dig senare</item>
+        <item>Jag ringer tillbaka</item>
+        <item>Kan inte prata nu. Kan du ringa mig senare?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Förnamn</item>
+        <item>Efternamn</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Ljudlös</item>
+        <item>Vibrera endast</item>
+        <item>Endast ljud</item>
+        <item>Ljud och vibration</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Ljudlös</item>
+        <item>Vibrera endast</item>
+        <item>Endast ljud</item>
+        <item>Ljud och vibration</item>
+    </string-array>
+</resources>

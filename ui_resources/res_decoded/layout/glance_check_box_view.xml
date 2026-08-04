@@ -1,1 +1,0 @@
-<CheckBox xmlns:android="http://schemas.android.com/apk/res/android" android:tag="glanceCompoundButton" android:layout_width="-2" android:layout_height="-2" android:textDirection="5" style="@style/Glance.AppWidget.CheckBox"/>

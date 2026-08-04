@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">חסום ודווח %d מספרים בתור ספאם?</item>
+        <item quantity="one">חסום ודווח %d מספרים בתור ספאם?</item>
+        <item quantity="two">חסום ודווח %d מספרים בתור ספאם?</item>
+        <item quantity="many">חסום ודווח %d מספרים בתור ספאם?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">לא ניתן היה למחוק את שיחות ה-Assistant שלך. נא לנסות שוב.</item>
+        <item quantity="one">לא ניתן היה למחוק את שיחת ה-Assistant שלך. נא לנסות שוב.</item>
+        <item quantity="two">לא ניתן היה למחוק את שיחות ה-Assistant שלך. נא לנסות שוב.</item>
+        <item quantity="many">לא ניתן היה למחוק את שיחות ה-Assistant שלך. נא לנסות שוב.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">שיחות ה-Assistant נמחקו.</item>
+        <item quantity="one">שיחת ה-Assistant נמחקה.</item>
+        <item quantity="two">שיחות ה-Assistant נמחקו.</item>
+        <item quantity="many">שיחות ה-Assistant נמחקו.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">האם אתה בטוח שברצונך למחוק את השיחות המסוננות האלה? לא ניתן לבטל פעולה זו.</item>
+        <item quantity="one">האם אתה בטוח שברצונך למחוק את השיחה המסוננת הזו? לא ניתן לבטל פעולה זו.</item>
+        <item quantity="two">האם אתה בטוח שברצונך למחוק את השיחות המסוננות האלה? לא ניתן לבטל פעולה זו.</item>
+        <item quantity="many">האם אתה בטוח שברצונך למחוק את השיחות המסוננות האלה? לא ניתן לבטל פעולה זו.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">מחק שיחות מסוננות נבחרות</item>
+        <item quantity="one">מחק שיחה מסוננת נבחרת</item>
+        <item quantity="two">מחק שיחות מסוננות נבחרות</item>
+        <item quantity="many">מחק שיחות מסוננות נבחרות</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d הקלטות</item>
+        <item quantity="one">הקלטה %d</item>
+        <item quantity="two">%d הקלטות</item>
+        <item quantity="many">%d הקלטות</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">ההודעות נוספו ל\"חשובים\"</item>
+        <item quantity="one">ההודעה נוספה ל\"חשובים\"</item>
+        <item quantity="two">ההודעות נוספו ל\"חשובים\"</item>
+        <item quantity="many">ההודעות נוספו ל\"חשובים\"</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d שיחות סומנו כנקראו</item>
+        <item quantity="one">שיחה אחת %d סומנה כנקראה</item>
+        <item quantity="two">%d שיחות סומנו כנקראו</item>
+        <item quantity="many">%d שיחות סומנו כנקראו</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d רשומות נמחקו</item>
+        <item quantity="one">רשומה אחת (%d) נמחקה</item>
+        <item quantity="two">%d רשומות נמחקו</item>
+        <item quantity="many">%d רשומות נמחקו</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">למחוק %d רשומות</item>
+        <item quantity="one">למחוק רשומה?</item>
+        <item quantity="two">למחוק %d רשומות</item>
+        <item quantity="many">למחוק %d רשומות</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">שיחות הוצמדו</item>
+        <item quantity="one">השיחה הוצמדה</item>
+        <item quantity="two">שיחות הוצמדו</item>
+        <item quantity="many">שיחות הוצמדו</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">שמור את כל אנשי הקשר</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+        <item quantity="two">שמור את כל אנשי הקשר</item>
+        <item quantity="many">שמור את כל אנשי הקשר</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">הצמדת השיחות בוטלה</item>
+        <item quantity="one">הצמדת השיחה בוטלה</item>
+        <item quantity="two">הצמדת השיחות בוטלה</item>
+        <item quantity="many">הצמדת השיחות בוטלה</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d הודעות שלא נקראו</item>
+        <item quantity="one">%d הודעה שלא נקראה</item>
+        <item quantity="two">%d הודעות שלא נקראו</item>
+        <item quantity="many">%d הודעות שלא נקראו</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">למחוק %d שיחות?</item>
+        <item quantity="one">למחוק שיחה אחת?</item>
+        <item quantity="two">למחוק %d שיחות?</item>
+        <item quantity="many">למחוק %d שיחות?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">זוהו %d מספרים</item>
+        <item quantity="one">זוהה מספר %d</item>
+        <item quantity="two">זוהו %d מספרים</item>
+        <item quantity="many">זוהו %d מספרים</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">הודעות דווחו</item>
+        <item quantity="one">הודעה דווחה</item>
+        <item quantity="two">הודעות דווחו</item>
+        <item quantity="many">הודעות דווחו</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">הודעות סומנו כבטוחות</item>
+        <item quantity="one">הודעה סומנה כבטוחה</item>
+        <item quantity="two">הודעות סומנו כבטוחות</item>
+        <item quantity="many">הודעות סומנו כבטוחות</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">הודעות דווחו</item>
+        <item quantity="one">הודעה דווחה</item>
+        <item quantity="two">הודעות דווחו</item>
+        <item quantity="many">הודעות דווחו</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d חברים</item>
+        <item quantity="one">%d חבר</item>
+        <item quantity="two">%d חברים</item>
+        <item quantity="many">%d חברים</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">בטוחים שאתם רוצים לפתוח את הנעילה של %d מספרים?</item>
+        <item quantity="one">בטוחים שאתם רוצים לפתוח את הנעילה של מספר זה?</item>
+        <item quantity="two">בטוחים שאתם רוצים לפתוח את הנעילה של %d מספרים?</item>
+        <item quantity="many">בטוחים שאתם רוצים לפתוח את הנעילה של %d מספרים?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">בטוחים שברצונכם למחוק %s קובצי שפה?</item>
+        <item quantity="one">בטוחים שברצונכם למחוק קובץ שפה אחד (%s)?</item>
+        <item quantity="two">בטוחים שברצונכם למחוק %s קובצי שפה?</item>
+        <item quantity="many">בטוחים שברצונכם למחוק %s קובצי שפה?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • הודעות נחסמו • השולח ברשימת החסימה שלך</item>
+        <item quantity="one">Truecaller • הודעה נחסמה • השולח ברשימת החסימה שלך</item>
+        <item quantity="two">Truecaller • הודעות נחסמו • השולח ברשימת החסימה שלך</item>
+        <item quantity="many">Truecaller • הודעות נחסמו • השולח ברשימת החסימה שלך</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s התקשר לפני %2$d שעות. לחץ כדי לצפות ב-Truecaller.</item>
+        <item quantity="one">%1$s התקשר לפני שעה %2$d. הקש כדי להציג ב-Truecaller</item>
+        <item quantity="two">%1$s התקשר לפני %2$d שעות. לחץ כדי לצפות ב-Truecaller.</item>
+        <item quantity="many">%1$s התקשר לפני %2$d שעות. לחץ כדי לצפות ב-Truecaller.</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d אנשי קשר</item>
+        <item quantity="one">%d איש קשר</item>
+        <item quantity="two">%d אנשי קשר</item>
+        <item quantity="many">%d אנשי קשר</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d קבצים מצורפים</item>
+        <item quantity="one">%1$d קובץ מצורף</item>
+        <item quantity="two">%1$d קבצים מצורפים</item>
+        <item quantity="many">%1$d קבצים מצורפים</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d אנשי קשר אחרים</item>
+        <item quantity="one">%d איש קשר אחר</item>
+        <item quantity="two">%d אנשי קשר אחרים</item>
+        <item quantity="many">%d אנשי קשר אחרים</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d מספרים הוכנסו לרשימת החסומים</item>
+        <item quantity="one">המספר הוכנס לרשימת החסומים</item>
+        <item quantity="two">%d מספרים הוכנסו לרשימת החסומים</item>
+        <item quantity="many">%d מספרים הוכנסו לרשימת החסומים</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d שיחות שנחסמו</item>
+        <item quantity="one">שיחה %d שנחסמה</item>
+        <item quantity="two">%d שיחות שנחסמו</item>
+        <item quantity="many">%d שיחות שנחסמו</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d שיחות שהושתקו</item>
+        <item quantity="one">שיחה שהושתקה %d</item>
+        <item quantity="two">%d שיחות שהושתקו</item>
+        <item quantity="many">%d שיחות שהושתקו</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d ימי ניסיון בחינם, למנויים חדשים בלבד</item>
+        <item quantity="one">%1$d יום ניסיון בחינם, למנויים חדשים בלבד</item>
+        <item quantity="two">%1$d ימי ניסיון בחינם, למנויים חדשים בלבד</item>
+        <item quantity="many">%1$d ימי ניסיון בחינם, למנויים חדשים בלבד</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d חודשי ניסיון ללא תשלום למנויים חדשים בלבד</item>
+        <item quantity="one">חודש ניסיון אחד (%1$d) ללא תשלום למנויים חדשים בלבד</item>
+        <item quantity="two">%1$d חודשי ניסיון ללא תשלום למנויים חדשים בלבד</item>
+        <item quantity="many">%1$d חודשי ניסיון ללא תשלום למנויים חדשים בלבד</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d שנות ניסיון ללא תשלום למנויים חדשים בלבד</item>
+        <item quantity="one">שנת ניסיון אחת (%1$d) ללא תשלום למנויים חדשים בלבד</item>
+        <item quantity="two">%1$d שנות ניסיון ללא תשלום למנויים חדשים בלבד</item>
+        <item quantity="many">%1$d שנות ניסיון ללא תשלום למנויים חדשים בלבד</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">את/ה, %1$s ו-%2$s שייכים למשפחת Premium. נשארו עוד %3$d מקומות פנויים זמינים</item>
+        <item quantity="one">את/ה, %1$s ו-%2$s שייכים למשפחת Premium. נשארו עוד מקום זמין %3$d פנוי</item>
+        <item quantity="two">את/ה, %1$s ו-%2$s שייכים למשפחת Premium. נשארו עוד %3$d מקומות פנויים זמינים</item>
+        <item quantity="many">את/ה, %1$s ו-%2$s שייכים למשפחת Premium. נשארו עוד %3$d מקומות פנויים זמינים</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">יש לך %1$d חשבונות זמינים נוספים.</item>
+        <item quantity="one">יש לך עוד %1$d חשבון זמין.</item>
+        <item quantity="two">יש לך %1$d חשבונות זמינים נוספים.</item>
+        <item quantity="many">יש לך %1$d חשבונות זמינים נוספים.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">את/ה ו-%1$s שייכים למשפחת Premium. נשארו עוד %2$d מקומות פנויים זמינים</item>
+        <item quantity="one">את/ה ו-%1$s שייכים למשפחת Premium. נשארו עוד מקום זמין %2$d פנוי</item>
+        <item quantity="two">את/ה ו-%1$s שייכים למשפחת Premium. נשארו עוד %2$d מקומות פנויים זמינים</item>
+        <item quantity="many">את/ה ו-%1$s שייכים למשפחת Premium. נשארו עוד %2$d מקומות פנויים זמינים</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">המנוי יסתיים בעוד %d ימים</item>
+        <item quantity="one">המנוי יסתיים מחר</item>
+        <item quantity="two">המנוי יסתיים בעוד %d ימים</item>
+        <item quantity="many">המנוי יסתיים בעוד %d ימים</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d ימי ניסיון בחינם ואז %2$s.</item>
+        <item quantity="one">%1$d יום ניסיון בחינם ואז %2$s.</item>
+        <item quantity="two">%1$d ימי ניסיון בחינם ואז %2$s.</item>
+        <item quantity="many">%1$d ימי ניסיון בחינם ואז %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d חודשי ניסיון בחינם ואז %2$s.</item>
+        <item quantity="one">%1$d חודש ניסיון בחינם ואז %2$s.</item>
+        <item quantity="two">%1$d חודשי ניסיון בחינם ואז %2$s.</item>
+        <item quantity="many">%1$d חודשי ניסיון בחינם ואז %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d שנות ניסיון בחינם ואז %2$s.</item>
+        <item quantity="one">%1$d שנת ניסיון בחינם ואז %2$s.</item>
+        <item quantity="two">%1$d שנות ניסיון בחינם ואז %2$s.</item>
+        <item quantity="many">%1$d שנות ניסיון בחינם ואז %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d ימי ניסיון בחינם ואז</item>
+        <item quantity="one">יום ניסיון %1$d בחינם ואז</item>
+        <item quantity="two">%1$d ימי ניסיון בחינם ואז</item>
+        <item quantity="many">%1$d ימי ניסיון בחינם ואז</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d חודשי ניסיון בחינם ואז</item>
+        <item quantity="one">חודש ניסיון %1$d בחינם ואז</item>
+        <item quantity="two">%1$d חודשי ניסיון בחינם ואז</item>
+        <item quantity="many">%1$d חודשי ניסיון בחינם ואז</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d שנות ניסיון בחינם ואז</item>
+        <item quantity="one">שנת ניסיון %1$d בחינם ואז</item>
+        <item quantity="two">%1$d שנות ניסיון בחינם ואז</item>
+        <item quantity="many">%1$d שנות ניסיון בחינם ואז</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">מספר העריכות ברשימה המשפחתית, הסרת בני משפחה, מוגבל. נותרו %1$d עריכות.</item>
+        <item quantity="one">מספר העריכות ברשימה המשפחתית, הסרת בני משפחה, מוגבל. נותרה עריכה %1$d.</item>
+        <item quantity="two">מספר העריכות ברשימה המשפחתית, הסרת בני משפחה, מוגבל. נותרו %1$d עריכות.</item>
+        <item quantity="many">מספר העריכות ברשימה המשפחתית, הסרת בני משפחה, מוגבל. נותרו %1$d עריכות.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d הופעות חדשות בחיפוש</item>
+        <item quantity="one">1הופעת חיפוש חדשה</item>
+        <item quantity="two">%1$d הופעות חדשות בחיפוש</item>
+        <item quantity="many">%1$d הופעות חדשות בחיפוש</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d צפיות חדשות בפרופיל</item>
+        <item quantity="one">צפייה חדשה אחת בפרופיל</item>
+        <item quantity="two">%1$d צפיות חדשות בפרופיל</item>
+        <item quantity="many">%1$d צפיות חדשות בפרופיל</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d אנשים צפו בפרופיל שלכם לאחרונה</item>
+        <item quantity="one">מישהו צפה בפרופיל שלכם לאחרונה</item>
+        <item quantity="two">%1$d אנשים צפו בפרופיל שלכם לאחרונה</item>
+        <item quantity="many">%1$d אנשים צפו בפרופיל שלכם לאחרונה</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d אנשים (%3$d ב-%2$s) צפו לאחרונה בפרופיל שלכם</item>
+        <item quantity="one">מישהו מ- %2$s צפה לאחרונה בפרופיל שלכם</item>
+        <item quantity="two">%1$d אנשים (%3$d ב-%2$s) צפו לאחרונה בפרופיל שלכם</item>
+        <item quantity="many">%1$d אנשים (%3$d ב-%2$s) צפו לאחרונה בפרופיל שלכם</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">ה-SMS יישלח אוטומטית בעוד %1$d שניות…</item>
+        <item quantity="one">ה-SMS יישלח אוטומטית בעוד שניה %1$d…</item>
+        <item quantity="two">ה-SMS יישלח אוטומטית בעוד %1$d שניות…</item>
+        <item quantity="many">ה-SMS יישלח אוטומטית בעוד %1$d שניות…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">שבועות</item>
+        <item quantity="one">שבוע</item>
+        <item quantity="two">שבועות</item>
+        <item quantity="many">שבועות</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s ימים</item>
+        <item quantity="one">%1$s יום</item>
+        <item quantity="two">%1$s ימים</item>
+        <item quantity="many">%1$s ימים</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">חודשים</item>
+        <item quantity="one">חודש</item>
+        <item quantity="two">חודשים</item>
+        <item quantity="many">חודשים</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">שנים</item>
+        <item quantity="one">שנה</item>
+        <item quantity="two">שנים</item>
+        <item quantity="many">שנים</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">סימון הכוכב הוסר מההודעות</item>
+        <item quantity="one">סימון הכוכב הוסר מההודעה</item>
+        <item quantity="two">סימון הכוכב הוסר מההודעות</item>
+        <item quantity="many">סימון הכוכב הוסר מההודעות</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">חרגתם ממגבלת ניסיונות האימות. אנא נסו שוב בעוד שעה אחת (%d)</item>
+        <item quantity="one">חרגתם ממגבלת ניסיונות האימות. אנא נסו שוב בעוד שעה אחת (%d)</item>
+        <item quantity="two">חרגתם ממגבלת ניסיונות האימות. אנא נסו שוב בעוד שעה אחת (%d)</item>
+        <item quantity="many">חרגתם ממגבלת ניסיונות האימות. אנא נסו שוב בעוד שעה אחת (%d)</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d הופעת חיפוש חדשה!</item>
+        <item quantity="one">%d הופעת חיפוש חדשה!</item>
+        <item quantity="two">%d הופעת חיפוש חדשה!</item>
+        <item quantity="many">%d הופעת חיפוש חדשה!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d הופעות חיפוש!</item>
+        <item quantity="one">%d הופעת חיפוש!</item>
+        <item quantity="two">%d הופעות חיפוש!</item>
+        <item quantity="many">%d הופעות חיפוש!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">הפרופיל שלך הופיע %1$d פעם בתוצאות החיפוש לאחרונה</item>
+        <item quantity="one">הפרופיל שלך הופיע %1$d פעם בתוצאות החיפוש לאחרונה</item>
+        <item quantity="two">הפרופיל שלך הופיע %1$d פעם בתוצאות החיפוש לאחרונה</item>
+        <item quantity="many">הפרופיל שלך הופיע %1$d פעם בתוצאות החיפוש לאחרונה</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d הופעת חיפוש לאחרונה</item>
+        <item quantity="one">%1$d הופעת חיפוש לאחרונה</item>
+        <item quantity="two">%1$d הופעת חיפוש לאחרונה</item>
+        <item quantity="many">%1$d הופעת חיפוש לאחרונה</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d אנשים צפו בפרופיל שלכם</item>
+        <item quantity="one">מישהו צפה בפרופיל שלכם</item>
+        <item quantity="two">%1$d אנשים צפו בפרופיל שלכם</item>
+        <item quantity="many">%1$d אנשים צפו בפרופיל שלכם</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s ועוד %2$s צפו בפרופיל שלך</item>
+        <item quantity="one">%1$s צפו בפרופיל שלך</item>
+        <item quantity="two">%1$s ועוד %2$s צפו בפרופיל שלך</item>
+        <item quantity="many">%1$s ועוד %2$s צפו בפרופיל שלך</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d אנשים (1 ב%2$s) צפו בפרופיל שלכם</item>
+        <item quantity="one">%1$d אדם מ%2$s צפה בפרופיל שלכם</item>
+        <item quantity="two">%1$d אנשים (1 ב%2$s) צפו בפרופיל שלכם</item>
+        <item quantity="many">%1$d אנשים (1 ב%2$s) צפו בפרופיל שלכם</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s מ-%2$s וגם %3$s נוספים צפו בפרופיל שלך</item>
+        <item quantity="one">%1$s מ-%2$s צפה בפרופיל שלך</item>
+        <item quantity="two">%1$s מ-%2$s וגם %3$s נוספים צפו בפרופיל שלך</item>
+        <item quantity="many">%1$s מ-%2$s וגם %3$s נוספים צפו בפרופיל שלך</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d אנשים צפו בפרופיל שלכם. גלו עוד.</item>
+        <item quantity="one">אדם אחד צפה בפרופיל שלכם. גלו עוד.</item>
+        <item quantity="two">%1$d אנשים צפו בפרופיל שלכם. גלו עוד.</item>
+        <item quantity="many">%1$d אנשים צפו בפרופיל שלכם. גלו עוד.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d אנשים (%3$d ב-%2$s) צפו בפרופיל שלכם. גלו עוד</item>
+        <item quantity="one">אדם אחד מ-%2$s צפה בפרופיל שלכם. גלו עוד.</item>
+        <item quantity="two">%1$d אנשים (%3$d ב-%2$s) צפו בפרופיל שלכם. גלו עוד</item>
+        <item quantity="many">%1$d אנשים (%3$d ב-%2$s) צפו בפרופיל שלכם. גלו עוד</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">אימות באמצעות reCaptcha נכשל יותר מדי פעמים. נסה שוב בעוד %1$d שעות</item>
+        <item quantity="one">אימות באמצעות reCaptcha נכשל יותר מדי פעמים. נסה שוב בעוד שעה אחת (%1$d)</item>
+        <item quantity="two">אימות באמצעות reCaptcha נכשל יותר מדי פעמים. נסה שוב בעוד %1$d שעות</item>
+        <item quantity="many">אימות באמצעות reCaptcha נכשל יותר מדי פעמים. נסה שוב בעוד %1$d שעות</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">תגובות</item>
+        <item quantity="one">תגובה</item>
+        <item quantity="two">תגובות</item>
+        <item quantity="many">תגובות</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d אנשים צפו בפרופיל שלכם</item>
+        <item quantity="one">%1$d אדם צפה בפרופיל שלכם</item>
+        <item quantity="two">%1$d אנשים צפו בפרופיל שלכם</item>
+        <item quantity="many">%1$d אנשים צפו בפרופיל שלכם</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s שיחות הועברו לארכיון</item>
+        <item quantity="one">שיחה אחת (%s) הועברה לארכיון</item>
+        <item quantity="two">%s שיחות הועברו לארכיון</item>
+        <item quantity="many">%s שיחות הועברו לארכיון</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d הודעות מסודרות</item>
+        <item quantity="one">הודעה מסודרת %d</item>
+        <item quantity="two">%d הודעות מסודרות</item>
+        <item quantity="many">%d הודעות מסודרות</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">מוריד הקלטות שיחה של הסייען</item>
+        <item quantity="one">מוריד הקלטת שיחה של הסייען</item>
+        <item quantity="two">מוריד שתי הקלטות שיחה של הסייען</item>
+        <item quantity="many">מוריד הקלטות שיחה של הסייען</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d הצעות בלעדיות</item>
+        <item quantity="one">%d הצעה בלעדית</item>
+        <item quantity="two">%d הצעות בלעדיות</item>
+        <item quantity="many">%d הצעות בלעדיות</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">שמור מספרים לאיש קשר קיים</item>
+        <item quantity="one">שמור מספר לאיש קשר קיים</item>
+        <item quantity="two">שמור מספרים לאיש קשר קיים</item>
+        <item quantity="many">שמור מספרים לאיש קשר קיים</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d שיחות</item>
+        <item quantity="one">שיחה %1d</item>
+        <item quantity="two">%1d שיחות</item>
+        <item quantity="many">%1d שיחות</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d ימים</item>
+        <item quantity="one">%1d יום</item>
+        <item quantity="two">%1d ימים</item>
+        <item quantity="many">%1d ימים</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">הרצה %d שניות קדימה</item>
+        <item quantity="one">הרצה %d שניות קדימה</item>
+        <item quantity="two">הרצה %d שניות קדימה</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">הרצה %d שניות אחורה</item>
+        <item quantity="one">הרצה %d שניות אחורה</item>
+        <item quantity="two">הרצה %d שניות אחורה</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">נשארו %d מקומות</item>
+        <item quantity="one">נותר מקום %d</item>
+        <item quantity="two">נשארו %d מקומות</item>
+        <item quantity="many">נשארו %d מקומות</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d הזמנות נכשלו</item>
+        <item quantity="one">הזמנה אחת (%d) נכשלה</item>
+        <item quantity="two">%d הזמנות נכשלו</item>
+        <item quantity="many">%d הזמנות נכשלו</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">זוהו %d בעיות</item>
+        <item quantity="one">זוהתה בעיה %d</item>
+        <item quantity="two">זוהו %d בעיות</item>
+        <item quantity="many">זוהו %d בעיות</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">ההצעות נמחקו</item>
+        <item quantity="one">ההצעה נמחקה</item>
+        <item quantity="two">ההצעות נמחקו</item>
+        <item quantity="many">ההצעות נמחקו</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">הודעות OTP נמחקו</item>
+        <item quantity="one">הודעת OTP נמחקה</item>
+        <item quantity="two">הודעות OTP נמחקו</item>
+        <item quantity="many">הודעות OTP נמחקו</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">הודעות קידום מכירות נמחקו</item>
+        <item quantity="one">הודעת קידום מכירות נמחקה</item>
+        <item quantity="two">הודעות קידום מכירות נמחקו</item>
+        <item quantity="many">הודעות קידום מכירות נמחקו</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">הודעות ספאם נמחקו</item>
+        <item quantity="one">הודעת ספאם נמחקה</item>
+        <item quantity="two">הודעות ספאם נמחקו</item>
+        <item quantity="many">הודעות ספאם נמחקו</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%dהודעות</item>
+        <item quantity="one">%dהודעה</item>
+        <item quantity="two">%dהודעות</item>
+        <item quantity="many">%dהודעות</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d הודעות עם הצעות</item>
+        <item quantity="one">הודעה %d עם הצעות</item>
+        <item quantity="two">%d הודעות עם הצעות</item>
+        <item quantity="many">%d הודעות עם הצעות</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d הודעות OTP</item>
+        <item quantity="one">הודעת OTP אחת (%d)</item>
+        <item quantity="two">%d הודעות OTP</item>
+        <item quantity="many">%d הודעות OTP</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d הודעות ספאם</item>
+        <item quantity="one">הודעת ספאם אחת (%d)</item>
+        <item quantity="two">%d הודעות ספאם</item>
+        <item quantity="many">%d הודעות ספאם</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d הודעות נמחקו</item>
+        <item quantity="one">הודעה אחת (%d) נמחקה</item>
+        <item quantity="two">%d הודעות נמחקו</item>
+        <item quantity="many">%d הודעות נמחקו</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">הזמנות</item>
+        <item quantity="one">הזמנה</item>
+        <item quantity="two">הזמנות</item>
+        <item quantity="many">הזמנות</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">אתה עומד למחוק קבצים שנבחרו ו-%d הודעות קשורות</item>
+        <item quantity="one">אתה עומד למחוק קבצים שנבחרו והודעה קשורה</item>
+        <item quantity="two">אתה עומד למחוק קבצים שנבחרו ו-%d הודעות קשורות</item>
+        <item quantity="many">אתה עומד למחוק קבצים שנבחרו ו-%d הודעות קשורות</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">למחוק את ההודעות?</item>
+        <item quantity="one">למחוק את ההודעה?</item>
+        <item quantity="two">למחוק את ההודעות?</item>
+        <item quantity="many">למחוק את ההודעות?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d התראות חדשות</item>
+        <item quantity="one">%d התראות חדשות</item>
+        <item quantity="two">%d התראות חדשות</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">חברים</item>
+        <item quantity="one">חבר</item>
+        <item quantity="two">חברים</item>
+        <item quantity="many">חברים</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d תגובות חדשות</item>
+        <item quantity="one">%d תגובה חדשה</item>
+        <item quantity="two">%d תגובות חדשות</item>
+        <item quantity="many">%d תגובות חדשות</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">ימים</item>
+        <item quantity="one">יום</item>
+        <item quantity="two">ימים</item>
+        <item quantity="many">ימים</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">פג תוקף בעוד %1$d שעות</item>
+        <item quantity="one">פג תוקף בעוד שעה %1$d</item>
+        <item quantity="two">פג תוקף בעוד %1$d שעות</item>
+        <item quantity="many">פג תוקף בעוד %1$d שעות</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">יפוג בעוד %1$d דקות</item>
+        <item quantity="one">יפוג בעוד דקה %1$d</item>
+        <item quantity="two">יפוג בעוד %1$d דקות</item>
+        <item quantity="many">יפוג בעוד %1$d דקות</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">תגובות</item>
+        <item quantity="one">תגובה</item>
+        <item quantity="two">תגובות</item>
+        <item quantity="many">תגובות</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">יש %1$d תגובות חדשות על הפוסט</item>
+        <item quantity="one">יש תגובה חדשה %1$d על הפוסט</item>
+        <item quantity="two">יש %1$d תגובות חדשות על הפוסט</item>
+        <item quantity="many">יש %1$d תגובות חדשות על הפוסט</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">תגובות</item>
+        <item quantity="one">תגובה</item>
+        <item quantity="two">תגובות</item>
+        <item quantity="many">תגובות</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">פוסטים</item>
+        <item quantity="one">פוסט</item>
+        <item quantity="two">פוסטים</item>
+        <item quantity="many">פוסטים</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s תגובות</item>
+        <item quantity="one">תגובה %s</item>
+        <item quantity="two">%s תגובות</item>
+        <item quantity="many">%s תגובות</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">הצג %s תגובות</item>
+        <item quantity="one">הצג תגובה %s</item>
+        <item quantity="two">הצג %s תגובות</item>
+        <item quantity="many">הצג %s תגובות</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">מחיקת הקול הדיגיטלי שלך תסיר אותו מהסייעת שלך ומכל התגובות שלה.&lt;br>&lt;b>הערה: יש לך עוד %d ניסיונות ליצור את הקול הדיגיטלי שלך&lt;/b></item>
+        <item quantity="one">מחיקת הקול הדיגיטלי שלך תסיר אותו מהסייעת שלך ומכל התגובות שלה.&lt;br>&lt;b>הערה: יש לך עוד ניסיון %d ליצור את הקול הדיגיטלי שלך&lt;/b></item>
+        <item quantity="two">מחיקת הקול הדיגיטלי שלך תסיר אותו מהסייעת שלך ומכל התגובות שלה.&lt;br>&lt;b>הערה: יש לך עוד %d ניסיונות ליצור את הקול הדיגיטלי שלך&lt;/b></item>
+        <item quantity="many">מחיקת הקול הדיגיטלי שלך תסיר אותו מהסייעת שלך ומכל התגובות שלה.&lt;br>&lt;b>הערה: יש לך עוד %d ניסיונות ליצור את הקול הדיגיטלי שלך&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">+%s אנשים נוספים חיפשו בפרופיל שלך לאחרונה</item>
+        <item quantity="one">חיפש את הפרופיל שלך לאחרונה</item>
+        <item quantity="two">+%s אנשים נוספים חיפשו בפרופיל שלך לאחרונה</item>
+        <item quantity="many">+%s אנשים נוספים חיפשו בפרופיל שלך לאחרונה</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">+%s אנשים נוספים צפו בפרופיל שלך לאחרונה</item>
+        <item quantity="one">צפה בפרופיל שלך לאחרונה</item>
+        <item quantity="two">+%s אנשים נוספים צפו בפרופיל שלך לאחרונה</item>
+        <item quantity="many">+%s אנשים נוספים צפו בפרופיל שלך לאחרונה</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">נסה שוב ב-%dh</item>
+        <item quantity="one">נסה שוב ב-%dh</item>
+        <item quantity="two">נסה שוב ב-%dh</item>
+        <item quantity="many">נסה שוב ב-%dh</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s שיחות הוצאו מהארכיון</item>
+        <item quantity="one">שיחה אחת (%s) הוצאה מהארכיון</item>
+        <item quantity="two">%s שיחות הוצאו מהארכיון</item>
+        <item quantity="many">%s שיחות הוצאו מהארכיון</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">הודעות התקבלו</item>
+        <item quantity="one">הודעה התקבלה</item>
+        <item quantity="two">הודעות התקבלו</item>
+        <item quantity="many">הודעות התקבלו</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">האם למחוק את שיחות הדואר הקולי האלה? לא ניתן לבטל פעולה זו.</item>
+        <item quantity="one">האם למחוק את שיחת הדואר הקולי הזו? לא ניתן לבטל פעולה זו.</item>
+        <item quantity="two">האם למחוק את שיחות הדואר הקולי האלה? לא ניתן לבטל פעולה זו.</item>
+        <item quantity="many">האם למחוק את שיחות הדואר הקולי האלה? לא ניתן לבטל פעולה זו.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">מחק שיחות דואר קולי נבחרות</item>
+        <item quantity="one">מחק שיחת דואר קולי נבחרת</item>
+        <item quantity="two">מחק שיחות דואר קולי נבחרות</item>
+        <item quantity="many">מחק שיחות דואר קולי נבחרות</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">לא ניתן היה למחוק את שיחות הדואר הקולי. יש לנסות שוב.</item>
+        <item quantity="one">לא ניתן היה למחוק את שיחת הדואר הקולי. יש לנסות שוב.</item>
+        <item quantity="two">לא ניתן היה למחוק את שיחות הדואר הקולי. יש לנסות שוב.</item>
+        <item quantity="many">לא ניתן היה למחוק את שיחות הדואר הקולי. יש לנסות שוב.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">כל שיחות הדואר הקולי נמחקו בהצלחה.</item>
+        <item quantity="one">שיחת הדואר הקולי נמחקה.</item>
+        <item quantity="two">כל שיחות הדואר הקולי נמחקו בהצלחה.</item>
+        <item quantity="many">כל שיחות הדואר הקולי נמחקו בהצלחה.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">מוריד הקלטות תא קולי.</item>
+        <item quantity="one">מוריד הקלטת תא קולי.</item>
+        <item quantity="two">מוריד הקלטות תא קולי.</item>
+        <item quantity="many">מוריד הקלטות תא קולי.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d אנשים מ-%2$s צפו לאחרונה בפרופיל שלכם</item>
+        <item quantity="one">מישהו מ- %2$s צפה לאחרונה בפרופיל שלכם</item>
+        <item quantity="two">%1$d אנשים מ%2$s צפו לאחרונה בפרופיל שלכם</item>
+        <item quantity="many">%1$d אנשים מ-%2$s צפו לאחרונה בפרופיל שלכם</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d אנשים (%3$d מ-%2$s) צפו לאחרונה בפרופיל שלכם</item>
+        <item quantity="one">מישהו מ- %2$s צפה לאחרונה בפרופיל שלכם</item>
+        <item quantity="two">%1$d אנשים (%3$d מ%2$s) צפו לאחרונה בפרופיל שלכם</item>
+        <item quantity="many">%1$d אנשים (%3$d מ-%2$s) צפו לאחרונה בפרופיל שלכם</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d אנשים (1 מ-%2$s) צפו בפרופיל שלכם</item>
+        <item quantity="one">%1$d אדם מ%2$s צפה בפרופיל שלכם</item>
+        <item quantity="two">%1$d אנשים (1 מ%2$s) צפו בפרופיל שלכם</item>
+        <item quantity="many">%1$d אנשים (1 מ-%2$s) צפו בפרופיל שלכם</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d אנשים (%3$d מ-%2$s) צפו בפרופיל שלכם. גלו עוד.</item>
+        <item quantity="one">אדם אחד מ-%2$s צפה בפרופיל שלכם. גלו עוד.</item>
+        <item quantity="two">%1$d אנשים (%3$d מ%2$s) צפו בפרופיל שלכם. גלו עוד.</item>
+        <item quantity="many">%1$d אנשים (%3$d מ-%2$s) צפו בפרופיל שלכם. גלו עוד.</item>
+    </plurals>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/tripleSpace" android:paddingEnd="@dimen/tripleSpace"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hexaSpace">
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/wizard_verification_success_title" style="@style/Wizard.PageTextTitle" />
+        <TextView android:id="@id/details" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/wizardPageSubtitleMarginTop" android:text="@string/Success_details" style="@style/Wizard.PageTextSubTitle" />
+    </LinearLayout>
+    <com.airbnb.lottie.LottieAnimationView android:layout_gravity="center" android:id="@id/lottie_success_animation" android:layout_width="120.0dip" android:layout_height="120.0dip" app:lottie_autoPlay="false" app:lottie_fileName="success.lottie" />
+    <ProgressBar android:layout_gravity="center" android:id="@id/progress_bar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="88.0dip" />
+</FrameLayout>

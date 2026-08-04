@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:id="@id/ll_language" android:background="@drawable/sdk_rounded_corners_border_color_no_fill" android:paddingTop="@dimen/sdk_common_margin_xs" android:paddingBottom="@dimen/sdk_common_margin_xs" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/sdk_common_margin_xs" android:paddingEnd="@dimen/sdk_common_margin_s"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:tint="?oauth_text_primary" android:scaleX="0.6" android:scaleY="0.6" />
+    <androidx.appcompat.widget.AppCompatTextView android:gravity="end" android:id="@id/tv_language" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleOAuthPrimary.Body" />
+</LinearLayout>

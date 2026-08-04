@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="96.0dip" android:width="96.0dip" android:viewportWidth="96.0" android:viewportHeight="96.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$spotlight_contact_request_update_icon__0" android:pathData="M52.82,7H23.28C18.748,7 15.04,10.708 15.04,15.24V81.16C15.04,85.692 18.748,89.4 23.28,89.4H72.72C77.252,89.4 80.96,85.692 80.96,81.16V35.14C80.96,32.956 80.095,30.855 78.529,29.33L58.63,9.431C57.105,7.865 55.004,7 52.82,7ZM48,37.213C52.532,37.213 56.24,40.921 56.24,45.453C56.24,49.985 52.532,53.693 48,53.693C43.468,53.693 39.76,49.985 39.76,45.453C39.76,40.921 43.468,37.213 48,37.213ZM64.48,70.173H31.52V67.825C31.52,64.488 33.498,61.521 36.546,60.203C40.048,58.679 43.921,57.813 48,57.813C52.079,57.813 55.952,58.679 59.454,60.203C62.502,61.521 64.48,64.488 64.48,67.825V70.173Z" />
+    <path android:fillColor="@drawable/$spotlight_contact_request_update_icon__1" android:pathData="M77,28m-14,0a14,14 0,1 1,28 0a14,14 0,1 1,-28 0" />
+    <path android:fillColor="#ffffffff" android:pathData="M77,37.75C78.1,37.75 79,36.85 79,35.75H75C75,36.85 75.89,37.75 77,37.75ZM83,31.75V26.75C83,23.68 81.36,21.11 78.5,20.43V19.75C78.5,18.92 77.83,18.25 77,18.25C76.17,18.25 75.5,18.92 75.5,19.75V20.43C72.63,21.11 71,23.67 71,26.75V31.75L69,33.75V34.75H85V33.75L83,31.75Z" />
+</vector>

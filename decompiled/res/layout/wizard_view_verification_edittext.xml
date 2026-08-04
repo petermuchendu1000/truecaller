@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/digitsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layoutDirection="ltr" />
+    <EditText android:textSize="0.0dip" android:id="@id/editText" android:longClickable="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cursorVisible="false" android:inputType="number" android:alpha="0.0" android:textDirection="ltr" />
+</merge>

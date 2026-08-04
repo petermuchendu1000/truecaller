@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/adRouterVideoContainer" android:background="@color/ad_black_color" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <VideoView android:layout_gravity="center" android:id="@id/adVideo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/adVideoControls" android:background="@drawable/ad_bg_video_rectangle" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/adVideoPlayPause" android:padding="@dimen/control_mini_space" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/adVideoMuteUnmute" android:padding="@dimen/control_mini_space" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@null" />
+    </LinearLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/adVideoReplay" android:visibility="gone" android:layout_width="@dimen/control_hepta_space" android:layout_height="@dimen/control_hepta_space" app:srcCompat="@drawable/ad_play_big" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/adClickToPlay" android:visibility="gone" android:layout_width="@dimen/control_hepta_space" android:layout_height="@dimen/control_hepta_space" android:contentDescription="adClickToPlay" app:srcCompat="@drawable/ad_play_big" />
+</FrameLayout>

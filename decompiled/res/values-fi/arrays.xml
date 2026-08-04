@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>tammi</item>
+        <item>helmi</item>
+        <item>maalis</item>
+        <item>huhti</item>
+        <item>touko</item>
+        <item>kesä</item>
+        <item>heinä</item>
+        <item>elo</item>
+        <item>syys</item>
+        <item>loka</item>
+        <item>marras</item>
+        <item>joulu</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Jatka</item>
+        <item>Jatka</item>
+        <item>Hyväksy</item>
+        <item>Vahvista</item>
+        <item>Käytä palvelua %s</item>
+        <item>Jatka palvelussa %s</item>
+        <item>Jatka palvelussa %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Käytä palvelua %s</item>
+        <item>Jatka palvelussa %s</item>
+        <item>Jatka palvelussa %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Kirjaudu palveluun %s</item>
+        <item>Rekisteröidy palveluun %s</item>
+        <item>Kirjaudu sisään palveluun %s</item>
+        <item>Vahvista numero palvelussa %s</item>
+        <item>Rekisteröidy palvelussa %s</item>
+        <item>Aloita palvelun %s käyttö</item>
+        <item>Jatka palvelussa %s</item>
+        <item>Vahvista palvelussa %s</item>
+        <item>Vahvista profiili palvelussa %s</item>
+        <item>Vahvista profiilisi palvelussa %s</item>
+        <item>Vahvista puhelinnumero palvelussa %s</item>
+        <item>Vahvista numerosi palvelussa %s</item>
+        <item>Jatka palvelussa %s</item>
+        <item>Viimeistele tilaus palvelussa %s</item>
+        <item>Tee tilaus palvelussa %s</item>
+        <item>Viimeistele varaus palvelussa %s</item>
+        <item>Kassa palvelussa %s</item>
+        <item>Hallitse tietoja palvelussa %s</item>
+        <item>Hallitse tietojasi palvelussa %s</item>
+        <item>Kirjaudu palveluun %s yhdellä napautuksella</item>
+        <item>Tilaa palvelu %s</item>
+        <item>Hanki päivityksiä palvelusta %s</item>
+        <item>Jatka lukemista palvelussa %s</item>
+        <item>Hanki uusia päivityksiä palvelusta %s</item>
+        <item>Kirjaudu sisään / rekisteröidy palvelussa %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Kirjaudu palveluun %s</item>
+        <item>Rekisteröidy palveluun %s</item>
+        <item>Kirjaudu sisään palveluun %s</item>
+        <item>Vahvista numero palvelussa %s</item>
+        <item>Rekisteröidy palvelussa %s</item>
+        <item>Aloita palvelun %s käyttö</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Aloita</item>
+        <item>Jatka</item>
+        <item>Tee tilaus</item>
+        <item>Viimeistele ostoksesi</item>
+        <item>Maksa</item>
+        <item>Viimeistele varauksesi</item>
+        <item>Jatka varaustasi</item>
+        <item>Jatka varaustasi</item>
+        <item>Hanki lisätietoja</item>
+        <item>Katso lisää</item>
+        <item>Jatka lukemista</item>
+        <item>Jatka</item>
+        <item>Hanki uusia päivityksiä</item>
+        <item>Hanki päivityksiä</item>
+        <item>Tilaa</item>
+        <item>Tilaa ja hanki päivityksiä</item>
+        <item>Parhaan hinnan saamiseksi</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>vahvista matkapuhelinnumero</item>
+        <item>kirjaudu sisään</item>
+        <item>ole hyvä ja rekisteröidy</item>
+        <item>kirjaudu sisään / rekisteröidy</item>
+        <item>ole hyvä ja rekisteröidy</item>
+        <item>ole hyvä ja kirjaudu sisään</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Määritä oletus-SIM</item>
+        <item>Oletusarvoinen SIM - SIM 1</item>
+        <item>Oletusarvoinen SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>En voi puhua nyt</item>
+        <item>Soitan myöhemmin</item>
+        <item>Soitan pian takaisin</item>
+        <item>En voi puhua nyt. Soitatko myöhemmin?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Etunimi</item>
+        <item>Sukunimi</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Äänetön</item>
+        <item>Vain värinä</item>
+        <item>Vain ääni</item>
+        <item>Ääni ja värinä</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normaali</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Äänetön</item>
+        <item>Vain värinä</item>
+        <item>Vain ääni</item>
+        <item>Ääni ja värinä</item>
+    </string-array>
+</resources>

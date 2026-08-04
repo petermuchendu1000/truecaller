@@ -1,1 +1,0 @@
-<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@id/glanceView" android:layout_width="0.000000dip" android:layout_height="-2" android:layout_weight="1.000000" android:layoutDirection="3" style="@style/Glance.AppWidget.Column"/>

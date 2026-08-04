@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>led</item>
+        <item>ún</item>
+        <item>bře</item>
+        <item>dub</item>
+        <item>kvě</item>
+        <item>čer</item>
+        <item>červ</item>
+        <item>srp</item>
+        <item>zář</item>
+        <item>říj</item>
+        <item>list</item>
+        <item>pro</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Pokračovat</item>
+        <item>Pokračovat</item>
+        <item>Přijmout</item>
+        <item>Potvrdit</item>
+        <item>Použít službu %s</item>
+        <item>Pokračovat ve službě %s</item>
+        <item>Pokračovat se službou %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Použít službu %s</item>
+        <item>Pokračovat ve službě %s</item>
+        <item>Pokračovat se službou %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Přihlásit se do %s</item>
+        <item>Zaregistrovat se přes %s</item>
+        <item>Přihlásit se ke službě %s</item>
+        <item>Ověřit číslo přes %s</item>
+        <item>Zaregistrovat se pomocí služby %s</item>
+        <item>Začněte s %s</item>
+        <item>Pokračovat se službou %s</item>
+        <item>Ověřit pomocí služby %s</item>
+        <item>Ověřit profil pomocí služby %s</item>
+        <item>Ověřit svůj profil pomocí služby %s</item>
+        <item>Ověřit telefonní číslo pomocí služby %s</item>
+        <item>Ověřit své číslo pomocí služby %s</item>
+        <item>Pokračovat ve službě %s</item>
+        <item>Dokončit objednávku pomocí služby %s</item>
+        <item>Zadat objednávku pomocí služby %s</item>
+        <item>Dokončit rezervaci pomocí služby %s</item>
+        <item>Pokladna ve službě %s</item>
+        <item>Spravovat podrobnosti pomocí služby %s</item>
+        <item>Spravovat své údaje pomocí služby %s</item>
+        <item>Přihlásit se ke službě %s jedním klepnutím</item>
+        <item>Přihlásit se k odběru: %s</item>
+        <item>Dostávat aktuality od: %s</item>
+        <item>Pokračovat ve čtení ve službě %s</item>
+        <item>Dostávat novinky od: %s</item>
+        <item>Přihlásit se / Zaregistrovat se pomocí služby %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Přihlásit se do %s</item>
+        <item>Zaregistrovat se přes %s</item>
+        <item>Přihlásit se ke službě %s</item>
+        <item>Ověřit číslo přes %s</item>
+        <item>Zaregistrovat se pomocí služby %s</item>
+        <item>Začněte s %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Když chcete začít</item>
+        <item>Když chcete pokračovat</item>
+        <item>Když chcete odeslat objednávku</item>
+        <item>Když chcete dokončit nákup</item>
+        <item>Když chcete k pokladně</item>
+        <item>Když chcete dokončit rezervaci</item>
+        <item>Když chcete pokračovat v rezervaci</item>
+        <item>Když chcete pokračovat v rezervaci</item>
+        <item>Když chcete získat podrobnosti</item>
+        <item>Když chcete zobrazit další</item>
+        <item>Když chcete pokračovat ve čtení</item>
+        <item>Když chcete pokračovat</item>
+        <item>Pro novinky</item>
+        <item>Když chcete získat aktuality</item>
+        <item>Když se chcete přihlásit k odběru</item>
+        <item>Když se chcete přihlásit k odběru a dostávat aktuality</item>
+        <item>Pro nejlepší cenu</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>ověřte prosím číslo mobilního telefonu</item>
+        <item>přihlaste se prosím</item>
+        <item>zaregistrujte se prosím</item>
+        <item>přihlaste se / zaregistrujte se prosím</item>
+        <item>zaregistrujte se prosím</item>
+        <item>přihlaste se prosím</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Nastavit výchozí SIM kartu</item>
+        <item>Výchozí SIM karta - SIM 1</item>
+        <item>Výchozí SIM karta - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Omlouvám se, teď nemůžu mluvit</item>
+        <item>Zavolám později</item>
+        <item>Zavolám hned zpět</item>
+        <item>Teď nemůžu mluvit. Zavolejte mi později.</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Křestní jméno</item>
+        <item>Příjmení</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Potichu</item>
+        <item>Pouze vibrace</item>
+        <item>Pouze zvuk</item>
+        <item>Zvuk a vibrace</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25×</item>
+        <item>0,5×</item>
+        <item>0,75×</item>
+        <item>Normální</item>
+        <item>1,25×</item>
+        <item>1,5×</item>
+        <item>2×</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Potichu</item>
+        <item>Pouze vibrace</item>
+        <item>Pouze zvuk</item>
+        <item>Zvuk a vibrace</item>
+    </string-array>
+</resources>

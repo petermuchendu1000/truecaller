@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/clBannerTextOnly" android:paddingTop="@dimen/extraSpace" android:paddingBottom="@dimen/doubleSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/doubleSpace" android:paddingEnd="@dimen/tripleSpace">
+        <TextView android:id="@id/tvBannerTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/BizBannerTitleTextStyle" />
+        <TextView android:id="@id/tvBannerSubTitle" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/semiSpace" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvBannerTitle" style="@style/BizBannerSubTitleTextStyle" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/btnBannerCta" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/banner_button_height" android:layout_marginTop="@dimen/extraSpace" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvBannerSubTitle" style="@style/BizBannerButtonStyle" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

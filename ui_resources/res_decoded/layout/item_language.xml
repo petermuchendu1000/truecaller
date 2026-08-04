@@ -1,1 +1,0 @@
-<androidx.appcompat.widget.AppCompatTextView xmlns:android="http://schemas.android.com/apk/res/android" android:ellipsize="3" android:padding="@dimen/sdk_common_margin_s" android:layout_width="-1" android:layout_height="-2" android:maxLines="1" android:textDirection="2" android:textAlignment="5" style="@style/StyleOAuthPrimary.Subtitle"/>

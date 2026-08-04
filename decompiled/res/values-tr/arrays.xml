@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>oca</item>
+        <item>şub</item>
+        <item>mar</item>
+        <item>nis</item>
+        <item>may</item>
+        <item>haz</item>
+        <item>eyl</item>
+        <item>ağu</item>
+        <item>tem</item>
+        <item>kas</item>
+        <item>eki</item>
+        <item>ara</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>İlerle</item>
+        <item>Devam et</item>
+        <item>Kabul Et</item>
+        <item>Onayla</item>
+        <item>%s kullan</item>
+        <item>%s ile devam et</item>
+        <item>%s ile ilerle</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s kullan</item>
+        <item>%s ile devam et</item>
+        <item>%s ile ilerle</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>%s için giriş yapın</item>
+        <item>%s için kaydolun:</item>
+        <item>%s için Giriş Yap</item>
+        <item>Numarayı %s ile doğrulayın</item>
+        <item>%s için kaydolun</item>
+        <item>%s Kullanmaya Başlayın</item>
+        <item>%s ile devam et</item>
+        <item>%s ile doğrula</item>
+        <item>%s ile profili doğrula</item>
+        <item>Profilinizi %s ile doğrulayın</item>
+        <item>Telefon numarasını %s ile doğrulayın</item>
+        <item>Numaranızı %s ile doğrulayın</item>
+        <item>%s ile devam et</item>
+        <item>%s ile siparişi tamamla</item>
+        <item>%s ile sipariş ver</item>
+        <item>%s ile rezervasyonu tamamla</item>
+        <item>%s ile ödeme yap</item>
+        <item>%s ile ayrıntıları yönet</item>
+        <item>Ayrıntılarınızı %s ile yönetin</item>
+        <item>Tek dokunuşla %s oturumu aç</item>
+        <item>%s aboneliğini başlat</item>
+        <item>%s güncellemelerini al</item>
+        <item>%s üzerinde okumaya devam et</item>
+        <item>%s için yeni güncellemeleri al</item>
+        <item>%s ile Oturum Aç/Kaydol</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>%s için giriş yapın</item>
+        <item>%s için kaydolun:</item>
+        <item>%s için Giriş Yapın</item>
+        <item>Numarayı %s ile doğrulayın</item>
+        <item>%s için kaydolun</item>
+        <item>%s Kullanmaya Başlayın</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Başlamak için</item>
+        <item>Devam etmek için</item>
+        <item>Sipariş vermek için</item>
+        <item>Satın alma işlemini tamamlamak için</item>
+        <item>Ödeme yapmak için</item>
+        <item>Rezervasyonunu tamamlamak için</item>
+        <item>Rezervasyona devam etmek için</item>
+        <item>Rezervasyona devam etmek için</item>
+        <item>Ayrıntıları almak için</item>
+        <item>Daha fazlasını görüntülemek için</item>
+        <item>Okumaya devam etmek için</item>
+        <item>Devam etmek için</item>
+        <item>Yeni güncellemeler için</item>
+        <item>Güncellemeleri almak için</item>
+        <item>Abone olmak için</item>
+        <item>Abone olmak &amp; güncellemeleri almak için</item>
+        <item>En iyi fiyatı almak için</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>lütfen cep telefonu numarasını doğrulayın</item>
+        <item>lütfen oturum açın</item>
+        <item>lütfen kaydolun</item>
+        <item>lütfen oturum açın/kaydolun</item>
+        <item>lütfen hesap oluşturun</item>
+        <item>lütfen oturum açın</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Varsayılan SIM olarak ata</item>
+        <item>Varsayılan SIM - SIM 1</item>
+        <item>Varsayılan SIM - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Üzgünüm, şu anda konuşamıyorum</item>
+        <item>Seni daha sonra arayacağım</item>
+        <item>Seni hemen arayacağım</item>
+        <item>Şu anda konuşamıyorum. Beni daha sonra arar mısın?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Ad</item>
+        <item>Soyadı</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Sessiz</item>
+        <item>Yalnızca titreşim</item>
+        <item>Yalnızca ses</item>
+        <item>Ses ve Titreşim</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Sessiz</item>
+        <item>Yalnızca titreşim</item>
+        <item>Yalnızca ses</item>
+        <item>Ses ve Titreşim</item>
+    </string-array>
+</resources>

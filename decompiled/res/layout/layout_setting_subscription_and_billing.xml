@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="16.0dip" android:visibility="visible" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.truecaller.common.ui.avatar.AvatarXView android:id="@id/avatar" android:visibility="visible" android:layout_width="52.0dip" android:layout_height="52.0dip" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="?tcx_textPrimary" android:id="@id/nameTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawablePadding="4.0dip" android:fontFamily="@font/poppins_semibold" />
+            <TextView android:textColor="?tcx_textSecondary" android:id="@id/phoneNumberTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/StyleX.Text.Body.B2" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/itemDivider" android:background="?tcx_fillQuarternaryBackground" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="16.0dip" />
+    <LinearLayout android:gravity="bottom|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textColor="?tcx_textPrimary" android:id="@id/currentPlanTv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/StyleX.Text.Subtitle.S2" />
+            <TextView android:textColor="?tcx_textPrimary" android:id="@id/billingDetailTv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" style="@style/StyleX.Text.Caption" />
+        </LinearLayout>
+        <androidx.compose.ui.platform.ComposeView android:id="@id/upgradeButtonComposeView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/margin_12" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:autoMirrored="true" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="@color/tcx_avatarBackgroundRed_light" android:pathData="M24,24m-23.455,0a23.455,23.455 0,1 1,46.909 0a23.455,23.455 0,1 1,-46.909 0" />
+    <path android:fillColor="@color/tcx_avatarTextRed_light" android:pathData="M23.996,13.636C18.276,13.636 13.633,18.279 13.633,24C13.633,29.721 18.276,34.363 23.996,34.363C29.717,34.363 34.36,29.721 34.36,24C34.36,18.279 29.717,13.636 23.996,13.636ZM15.705,24C15.705,19.419 19.416,15.709 23.996,15.709C25.914,15.709 27.676,16.362 29.075,17.46L17.457,29.078C16.358,27.679 15.705,25.917 15.705,24ZM23.996,32.291C22.079,32.291 20.317,31.638 18.918,30.539L30.536,18.922C31.634,20.321 32.287,22.083 32.287,24C32.287,28.581 28.577,32.291 23.996,32.291Z" />
+</vector>

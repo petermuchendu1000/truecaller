@@ -1,1 +1,0 @@
-<com.truecaller.videocallerid.ui.landscapeVideoPlayer.LandscapeVideoPlayerView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/video_player_landscape" android:visibility="2" android:layout_width="-1" android:layout_height="-2"/>

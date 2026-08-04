@@ -1,1 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="0"><corners android:radius="3.000000dip"/><solid android:color="@color/bg_btn_callmeback_default"/><padding android:left="@dimen/control_semispace" android:top="@dimen/control_semispace" android:right="@dimen/control_semispace" android:bottom="@dimen/control_semispace"/></shape>

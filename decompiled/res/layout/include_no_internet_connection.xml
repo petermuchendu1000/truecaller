@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:gravity="center" android:orientation="vertical" android:background="?tcx_backgroundPrimary" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingHorizontal="@dimen/control_triple_space"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/icon" android:layout_width="96.0dip" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_tcx_no_internet" app:tint="?tcx_textQuarternary" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textPrimary" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_quad_space" android:text="@string/NoInternetConnection" style="@style/StyleX.Text.Headline.H6" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="?tcx_textSecondary" android:gravity="center" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/NoInternetConnectionDescription" style="@style/StyleX.Text.Body.B1" />
+    <Button android:enabled="true" android:textSize="14.0sp" android:id="@id/tryAgain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_double_space" android:text="@string/NoInternetConnectionTryAgain" style="@style/StyleX.Button.Small.Action" />
+</androidx.appcompat.widget.LinearLayoutCompat>

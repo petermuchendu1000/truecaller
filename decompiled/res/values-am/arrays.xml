@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ጄንዋሪ</item>
+        <item>ፌብሯሪ</item>
+        <item>ማርች</item>
+        <item>ኤፕሪል</item>
+        <item>ሜይ</item>
+        <item>ጁን</item>
+        <item>ጁላይ</item>
+        <item>ኦገስት</item>
+        <item>ሴፕቴምበር</item>
+        <item>ኦክቶበር</item>
+        <item>ኖቬምበር</item>
+        <item>ዲሴምበር</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>ሂደት</item>
+        <item>ቀጥል</item>
+        <item>ተቀበል</item>
+        <item>አረጋግጥ</item>
+        <item>%s ን ይጠቀሙ</item>
+        <item>በ %s ይቀጥሉ</item>
+        <item>በ %s ይቀጥሉ</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>%s ን ይጠቀሙ</item>
+        <item>በ %s ይቀጥሉ</item>
+        <item>በ %s ይቀጥሉ</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>ወደ %s ይግቡ</item>
+        <item>በ%s ይመዝገቡ</item>
+        <item>ወደ %s ይግቡ</item>
+        <item>ቁጥርን በ%s ያረጋግጡ</item>
+        <item>በ%s ይመዝገቡ</item>
+        <item>በ%s ይጀምሩ</item>
+        <item>በ %s ይቀጥሉ</item>
+        <item>በ %s ያረጋግጡ</item>
+        <item>መገለጫን በ %s ያረጋግጡ</item>
+        <item>መገለጫዎን በ %s ያረጋግጡ</item>
+        <item>ስልክ ቁጥርን በ %s ያረጋግጡ</item>
+        <item>ቁጥርዎን በ %s ያረጋግጡ</item>
+        <item>በ %s ይቀጥሉ</item>
+        <item>ትእዛዝን በ %s ያጠናቅቁ</item>
+        <item>ትእዛዝን በ %s ያስቀምጡ</item>
+        <item>ቦታ ማስያዝን በ %s ያጠናቅቁ</item>
+        <item>ክፍያ በ %s ያረጋግጡ</item>
+        <item>ዝርዝሮችን በ %s ያስተዳድሩ</item>
+        <item>ዝርዝሮችዎን በ %s ያስተዳድሩ</item>
+        <item>ወደ %s በፍጥነት ይግቡ</item>
+        <item>ለ%s ይመዝገቡ</item>
+        <item>ዝማኔዎችን ከ %s ያግኙ</item>
+        <item>በ %s ላይ ማንበብዎን ይቀጥሉ</item>
+        <item>አዳዲስ ዝማኔዎችን ከ %s ያግኙ</item>
+        <item>በ %s ይግቡ/ይመዝገቡ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>ወደ %s ይግቡ</item>
+        <item>በ%s ይመዝገቡ</item>
+        <item>ወደ %s ይግቡ</item>
+        <item>ቁጥርን በ%s ያረጋግጡ</item>
+        <item>በ%s ይመዝገቡ</item>
+        <item>በ%s ይጀምሩ</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>ለመጀመር</item>
+        <item>ለመቀጠል</item>
+        <item>ትዕዛዝ ለማስቀመጥ</item>
+        <item>ግዢዎን ለማጠናቀቅ</item>
+        <item>ክፍያ ለመፈጸም</item>
+        <item>ቦታ ማስያዝዎን ለማጠናቀቅ</item>
+        <item>ቦታ ማስያዝዎን ለመቀጠል</item>
+        <item>ቦታ ማስያዝዎን ለመቀጠል</item>
+        <item>ዝርዝሮችን ለማግኘት</item>
+        <item>ተጨማሪ ለማየት</item>
+        <item>ማንበብዎን ለመቀጠል</item>
+        <item>ለመቀጠል</item>
+        <item>ለአዳዲስ ዝማኔዎች</item>
+        <item>ዝማኔዎችን ለማግኘት</item>
+        <item>ለመመዝገብ</item>
+        <item>ለመመዝገብ እናamp፤ ዝማኔዎችን ለማግኘት</item>
+        <item>ምርጥ ዋጋ ለማግኘት</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>እባክዎን የሞባይል ቁጥር ያረጋግጡ</item>
+        <item>እባክዎ ይግቡ</item>
+        <item>እባክዎ ይመዝገቡ</item>
+        <item>እባክዎ ይግቡ/ይመዝገቡ</item>
+        <item>እባክዎ ይመዝገቡ</item>
+        <item>እባክዎን ይመዝገቡ</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>ነባሪ ሲም ያዘጋጁ</item>
+        <item>ነባሪ ሲም - ሲም 1</item>
+        <item>ነባሪ ሲም - ሲም 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>ይቅርታ አሁን ማውራት አልችልም</item>
+        <item>በኋላ እደውላለሁ</item>
+        <item>ወዲያው እደውላለሁ</item>
+        <item>አሁን ማውራት አይቻልም። በኋላ ይደውሉልኝ?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>የእርሶ ስም</item>
+        <item>በአያት ስም</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>ዝም</item>
+        <item>ንዝረት ብቻ</item>
+        <item>ድምጽ ብቻ</item>
+        <item>ድምጽ እና ንዝረት</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>መደበኛ</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>ሲም 1</item>
+        <item>ሲም 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>ሲም 1</item>
+        <item>ሲም 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>ዝም</item>
+        <item>ንዝረት ብቻ</item>
+        <item>ድምጽ ብቻ</item>
+        <item>ድምጽ እና ንዝረት</item>
+    </string-array>
+</resources>

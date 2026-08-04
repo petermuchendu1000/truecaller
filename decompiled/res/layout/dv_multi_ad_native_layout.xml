@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/multi_ad_native_height">
+        <FrameLayout android:id="@id/adFrame" android:background="?tcx_buttonActionBackground" android:layout_width="fill_parent" android:layout_height="@dimen/multi_ad_native_media_height" app:layout_constrainedHeight="true" app:layout_constraintBottom_toTopOf="@id/adBottomContent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+            <com.google.android.gms.ads.nativead.MediaView android:layout_gravity="center" android:id="@id/adMainMedia" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/adRouterMainMediaImage" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@null" />
+            <FrameLayout android:layout_gravity="center" android:id="@id/adMainMediaFrame" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/ad_native_video_view_frame_large" />
+        </FrameLayout>
+        <include android:id="@id/adBottomContent" android:layout_width="@dimen/control_zero_space" android:layout_height="@dimen/multi_ad_native_content_height" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/adFrame" layout="@layout/dv_multi_ad_native_bottom_content" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/adRouterPartnerLogo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/control_micro_space" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/adOptionsView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_space" android:layout_marginEnd="@dimen/control_double_space" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/adFrame" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>jan</item>
+        <item>feb</item>
+        <item>mar</item>
+        <item>apr</item>
+        <item>mei</item>
+        <item>jun</item>
+        <item>jul</item>
+        <item>agu</item>
+        <item>sep</item>
+        <item>okt</item>
+        <item>nov</item>
+        <item>des</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>Lanjutkan</item>
+        <item>Lanjutkan</item>
+        <item>Terima</item>
+        <item>Konfirmasi</item>
+        <item>Gunakan %s</item>
+        <item>Lanjutkan dengan %s</item>
+        <item>Lanjutkan dengan %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>Gunakan %s</item>
+        <item>Lanjutkan dengan %s</item>
+        <item>Lanjutkan dengan %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>Login ke %s</item>
+        <item>Daftar dengan %s</item>
+        <item>Masuk ke %s</item>
+        <item>Verifikasi nomor dengan %s</item>
+        <item>Daftar dengan %s</item>
+        <item>Mulai dengan %s</item>
+        <item>Lanjutkan dengan %s</item>
+        <item>Verifikasi dengan %s</item>
+        <item>Verifikasi profil dengan %s</item>
+        <item>Verifikasi profil Anda dengan %s</item>
+        <item>Verifikasi nomor telepon dengan %s</item>
+        <item>Verifikasi nomor Anda dengan %s</item>
+        <item>Lanjutkan dengan %s</item>
+        <item>Selesaikan pesanan dengan %s</item>
+        <item>Buat pesanan dengan %s</item>
+        <item>Selesaikan pemesanan dengan %s</item>
+        <item>Bayar dengan %s</item>
+        <item>Kelola detail dengan %s</item>
+        <item>Kelola detail Anda dengan %s</item>
+        <item>Login ke %s dengan satu ketukan</item>
+        <item>Berlangganan ke %s</item>
+        <item>Dapatkan info terbaru dari %s</item>
+        <item>Lanjutkan membaca di %s</item>
+        <item>Dapatkan info terbaru dari %s</item>
+        <item>Login/Daftar dengan %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>Login ke %s</item>
+        <item>Daftar dengan %s</item>
+        <item>Masuk ke %s</item>
+        <item>Verifikasi nomor dengan %s</item>
+        <item>Daftar dengan %s</item>
+        <item>Mulai dengan %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>Untuk memulai</item>
+        <item>Untuk melanjutkan</item>
+        <item>Untuk membuat pesanan</item>
+        <item>Untuk menyelesaikan pembelian Anda</item>
+        <item>Untuk bayar</item>
+        <item>Untuk menyelesaikan pemesanan Anda</item>
+        <item>Untuk melanjutkan pemesanan Anda</item>
+        <item>Untuk melanjutkan pemesanan Anda</item>
+        <item>Untuk mendapatkan detail</item>
+        <item>Untuk melihat lebih banyak</item>
+        <item>Untuk terus membaca</item>
+        <item>Untuk melanjutkan</item>
+        <item>Untuk info terbaru</item>
+        <item>Untuk mendapatkan info terbaru</item>
+        <item>Untuk berlangganan</item>
+        <item>Untuk berlangganan &amp; mendapatkan info terbaru</item>
+        <item>Untuk mendapatkan harga terbaik</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>harap verifikasi nomor ponsel</item>
+        <item>silakan login</item>
+        <item>silakan mendaftar</item>
+        <item>silakan login/mendaftar</item>
+        <item>silakan mendaftar</item>
+        <item>silakan masuk</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>Atur SIM default</item>
+        <item>SIM default – SIM 1</item>
+        <item>SIM default – SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>Maaf, saya tidak bisa bicara sekarang</item>
+        <item>Saya akan telepon nanti</item>
+        <item>Saya akan telepon kembali</item>
+        <item>Tidak bisa bicara sekarang. Telepon lagi nanti?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>Nama depan</item>
+        <item>Nama belakang</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>Hening</item>
+        <item>Hanya getaran</item>
+        <item>Hanya suara</item>
+        <item>Suara dan Getar</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0,25x</item>
+        <item>0,5x</item>
+        <item>0,75x</item>
+        <item>Normal</item>
+        <item>1,25x</item>
+        <item>1,5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>Hening</item>
+        <item>Hanya getaran</item>
+        <item>Hanya suara</item>
+        <item>Suara dan Getar</item>
+    </string-array>
+</resources>

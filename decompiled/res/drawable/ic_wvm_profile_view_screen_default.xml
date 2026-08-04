@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="128.0dip" android:width="128.0dip" android:viewportWidth="128.0" android:viewportHeight="128.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#ff0a6cff" android:pathData="M64,64m-46,0a46,46 0,1 1,92 0a46,46 0,1 1,-92 0" />
+    <path android:fillColor="@drawable/$ic_wvm_profile_view_screen_default__0" android:pathData="M64,64m-56,0a56,56 0,1 1,112 0a56,56 0,1 1,-112 0" />
+    <path android:fillColor="#ff0a6cff" android:pathData="M64,52C66.2,52 68,53.8 68,56C68,58.2 66.2,60 64,60C61.8,60 60,58.2 60,56C60,53.8 61.8,52 64,52ZM64,72C69.4,72 75.6,74.58 76,76H52C52.46,74.56 58.62,72 64,72ZM64,48C59.58,48 56,51.58 56,56C56,60.42 59.58,64 64,64C68.42,64 72,60.42 72,56C72,51.58 68.42,48 64,48ZM64,68C58.66,68 48,70.68 48,76V80H80V76C80,70.68 69.34,68 64,68Z" />
+</vector>

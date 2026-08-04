@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="BlockNumbersQuestion">
+        <item quantity="other">Estä ja ilmianna %d numeroa roskaksi?</item>
+        <item quantity="one">Estä ja ilmianna %d numeroa roskaksi?</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeleteError">
+        <item quantity="other">Avustajapuhelujen poistaminen epäonnistui. Yritä uudelleen.</item>
+        <item quantity="one">Avustajapuhelun poistaminen epäonnistui. Yritä uudelleen.</item>
+    </plurals>
+    <plurals name="CallAssistantCallDeletedMessage">
+        <item quantity="other">Avustajapuhelut poistettu.</item>
+        <item quantity="one">Avustajapuhelu poistettu.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsSubtitle">
+        <item quantity="other">Haluatko varmasti poistaa nämä avustajan puhelut? Tätä toimintoa ei voi kumota.</item>
+        <item quantity="one">Haluatko varmasti poistaa tämän avustajan puhelun? Tätä toimintoa ei voi kumota.</item>
+    </plurals>
+    <plurals name="CallAssistantConfirmDeleteCallsTitle">
+        <item quantity="other">Poista valitut avustajan puhelut</item>
+        <item quantity="one">Poista valittu avustajan puhelu</item>
+    </plurals>
+    <plurals name="CallRecordingListInitialMessageButton">
+        <item quantity="other">%d tallennetta</item>
+        <item quantity="one">%d tallenne</item>
+    </plurals>
+    <plurals name="ConversationMarkAsImportantNotification">
+        <item quantity="other">Viestit lisätty Tärkeä-välilehdelle</item>
+        <item quantity="one">Viesti lisätty Tärkeä-välilehdelle</item>
+    </plurals>
+    <plurals name="ConversationMarkedAsReadUndoText">
+        <item quantity="other">%d keskustelua merkitty luetuksi</item>
+        <item quantity="one">%d keskustelu merkitty luetuksi</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteConfirmation_tcx">
+        <item quantity="other">%d merkintää poistettiin</item>
+        <item quantity="one">%d merkintä poistettiin</item>
+    </plurals>
+    <plurals name="ConversationMessagesDeleteQuestion_tcx">
+        <item quantity="other">Poista %d merkintää?</item>
+        <item quantity="one">Poista merkintä?</item>
+    </plurals>
+    <plurals name="ConversationPinnedConfirmation">
+        <item quantity="other">keskustelua on kiinnitetty</item>
+        <item quantity="one">keskustelu on kiinnitetty</item>
+    </plurals>
+    <plurals name="ConversationSaveContacts">
+        <item quantity="other">Tallenna kaikki yhteystiedot</item>
+        <item quantity="one">@string/ConversationSaveContact</item>
+    </plurals>
+    <plurals name="ConversationUnpinnedConfirmation">
+        <item quantity="other">keskustelua on irrotettu</item>
+        <item quantity="one">keskustelu on irrotettu</item>
+    </plurals>
+    <plurals name="ConversationUnreadMessageCount">
+        <item quantity="other">%d lukematonta viestiä</item>
+        <item quantity="one">%d lukematon viesti</item>
+    </plurals>
+    <plurals name="DeleteConversationsQuestion">
+        <item quantity="other">Poista %d keskustelua?</item>
+        <item quantity="one">Poista %d keskustelu?</item>
+    </plurals>
+    <plurals name="EnhancedNotificationTitle">
+        <item quantity="other">%d numeroa tunnistettu</item>
+        <item quantity="one">%d numero tunnistettu</item>
+    </plurals>
+    <plurals name="FraudFlowFraudMessageReportedTitle">
+        <item quantity="other">Viestit on ilmiannettu</item>
+        <item quantity="one">Viesti on ilmiannettu</item>
+    </plurals>
+    <plurals name="FraudFlowMessageMarkedAsSafeTitle">
+        <item quantity="other">Viestit merkittiin turvallisiksi</item>
+        <item quantity="one">Viesti merkittiin turvalliseksi</item>
+    </plurals>
+    <plurals name="FraudFlowSpamMessageReportedTitle">
+        <item quantity="other">Viestit on ilmiannettu</item>
+        <item quantity="one">Viesti on ilmiannettu</item>
+    </plurals>
+    <plurals name="GroupMemberCount">
+        <item quantity="other">%d jäsentä</item>
+        <item quantity="one">%d jäsen</item>
+    </plurals>
+    <plurals name="InboxUnblockNumberConfirmationText">
+        <item quantity="other">Haluatko varmasti poistaa %d numeron eston?</item>
+        <item quantity="one">Haluatko varmasti poistaa tämän numeron eston?</item>
+    </plurals>
+    <plurals name="ManageStorageDeleteLangPacks">
+        <item quantity="other">Haluatko varmasti poistaa %s kielitiedostoa?</item>
+        <item quantity="one">Haluatko varmasti poistaa %s kielitiedoston?</item>
+    </plurals>
+    <plurals name="MessageNotificationBlockedTitle">
+        <item quantity="other">Truecaller • Viestit estetty • Lähettäjä estoluettelossasi</item>
+        <item quantity="one">Truecaller • Viesti estetty • Lähettäjä estoluettelossasi</item>
+    </plurals>
+    <plurals name="MissedCallReminderText">
+        <item quantity="other">%1$s soitti %2$d tuntia sitten. Näytä Truecallerissa napauttamalla</item>
+        <item quantity="one">%1$s soitti %2$d tunti sitten. Näytä Truecallerissa napauttamalla</item>
+    </plurals>
+    <plurals name="MmsMultipleContactsVcardName">
+        <item quantity="other">%d yhteystietoa</item>
+        <item quantity="one">%d yhteystieto</item>
+    </plurals>
+    <plurals name="MmsTextAttachmentsSuffix">
+        <item quantity="other">%1$d liitetiedostoa</item>
+        <item quantity="one">%1$d liitetiedosto</item>
+    </plurals>
+    <plurals name="MultipleContactsVcardName">
+        <item quantity="other">%d muuta yhteystietoa</item>
+        <item quantity="one">%d muu yhteystieto</item>
+    </plurals>
+    <plurals name="NumbersBlockedMessage">
+        <item quantity="other">%d numeroa on lisätty estoluetteloon</item>
+        <item quantity="one">Numero on lisätty estoluetteloon</item>
+    </plurals>
+    <plurals name="OSNotificationTitleBlockedCalls">
+        <item quantity="other">%d estettyä puhelua</item>
+        <item quantity="one">%d estetty puhelu</item>
+    </plurals>
+    <plurals name="OSNotificationTitleMutedCalls">
+        <item quantity="other">%d mykistettyä puhelua</item>
+        <item quantity="one">%d mykistetty puhelu</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialLabel">
+        <item quantity="other">%1$d päivän ilmainen kokeilu on tarkoitettu vain uusille tilaajille</item>
+        <item quantity="one">%1$d päivän ilmainen kokeilu on tarkoitettu vain uusille tilaajille</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialMonthLabel">
+        <item quantity="other">%1$d kuukauden maksuton kokeilu vain uusille tilaajille</item>
+        <item quantity="one">%1$d kuukauden maksuton kokeilu vain uusille tilaajille</item>
+    </plurals>
+    <plurals name="PremiumButtonsFreeTrialYearLabel">
+        <item quantity="other">%1$d vuoden maksuton kokeilu vain uusille tilaajille</item>
+        <item quantity="one">%1$d vuoden maksuton kokeilu vain uusille tilaajille</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNames">
+        <item quantity="other">Sinä, %1$s ja %2$s olette mukana Premium-perheessä. Jäljellä on %3$d tyhjää paikkaa</item>
+        <item quantity="one">Sinä, %1$s ja %2$s olette mukana Premium-perheesssä. Jäljellä on %3$d tyhjä paikka</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsNoticeWhenNotEmpty">
+        <item quantity="other">Saatavillasi on vielä %1$d tiliä.</item>
+        <item quantity="one">Saatavillasi on vielä %1$d tili.</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingAvailableSlotsOneMember">
+        <item quantity="other">Sinä ja %1$s olette mukana Premium-perheessä. Jäljellä on %2$d tyhjää paikkaa</item>
+        <item quantity="one">Sinä ja %1$s olette mukana Premium-perheessä. Jäljellä on %2$d tyhjä paikka</item>
+    </plurals>
+    <plurals name="PremiumFeatureFamilySharingExpiryText">
+        <item quantity="other">Tilaus päättyy %d päivän kuluttua</item>
+        <item quantity="one">Tilaus päättyy huomenna</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimer">
+        <item quantity="other">%1$d päivän maksuton kokeilu, sitten %2$s.</item>
+        <item quantity="one">%1$d päivän maksuton kokeilu, sitten %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerMonth">
+        <item quantity="other">%1$d kuukauden maksuton kokeilu, sitten %2$s.</item>
+        <item quantity="one">%1$d kuukauden maksuton kokeilu, sitten %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialDisclaimerYear">
+        <item quantity="other">%1$d vuoden maksuton kokeilu, sitten %2$s.</item>
+        <item quantity="one">%1$d vuoden maksuton kokeilu, sitten %2$s.</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriod">
+        <item quantity="other">%1$d päivän maksuton kokeilu, sitten</item>
+        <item quantity="one">%1$d päivän maksuton kokeilu, sitten</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodMonth">
+        <item quantity="other">%1$d kuukauden maksuton kokeilu, sitten</item>
+        <item quantity="one">%1$d kuukauden maksuton kokeilu, sitten</item>
+    </plurals>
+    <plurals name="PremiumFreeTrialPeriodYear">
+        <item quantity="other">%1$d vuoden maksuton kokeilu, sitten</item>
+        <item quantity="one">%1$d vuoden maksuton kokeilu, sitten</item>
+    </plurals>
+    <plurals name="PremiumRemoveFamilySharingDisclaimer">
+        <item quantity="other">Perheryhmän muokkausten ja perheenjäsenten poistamisen määrää on rajoitettu. %1$d muokkauskertaa jäljellä.</item>
+        <item quantity="one">Perheryhmän muokkausten ja perheenjäsenten poistamisen määrää on rajoitettu. %1$d muokkauskerta jäljellä.</item>
+    </plurals>
+    <plurals name="PremiumUserTabWsfmCardLabel">
+        <item quantity="other">%1$d uutta hakuosumaa</item>
+        <item quantity="one">1 uusi hakuosuma</item>
+    </plurals>
+    <plurals name="PremiumUserTabWvmCardLabel">
+        <item quantity="other">%1$d uutta profiilin katselukertaa</item>
+        <item quantity="one">1 uusi profiilin katselukerta</item>
+    </plurals>
+    <plurals name="ProfileViewCountDesc">
+        <item quantity="other">%1$d käyttäjää katseli äskettäin profiiliasi</item>
+        <item quantity="one">Joku katseli äskettäin profiiliasi</item>
+    </plurals>
+    <plurals name="ProfileViewCountLocationDesc">
+        <item quantity="other">%1$d henkilöä (%3$d paikasta %2$s) ovat katselleet profiiliasi äskettäin</item>
+        <item quantity="one">Henkilö paikasta %2$s on katsellut profiiliasi äskettäin</item>
+    </plurals>
+    <plurals name="ReverseOtpVerificationSendSmsCountdownText">
+        <item quantity="other">Tekstiviesti lähetetään automaattisesti %1$d sekunnissa…</item>
+        <item quantity="one">Tekstiviesti lähetetään automaattisesti %1$d sekunnissa…</item>
+    </plurals>
+    <plurals name="StrPluraWeek">
+        <item quantity="other">viikkoa</item>
+        <item quantity="one">viikko</item>
+    </plurals>
+    <plurals name="StrPluralDay">
+        <item quantity="other">%1$s päivää</item>
+        <item quantity="one">%1$s päivä</item>
+    </plurals>
+    <plurals name="StrPluralMonth">
+        <item quantity="other">kuukautta</item>
+        <item quantity="one">kuukausi</item>
+    </plurals>
+    <plurals name="StrPluralYear">
+        <item quantity="other">vuotta</item>
+        <item quantity="one">vuosi</item>
+    </plurals>
+    <plurals name="UndoMarkAsStarredNotification">
+        <item quantity="other">Viestien tähdet poistettu</item>
+        <item quantity="one">Viestin tähti poistettu</item>
+    </plurals>
+    <plurals name="VerificationError_limitExceededHours">
+        <item quantity="other">Olet ylittänyt vahvistusyritysten maksimimäärän. Yritä uudelleen %d tunnin kuluttua.</item>
+        <item quantity="one">Olet ylittänyt vahvistusyritysten maksimimäärän. Yritä uudelleen %d tunnin kuluttua.</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeCountBanner">
+        <item quantity="other">%d uutta hakuosumaa!</item>
+        <item quantity="one">%d uusi hakuosuma!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNonPremiumDesc">
+        <item quantity="other">%d hakuosumaa!</item>
+        <item quantity="one">%d hakuosuma!</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationText">
+        <item quantity="other">Profiilisi näkyi %1$d kertaa hiljattaisissa hakutuloksissa</item>
+        <item quantity="one">Profiilisi näkyi %1$d kerran hiljattaisissa hakutuloksissa</item>
+    </plurals>
+    <plurals name="WhoSearchedForMeNotificationTitle">
+        <item quantity="other">%1$d hiljattaista hakutulosta</item>
+        <item quantity="one">%1$d hiljattainen hakutulos</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitle">
+        <item quantity="other">%1$d käyttäjää katseli profiiliasi</item>
+        <item quantity="one">Joku katseli profiiliasi</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationTitleWithName">
+        <item quantity="other">%1$s ja %2$s muuta katselivat profiiliasi</item>
+        <item quantity="one">%1$s katseli profiiliasi</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithLocationTitle">
+        <item quantity="other">%1$d henkilöä (yhden sijainti on %2$s) katseli profiiliasi</item>
+        <item quantity="one">%1$d henkilö, jonka sijainti on %2$s, katseli profiiliasi</item>
+    </plurals>
+    <plurals name="WhoViewedMeNotificationWithNameLocationTitle">
+        <item quantity="other">%1$s paikasta %2$s ja %3$s muuta katselivat profiiliasi</item>
+        <item quantity="one">%1$s paikasta %2$s katseli profiiliasi</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationNoLocationText">
+        <item quantity="other">%1$d henkilöä katseli profiiliasi. Ota selville lisää.</item>
+        <item quantity="one">1 henkilö katseli profiiliasi. Ota selville lisää.</item>
+    </plurals>
+    <plurals name="WhoViewedMeReminderNotificationWithLocationText">
+        <item quantity="other">%1$d henkilöä (%3$d paikassa %2$s) katseli profiiliasi. Ota selville lisää.</item>
+        <item quantity="one">1 henkilö, jonka asuinpaikka on %2$s, katseli profiiliasi. Ota selville lisää.</item>
+    </plurals>
+    <plurals name="account_suspension_subtitle_error">
+        <item quantity="other">reCaptcha epäonnistui liian monta kertaa. Yritä uudelleen %1$d tunnin kuluttua</item>
+        <item quantity="one">reCaptcha epäonnistui liian monta kertaa. Yritä uudelleen %1$d tunnin kuluttua</item>
+    </plurals>
+    <plurals name="acs_view_profile_comments">
+        <item quantity="other">kommenttia</item>
+        <item quantity="one">kommentti</item>
+    </plurals>
+    <plurals name="acs_who_viewed_me_section_title">
+        <item quantity="other">%1$d Käyttäjää katseli profiiliasi</item>
+        <item quantity="one">%1$d henkilö katsoi profiiliasi</item>
+    </plurals>
+    <plurals name="archived_conversations_confirmation">
+        <item quantity="other">%s keskustelua arkistoitu</item>
+        <item quantity="one">%s keskustelu arkistoitu</item>
+    </plurals>
+    <plurals name="bannerMessagesOrganized">
+        <item quantity="other">%d viestiä järjestetty</item>
+        <item quantity="one">%d viesti järjestetty</item>
+    </plurals>
+    <plurals name="call_assistant_service_downloading_assistant_recording">
+        <item quantity="other">Ladataan avustajan puhelun tallenteita</item>
+        <item quantity="one">Ladataan avustajan puhelun tallennetta</item>
+    </plurals>
+    <plurals name="catalog_plan_card_exclusive_offers">
+        <item quantity="other">%d eksklusiivista tarjousta</item>
+        <item quantity="one">%d eksklusiivinen tarjous</item>
+    </plurals>
+    <plurals name="contact_editor_save_number_plural">
+        <item quantity="other">Tallenna numerot aiemmin luotuun yhteystietoon</item>
+        <item quantity="one">Tallenna numero aiemmin luotuun yhteystietoon</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count">
+        <item quantity="other">%1d puhelua</item>
+        <item quantity="one">%1d puhelu</item>
+    </plurals>
+    <plurals name="detailsview_spamstats_call_count_day">
+        <item quantity="other">%1d päivää</item>
+        <item quantity="one">%1d päivä</item>
+    </plurals>
+    <plurals name="exo_controls_fastforward_by_amount_description">
+        <item quantity="other">Siirry eteenpäin %d sekuntia</item>
+        <item quantity="one">Siirry eteenpäin %d sekunti</item>
+    </plurals>
+    <plurals name="exo_controls_rewind_by_amount_description">
+        <item quantity="other">Siirry taaksepäin %d sekuntia</item>
+        <item quantity="one">Siirry taaksepäin %d sekunti</item>
+    </plurals>
+    <plurals name="familyprotect_add_member_subtitle">
+        <item quantity="other">%d paikkaa jäljellä</item>
+        <item quantity="one">%d paikka jäljellä</item>
+    </plurals>
+    <plurals name="familyprotect_partial_invite_success_failed_invites_title">
+        <item quantity="other">%d kutsua epäonnistui</item>
+        <item quantity="one">%d kutsu epäonnistui</item>
+    </plurals>
+    <plurals name="familyprotect_stats_report_protection_status_with_issues_label">
+        <item quantity="other">%d ongelmaa tunnistettu</item>
+        <item quantity="one">%d ongelma tunnistettu</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_offer">
+        <item quantity="other">Tarjoukset on poistettu</item>
+        <item quantity="one">Tarjous on poistettu</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_otp">
+        <item quantity="other">Kertasalasanaviestit poistettiin</item>
+        <item quantity="one">Kertasalasanaviesti poistettiin</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_promotional">
+        <item quantity="other">Mainosviestit poistettu</item>
+        <item quantity="one">Mainosviesti poistettu</item>
+    </plurals>
+    <plurals name="inbox_cleanup_all_time_stats_messages_spam">
+        <item quantity="other">Roskaviestit poistettiin</item>
+        <item quantity="one">Roskaviesti poistettiin</item>
+    </plurals>
+    <plurals name="inbox_cleanup_confirm_messages_num">
+        <item quantity="other">%d viestiä</item>
+        <item quantity="one">%d viesti</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_offer">
+        <item quantity="other">%d viestiä, joissa on tarjouksia</item>
+        <item quantity="one">%d viesti, jossa on tarjouksia</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_otp">
+        <item quantity="other">%d kertasalasanaa</item>
+        <item quantity="one">%d kertasalasana</item>
+    </plurals>
+    <plurals name="inbox_cleanup_num_spam">
+        <item quantity="other">%d roskaviestiä</item>
+        <item quantity="one">%d roskaviesti</item>
+    </plurals>
+    <plurals name="inbox_cleanup_stats_messages_deleted">
+        <item quantity="other">%d viestiä poistettu</item>
+        <item quantity="one">%d viesti poistettu</item>
+    </plurals>
+    <plurals name="invitations">
+        <item quantity="other">Kutsua</item>
+        <item quantity="one">Kutsu</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_message">
+        <item quantity="other">Olet aikeissa poistaa valitut tiedostot ja %d niihin liittyvää viestiä</item>
+        <item quantity="one">Olet aikeissa poistaa valitut tiedostot ja niihin liittyvän viestin</item>
+    </plurals>
+    <plurals name="media_manager_delete_confirmation_title">
+        <item quantity="other">Poistetaanko viestit?</item>
+        <item quantity="one">Poistetaanko viesti?</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d uutta ilmoitusta</item>
+        <item quantity="one">%d uusi ilmoitus</item>
+    </plurals>
+    <plurals name="plural_friend">
+        <item quantity="other">kaveria</item>
+        <item quantity="one">kaveri</item>
+    </plurals>
+    <plurals name="reactions_notification_summary_title">
+        <item quantity="other">%d uutta reaktiota</item>
+        <item quantity="one">%d uusi reaktio</item>
+    </plurals>
+    <plurals name="referral_days_of_premium">
+        <item quantity="other">päivää</item>
+        <item quantity="one">päivä</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_hours">
+        <item quantity="other">Vanhenee %1$d tunnin kuluttua</item>
+        <item quantity="one">Vanhenee %1$d tunnin kuluttua</item>
+    </plurals>
+    <plurals name="reward_program_open_reward_expiration_minutes">
+        <item quantity="other">Vanhenee %1$d minuutin kuluttua</item>
+        <item quantity="one">Vanhenee %1$d minuutin kuluttua</item>
+    </plurals>
+    <plurals name="scam_feed_comment_label_text">
+        <item quantity="other">kommenttia</item>
+        <item quantity="one">kommentti</item>
+    </plurals>
+    <plurals name="scam_feed_notification_activity_text">
+        <item quantity="other">Julkaisussa on %1$d uutta kommenttia</item>
+        <item quantity="one">Julkaisussa on %1$d uusi kommentti</item>
+    </plurals>
+    <plurals name="scam_feed_profile_comment_label_text">
+        <item quantity="other">Kommenttia</item>
+        <item quantity="one">Kommentti</item>
+    </plurals>
+    <plurals name="scam_feed_profile_post_label_text">
+        <item quantity="other">Julkaisua</item>
+        <item quantity="one">Julkaisu</item>
+    </plurals>
+    <plurals name="scam_feed_share_comment_count">
+        <item quantity="other">%s kommenttia</item>
+        <item quantity="one">%s kommentti</item>
+    </plurals>
+    <plurals name="scam_feed_view_reply_count">
+        <item quantity="other">Näytä %s vastausta</item>
+        <item quantity="one">Näytä %s vastaus</item>
+    </plurals>
+    <plurals name="settings_call_assistant_settings_delete_your_voice_dialog_body">
+        <item quantity="other">Jos poistat digiäänesi, se poistetaan avustajasta ja kaikista sen vastauksista.&lt;br>&lt;b>Huomautus: Sinulla on jäljellä %d digiäänen luomisyritystä&lt;/b></item>
+        <item quantity="one">Jos poistat digiäänesi, se poistetaan avustajasta ja kaikista sen vastauksista.&lt;br>&lt;b>Huomautus: Sinulla on jäljellä %d digiäänen luomisyritys&lt;/b></item>
+    </plurals>
+    <plurals name="spotlight_who_searched_for_me_description">
+        <item quantity="other">ja %s muuta hakivat äskettäin profiiliasi</item>
+        <item quantity="one">haki äskettäin profiiliasi</item>
+    </plurals>
+    <plurals name="spotlight_who_viewed_me_description">
+        <item quantity="other">ja %s muuta katselivat äskettäin profiiliasi</item>
+        <item quantity="one">katseli äskettäin profiiliasi</item>
+    </plurals>
+    <plurals name="throttled_limit_title">
+        <item quantity="other">Yritä uudelleen %d t kuluttua</item>
+        <item quantity="one">Yritä uudelleen %d t kuluttua</item>
+    </plurals>
+    <plurals name="unarchived_conversations_confirmation">
+        <item quantity="other">%s keskustelua poistettu arkistosta</item>
+        <item quantity="one">%s keskustelu poistettu arkistosta</item>
+    </plurals>
+    <plurals name="urgent_message_received">
+        <item quantity="other">Viestit vastaanotettu</item>
+        <item quantity="one">Viesti vastaanotettu</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_content">
+        <item quantity="other">Haluatko varmasti poistaa nämä vastaajapuhelut? Toimintoa ei voi kumota.</item>
+        <item quantity="one">Haluatko varmasti poistaa tämän vastaajapuhelun? Toimintoa ei voi kumota.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_dialog_title">
+        <item quantity="other">Poista valitut vastaajapuhelut</item>
+        <item quantity="one">Poista valittu vastaajapuhelu</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_error">
+        <item quantity="other">Vastaajapuheluiden poistaminen epäonnistui. Yritä uudelleen.</item>
+        <item quantity="one">Vastaajapuhelun poistaminen epäonnistui. Yritä uudelleen.</item>
+    </plurals>
+    <plurals name="voicemail_delete_selected_success">
+        <item quantity="other">Kaikki vastaajapuhelut poistettiin onnistuneesti.</item>
+        <item quantity="one">Vastaajapuhelu poistettiin.</item>
+    </plurals>
+    <plurals name="voicemail_service_in_progress_title">
+        <item quantity="other">Ladataan vastaajaviestejä.</item>
+        <item quantity="one">Ladataan vastaajaviestiä.</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_all_same_location">
+        <item quantity="other">%1$d henkilöä paikasta %2$s on katsellut profiiliasi äskettäin</item>
+        <item quantity="one">Henkilö paikasta %2$s on katsellut profiiliasi äskettäin</item>
+    </plurals>
+    <plurals name="who_viewed_me_inner_screen_title_with_location">
+        <item quantity="other">%1$d henkilöä (%3$d paikasta %2$s) on katsellut profiiliasi äskettäin</item>
+        <item quantity="one">Henkilö paikasta %2$s on katsellut profiiliasi äskettäin</item>
+    </plurals>
+    <plurals name="who_viewed_me_notification_title_with_location">
+        <item quantity="other">%1$d henkilöä (1 paikasta %2$s) katseli profiiliasi</item>
+        <item quantity="one">%1$d henkilö, jonka sijainti on %2$s, katseli profiiliasi</item>
+    </plurals>
+    <plurals name="who_viewed_me_reminder_notification_title_with_location">
+        <item quantity="other">%1$d henkilöä (%3$d paikasta %2$s) katseli profiiliasi. Ota selville lisää.</item>
+        <item quantity="one">1 henkilö, jonka asuinpaikka on %2$s, katseli profiiliasi. Ota selville lisää.</item>
+    </plurals>
+</resources>

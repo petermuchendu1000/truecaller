@@ -1,1 +1,0 @@
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="1"><stroke android:width="@dimen/notification_call_button_ring_width" android:color="?7F0405C0"/></shape>

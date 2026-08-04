@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="MmsExpirationMonth">
+        <item>ינואר</item>
+        <item>פברואר</item>
+        <item>מרץ</item>
+        <item>אפריל</item>
+        <item>מאי</item>
+        <item>יוני</item>
+        <item>יולי</item>
+        <item>אוגוסט</item>
+        <item>ספטמבר</item>
+        <item>אוקטובר</item>
+        <item>נובמבר</item>
+        <item>דצמבר</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAOptionsArray">
+        <item>המשך</item>
+        <item>המשך</item>
+        <item>אישור</item>
+        <item>מאושר</item>
+        <item>השתמש ב-%s</item>
+        <item>המשך עם %s</item>
+        <item>המשך עם %s</item>
+    </string-array>
+    <string-array name="SdkPartnerCTAPrefixOptionsArray">
+        <item>השתמש ב-%s</item>
+        <item>המשך עם %s</item>
+        <item>המשך עם %s</item>
+    </string-array>
+    <string-array name="SdkPartnerHeadingIntentOptionsArray">
+        <item>התחברות ל-%s</item>
+        <item>הרשמה באמצעות %s</item>
+        <item>כניסה ל-%s</item>
+        <item>אמת מספר עם %s</item>
+        <item>הרשמה באמצעות %s</item>
+        <item>התחל עם %s</item>
+        <item>המשך עם %s</item>
+        <item>אמת באמצעות %s</item>
+        <item>אמת פרופיל באמצעות %s</item>
+        <item>אמת את הפרופיל שלך באמצעות %s</item>
+        <item>אמת מספר טלפון באמצעות %s</item>
+        <item>אמת את המספר שלך באמצעות %s</item>
+        <item>המשך עם %s</item>
+        <item>השלם הזמנה באמצעות %s</item>
+        <item>בצע הזמנה באמצעות %s</item>
+        <item>השלם הזמנה באמצעות %s</item>
+        <item>תשלום באמצעות %s</item>
+        <item>נהל פרטים באמצעות %s</item>
+        <item>נהל את הפרטים שלך באמצעות %s</item>
+        <item>התחברות ל-%s בהקשה אחת</item>
+        <item>הירשם כמנוי ל-%s</item>
+        <item>קבל עדכונים מ-%s</item>
+        <item>המשך לקרוא ב-%s</item>
+        <item>קבל עדכונים חדשים מ-%s</item>
+        <item>התחברות/הרשמה באמצעות %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginIntentOptionsArray">
+        <item>התחברות ל-%s</item>
+        <item>הרשמה באמצעות %s</item>
+        <item>כניסה ל-%s</item>
+        <item>אמת מספר עם %s</item>
+        <item>הרשמה באמצעות %s</item>
+        <item>התחל עם %s</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginPrefixOptionsArray">
+        <item>כדי להתחיל</item>
+        <item>כדי להמשיך</item>
+        <item>כדי לבצע הזמנה</item>
+        <item>כדי להשלים את הרכישה שלך</item>
+        <item>כדי לצאת</item>
+        <item>כדי להשלים את ההזמנה שלך</item>
+        <item>כדי להמשיך בהזמנה שלך</item>
+        <item>כדי להמשיך בהזמנה שלך</item>
+        <item>לקבלת פרטים</item>
+        <item>כדי לראות עוד</item>
+        <item>כדי להמשיך לקרוא</item>
+        <item>כדי להמשיך</item>
+        <item>לקבלת עדכונים חדשים</item>
+        <item>לקבלת עדכונים</item>
+        <item>להרשמה</item>
+        <item>כדי להירשם כמנוי ולקבל עדכונים</item>
+        <item>לקבלת המחיר הטוב ביותר</item>
+    </string-array>
+    <string-array name="SdkPartnerLoginSuffixOptionsArray">
+        <item>נא לאמת מספר טלפון נייד</item>
+        <item>נא להיכנס</item>
+        <item>בבקשה הירשם</item>
+        <item>נא להיכנס/להירשם</item>
+        <item>בבקשה הירשם</item>
+        <item>נא להיכנס</item>
+    </string-array>
+    <string-array name="calling_default_sim_menu_item">
+        <item>הגדר SIM ברירת מחדל</item>
+        <item>SIM ברירת מחדל - SIM 1</item>
+        <item>SIM ברירת מחדל - SIM 2</item>
+    </string-array>
+    <string-array name="cdm_messages">
+        <item>סליחה, אין באפשרותי לדבר כעת</item>
+        <item>אתקשר אליך מאוחר יותר</item>
+        <item>מייד אתקשר אליך</item>
+        <item>אין באפשרותי לדבר כעת. תתקשר/י אלי מאוחר יותר?</item>
+    </string-array>
+    <string-array name="contacts_list_sorting_modes">
+        <item>שם פרטי</item>
+        <item>שם משפחה</item>
+    </string-array>
+    <string-array name="dial_pad_feedback_entries">
+        <item>מצב שקט</item>
+        <item>רטט בלבד</item>
+        <item>צלילים בלבד</item>
+        <item>צלילים ורטט</item>
+    </string-array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>רגילה</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+    <string-array name="incallui_phone_account_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="pref_items_multi_sim_slot">
+        <item>SIM 1</item>
+        <item>SIM 2</item>
+    </string-array>
+    <string-array name="settings_dial_pad_feedback_entries">
+        <item>מצב שקט</item>
+        <item>רטט בלבד</item>
+        <item>צלילים בלבד</item>
+        <item>צלילים ורטט</item>
+    </string-array>
+</resources>

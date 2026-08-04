@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/fullScreenPopupVideoContainer" android:background="@color/tcx_backgroundPrimary_dark" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/video_player_container" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <com.truecaller.videocallerid.ui.videoplayer.FullScreenRatioVideoPlayerView android:layout_gravity="center" android:id="@id/ratio_video_player" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/vid_dp16" />
+    </FrameLayout>
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivMuteAudio" android:visibility="gone" android:layout_width="@dimen/vid_icon_close_size" android:layout_height="@dimen/vid_icon_close_size" android:layout_marginBottom="@dimen/vid_dp24" android:src="@drawable/ic_vid_muted_audio" android:layout_marginEnd="@dimen/vid_dp24" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toStartOf="@id/ivCloseVideo" app:layout_constraintHorizontal_chainStyle="packed" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ivCloseVideo" android:layout_width="@dimen/vid_icon_close_size" android:layout_height="@dimen/vid_icon_close_size" android:layout_marginBottom="@dimen/vid_dp24" android:src="@drawable/ic_vid_close" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/ivMuteAudio" />
+</androidx.constraintlayout.widget.ConstraintLayout>

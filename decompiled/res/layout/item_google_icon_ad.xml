@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_gravity="center" android:id="@id/container" android:layout_width="@dimen/google_icon_ads_width" android:layout_height="@dimen/google_icon_ads_height" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" app:cardBackgroundColor="?tcx_backgroundPrimary" app:cardCornerRadius="4.0dip" app:cardElevation="4.0dip" app:cardPreventCornerOverlap="true" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.gms.ads.nativead.NativeAdView android:id="@id/adView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/adIcon" android:layout_width="fill_parent" android:layout_height="64.0dip" android:contentDescription="@null" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:gravity="center" android:id="@id/adText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/control_micro_space" android:maxLines="1" android:maxLength="15" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/adIcon" style="@style/Ads.SuggestedApps.TextView.AppName" />
+            <com.truecaller.ads.ui.CtaButtonX android:id="@id/adCtaText" android:layout_margin="4.0dip" android:textAllCaps="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/adText" style="@style/StyleX.Widget.Truecaller.Button.Ad.Icon" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.gms.ads.nativead.NativeAdView>
+</com.google.android.material.card.MaterialCardView>

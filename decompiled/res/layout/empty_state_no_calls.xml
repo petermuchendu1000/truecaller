@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="72.0dip" android:layout_height="72.0dip" android:src="@drawable/ic_tcx_action_call_outline_24dp" android:contentDescription="@string/contact_call_history_no_calls_title" app:tint="?tcx_textQuarternary" />
+    <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:text="@string/contact_call_history_no_calls_title" style="@style/StyleX.Text.Subtitle.S1.Medium" />
+    <Button android:enabled="true" android:textSize="14.0sp" android:layout_gravity="center_horizontal" android:id="@id/action_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/control_triple_space" android:textAllCaps="false" android:letterSpacing="0.05" style="@style/StyleX.Button.Small.Action" />
+</LinearLayout>

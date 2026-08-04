@@ -1,1 +1,0 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/ia_endcard_container" android:background="@color/ia_endcard_background" android:layout_width="-1" android:layout_height="-1"/>

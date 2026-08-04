@@ -1,0 +1,1 @@
+<selector xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><item android:state_focused="true" android:color="?7F04080A" app:state_error="false"/><item android:state_focused="true" android:color="?7F0407CB" app:state_error="true"/><item android:color="?7F04084F"/></selector>

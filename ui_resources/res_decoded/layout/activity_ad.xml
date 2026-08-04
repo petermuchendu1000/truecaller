@@ -1,0 +1,1 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:0106000C" android:layout_width="-1" android:layout_height="-1"><WebView android:id="@id/webView" android:visibility="0" android:layout_width="-1" android:layout_height="-1"/></RelativeLayout>

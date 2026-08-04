@@ -1,0 +1,1 @@
+<com.truecaller.bizmon.callSurvey.mvp.StartBizCallSurveyView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/startBizCallSurveyViewPacs" android:visibility="2" android:clickable="true" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="@dimen/space"/>

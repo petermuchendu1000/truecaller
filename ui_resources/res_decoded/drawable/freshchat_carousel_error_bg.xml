@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item android:drawable="@drawable/freshchat_error_image"/><item android:gravity="0x00000055" android:height="10.599977dip" android:width="10.599977dip" android:drawable="@drawable/freshchat_cross_icon"/></layer-list>

@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item><shape><solid android:color="@color/ui_ctrl_grey"/></shape></item><item android:top="1.000000dip"><shape><solid android:color="@color/ui_ctrl_almost_white"/></shape></item></layer-list>

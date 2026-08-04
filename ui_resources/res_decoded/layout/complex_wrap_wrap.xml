@@ -1,0 +1,1 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/relativeLayout" android:tag="glanceComplexLayout" android:layout_width="-2" android:layout_height="-2"><ViewStub android:id="@id/glanceViewStub" android:layout_width="-2" android:layout_height="-2"/></RelativeLayout>

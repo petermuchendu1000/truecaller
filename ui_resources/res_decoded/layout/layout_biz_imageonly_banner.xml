@@ -1,0 +1,1 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"><ImageView android:id="@id/ivBannerImage" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:scaleType="3" android:adjustViewBounds="true" android:contentDescription="@0x00000000"/></merge>

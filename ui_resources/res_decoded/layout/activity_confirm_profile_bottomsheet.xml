@@ -1,0 +1,1 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1"><include android:id="@id/consent_layout" layout="@layout/consent_layout"/></androidx.coordinatorlayout.widget.CoordinatorLayout>

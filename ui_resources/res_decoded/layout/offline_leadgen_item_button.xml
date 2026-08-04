@@ -1,0 +1,1 @@
+<com.truecaller.ads.ui.CtaButtonX xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@id/actionButton" app:strokeColor="@color/ad_grey_bg_color" app:strokeWidth="1.000000dip" style="@style/Ads.LeadGen.Button"/>

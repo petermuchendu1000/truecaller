@@ -1,0 +1,1 @@
+<com.truecaller.call_assistant.ui_components.assistantbutton.CallAssistantAbTestButton xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="0.000000dip" android:elevation="6.000000dip" android:stateListAnimator="@0x00000000" style="@style/TruecallerAssistantButtonLayout"/>

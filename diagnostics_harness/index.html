@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Truecaller Incoming‑Call Flow — Integrated UI + Backend Bus</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="topbar">
+  <div class="titleblock">
+    <h1>Incoming‑Call Flow · Integrated UI + Backend Bus</h1>
+    <p class="subtitle">The whole frontend runs as one flow (ring → show → tap → connect). Flip each <b>backend adapter</b> on one at a time — when a required one is <b>Off/Faulty</b>, the flow reproduces the reported bug. Connect them until it works to find the culprit.</p>
+  </div>
+  <div class="modes">
+    <label class="seg"><span>Theme</span>
+      <select id="theme"><option value="light">Light</option><option value="dark">Dark</option></select>
+    </label>
+  </div>
+</header>
+
+<main class="layout">
+  <!-- ============ LEFT: BACKEND BUS + DRIVER ============ -->
+  <aside class="panel">
+    <div class="driver">
+      <button id="callBtn" class="btn big">📞 Simulate incoming call</button>
+      <button id="resetBtn" class="btn ghost">Reset</button>
+    </div>
+    <div class="presets">
+      <span>Presets:</span>
+      <button class="chipbtn" data-preset="bug">Reproduce reported bug</button>
+      <button class="chipbtn" data-preset="all">Connect everything</button>
+    </div>
+
+    <h2>Backend adapters <span class="hint">(add one at a time)</span></h2>
+    <ul class="backends" id="backends"></ul>
+
+    <p class="measure">Each adapter is a mock of the real dependency the decompiled flow calls. State: <b>Off</b> (not wired) · <b>OK</b> (working mock) · <b>Faulty</b> (present but misbehaving).</p>
+  </aside>
+
+  <!-- ============ RIGHT: PHONE + LOG ============ -->
+  <section class="stage">
+    <div class="phoneWrap">
+      <div class="phone" id="phone">
+        <div class="notch"></div>
+        <div class="statusbar"><span id="clock">2:41</span><span id="ringstate">Idle</span></div>
+
+        <!-- underlying app (what overlay draws over) -->
+        <div class="hostapp" id="hostapp">
+          <div class="hosthdr">Maps</div>
+          <div class="hostbody">You are here · MG Road</div>
+        </div>
+
+        <!-- heads-up NOTIFICATION -->
+        <div class="notif hidden" id="notif">
+          <div class="notifHead"><img class="tcLogoSmall" src="assets/ic_truecaller_logo_white_small.svg" alt=""/><span>Incoming call</span></div>
+          <div class="notifBody">
+            <div class="avatar sm" id="notifAvatar">P</div>
+            <div class="notifText"><div class="notifName">Priya Sharma</div><div class="notifSub">Mobile · +91 98450 12345</div></div>
+          </div>
+          <div class="notifActions">
+            <button class="nbtn decline" data-act="decline"><img src="assets/ic_tcx_action_call_hangup_outline_24dp.svg" alt=""/>Decline</button>
+            <button class="nbtn answer" data-act="answer"><img src="assets/ic_tcx_action_call_outline_24dp.svg" alt=""/>Answer</button>
+          </div>
+        </div>
+
+        <!-- caller-ID OVERLAY card -->
+        <div class="cardShadow hidden" id="overlay">
+          <div class="card">
+            <div class="accent"></div>
+            <div class="topRow">
+              <div class="avatar" id="ovAvatar">P</div>
+              <div class="idcol">
+                <div class="title" id="ovName">Priya Sharma</div>
+                <div class="infoOne" id="ovInfo">Mobile · Bengaluru, India</div>
+              </div>
+              <img class="closeBtn" src="assets/ic_close.svg" data-act="decline" alt="close"/>
+            </div>
+            <div class="divider"></div>
+            <div class="numberRow">
+              <div class="carrierNumber" id="ovNumber">+91 98450 12345</div>
+              <img class="tcLogo" src="assets/ic_truecaller_logo_white_small.svg" alt="Truecaller"/>
+            </div>
+            <div class="ovHint" data-act="expand">Tap to open · Drag to move Caller ID</div>
+          </div>
+        </div>
+
+        <!-- FULL-SCREEN answer -->
+        <div class="answerScreen hidden" id="answer">
+          <div class="callerInfo">
+            <div class="bigAvatar" id="ansAvatar">P</div>
+            <div class="bigName" id="ansName">Priya Sharma</div>
+            <div class="bigNumber" id="ansNumber">+91 98450 12345</div>
+            <div class="ansStatus" id="ansStatus">Incoming call…</div>
+          </div>
+          <div class="clickCatcher" id="clickCatcher"></div>
+          <div class="btnRow">
+            <button class="rbtn decline" data-act="decline"><img src="assets/ic_tcx_action_call_hangup_outline_24dp.svg" alt=""/></button>
+            <button class="rbtn answer" id="ansAnswerBtn" data-act="answer"><img src="assets/ic_tcx_action_call_outline_24dp.svg" alt=""/><span>Answer</span></button>
+          </div>
+        </div>
+
+        <!-- ONGOING / connected -->
+        <div class="ongoing hidden" id="ongoing">
+          <div class="bigAvatar green">P</div>
+          <div class="bigName">Priya Sharma</div>
+          <div class="ongoingTimer" id="timer">00:01</div>
+          <div class="ongoingLabel">Call connected</div>
+          <button class="rbtn decline wide" data-act="hangup"><img src="assets/ic_tcx_action_call_hangup_outline_24dp.svg" alt=""/><span>End</span></button>
+        </div>
+
+        <!-- "nothing shows" indicator -->
+        <div class="ghostring hidden" id="ghostring">📳 Phone is ringing… (app shows nothing)</div>
+      </div>
+    </div>
+
+    <div class="verdict" id="verdict">Press “Simulate incoming call” to run the flow.</div>
+    <div class="logwrap"><h3>Event log <span class="hint">(what each backend returned)</span></h3><ol class="log" id="log"></ol></div>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

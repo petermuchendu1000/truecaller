@@ -1,0 +1,1 @@
+<merge><ViewStub xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00800035" android:id="@id/childStub2_wrap_wrap" android:layout_width="-2" android:layout_height="-2"/></merge>

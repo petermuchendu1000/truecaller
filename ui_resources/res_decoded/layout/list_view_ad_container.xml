@@ -1,0 +1,1 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00000011" android:id="@id/container" android:clipChildren="false" android:clipToPadding="false" android:descendantFocusability="2" android:layout_width="-1" android:layout_height="@dimen/control_enneaspace" android:paddingStart="12.000000dip" android:paddingEnd="12.000000dip"/>

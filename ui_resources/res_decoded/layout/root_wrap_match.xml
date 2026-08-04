@@ -1,0 +1,1 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@style/Glance.AppWidget.Theme" android:id="@id/rootView" android:layout_width="-2" android:layout_height="-1"><ViewStub android:id="@id/rootStubId" android:layout_width="-2" android:layout_height="-1"/></FrameLayout>

@@ -1,0 +1,1 @@
+<com.truecaller.bizmon.callSurvey.mvp.question.flowChoice.BizFlowQuestionView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/flowQuestionView" android:layout_width="-1" android:layout_height="-2"/>

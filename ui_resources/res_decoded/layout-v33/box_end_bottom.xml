@@ -1,0 +1,1 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00800055" android:id="@id/glanceView" android:layout_width="-2" android:layout_height="-2" android:layoutDirection="3" style="@style/Glance.AppWidget.Box"/>

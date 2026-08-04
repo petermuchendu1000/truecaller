@@ -1,0 +1,1 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="?android:0101042C"><item><selector><item android:state_selected="false" android:drawable="@drawable/freshchat_opinion_feedback_item_un_selected_bg"/><item android:state_selected="true" android:drawable="@drawable/freshchat_opinion_feedback_item_selected_bg"/></selector></item></ripple>

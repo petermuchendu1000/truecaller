@@ -1,0 +1,1 @@
+<androidx.compose.ui.platform.ComposeView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/assistant_live_call_compose_view" android:layout_width="-1" android:layout_height="-1"/>

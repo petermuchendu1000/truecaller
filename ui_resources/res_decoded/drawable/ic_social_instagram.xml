@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item><shape android:shape="1"><size android:height="24.000000dip" android:width="24.000000dip"/><solid android:color="@color/white"/></shape></item><item android:drawable="@drawable/ic_instagram_26"/></layer-list>

@@ -1,0 +1,1 @@
+<androidx.recyclerview.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android" android:scrollbarStyle="0x02000000" android:id="@id/recyclerView" android:paddingTop="@dimen/control_space" android:paddingBottom="@dimen/control_space" android:clipToPadding="false" android:layout_width="-1" android:layout_height="-1"/>

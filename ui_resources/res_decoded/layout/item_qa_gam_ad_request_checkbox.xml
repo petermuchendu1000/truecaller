@@ -1,0 +1,1 @@
+<com.google.android.material.checkbox.MaterialCheckBox xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/checkBox" android:paddingTop="8.000000dip" android:paddingBottom="8.000000dip" android:layout_width="-1" android:layout_height="-2" style="@style/StyleX.CheckBox"/>

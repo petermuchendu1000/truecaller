@@ -1,0 +1,68 @@
+{
+  ConstraintSets: {
+    start: {
+      txtTitle: {
+        width: 'spread',
+        top: ['parent','top', 48],
+        end: ['parent','end', 16],
+        start: ['parent','start', 16],
+      },
+      txtSubtitle: {
+        width: 'spread',
+        top: ['txtTitle','bottom', 4],
+        end: ['parent','end', 16],
+        start: ['parent','start', 16]
+      },
+      middleContainer: {
+        width: 'spread',
+        height: 'wrap',
+        top: ['txtSubtitle','bottom', 4],
+        end: ['parent','end', 16],
+        start: ['parent','start', 16],
+        bottom: ['parent', 'bottom', 0],
+      },
+      inputScreen: {
+        width: 'spread',
+        height: 'spread',
+        top: ['parent','bottom', 50],
+        end: ['parent','end', 0],
+        start: ['parent','start', 0],
+      }
+    },
+    end: {
+      txtTitle: {
+        width: 'spread',
+        bottom: ['txtSubtitle','top', 4],
+        end: ['parent','end', 20],
+        start: ['parent','start', 20],
+      },
+      txtSubtitle: {
+        width: 'spread',
+        bottom: ['parent','top', 50],
+        end: ['parent','end', 16],
+        start: ['parent','start', 16]
+      },
+      middleContainer: {
+        width: 'spread',
+        height: 'wrap',
+        top: ['parent','top', 30],
+        end: ['parent','end', 16],
+        start: ['parent','start', 16]
+      },
+      inputScreen: {
+        width: 'spread',
+        height: 'spread',
+        top: ['middleContainer','bottom', 12],
+        end: ['parent','end', 0],
+        start: ['parent','start', 0],
+        bottom: ['parent', 'bottom', 16],
+      }
+    }
+  },
+  Transitions: {
+    default: {
+      from: 'start',
+      to: 'end',
+    }
+  }
+}

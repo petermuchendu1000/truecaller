@@ -1,0 +1,1 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android" android:minWidth="148.000000dip" android:minHeight="148.000000dip" android:updatePeriodMillis="0" android:initialLayout="@layout/glance_appwidget_layout" android:previewImage="@drawable/widget_preview" android:resizeMode="0x00000003" android:widgetCategory="0x00000001"/>

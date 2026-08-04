@@ -1,0 +1,1 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@color/freshchat_resend_otp_background"><item android:id="@android:0102002E"><shape android:shape="0"><solid android:color="@color/freshchat_resend_otp_background_onpressed"/></shape></item></ripple>

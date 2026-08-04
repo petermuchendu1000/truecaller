@@ -1,0 +1,1 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:textAppearance="?7F04035F" android:gravity="0x00000011" android:padding="16.000000dip" android:layout_width="-1" android:layout_height="-1" android:text="@string/freshchat_channel_list_empty"/>

@@ -1,0 +1,1 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android"><item android:height="1.000000dip" android:drawable="@drawable/tcx_divider" android:start="@dimen/control_enneaspace"/></layer-list>

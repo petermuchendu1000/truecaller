@@ -1,0 +1,1 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="0"><gradient android:startColor="@color/freshchat_quick_actions_button_layout_background" android:endColor="@android:0106000D" android:angle="0.000000" android:type="0" android:centerColor="@color/freshchat_quick_actions_button_layout_background"/></shape>

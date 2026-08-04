@@ -1,0 +1,1 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/native_video_frame" android:background="@android:0106000D" android:focusableInTouchMode="true" android:fitsSystemWindows="true" android:layout_width="-1" android:layout_height="-1"/>

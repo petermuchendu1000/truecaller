@@ -1,0 +1,1 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@android:01030011" android:layout_gravity="0x00000050" android:id="@id/inapp_html_footer_frame_layout" android:layout_width="-1" android:layout_height="-2"/>

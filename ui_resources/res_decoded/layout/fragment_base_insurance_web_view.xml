@@ -1,0 +1,1 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1"><WebView android:id="@id/web_view" android:layout_width="-1" android:layout_height="-1"/><ProgressBar android:layout_gravity="0x00000011" android:id="@id/progress_bar" android:layout_width="50.000000dip" android:layout_height="50.000000dip"/></FrameLayout>

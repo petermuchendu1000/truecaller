@@ -1,0 +1,1 @@
+<ImageView xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00800033" android:id="@id/glanceView" android:layout_width="-2" android:layout_height="-2" android:scaleType="3" android:layoutDirection="3" app:glance_isTopLevelLayout="true"/>

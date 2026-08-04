@@ -1,0 +1,1 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"><solid android:color="@color/freshchat_quick_actions_menu_popup"/><corners android:topLeftRadius="8.000000dip" android:topRightRadius="8.000000dip" android:bottomLeftRadius="8.000000dip" android:bottomRightRadius="8.000000dip"/></shape>

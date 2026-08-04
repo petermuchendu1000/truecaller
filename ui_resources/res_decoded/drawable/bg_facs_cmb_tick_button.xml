@@ -1,0 +1,1 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android" android:color="@android:0106000B"><item><shape android:shape="0"><stroke android:width="@dimen/biz_facs_call_me_back_tick_button_border" android:color="@android:0106000B"/><solid android:color="@color/translucent"/><corners android:radius="@dimen/biz_facs_call_me_back_button_radius"/></shape></item></ripple>

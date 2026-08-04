@@ -1,0 +1,1 @@
+<com.truecaller.rewardprogram.api.ui.RewardProgramThankYouBanner xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2" app:subtitleColor="@color/tcx_textSecondary_dark" app:titleColor="@color/tcx_textPrimary_dark"/>

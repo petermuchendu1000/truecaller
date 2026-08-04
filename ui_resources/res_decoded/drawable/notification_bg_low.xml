@@ -1,0 +1,1 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:exitFadeDuration="@android:010E0001"><item android:state_pressed="true" android:drawable="@0x7F080D73"/><item android:state_pressed="false" android:drawable="@0x7F080D72"/></selector>

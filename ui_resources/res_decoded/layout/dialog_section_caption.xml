@@ -1,0 +1,1 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/dialogTitle" android:background="@drawable/dialog_bg_caption" android:padding="@dimen/control_doublespace" android:layout_width="-1" android:layout_height="-2" style="@style/TextAppearance.Truecaller.ListItem.Primary.Ellipsize"/>

@@ -1,0 +1,1 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-2"><TextView android:layout_gravity="0x00000011" android:layout_width="-1" android:layout_height="-2" android:text="@string/freshchat_bot_feed_back_thanks_message" style="?7F040321"/></LinearLayout>

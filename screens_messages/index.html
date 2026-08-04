@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Truecaller — Messages screens (reconstructed from APK resources)</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<header class="topbar">
+  <div class="titleblock">
+    <h1>Messages · faithful UI reconstruction</h1>
+    <p class="subtitle">Rebuilt from the real decoded layouts &amp; resources of com.truecaller 26.28.5 —
+      <code>layout_tcx_list_item</code> (inbox row), <code>fragment_conversation</code> + <code>item_message_incoming/outgoing</code> (thread),
+      <code>fragment_new_conversation</code> (compose), <code>layout_conversation_input_bar_default</code> (input). Real dimens, strings and icons.</p>
+  </div>
+  <div class="modes">
+    <label class="seg"><span>Theme</span><select id="theme"><option value="light">Light</option><option value="dark">Dark</option></select></label>
+  </div>
+</header>
+
+<main class="layout">
+  <aside class="panel">
+    <h2>Screens</h2>
+    <nav class="screens" id="screens">
+      <button class="screenbtn active" data-screen="inbox">1 · Inbox<small>layout_tcx_list_item · FAB</small></button>
+      <button class="screenbtn" data-screen="thread">2 · Conversation<small>fragment_conversation · bubbles · input bar</small></button>
+      <button class="screenbtn" data-screen="compose">3 · New conversation<small>fragment_new_conversation</small></button>
+    </nav>
+    <h2>Feature map <span class="hint">(this screen)</span></h2>
+    <ul class="features" id="features"></ul>
+    <p class="measure" id="measure"></p>
+  </aside>
+
+  <section class="stage">
+    <div class="phone" id="phone">
+      <div class="notch"></div>
+
+      <!-- ============ INBOX ============ -->
+      <div class="screen" data-screen="inbox">
+        <div class="tbar">
+          <div class="tbar-title">Messages</div>
+          <div class="tbar-actions">
+            <img class="ic" src="assets/ic_action_search_24dp.svg" alt="search"/>
+            <img class="ic" src="assets/ic_tcx_more_vert_24dp.svg" alt="more"/>
+          </div>
+        </div>
+        <div class="filters" id="filters">
+          <button class="chip on" data-f="Inbox">Inbox</button>
+          <button class="chip" data-f="Offers">Offers</button>
+          <button class="chip" data-f="Transactions">Transactions</button>
+          <button class="chip" data-f="Spam">Spam</button>
+        </div>
+        <div class="convlist" id="convlist"></div>
+        <button class="fab" id="fab"><img src="assets/ic_tcx_new_message_variant_24dp.svg" alt="new message"/></button>
+      </div>
+
+      <!-- ============ THREAD ============ -->
+      <div class="screen hidden" data-screen="thread">
+        <div class="tbar thread-tbar">
+          <img class="ic back" src="assets/arrow_back.svg" data-nav="inbox" alt="back"/>
+          <div class="th-avatar" id="thAvatar">P</div>
+          <div class="th-id"><div class="th-name" id="thName">Priya Sharma</div><div class="th-status" id="thStatus">online</div></div>
+          <img class="ic" src="assets/ic_tcx_action_call_24dp.svg" alt="call"/>
+          <img class="ic" src="assets/ic_tcx_more_vert_24dp.svg" alt="more"/>
+        </div>
+        <div class="thread" id="thread"></div>
+        <div class="inputbar">
+          <img class="ic emoji" src="assets/ic_tcx_emoji_24dp.svg" alt="emoji"/>
+          <input id="msgInput" class="msgtext" placeholder="Type a message"/>
+          <img class="ic attach" src="assets/ic_tcx_action_attach_24dp.svg" alt="attach"/>
+          <button class="sendfab" id="sendBtn"><img src="assets/ic_tcx_action_send_24dp.svg" alt="send"/></button>
+        </div>
+      </div>
+
+      <!-- ============ COMPOSE ============ -->
+      <div class="screen hidden" data-screen="compose">
+        <div class="tbar thread-tbar">
+          <img class="ic back" src="assets/arrow_back.svg" data-nav="inbox" alt="back"/>
+          <div class="th-id"><div class="th-name">New conversation</div></div>
+        </div>
+        <div class="tofield"><span class="tolabel">To:</span><input class="toinput" placeholder="Type a name or number"/></div>
+        <div class="composelist" id="composelist">
+          <div class="crow group"><div class="cavatar grp"><img src="assets/ic_tcx_group_24dp.svg" alt=""/></div><div class="cmeta"><div class="cname">New group</div></div></div>
+          <div class="csection">Suggested</div>
+        </div>
+      </div>
+
+    </div>
+    <p class="hintline" id="hintline">Tap a conversation to open the thread. Toolbar/FAB/actions are wired to the real IDs.</p>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

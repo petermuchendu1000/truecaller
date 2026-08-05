@@ -18,6 +18,9 @@ import com.uidemo.truecaller.model.Row;
 public class MessagesFragment extends Fragment {
     @Nullable @Override public View onCreateView(@NonNull LayoutInflater inf, @Nullable ViewGroup c, @Nullable Bundle s) {
         View v = inf.inflate(R.layout.fragment_messages, c, false);
+        View chipInbox = v.findViewById(R.id.chipInbox);
+        if (chipInbox != null) chipInbox.setSelected(true);
+
         RecyclerView list = v.findViewById(R.id.list);
         list.setLayoutManager(new LinearLayoutManager(getContext()));
 

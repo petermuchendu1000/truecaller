@@ -25,7 +25,7 @@
         android:paddingHorizontal="12dp" android:paddingBottom="10dp"
         app:layout_constraintTop_toBottomOf="@id/toolbar">
         <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal">
-            <TextView style="@style/Chip" android:text="@string/filter_inbox" android:selected="true" />
+            <TextView android:id="@+id/chipInbox" style="@style/Chip" android:text="@string/filter_inbox" />
             <TextView style="@style/Chip" android:text="@string/filter_offers" />
             <TextView style="@style/Chip" android:text="@string/filter_transactions" />
             <TextView style="@style/Chip" android:text="@string/filter_spam" />

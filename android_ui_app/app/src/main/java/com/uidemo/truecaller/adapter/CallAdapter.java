@@ -13,15 +13,18 @@ import com.uidemo.truecaller.R;
 import com.uidemo.truecaller.model.Row;
 
 public class CallAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
+    public interface OnRowClick { void onClick(Row row); }
     private final List<Row> data;
+    private OnRowClick click;
     public CallAdapter(List<Row> data) { this.data = data; }
+    public void setOnRowClick(OnRowClick c) { this.click = c; }
 
     @Override public int getItemViewType(int position) { return data.get(position).type; }
 
     @NonNull @Override public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup p, int type) {
         LayoutInflater inf = LayoutInflater.from(p.getContext());
         if (type == Row.BANNER) return new Simple(inf.inflate(R.layout.item_ad_banner, p, false));
-        if (type == Row.AD)     return new Simple(inf.inflate(R.layout.item_call_ad, p, false));
+        if (type == Row.AD)     return new Simple(inf.inflate(R.layout.item_premium_promo, p, false));
         return new CallVH(inf.inflate(R.layout.item_call, p, false));
     }
 
@@ -43,6 +46,7 @@ public class CallAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         v.subtitle.setText(r.subtitle);
         if (r.actionIcon != 0) { v.action.setVisibility(View.VISIBLE); v.action.setImageResource(r.actionIcon); }
         else v.action.setVisibility(View.GONE);
+        v.itemView.setOnClickListener(x -> { if (click != null) click.onClick(r); });
     }
     @Override public int getItemCount() { return data.size(); }
 

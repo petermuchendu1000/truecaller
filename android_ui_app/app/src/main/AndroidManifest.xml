@@ -15,6 +15,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".ConversationActivity" android:exported="false" />
+        <activity android:name=".ContactDetailActivity" android:exported="false" android:theme="@style/Theme.TruecallerUI.FullScreen" />
         <activity android:name=".IncomingCallActivity" android:exported="false"
                   android:theme="@style/Theme.TruecallerUI.FullScreen" />
     </application>

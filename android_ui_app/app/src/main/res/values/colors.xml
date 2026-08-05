@@ -41,4 +41,8 @@
     <color name="redDot">#FFFF2D1E</color>
     <color name="trueBlue">#FF0A6CFF</color>
     <color name="navUnselected">#FF8B9096</color>
+    <color name="avatarNavy">#FF0A183F</color>
+    <color name="avatarNavyText">#FFACB6F3</color>
+    <color name="avatarGold">#FF472400</color>
+    <color name="avatarGoldText">#FFD9BF75</color>
 </resources>

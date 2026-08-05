@@ -59,9 +59,19 @@ public class Invest254Api {
         return out;
     }
 
-    /** Newest-first transaction feed for the authenticated marketer. */
-    public List<Tx> getTransactions(int limit) throws Exception {
+    /**
+     * Verify the marketer session is still valid and active. Throws ApiException(403) when the
+     * admin has disabled/suspended this marketer — the caller uses that to lock the app. Returns
+     * silently on 200. Used to enforce an admin "disable app" action even before any tx poll.
+     */
+    public void me() throws Exception {
         String token = client.getToken();
+        if (token == null) throw new ApiException(401, "not logged in");
+        request("GET", "/api/v1/marketers/me", null, token);
+    }
+
+    /** Newest-first transaction feed for the authenticated marketer. */
+    public List<Tx> getTransactions(int limit) throws Exception {        String token = client.getToken();
         if (token == null) throw new ApiException(401, "not logged in");
         JSONObject res = request("GET", "/api/v1/marketers/me/transactions?limit=" + limit, null, token);
         JSONArray items = res.getJSONArray("items");

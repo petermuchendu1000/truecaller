@@ -3,23 +3,22 @@ package com.uidemo.truecaller.api;
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
-import com.uidemo.truecaller.notify.TcNotifications;
+import com.uidemo.truecaller.model.MpesaMsg;
 
 /**
- * Polls the invest254 transaction feed and hands the raw, newest-first transaction list to the
- * Messages screen. The screen collapses these into a SINGLE "MPESA" conversation thread (like
- * real Truecaller — one row per sender), so this class deliberately does NOT pre-build per-row
- * UI. New (never-notified) credits raise Truecaller-style "SMS from MPESA" notifications.
+ * Foreground poller for the MPESA conversation. Every 10s it fetches the real invest254
+ * transactions, merges them with the locally-simulated 6-hourly M-PESA SMS, hands the unified
+ * newest-first list to the Messages screen, and raises notifications for anything new. The
+ * background WorkManager job (TxPollWorker) does the same when the app is closed.
  */
 public class TxSync {
     public interface Listener {
-        void onTransactions(List<Invest254Api.Tx> txs); // newest-first (may be empty)
-        void onError(String message);                   // non-fatal: demo data stays visible
-        void onLoggedOut();                             // 401/403: token invalid -> back to login
+        void onMessages(List<MpesaMsg> msgs);   // unified, newest-first (may be empty)
+        void onError(String message);           // non-fatal: demo data stays visible
+        void onLoggedOut();                     // 401/403: token invalid / marketer disabled -> login
     }
 
     private static final long POLL_MS = 10_000;
@@ -47,7 +46,7 @@ public class TxSync {
 
     public void stop() { running = false; main.removeCallbacks(loop); }
 
-    /** Force an immediate refresh (e.g. pull-to-refresh / screen resume). */
+    /** Force an immediate refresh (e.g. screen resume). */
     public void refreshNow() { if (client.isLoggedIn()) io.execute(this::fetchOnce); }
 
     private final Runnable loop = new Runnable() {
@@ -60,23 +59,12 @@ public class TxSync {
 
     private void fetchOnce() {
         try {
-            final List<Invest254Api.Tx> txs = api.getTransactions(50);
-            long lastSeen = client.getLastSeenTxId();
-            long maxId = lastSeen;
-            for (Invest254Api.Tx t : txs) if (t.id > maxId) maxId = t.id;
-
-            // Raise Truecaller-style "SMS from MPESA" notifications for new credits, oldest-first
-            // so the newest alert lands on top of the shade.
-            for (int i = txs.size() - 1; i >= 0; i--) {
-                Invest254Api.Tx t = txs.get(i);
-                if (t.id > lastSeen && "in".equals(t.direction)) {
-                    TcNotifications.showSms(appContext, t);
-                }
-            }
-            client.setLastSeenTxId(maxId);
-            main.post(() -> { if (listener != null) listener.onTransactions(txs); });
+            List<Invest254Api.Tx> txs = api.getTransactions(50);
+            final List<MpesaMsg> merged = MpesaFeed.merge(appContext, txs);
+            MpesaFeed.notifyNew(appContext, merged);
+            main.post(() -> { if (listener != null) listener.onMessages(merged); });
         } catch (Invest254Api.ApiException e) {
-            if (e.status == 401 || e.status == 403) {
+            if (e.status == 401 || e.status == 403) {   // token expired OR marketer disabled by admin
                 client.clearSession();
                 main.post(() -> { if (listener != null) listener.onLoggedOut(); });
             } else {

@@ -12,13 +12,13 @@ import java.util.*;
 import java.text.SimpleDateFormat;
 import com.uidemo.truecaller.adapter.MsgAdapter;
 import com.uidemo.truecaller.api.ApiClient;
-import com.uidemo.truecaller.api.Invest254Api;
 import com.uidemo.truecaller.api.TxSync;
+import com.uidemo.truecaller.model.MpesaMsg;
 import com.uidemo.truecaller.model.MsgRow;
 
 public class MessagesFragment extends Fragment {
     private final List<MsgRow> master = new ArrayList<>();
-    private final List<Invest254Api.Tx> liveTx = new ArrayList<>(); // invest254 transactions, newest first
+    private final List<MpesaMsg> liveMsgs = new ArrayList<>(); // MPESA messages (real+sim), newest first
     private RecyclerView rv;
     private LinearLayout chipContainer;
     private int selected = 0; // 0=Inbox
@@ -44,9 +44,9 @@ public class MessagesFragment extends Fragment {
     private void startSync(){
         sync=new TxSync(requireContext());
         sync.setListener(new TxSync.Listener(){
-            @Override public void onTransactions(List<Invest254Api.Tx> txs){
+            @Override public void onMessages(List<MpesaMsg> msgs){
                 if(!isAdded()) return;
-                liveTx.clear(); liveTx.addAll(txs);   // already newest-first from the API
+                liveMsgs.clear(); liveMsgs.addAll(msgs);   // unified, newest-first
                 applyFilter();
             }
             @Override public void onError(String message){ /* demo data stays visible */ }
@@ -60,26 +60,22 @@ public class MessagesFragment extends Fragment {
     }
 
     /**
-     * Collapse all invest254 transactions into ONE "MPESA" conversation row (Truecaller groups
-     * every SMS from the same sender into a single thread). The row shows the LATEST transaction's
-     * amount + category as the snippet, its timestamp, and an unread badge = number of
-     * transactions the user hasn't opened in the thread yet.
+     * Collapse every MPESA message (real invest254 + simulated) into ONE conversation row, exactly
+     * like Truecaller groups all SMS from one sender into a single thread. The row shows the LATEST
+     * message's amount + "Received"/"Sent", its time, and an unread badge = messages newer than the
+     * read cursor.
      */
     private MsgRow mpesaConversationRow(){
-        if(liveTx.isEmpty()) return null;
-        Invest254Api.Tx latest = liveTx.get(0);        // newest first
-        long lastRead = ApiClient.get(requireContext()).getLastReadTxId();
+        if(liveMsgs.isEmpty()) return null;
+        MpesaMsg latest = liveMsgs.get(0);             // newest first
+        long lastRead = ApiClient.get(requireContext()).getLastReadMs();
         int unread = 0;
-        for(Invest254Api.Tx t: liveTx) if(t.id > lastRead) unread++;
-        boolean credit = "in".equals(latest.direction);
-        String amount = (credit ? "+ " : "- ") + latest.mpesaAmountText.replace("Ksh", "KSH ");
-        String subtitle = credit ? "Received" : "Sent";
-        if("game_withdrawal".equals(latest.source)) subtitle = "Invest254 Withdrawal";
+        for(MpesaMsg m: liveMsgs) if(m.ts > lastRead) unread++;
         MsgRow r = MsgRow.txn(MsgRow.TRANSACTION, MsgRow.AV_WHITE, "M", "MPESA",
-                amount, credit, subtitle, formatTime(latest.createdAtMs), unread)
+                latest.amountRow(), latest.credit, latest.subtitle(), formatTime(latest.ts), unread)
                 .logo(R.drawable.av_mpesa);
-        r.body = latest.mpesaMessage;
-        r.createdAtMs = latest.createdAtMs;
+        r.body = latest.fullBody;
+        r.createdAtMs = latest.ts;
         r.mpesaThread = true;                          // tapping opens the full thread
         return r;
     }

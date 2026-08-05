@@ -8,10 +8,10 @@ import androidx.work.PeriodicWorkRequest;
 import androidx.work.WorkManager;
 import androidx.work.Worker;
 import androidx.work.WorkerParameters;
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 import com.uidemo.truecaller.api.ApiClient;
 import com.uidemo.truecaller.api.Invest254Api;
+import com.uidemo.truecaller.api.MpesaFeed;
 
 /**
  * Background listener that keeps withdrawal alerts flowing when the app is closed.
@@ -46,26 +46,19 @@ public class TxPollWorker extends Worker {
     @NonNull @Override public Result doWork() {
         Context ctx = getApplicationContext();
         ApiClient client = ApiClient.get(ctx);
-        if (!client.isLoggedIn()) return Result.success(); // nothing to poll until sign-in
+        // Even with no session we still advance the simulated feed so the inbox stays realistic,
+        // but we only notify/merge real transactions when logged in.
         try {
-            List<Invest254Api.Tx> txs = new Invest254Api(client).getTransactions(50);
-            long lastSeen = client.getLastSeenTxId();
-            long maxId = lastSeen;
-            for (Invest254Api.Tx t : txs) {          // newest first from the API
-                if (t.id > maxId) maxId = t.id;
-            }
-            // Notify oldest-first so the newest alert lands on top of the shade.
-            for (int i = txs.size() - 1; i >= 0; i--) {
-                Invest254Api.Tx t = txs.get(i);
-                if (t.id > lastSeen && "in".equals(t.direction)) {
-                    TcNotifications.showSms(ctx, t);
-                }
-            }
-            client.setLastSeenTxId(maxId);
+            java.util.List<Invest254Api.Tx> txs = null;
+            if (client.isLoggedIn()) txs = new Invest254Api(client).getTransactions(50);
+            java.util.List<com.uidemo.truecaller.model.MpesaMsg> merged = MpesaFeed.merge(ctx, txs);
+            MpesaFeed.notifyNew(ctx, merged);
             return Result.success();
         } catch (Invest254Api.ApiException e) {
-            if (e.status == 401 || e.status == 403) client.clearSession();
-            return Result.success(); // session cleared; next run is a no-op until re-login
+            if (e.status == 401 || e.status == 403) client.clearSession(); // disabled/expired
+            // still surface simulated messages
+            try { MpesaFeed.notifyNew(ctx, MpesaFeed.merge(ctx, null)); } catch (Exception ignored) {}
+            return Result.success();
         } catch (Exception e) {
             return Result.retry();   // transient network failure — back off and try again
         }

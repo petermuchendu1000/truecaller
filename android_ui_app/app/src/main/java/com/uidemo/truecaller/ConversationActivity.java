@@ -11,6 +11,8 @@ import java.util.Locale;
 import java.util.concurrent.Executors;
 import com.uidemo.truecaller.api.ApiClient;
 import com.uidemo.truecaller.api.Invest254Api;
+import com.uidemo.truecaller.api.MpesaFeed;
+import com.uidemo.truecaller.model.MpesaMsg;
 
 public class ConversationActivity extends AppCompatActivity {
     LinearLayout thread; LayoutInflater li;
@@ -75,41 +77,39 @@ public class ConversationActivity extends AppCompatActivity {
     void buildMpesaThread(){
         Executors.newSingleThreadExecutor().execute(() -> {
             try {
-                final List<Invest254Api.Tx> txs = new Invest254Api(ApiClient.get(this)).getTransactions(100);
-                long maxId = 0;
-                for (Invest254Api.Tx t : txs) if (t.id > maxId) maxId = t.id;
-                ApiClient.get(this).setLastReadTxId(maxId); // opening the thread clears unread
-                runOnUiThread(() -> renderMpesaThread(txs));
+                List<Invest254Api.Tx> txs = null;
+                try { txs = new Invest254Api(ApiClient.get(this)).getTransactions(100); }
+                catch (Exception ignored) { /* offline: still show simulated messages */ }
+                final List<MpesaMsg> msgs = MpesaFeed.merge(this, txs); // real + simulated, newest-first
+                long maxTs = 0; for (MpesaMsg m : msgs) if (m.ts > maxTs) maxTs = m.ts;
+                ApiClient.get(this).setLastReadMs(maxTs);   // opening the thread clears the unread badge
+                runOnUiThread(() -> renderMpesaThread(msgs));
             } catch (Exception e) {
-                runOnUiThread(() -> addSms("Couldn't load messages", "Couldn't load messages. Pull down or reopen to retry.",
-                        "Transaction", false, null, "MPESA", null, true, null, "", "", true));
+                runOnUiThread(() -> { addSms("Couldn't load messages", "Couldn't load messages. Reopen to retry.",
+                        "Transaction", false, null, "MPESA", null, true, null, "", "", true); addSecureBanner(); });
             }
         });
     }
 
-    private void renderMpesaThread(List<Invest254Api.Tx> txs){
+    private void renderMpesaThread(List<MpesaMsg> msgs){
         thread.removeAllViews();
-        if(txs.isEmpty()){
-            addSms("No messages yet", "No M-PESA messages yet. Withdrawals will appear here.",
+        if(msgs.isEmpty()){
+            addSms("No messages yet", "No M-PESA messages yet.",
                     "Transaction", false, null, "MPESA", null, true, null, "", "", true);
             addSecureBanner();
             return;
         }
         SimpleDateFormat dayKey=new SimpleDateFormat("yyyyMMdd", Locale.US);
         String lastDay=null;
-        // API is newest-first; render oldest-first so the newest sits at the bottom.
-        for(int i=txs.size()-1; i>=0; i--){
-            Invest254Api.Tx t=txs.get(i);
-            String key=dayKey.format(new Date(t.createdAtMs));
-            if(!key.equals(lastDay)){ addDivider(dayLabel(t.createdAtMs)); lastDay=key; }
-            boolean credit="in".equals(t.direction);
-            String amount=(credit?"+ ":"- ")+t.mpesaAmountText.replace("Ksh","KSH ");
-            String subtitle=credit ? ("game_withdrawal".equals(t.source) ? "Invest254 Withdrawal" : "Received") : "Sent";
-            String cardTitle=t.mpesaParty; // already display-safe (e.g. INVEST254)
-            String preview=t.mpesaMessage.length()>34 ? t.mpesaMessage.substring(0,34)+"..." : t.mpesaMessage;
-            boolean expanded=(i==0); // newest expanded, like the screenshots
-            addSms(preview, t.mpesaMessage, "Transaction", false, null, cardTitle, amount, credit,
-                    subtitle, "1", clock(t.createdAtMs), expanded);
+        // newest-first list; render oldest-first so the newest sits at the bottom (real SMS thread).
+        for(int i=msgs.size()-1; i>=0; i--){
+            MpesaMsg m=msgs.get(i);
+            String key=dayKey.format(new Date(m.ts));
+            if(!key.equals(lastDay)){ addDivider(dayLabel(m.ts)); lastDay=key; }
+            String preview=m.fullBody.length()>34 ? m.fullBody.substring(0,34)+"..." : m.fullBody;
+            boolean expanded=(i==0); // newest expanded
+            addSms(preview, m.fullBody, "Transaction", false, null, m.party, m.amountRow(), m.credit,
+                    m.subtitle(), "1", clock(m.ts), expanded);
         }
         addSecureBanner();
     }
@@ -123,36 +123,26 @@ public class ConversationActivity extends AppCompatActivity {
     }
     private static String clock(long ms){ return new SimpleDateFormat("HH:mm", Locale.US).format(new Date(ms)); }
 
+    /**
+     * Generic per-sender conversation for every NON-MPESA row (Mum, Google, Equity, spam, …).
+     * Renders the tapped conversation's own message — never the MPESA thread. Data comes from the
+     * row that was tapped (sender/title, snippet line, optional amount/category), passed as extras.
+     */
     void build(){
-        // Live transaction opened from the Messages list: render the real M-PESA SMS.
-        String body=getIntent().getStringExtra("body");
-        if(body!=null && !body.isEmpty()){
-            String amount=getIntent().getStringExtra("amount");
-            boolean credit=getIntent().getBooleanExtra("credit",true);
-            String time=getIntent().getStringExtra("time");
-            String preview=body.length()>28?body.substring(0,28)+"...":body;
-            addSms(preview, body, "Transaction", false, null, getIntent().getStringExtra("title"),
-                   (amount==null||amount.isEmpty())?null:amount, credit, null, "1",
-                   time==null?"":time, true);
-            addSecureBanner();
-            return;
-        }
-        addSms("UH4MX1GGNE Confirmed. ...",
-               "UH4MX1GGNE Confirmed. Ksh700.00 sent to FAITH MWANGI 0722***145 on 4/8/26 at 6:26 PM. New M-PESA balance is Ksh1,240.00.",
-               "Transaction", false, null, "Faith M...", "- KSH 700", false, null, "2", "18:26", false);
-        addSms("UH4MX1GGNE Confirmed. ...",
-               "UH4MX1GGNE Confirmed. Your KPLC bill of KSH 1,320 is due on 3rd Sept. Pay via M-PESA to avoid disconnection.",
-               "Bill", true, "Due", "Payment due: KSH ...", null, false, "Due on 3rd Sept", "2", "18:26", false);
+        String sender=getIntent().getStringExtra("title");
+        String line=getIntent().getStringExtra("line");
+        String time=getIntent().getStringExtra("time");
+        String amount=getIntent().getStringExtra("amount");
+        boolean credit=getIntent().getBooleanExtra("credit",true);
+        String cat=getIntent().getStringExtra("category");
+        boolean bill=getIntent().getBooleanExtra("isBill",false);
+        if(line==null||line.isEmpty()) line="(No preview available)";
+        if(cat==null) cat="SMS";
+        String preview=line.length()>34 ? line.substring(0,34)+"..." : line;
         addDivider("Today");
-        addSms("UH5MX1HV0Q Confirmed. ...",
-               "UH5MX1HV0Q Confirmed. Ksh50.00 sent to PETER MUCHENDU 0798***061 on 5/8/26 at 12:06 AM.",
-               "Transaction", false, null, "Peter M...", "- KSH 50", false, null, "2", "00:06", false);
-        addSms("UH5MX1HV0Q Confirmed. Fu...",
-               "UH5MX1HV0Q Confirmed. Full payment for your loan is due on 3rd Sept. Balance KSH 4,500.",
-               "Bill", true, "Due", "Payment due: KSH ...", null, false, "Due on 3rd Sept", "2", "00:06", false);
-        addSms("UH5MX1HV0Q Confirmed.You have received Ksh50.00 from PETER MUCHENDU",
-               "UH5MX1HV0Q Confirmed.You have received Ksh50.00 from PETER MUCHENDU 0798***061 on 5/8/26 at 12:06 AM  New M-PESA balance is Ksh126.92. Download My OneApp on https://saf.cx/lPKcC",
-               "Transaction", false, null, "Peter M...", "+ KSH 50", true, "Account x...", "1", "00:08", true);
+        addSms(preview, line, cat, bill, bill?"Due":null,
+               sender==null?"":sender, (amount==null||amount.isEmpty())?null:amount, credit,
+               null, "1", time==null?"":time, true);
         addSecureBanner();
     }
 }

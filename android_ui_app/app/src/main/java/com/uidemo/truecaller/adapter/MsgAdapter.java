@@ -33,7 +33,18 @@ public class MsgAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         else if(h instanceof HeaderVH) ((HeaderVH)h).bind(r);
     }
     static class Simple extends RecyclerView.ViewHolder{ Simple(View v){super(v);} }
-    static class HeaderVH extends RecyclerView.ViewHolder{
+
+    /** Human label for the conversation card header, from the row's category. */
+    static String categoryLabel(int cat){
+        switch(cat){
+            case com.uidemo.truecaller.model.MsgRow.TRANSACTION: return "Transaction";
+            case com.uidemo.truecaller.model.MsgRow.OTP: return "OTP";
+            case com.uidemo.truecaller.model.MsgRow.BILL: return "Bill";
+            case com.uidemo.truecaller.model.MsgRow.TRAVEL: return "Travel";
+            case com.uidemo.truecaller.model.MsgRow.SPAM: return "Spam";
+            default: return "SMS";
+        }
+    }    static class HeaderVH extends RecyclerView.ViewHolder{
         TextView t; HeaderVH(View v){super(v); t=v.findViewById(R.id.unreadHeaderText);}
         void bind(MsgRow r){ t.setText(r.headerText); }
     }
@@ -78,11 +89,14 @@ public class MsgAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
                 i.putExtra("title", r.title);
                 if(r.mpesaThread){
                     i.putExtra("mpesaThread", true);   // render the full live MPESA thread
-                } else if(r.body!=null){
-                    i.putExtra("body", r.body);
-                    i.putExtra("credit", r.credit);
-                    i.putExtra("amount", r.hasAmount ? r.amount : "");
+                } else {
+                    // Generic conversation: render THIS sender's own message, not MPESA.
+                    i.putExtra("line", r.subtitle);    // the snippet shown in the list
                     i.putExtra("time", r.time);
+                    i.putExtra("credit", r.credit);
+                    if(r.hasAmount) i.putExtra("amount", r.amount);
+                    i.putExtra("category", categoryLabel(r.category));
+                    i.putExtra("isBill", r.category==com.uidemo.truecaller.model.MsgRow.BILL);
                 }
                 v.getContext().startActivity(i);
             });

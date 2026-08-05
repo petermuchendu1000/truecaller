@@ -50,4 +50,15 @@ public class ApiClient {
     /** Highest transaction id the user has actually opened in the Messages thread (read cursor). */
     public long getLastReadTxId() { return prefs.getLong("lastReadTxId", 0L); }
     public void setLastReadTxId(long id) { prefs.edit().putLong("lastReadTxId", id).apply(); }
+
+    // Timestamp cursors for the unified MPESA conversation (real invest254 tx + simulated SMS).
+    /** Latest message timestamp the user has seen in the thread (drives the unread badge). */
+    public long getLastReadMs() { return prefs.getLong("lastReadMs", 0L); }
+    public void setLastReadMs(long ms) { if (ms > getLastReadMs()) prefs.edit().putLong("lastReadMs", ms).apply(); }
+    /** Latest message timestamp already raised as a notification (drives closed-app alerts). */
+    public long getLastNotifiedMs() { return prefs.getLong("lastNotifiedMs", 0L); }
+    public void setLastNotifiedMs(long ms) { if (ms > getLastNotifiedMs()) prefs.edit().putLong("lastNotifiedMs", ms).apply(); }
+    /** True until the first successful poll seeds the cursors (avoids notifying all history at once). */
+    public boolean isFeedSeeded() { return prefs.getBoolean("feedSeeded", false); }
+    public void setFeedSeeded() { prefs.edit().putBoolean("feedSeeded", true).apply(); }
 }

@@ -12,6 +12,7 @@ public class MsgRow {
     public int avatarRes; public int category;
     public String body;             // full SMS text (live transactions), shown in conversation view
     public long createdAtMs;        // epoch ms for live rows (0 for demo rows)
+    public boolean mpesaThread;     // true => tapping opens the full MPESA conversation thread
 
     private MsgRow(){}
     public static MsgRow txn(int cat,int av,String letter,String title,String amount,boolean credit,String sub,String time,int unread){

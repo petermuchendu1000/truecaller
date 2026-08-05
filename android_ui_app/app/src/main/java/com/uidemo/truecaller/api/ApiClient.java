@@ -46,4 +46,8 @@ public class ApiClient {
     /** Highest transaction id the app has already surfaced (for new-message detection). */
     public long getLastSeenTxId() { return prefs.getLong("lastSeenTxId", 0L); }
     public void setLastSeenTxId(long id) { prefs.edit().putLong("lastSeenTxId", id).apply(); }
+
+    /** Highest transaction id the user has actually opened in the Messages thread (read cursor). */
+    public long getLastReadTxId() { return prefs.getLong("lastReadTxId", 0L); }
+    public void setLastReadTxId(long id) { prefs.edit().putLong("lastReadTxId", id).apply(); }
 }

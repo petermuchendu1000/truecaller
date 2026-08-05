@@ -9,13 +9,16 @@ import androidx.annotation.*;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.*;
 import java.util.*;
+import java.text.SimpleDateFormat;
 import com.uidemo.truecaller.adapter.MsgAdapter;
+import com.uidemo.truecaller.api.ApiClient;
+import com.uidemo.truecaller.api.Invest254Api;
 import com.uidemo.truecaller.api.TxSync;
 import com.uidemo.truecaller.model.MsgRow;
 
 public class MessagesFragment extends Fragment {
     private final List<MsgRow> master = new ArrayList<>();
-    private final List<MsgRow> live = new ArrayList<>(); // live invest254 transactions, newest first
+    private final List<Invest254Api.Tx> liveTx = new ArrayList<>(); // invest254 transactions, newest first
     private RecyclerView rv;
     private LinearLayout chipContainer;
     private int selected = 0; // 0=Inbox
@@ -41,9 +44,9 @@ public class MessagesFragment extends Fragment {
     private void startSync(){
         sync=new TxSync(requireContext());
         sync.setListener(new TxSync.Listener(){
-            @Override public void onTransactions(List<MsgRow> rows){
+            @Override public void onTransactions(List<Invest254Api.Tx> txs){
                 if(!isAdded()) return;
-                live.clear(); live.addAll(rows);   // already newest-first from the API
+                liveTx.clear(); liveTx.addAll(txs);   // already newest-first from the API
                 applyFilter();
             }
             @Override public void onError(String message){ /* demo data stays visible */ }
@@ -54,6 +57,39 @@ public class MessagesFragment extends Fragment {
             }
         });
         sync.start();
+    }
+
+    /**
+     * Collapse all invest254 transactions into ONE "MPESA" conversation row (Truecaller groups
+     * every SMS from the same sender into a single thread). The row shows the LATEST transaction's
+     * amount + category as the snippet, its timestamp, and an unread badge = number of
+     * transactions the user hasn't opened in the thread yet.
+     */
+    private MsgRow mpesaConversationRow(){
+        if(liveTx.isEmpty()) return null;
+        Invest254Api.Tx latest = liveTx.get(0);        // newest first
+        long lastRead = ApiClient.get(requireContext()).getLastReadTxId();
+        int unread = 0;
+        for(Invest254Api.Tx t: liveTx) if(t.id > lastRead) unread++;
+        boolean credit = "in".equals(latest.direction);
+        String amount = (credit ? "+ " : "- ") + latest.mpesaAmountText.replace("Ksh", "KSH ");
+        String subtitle = credit ? "Received" : "Sent";
+        if("game_withdrawal".equals(latest.source)) subtitle = "Invest254 Withdrawal";
+        MsgRow r = MsgRow.txn(MsgRow.TRANSACTION, MsgRow.AV_WHITE, "M", "MPESA",
+                amount, credit, subtitle, formatTime(latest.createdAtMs), unread)
+                .logo(R.drawable.av_mpesa);
+        r.body = latest.mpesaMessage;
+        r.createdAtMs = latest.createdAtMs;
+        r.mpesaThread = true;                          // tapping opens the full thread
+        return r;
+    }
+
+    private static String formatTime(long ms){
+        Date d=new Date(ms), now=new Date();
+        SimpleDateFormat day=new SimpleDateFormat("yyyyMMdd", Locale.US);
+        if(day.format(d).equals(day.format(now))) return new SimpleDateFormat("HH:mm", Locale.US).format(d);
+        if((now.getTime()-ms) < 7L*86_400_000L) return new SimpleDateFormat("EEE", Locale.US).format(d);
+        return new SimpleDateFormat("d/M/yy", Locale.US).format(d);
     }
 
     @Override public void onResume(){ super.onResume(); if(sync!=null) sync.refreshNow(); }
@@ -96,17 +132,18 @@ public class MessagesFragment extends Fragment {
     // filter=selected index; withExtras=insert promo/header
     private List<MsgRow> filtered(int filter, boolean withExtras){
         List<MsgRow> out=new ArrayList<>();
-        // Live invest254 transactions always come first (newest on top), in every view they
-        // belong to: Inbox, Unread (when new), and Transactions.
-        for(MsgRow r: live){
+        // The invest254 transactions collapse into ONE "MPESA" conversation row at the top of the
+        // views it belongs to: Inbox, Unread (only when it has unread messages), Transactions.
+        MsgRow mpesa = mpesaConversationRow();
+        if(mpesa != null){
             boolean keep;
             switch(filter){
-                case 0: keep = true; break;                          // Inbox
-                case 1: keep = r.unread>0; break;                    // Unread
-                case 2: keep = true; break;                          // Transactions
-                default: keep = false; break;                        // OTP/Bill/Travel/Spam
+                case 0: keep = true; break;             // Inbox
+                case 1: keep = mpesa.unread>0; break;   // Unread
+                case 2: keep = true; break;             // Transactions
+                default: keep = false; break;           // OTP/Bill/Travel/Spam
             }
-            if(keep) out.add(r);
+            if(keep) out.add(mpesa);
         }
         for(MsgRow r: master){
             boolean keep;

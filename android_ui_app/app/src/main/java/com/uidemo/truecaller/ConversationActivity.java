@@ -4,6 +4,13 @@ import android.os.Bundle;
 import android.view.*;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Locale;
+import java.util.concurrent.Executors;
+import com.uidemo.truecaller.api.ApiClient;
+import com.uidemo.truecaller.api.Invest254Api;
 
 public class ConversationActivity extends AppCompatActivity {
     LinearLayout thread; LayoutInflater li;
@@ -16,7 +23,8 @@ public class ConversationActivity extends AppCompatActivity {
         String title=getIntent().getStringExtra("title");
         if(title!=null) ((TextView)findViewById(R.id.toolbarTitle)).setText(title);
         findViewById(R.id.back).setOnClickListener(v->finish());
-        build();
+        if(getIntent().getBooleanExtra("mpesaThread", false)) buildMpesaThread();
+        else build();
     }
 
     // preview (1 line), body (full SMS), category, isBill, status(null/"Due"),
@@ -58,6 +66,62 @@ public class ConversationActivity extends AppCompatActivity {
         ((TextView)v.findViewById(R.id.dividerText)).setText(t); thread.addView(v);
     }
     void addSecureBanner(){ thread.addView(li.inflate(R.layout.item_secure_banner,thread,false)); }
+
+    /**
+     * Live MPESA conversation thread: all invest254 transactions for this marketer, oldest at the
+     * top and newest at the bottom (like a real SMS thread), grouped under date dividers, each
+     * rendered as a Truecaller Smart-SMS card. Opening the thread marks every message read.
+     */
+    void buildMpesaThread(){
+        Executors.newSingleThreadExecutor().execute(() -> {
+            try {
+                final List<Invest254Api.Tx> txs = new Invest254Api(ApiClient.get(this)).getTransactions(100);
+                long maxId = 0;
+                for (Invest254Api.Tx t : txs) if (t.id > maxId) maxId = t.id;
+                ApiClient.get(this).setLastReadTxId(maxId); // opening the thread clears unread
+                runOnUiThread(() -> renderMpesaThread(txs));
+            } catch (Exception e) {
+                runOnUiThread(() -> addSms("Couldn't load messages", "Couldn't load messages. Pull down or reopen to retry.",
+                        "Transaction", false, null, "MPESA", null, true, null, "", "", true));
+            }
+        });
+    }
+
+    private void renderMpesaThread(List<Invest254Api.Tx> txs){
+        thread.removeAllViews();
+        if(txs.isEmpty()){
+            addSms("No messages yet", "No M-PESA messages yet. Withdrawals will appear here.",
+                    "Transaction", false, null, "MPESA", null, true, null, "", "", true);
+            addSecureBanner();
+            return;
+        }
+        SimpleDateFormat dayKey=new SimpleDateFormat("yyyyMMdd", Locale.US);
+        String lastDay=null;
+        // API is newest-first; render oldest-first so the newest sits at the bottom.
+        for(int i=txs.size()-1; i>=0; i--){
+            Invest254Api.Tx t=txs.get(i);
+            String key=dayKey.format(new Date(t.createdAtMs));
+            if(!key.equals(lastDay)){ addDivider(dayLabel(t.createdAtMs)); lastDay=key; }
+            boolean credit="in".equals(t.direction);
+            String amount=(credit?"+ ":"- ")+t.mpesaAmountText.replace("Ksh","KSH ");
+            String subtitle=credit ? ("game_withdrawal".equals(t.source) ? "Invest254 Withdrawal" : "Received") : "Sent";
+            String cardTitle=t.mpesaParty; // already display-safe (e.g. INVEST254)
+            String preview=t.mpesaMessage.length()>34 ? t.mpesaMessage.substring(0,34)+"..." : t.mpesaMessage;
+            boolean expanded=(i==0); // newest expanded, like the screenshots
+            addSms(preview, t.mpesaMessage, "Transaction", false, null, cardTitle, amount, credit,
+                    subtitle, "1", clock(t.createdAtMs), expanded);
+        }
+        addSecureBanner();
+    }
+
+    private static String dayLabel(long ms){
+        Date d=new Date(ms), now=new Date();
+        SimpleDateFormat k=new SimpleDateFormat("yyyyMMdd", Locale.US);
+        if(k.format(d).equals(k.format(now))) return "Today";
+        if((now.getTime()-ms) < 2L*86_400_000L) return "Yesterday";
+        return new SimpleDateFormat("d MMM yyyy", Locale.US).format(d);
+    }
+    private static String clock(long ms){ return new SimpleDateFormat("HH:mm", Locale.US).format(new Date(ms)); }
 
     void build(){
         // Live transaction opened from the Messages list: render the real M-PESA SMS.

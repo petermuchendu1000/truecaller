@@ -1,0 +1,30 @@
+package com.truecaller.messaging.inboxcleanup;
+
+@kotlin.Metadata(d1 = {"\u0000\f\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0003\b\u0007\u0018\u00002\u00020\u0001B\u0007¢\u0006\u0004\b\u0002\u0010\u0003¨\u0006\u0004"}, d2 = {"Lcom/truecaller/messaging/inboxcleanup/InboxCleanupPreviewActivity;", "Landroidx/appcompat/app/AppCompatActivity;", "<init>", "()V", "truecaller_googlePlayRelease"}, k = 1, mv = {2, 2, 0}, xi = 48)
+/* loaded from: /home/user/tc_decoded/classes6.dex */
+public final class InboxCleanupPreviewActivity extends com.truecaller.messaging.inboxcleanup.Hilt_InboxCleanupPreviewActivity {
+    public static final /* synthetic */ int d0 = 0;
+
+    /* JADX WARN: Multi-variable type inference failed */
+    @Override // com.truecaller.messaging.inboxcleanup.Hilt_InboxCleanupPreviewActivity
+    public final void onCreate(android.os.Bundle bundle) {
+        com.truecaller.analytics.technical.AppStartTracker.onActivityCreate(this);
+        yy.qux.B(this, true, ex2.a.a);
+        super.onCreate(bundle);
+        java.lang.String stringExtra = getIntent().getStringExtra("mode");
+        if (stringExtra != null && bundle == null) {
+            androidx.fragment.app.g1 supportFragmentManager = getSupportFragmentManager();
+            androidx.fragment.app.bar j = bar.j(supportFragmentManager, supportFragmentManager);
+            h02.qux quxVar = m22.j0.m;
+            com.truecaller.messaging.inboxcleanup.Mode valueOf = com.truecaller.messaging.inboxcleanup.Mode.valueOf(stringExtra);
+            quxVar.getClass();
+            kotlin.jvm.internal.Intrinsics.checkNotNullParameter(valueOf, "mode");
+            m22.j0 j0Var = new m22.j0();
+            android.os.Bundle bundle2 = new android.os.Bundle();
+            bundle2.putString("mode", valueOf.name());
+            j0Var.setArguments(bundle2);
+            j.g(android.R.id.content, j0Var, (java.lang.String) null);
+            j.l();
+        }
+    }
+}

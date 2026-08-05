@@ -1,0 +1,5 @@
+package com.truecaller.call_assistant.campaigns.display;
+
+/* loaded from: /home/user/tc_decoded/classes5.dex */
+public interface a {
+}

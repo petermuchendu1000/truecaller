@@ -1,0 +1,6 @@
+package com.truecaller.ads.analytics;
+
+/* loaded from: /home/user/tc_decoded/classes5.dex */
+public abstract class n {
+    public static final kotlin.Lazy a = kotlin.LazyKt.lazy(new com.truecaller.ads.analytics.d(3));
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- top display-ad banner (bordered, white creative area, Ad label) -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:layout_marginHorizontal="14dp" android:layout_marginTop="6dp" android:layout_marginBottom="6dp">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="200dp"
+        android:orientation="vertical" android:background="@drawable/bg_ad_container" android:padding="1dp">
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+            android:background="@color/white" />
+    </LinearLayout>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end" android:layout_margin="6dp"
+        android:text="Ad(A8)" android:textColor="@color/textTertiary" android:textSize="10sp" />
+</FrameLayout>

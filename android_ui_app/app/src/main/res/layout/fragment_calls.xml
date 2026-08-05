@@ -5,30 +5,69 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@color/bgPrimary">
 
-    <LinearLayout android:id="@+id/toolbar"
+    <!-- ===== top bar: search pill + group button ===== -->
+    <LinearLayout android:id="@+id/topbar"
         android:layout_width="match_parent" android:layout_height="wrap_content"
         android:orientation="horizontal" android:gravity="center_vertical"
-        android:paddingHorizontal="16dp" android:paddingTop="14dp" android:paddingBottom="10dp"
-        android:background="@color/bgSecondary"
+        android:paddingHorizontal="14dp" android:paddingTop="10dp" android:paddingBottom="10dp"
         app:layout_constraintTop_toTopOf="parent">
-        <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
-            android:text="@string/tab_calls" android:textSize="22sp" android:fontFamily="@font/roboto_medium"
-            android:textColor="@color/textPrimary" />
-        <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="18dp"
-            android:src="@drawable/ic_action_search_24dp" app:tint="@color/textSecondary" />
-        <ImageView android:layout_width="24dp" android:layout_height="24dp"
-            android:src="@drawable/ic_tcx_more_vert_24dp" app:tint="@color/textSecondary" />
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="52dp" android:layout_weight="1"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:background="@drawable/bg_search_bar" android:paddingStart="8dp" android:paddingEnd="14dp">
+            <FrameLayout android:layout_width="38dp" android:layout_height="38dp">
+                <ImageView android:layout_width="38dp" android:layout_height="38dp"
+                    android:background="@drawable/bg_contacts_circle" android:padding="8dp"
+                    android:src="@drawable/ic_tcx_contacts_24dp" app:tint="@color/white" />
+                <TextView android:layout_width="16dp" android:layout_height="16dp"
+                    android:layout_gravity="top|end" android:background="@drawable/bg_t_badge" android:gravity="center"
+                    android:text="2" android:textColor="@color/white" android:textSize="10sp" android:fontFamily="@font/roboto_medium" />
+            </FrameLayout>
+            <TextView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+                android:layout_marginStart="12dp" android:text="Search numbers, nam…"
+                android:textColor="@color/textSecondary" android:textSize="15sp" android:maxLines="1" android:ellipsize="end" />
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_width="20dp" android:layout_height="20dp"
+                    android:src="@drawable/ic_tcx_more_vert_24dp" app:tint="@color/textSecondary" />
+                <View android:layout_width="7dp" android:layout_height="7dp" android:layout_gravity="top|end"
+                    android:background="@drawable/bg_red_dot" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <FrameLayout android:layout_width="52dp" android:layout_height="52dp" android:layout_marginStart="12dp"
+            android:background="@drawable/bg_group_button">
+            <ImageView android:layout_width="26dp" android:layout_height="26dp" android:layout_gravity="center"
+                android:src="@drawable/ic_tcx_group_brand_blue_24dp" app:tint="@color/white" />
+        </FrameLayout>
     </LinearLayout>
 
+    <!-- ===== list (rows + banner ad handled by adapter) ===== -->
     <androidx.recyclerview.widget.RecyclerView android:id="@+id/list"
-        android:layout_width="match_parent" android:layout_height="0dp"
-        app:layout_constraintTop_toBottomOf="@id/toolbar"
-        app:layout_constraintBottom_toBottomOf="parent" />
+        android:layout_width="match_parent" android:layout_height="0dp" android:clipToPadding="false"
+        android:paddingBottom="150dp"
+        app:layout_constraintTop_toBottomOf="@id/topbar" app:layout_constraintBottom_toBottomOf="parent" />
 
-    <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:layout_margin="18dp" android:src="@drawable/ic_tcx_action_call_24dp"
-        app:tint="@color/onBrand" app:backgroundTint="@color/brandBlue"
-        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" />
+    <!-- ===== floating dialer pill ===== -->
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical" android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="64dp"
+            android:orientation="horizontal" android:gravity="center_vertical"
+            android:background="@drawable/bg_pill" android:padding="6dp" android:layout_marginEnd="12dp">
+            <FrameLayout android:layout_width="60dp" android:layout_height="52dp" android:background="@drawable/bg_pill_selected">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_gravity="center"
+                    android:src="@drawable/ic_recents_24dp" app:tint="@color/white" />
+            </FrameLayout>
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginHorizontal="22dp"
+                android:src="@drawable/ic_tcx_contacts_24dp" app:tint="@color/textSecondary" />
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="14dp"
+                android:src="@drawable/ic_favourite_contacts_favourites_outlined_24dp" app:tint="@color/textSecondary" />
+        </LinearLayout>
+
+        <FrameLayout android:layout_width="60dp" android:layout_height="60dp" android:background="@drawable/bg_dialpad_button">
+            <ImageView android:layout_width="26dp" android:layout_height="26dp" android:layout_gravity="center"
+                android:src="@drawable/ic_dialpad_grid" app:tint="@color/white" />
+        </FrameLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

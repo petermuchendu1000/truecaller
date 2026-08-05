@@ -1,6 +1,5 @@
 package com.uidemo.truecaller;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,7 +11,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.ArrayList;
 import java.util.List;
-import com.uidemo.truecaller.adapter.RowAdapter;
+import com.uidemo.truecaller.adapter.CallAdapter;
 import com.uidemo.truecaller.model.Row;
 
 public class CallsFragment extends Fragment {
@@ -22,22 +21,37 @@ public class CallsFragment extends Fragment {
         list.setLayoutManager(new LinearLayoutManager(getContext()));
 
         List<Row> rows = new ArrayList<>();
-        Row r1 = new Row("P", "Priya Sharma", "Incoming", "2:38 PM"); r1.available = true; r1.subtitleIcon = R.drawable.ic_call_log_menu_incoming_24; rows.add(r1);
-        Row r2 = new Row("R", "Rahul Verma", "Outgoing · 2", "1:12 PM"); r2.subtitleIcon = R.drawable.ic_call_log_menu_outgoing_24; rows.add(r2);
-        Row r3 = new Row("!", "+1 (415) 555-0134", "Missed", "12:40 PM"); r3.avatarBg = R.color.alertRed; r3.subtitleIcon = R.drawable.ic_call_log_menu_missed_24; r3.subtitleColor = R.color.alertRed; rows.add(r3);
-        Row r4 = new Row("H", "HDFC Bank", "Incoming", "Yesterday"); r4.avatarBg = R.color.verifiedGreen; r4.subtitleIcon = R.drawable.ic_call_log_menu_incoming_24; rows.add(r4);
-        Row r5 = new Row("M", "Mom", "Outgoing", "Yesterday"); r5.subtitleIcon = R.drawable.ic_call_log_menu_outgoing_24; rows.add(r5);
 
-        // tapping a call row previews the incoming-call screen
-        list.setAdapter(new RowAdapter(rows, row -> {
-            Intent i = new Intent(getContext(), IncomingCallActivity.class);
-            i.putExtra("name", row.title); i.putExtra("initial", row.initial);
-            startActivity(i);
-        }));
+        rows.add(Row.banner());   // top display ad
 
-        v.findViewById(R.id.fab).setOnClickListener(x ->
-            startActivity(new Intent(getContext(), IncomingCallActivity.class)
-                .putExtra("name", "Priya Sharma").putExtra("initial", "P")));
+        Row r1 = new Row("H", "Highpoint John", "WhatsApp \u00b7 02:42", null);
+        r1.avatarBg = R.color.avatarTeal; r1.avatarTextColor = R.color.avatarTealText;
+        r1.dirIcon = R.drawable.ic_tcx_event_outgoing_call_16dp;
+        r1.actionIcon = R.drawable.ic_tcx_action_whatsapp_outline_24dp;
+        rows.add(r1);
+
+        Row r2 = new Row("M", "Mohan John", "Yesterday", null);
+        r2.avatarBg = R.color.avatarTeal; r2.avatarTextColor = R.color.avatarTealText; r2.tBadge = true;
+        r2.dirIcon = R.drawable.ic_tcx_event_outgoing_call_16dp; r2.count = "1";
+        r2.actionIcon = R.drawable.ic_tcx_action_call_24dp;
+        rows.add(r2);
+
+        rows.add(Row.ad());       // Logbook Loans native ad
+
+        Row r3 = new Row("M", "Martine Otieno", "Yesterday", null);
+        r3.avatarBg = R.color.avatarPurple; r3.avatarTextColor = R.color.avatarPurpleText;
+        r3.dirIcon = R.drawable.ic_tcx_event_incoming_call_16dp; r3.count = "1";
+        r3.actionIcon = R.drawable.ic_tcx_action_call_24dp;
+        rows.add(r3);
+
+        Row r4 = new Row("H", "Haron Mwaura", "Yesterday", null);
+        r4.avatarBg = R.color.avatarPurple; r4.avatarTextColor = R.color.avatarPurpleText;
+        r4.tBadge = true; r4.trueBadge = true;
+        r4.dirIcon = R.drawable.ic_tcx_event_outgoing_call_16dp; r4.count = "1";
+        r4.actionIcon = R.drawable.ic_tcx_action_call_24dp;
+        rows.add(r4);
+
+        list.setAdapter(new CallAdapter(rows));
         return v;
     }
 }

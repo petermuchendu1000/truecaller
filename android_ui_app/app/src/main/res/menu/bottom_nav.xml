@@ -2,4 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/nav_calls" android:icon="@drawable/ic_tcx_action_call_24dp" android:title="@string/tab_calls" />
     <item android:id="@+id/nav_messages" android:icon="@drawable/ic_tcx_messages_24dp" android:title="@string/tab_messages" />
+    <item android:id="@+id/nav_blocking" android:icon="@drawable/ic_block_shield" android:title="Blocking" />
+    <item android:id="@+id/nav_premium" android:icon="@drawable/ic_premium_crown" android:title="Premium" />
+    <item android:id="@+id/nav_invite" android:icon="@drawable/ic_invite_icon" android:title="Invite" />
 </menu>

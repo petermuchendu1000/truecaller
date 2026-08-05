@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Values sourced from com.truecaller 26.28.5 res/values-night/colors.xml -->
+<!-- Dark palette measured pixel-exact from the Calls screenshot (com.truecaller) -->
 <resources>
-    <color name="brandBlue">#FF146FF5</color>
+    <color name="brandBlue">#FF0D70FF</color>
     <color name="bgPrimary">#FF000000</color>
-    <color name="bgSecondary">#FF202124</color>
-    <color name="surface">#FF202124</color>
-    <color name="textPrimary">#FFEFF1F1</color>
-    <color name="textSecondary">#FF8D939B</color>
+    <color name="bgSecondary">#FF000000</color>
+    <color name="surface">#FF000000</color>
+    <color name="textPrimary">#FFFFFFFF</color>
+    <color name="textSecondary">#FFA9ACAE</color>
     <color name="textTertiary">#FF5F646D</color>
-    <color name="separator">#FF2A3541</color>
-    <color name="fillPrimary">#FF3A4450</color>
-    <color name="alertRed">#FFFA301E</color>
-    <color name="avatarContainerBlue">#FF072756</color>
-    <color name="avatarTextBlue">#FFCEE2FF</color>
-    <color name="verifiedGreen">#FF33C46E</color>
+    <color name="separator">#FF202020</color>
+    <color name="fillPrimary">#FF303030</color>
+    <color name="alertRed">#FFFF2D1E</color>
+    <color name="avatarContainerBlue">#FF003038</color>
+    <color name="avatarTextBlue">#FFB0E1E6</color>
+    <color name="verifiedGreen">#FF23814F</color>
     <color name="msgIncoming">#FF2A3541</color>
     <color name="msgOutgoingSms">#FF317C36</color>
     <color name="msgOutgoingIm">#FF116AB9</color>
@@ -21,4 +21,25 @@
     <color name="callGreen">#FF33C46E</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Calls screen specific (measured) -->
+    <color name="searchBar">#FF202020</color>
+    <color name="contactsBlue">#FF1068F0</color>
+    <color name="avatarTeal">#FF003038</color>
+    <color name="avatarTealText">#FFB0E1E6</color>
+    <color name="avatarPurple">#FF201048</color>
+    <color name="avatarPurpleText">#FFDECCFF</color>
+    <color name="arrowOutgoing">#FF1C6EDD</color>
+    <color name="arrowIncoming">#FF23814F</color>
+    <color name="iconGray">#FFAAABAC</color>
+    <color name="openGreen">#FF209858</color>
+    <color name="pillBg">#FF25282F</color>
+    <color name="pillSelected">#FF3A3D44</color>
+    <color name="callsBlue">#FF0D70FF</color>
+    <color name="groupTeal">#FF127DB3</color>
+    <color name="groupBlue">#FF0D76E1</color>
+    <color name="dialpadBlue">#FF1068F0</color>
+    <color name="redDot">#FFFF2D1E</color>
+    <color name="trueBlue">#FF4A9BFF</color>
+    <color name="navUnselected">#FF8B9096</color>
 </resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ad row: NGAO-style logo, title, 2-line body, green Open button -->
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingHorizontal="18dp" android:paddingVertical="14dp">
+
+    <TextView android:id="@+id/adLogo" android:layout_width="52dp" android:layout_height="52dp"
+        android:background="@drawable/bg_circle_avatar" android:gravity="center" android:text="AD"
+        android:textColor="@color/avatarTextBlue" android:textSize="13sp" android:fontFamily="@font/roboto_medium"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView android:id="@+id/adTitle" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_marginStart="16dp" android:maxLines="1" android:ellipsize="end"
+        android:text="Logbook Loans In 6 Hours" android:textSize="17sp"
+        android:textColor="@color/textPrimary" android:fontFamily="@font/roboto_medium"
+        app:layout_constraintStart_toEndOf="@id/adLogo" app:layout_constraintEnd_toStartOf="@id/adInfo" app:layout_constraintTop_toTopOf="@id/adLogo" />
+
+    <TextView android:id="@+id/adBody" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:layout_marginStart="16dp" android:layout_marginTop="3dp" android:maxLines="2" android:ellipsize="end"
+        android:text="Ngao Credit  •  Access quick funding with your car logbook …" android:textSize="14sp" android:textColor="@color/textSecondary"
+        app:layout_constraintStart_toEndOf="@id/adLogo" app:layout_constraintEnd_toStartOf="@id/adOpen" app:layout_constraintTop_toBottomOf="@id/adTitle" />
+
+    <ImageView android:id="@+id/adInfo" android:layout_width="16dp" android:layout_height="16dp"
+        android:src="@drawable/ic_action_search_24dp" app:tint="@color/contactsBlue" android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView android:id="@+id/adOpen" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:background="@drawable/bg_open_button" android:paddingHorizontal="16dp" android:paddingVertical="7dp"
+        android:text="Open" android:textColor="@color/white" android:textSize="13sp" android:fontFamily="@font/roboto_medium"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="@id/adLogo" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Ad(A1)" android:textColor="@color/textTertiary" android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/adOpen" android:layout_marginTop="4dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

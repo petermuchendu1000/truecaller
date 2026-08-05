@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Values sourced from com.truecaller 26.28.5 res/values/colors.xml -->
+<!-- Light fallbacks (app is forced to night to match the screenshot; these exist for compile) -->
 <resources>
     <color name="brandBlue">#FF0A6CFF</color>
     <color name="bgPrimary">#FFFFFFFF</color>
@@ -21,4 +21,24 @@
     <color name="callGreen">#FF1DB954</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <color name="searchBar">#FFEFF1F4</color>
+    <color name="contactsBlue">#FF1068F0</color>
+    <color name="avatarTeal">#FFCFEFF2</color>
+    <color name="avatarTealText">#FF086B75</color>
+    <color name="avatarPurple">#FFE7DEFB</color>
+    <color name="avatarPurpleText">#FF5B3EA8</color>
+    <color name="arrowOutgoing">#FF1C6EDD</color>
+    <color name="arrowIncoming">#FF23814F</color>
+    <color name="iconGray">#FF5F646D</color>
+    <color name="openGreen">#FF209858</color>
+    <color name="pillBg">#FFEDEFF2</color>
+    <color name="pillSelected">#FFDDE1E6</color>
+    <color name="callsBlue">#FF0A6CFF</color>
+    <color name="groupTeal">#FF127DB3</color>
+    <color name="groupBlue">#FF0D76E1</color>
+    <color name="dialpadBlue">#FF1068F0</color>
+    <color name="redDot">#FFFF2D1E</color>
+    <color name="trueBlue">#FF0A6CFF</color>
+    <color name="navUnselected">#FF8B9096</color>
 </resources>

@@ -10,15 +10,18 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.*;
 import java.util.*;
 import com.uidemo.truecaller.adapter.MsgAdapter;
+import com.uidemo.truecaller.api.TxSync;
 import com.uidemo.truecaller.model.MsgRow;
 
 public class MessagesFragment extends Fragment {
     private final List<MsgRow> master = new ArrayList<>();
+    private final List<MsgRow> live = new ArrayList<>(); // live invest254 transactions, newest first
     private RecyclerView rv;
     private LinearLayout chipContainer;
     private int selected = 0; // 0=Inbox
     private final String[] chipLabels = {"Inbox","Unread","Transactions","OTP","Bill","Travel","Spam"};
     private int[] chipIcons;
+    private TxSync sync;
 
     @Nullable @Override public View onCreateView(@NonNull LayoutInflater inf, @Nullable ViewGroup c, @Nullable Bundle b){
         View v=inf.inflate(R.layout.fragment_messages,c,false);
@@ -30,8 +33,31 @@ public class MessagesFragment extends Fragment {
         buildData();
         buildChips();
         applyFilter();
+        startSync();
         return v;
     }
+
+    // ─── live invest254 transaction sync ────────────────────────────────────
+    private void startSync(){
+        sync=new TxSync(requireContext());
+        sync.setListener(new TxSync.Listener(){
+            @Override public void onTransactions(List<MsgRow> rows){
+                if(!isAdded()) return;
+                live.clear(); live.addAll(rows);   // already newest-first from the API
+                applyFilter();
+            }
+            @Override public void onError(String message){ /* demo data stays visible */ }
+            @Override public void onLoggedOut(){
+                if(!isAdded()) return;
+                startActivity(new android.content.Intent(requireContext(), LoginActivity.class));
+                requireActivity().finish();
+            }
+        });
+        sync.start();
+    }
+
+    @Override public void onResume(){ super.onResume(); if(sync!=null) sync.refreshNow(); }
+    @Override public void onDestroyView(){ if(sync!=null) sync.stop(); super.onDestroyView(); }
 
     private int dp(float d){ return (int)TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP,d,getResources().getDisplayMetrics()); }
 
@@ -70,6 +96,18 @@ public class MessagesFragment extends Fragment {
     // filter=selected index; withExtras=insert promo/header
     private List<MsgRow> filtered(int filter, boolean withExtras){
         List<MsgRow> out=new ArrayList<>();
+        // Live invest254 transactions always come first (newest on top), in every view they
+        // belong to: Inbox, Unread (when new), and Transactions.
+        for(MsgRow r: live){
+            boolean keep;
+            switch(filter){
+                case 0: keep = true; break;                          // Inbox
+                case 1: keep = r.unread>0; break;                    // Unread
+                case 2: keep = true; break;                          // Transactions
+                default: keep = false; break;                        // OTP/Bill/Travel/Spam
+            }
+            if(keep) out.add(r);
+        }
         for(MsgRow r: master){
             boolean keep;
             switch(filter){

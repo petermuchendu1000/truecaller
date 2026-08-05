@@ -60,6 +60,19 @@ public class ConversationActivity extends AppCompatActivity {
     void addSecureBanner(){ thread.addView(li.inflate(R.layout.item_secure_banner,thread,false)); }
 
     void build(){
+        // Live transaction opened from the Messages list: render the real M-PESA SMS.
+        String body=getIntent().getStringExtra("body");
+        if(body!=null && !body.isEmpty()){
+            String amount=getIntent().getStringExtra("amount");
+            boolean credit=getIntent().getBooleanExtra("credit",true);
+            String time=getIntent().getStringExtra("time");
+            String preview=body.length()>28?body.substring(0,28)+"...":body;
+            addSms(preview, body, "Transaction", false, null, getIntent().getStringExtra("title"),
+                   (amount==null||amount.isEmpty())?null:amount, credit, null, "1",
+                   time==null?"":time, true);
+            addSecureBanner();
+            return;
+        }
         addSms("UH4MX1GGNE Confirmed. ...",
                "UH4MX1GGNE Confirmed. Ksh700.00 sent to FAITH MWANGI 0722***145 on 4/8/26 at 6:26 PM. New M-PESA balance is Ksh1,240.00.",
                "Transaction", false, null, "Faith M...", "- KSH 700", false, null, "2", "18:26", false);

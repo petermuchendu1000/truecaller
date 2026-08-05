@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:padding="32dp" android:background="#FF101418">
+
+    <ImageView android:id="@+id/logo"
+        android:layout_width="88dp" android:layout_height="88dp"
+        android:src="@mipmap/ic_launcher" android:contentDescription="@string/app_name" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Invest254 Marketer" android:textColor="#FFEFF1F1" android:textSize="22sp"
+        android:textStyle="bold" android:layout_marginTop="16dp" />
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Sign in with your invest254 website phone and password"
+        android:textColor="#FF8D939B" android:textSize="13sp" android:gravity="center"
+        android:layout_marginTop="6dp" android:layout_marginBottom="28dp" />
+
+    <EditText android:id="@+id/phone"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Phone (e.g. 0722000001)" android:textColorHint="#FF5F646D"
+        android:textColor="#FFEFF1F1" android:inputType="phone"
+        android:background="@drawable/bg_search_bar" android:padding="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText android:id="@+id/password"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:hint="Password" android:textColorHint="#FF5F646D"
+        android:textColor="#FFEFF1F1" android:inputType="textPassword"
+        android:background="@drawable/bg_search_bar" android:padding="16dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button android:id="@+id/submit"
+        android:layout_width="match_parent" android:layout_height="52dp"
+        android:text="Sign in" android:textColor="#FFFFFFFF" android:textStyle="bold"
+        android:backgroundTint="#FF146FF5" />
+
+    <ProgressBar android:id="@+id/progress"
+        android:layout_width="32dp" android:layout_height="32dp"
+        android:visibility="gone" android:layout_marginTop="16dp" />
+
+    <TextView android:id="@+id/error"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:textColor="#FFFA301E" android:textSize="13sp" android:gravity="center"
+        android:visibility="gone" android:layout_marginTop="12dp" />
+</LinearLayout>

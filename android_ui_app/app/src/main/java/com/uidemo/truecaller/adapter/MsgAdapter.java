@@ -75,7 +75,12 @@ public class MsgAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             else unread.setVisibility(View.INVISIBLE);
             itemView.setOnClickListener(v->{
                 Intent i=new Intent(v.getContext(), ConversationActivity.class);
-                i.putExtra("title", r.title); v.getContext().startActivity(i);
+                i.putExtra("title", r.title);
+                if(r.body!=null) i.putExtra("body", r.body);
+                i.putExtra("credit", r.credit);
+                i.putExtra("amount", r.hasAmount ? r.amount : "");
+                i.putExtra("time", r.time);
+                v.getContext().startActivity(i);
             });
         }
     }

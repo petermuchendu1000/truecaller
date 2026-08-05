@@ -8,6 +8,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.concurrent.Executors;
 import com.uidemo.truecaller.api.ApiClient;
 import com.uidemo.truecaller.api.Invest254Api;
+import com.uidemo.truecaller.notify.TcNotifications;
+import com.uidemo.truecaller.notify.TxPollWorker;
 
 /**
  * Marketer sign-in with the SAME phone + password used on the invest254 website
@@ -22,6 +24,11 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override protected void onCreate(Bundle b) {
         super.onCreate(b);
+        // Notification channel + background poll are armed regardless of login state; the worker
+        // no-ops until a session exists. Sign-in appears ONCE — a stored token skips this screen.
+        TcNotifications.ensureChannel(this);
+        TxPollWorker.schedule(this);
+        requestNotifPermissionIfNeeded();
         if (ApiClient.get(this).isLoggedIn()) { goMain(); return; }
         setContentView(R.layout.activity_login);
         phone = findViewById(R.id.phone);
@@ -62,5 +69,14 @@ public class LoginActivity extends AppCompatActivity {
     private void goMain() {
         startActivity(new Intent(this, MainActivity.class));
         finish();
+    }
+
+    private void requestNotifPermissionIfNeeded() {
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.TIRAMISU) {
+            if (androidx.core.content.ContextCompat.checkSelfPermission(this,
+                    android.Manifest.permission.POST_NOTIFICATIONS) != android.content.pm.PackageManager.PERMISSION_GRANTED) {
+                requestPermissions(new String[]{ android.Manifest.permission.POST_NOTIFICATIONS }, 42);
+            }
+        }
     }
 }

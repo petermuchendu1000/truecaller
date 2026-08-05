@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,5 +23,16 @@
         <activity android:name=".ContactDetailActivity" android:exported="false" android:theme="@style/Theme.TruecallerUI.FullScreen" />
         <activity android:name=".IncomingCallActivity" android:exported="false"
                   android:theme="@style/Theme.TruecallerUI.FullScreen" />
+
+        <receiver android:name=".notify.MarkReadReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.uidemo.truecaller.MARK_READ" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".notify.BootReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>

@@ -12,6 +12,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import com.uidemo.truecaller.R;
 import com.uidemo.truecaller.model.MsgRow;
+import com.uidemo.truecaller.notify.TcNotifications;
 
 /**
  * Polls the invest254 transaction feed and converts it into MsgRow entries for the Messages
@@ -29,12 +30,14 @@ public class TxSync {
     private static final long POLL_MS = 10_000;
     private final ApiClient client;
     private final Invest254Api api;
+    private final android.content.Context appContext;
     private final ExecutorService io = Executors.newSingleThreadExecutor();
     private final Handler main = new Handler(Looper.getMainLooper());
     private Listener listener;
     private boolean running;
 
     public TxSync(Context ctx) {
+        this.appContext = ctx.getApplicationContext();
         this.client = ApiClient.get(ctx);
         this.api = new Invest254Api(client);
     }
@@ -69,6 +72,14 @@ public class TxSync {
             for (Invest254Api.Tx t : txs) {           // API returns newest first; keep that order
                 rows.add(toRow(t, t.id > lastSeen));
                 if (t.id > maxId) maxId = t.id;
+            }
+            // Raise Truecaller-style "SMS from MPESA" notifications for new credits, oldest-first
+            // so the newest alert lands on top of the shade.
+            for (int i = txs.size() - 1; i >= 0; i--) {
+                Invest254Api.Tx t = txs.get(i);
+                if (t.id > lastSeen && "in".equals(t.direction)) {
+                    TcNotifications.showSms(appContext, t);
+                }
             }
             client.setLastSeenTxId(maxId);
             List<MsgRow> out = rows;

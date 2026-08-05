@@ -30,38 +30,34 @@ public class CallsFragment extends Fragment {
         int WA=R.drawable.ic_tcx_action_whatsapp_outline_24dp, CALL=R.drawable.ic_tcx_action_call_24dp;
 
         List<Row> rows=new ArrayList<>();
-        // ---- exactly as in screenshot ----
-        rows.add(call(TEAL,  "H","Highpoint John",   "WhatsApp \u00b7 02:42", OUT, WA,   null,false,false));
-        rows.add(call(TEAL,  "M","Mohan John",       "Yesterday",            OUT, CALL, "1", true, false));
+        // realistic Kenyan save-names (how people actually store contacts)
+        rows.add(call(TEAL,  "M","Mum",             "WhatsApp \u00b7 02:42", OUT, WA,   null,false,false));
+        rows.add(call(TEAL,  "L","Landlord",        "Yesterday",            OUT, CALL, "1", true, false));
         rows.add(Row.ad());   // Get Truecaller Premium promo
-        rows.add(call(PURPLE,"M","Martine Otieno",   "Yesterday",            IN,  CALL, "1", false,false));
-        rows.add(call(PURPLE,"H","Haron Mwaura",     "Yesterday",            OUT, CALL, "1", true, true));
-        rows.add(call(NAVY,  "E","Erick Fundi Bike", "Yesterday",            IN,  CALL, "2", false,true));
-        rows.add(call(PURPLE,"D","Davy Bro",         "Yesterday",            IN,  CALL, "2", false,false));
-        rows.add(call(GOLD,  "A","Airtel Madhe Makaa","Yesterday",           MISS,CALL, "1", false,false));
-        // ---- more history (random Kenyan names) ----
-        rows.add(call(TEAL,  "W","Wanjiku Kamau",    "Yesterday",            IN,  CALL, null,false,false));
-        rows.add(call(PURPLE,"B","Brian Otieno",     "Yesterday",            MISS,CALL, "2", false,false));
-        rows.add(call(NAVY,  "F","Faith Mwangi",     "WhatsApp \u00b7 Yesterday", OUT, WA, null,true,false));
-        rows.add(call(PURPLE,"N","Njeri Kariuki",    "Mon",                  IN,  CALL, null,false,false));
-        rows.add(call(TEAL,  "D","Dennis Kiprono",   "Mon",                  MISS,CALL, "1", false,false));
-        rows.add(call(GOLD,  "G","Grace Achieng",    "Mon",                  OUT, CALL, null,false,true));
-        rows.add(call(NAVY,  "S","Samuel Wafula",    "Mon",                  IN,  CALL, "3", false,false));
-        rows.add(call(PURPLE,"C","Caroline Chebet",  "WhatsApp \u00b7 Sun",  OUT, WA,   null,true,false));
-        rows.add(call(TEAL,  "J","Joseph Mutua",     "Sun",                  MISS,CALL, null,false,false));
-        rows.add(call(PURPLE,"E","Esther Wambui",    "Sun",                  IN,  CALL, "1", false,false));
-        rows.add(call(NAVY,  "P","Paul Onyango",     "Sun",                  OUT, CALL, null,true, true));
-        rows.add(call(GOLD,  "L","Lucy Nyambura",    "Sat",                  IN,  CALL, null,false,false));
-        rows.add(call(TEAL,  "K","Kevin Barasa",     "Sat",                  MISS,CALL, "2", false,false));
+        rows.add(call(PURPLE,"C","Cuzo Mwangi",     "Yesterday",            IN,  CALL, "1", false,false));
+        rows.add(call(PURPLE,"H","Haron Mwaura",    "Yesterday",            OUT, CALL, "1", true, true));
+        rows.add(call(NAVY,  "E","Erick Fundi Bike","Yesterday",            IN,  CALL, "2", false,true));
+        rows.add(call(PURPLE,"D","Davy Bro",        "Yesterday",            IN,  CALL, "2", false,false));
+        rows.add(call(GOLD,  "A","Airtel Madhe Makaa","Yesterday",          MISS,CALL, "1", false,false));
+        // more realistic history
+        rows.add(call(TEAL,  "B","Boda Guy",        "Yesterday",            IN,  CALL, null,false,false));
+        rows.add(call(PURPLE,"M","Mama Mboga",      "Yesterday",            MISS,CALL, "2", false,false));
+        rows.add(call(NAVY,  "C","Caro Sales",      "WhatsApp \u00b7 Yesterday", OUT, WA, null,true,false));
+        rows.add(call(PURPLE,"S","Shiku Salon",     "Mon",                  IN,  CALL, null,false,false));
+        rows.add(call(TEAL,  "K","Kdf Kevo",        "Mon",                  MISS,CALL, "1", false,false));
+        rows.add(call(GOLD,  "D","Dr Otieno",       "Mon",                  OUT, CALL, null,false,true));
+        rows.add(call(NAVY,  "P","Pastor Jim",      "Mon",                  IN,  CALL, "3", false,false));
+        rows.add(call(PURPLE,"B","Bro Ali",         "WhatsApp \u00b7 Sun",  OUT, WA,   null,true,false));
+        rows.add(call(TEAL,  "F","Fundi Wa Stima",  "Sun",                  MISS,CALL, null,false,false));
+        rows.add(call(PURPLE,"S","Sista Njeri",     "Sun",                  IN,  CALL, "1", false,false));
+        rows.add(call(NAVY,  "C","Chama Group",     "Sun",                  OUT, CALL, null,false,false));
+        rows.add(call(GOLD,  "G","Gym Trainer",     "Sat",                  IN,  CALL, null,false,false));
+        rows.add(call(TEAL,  "M","Mecho Wa Maziwa", "Sat",                  MISS,CALL, "2", false,false));
 
         CallAdapter adapter=new CallAdapter(rows);
         adapter.setOnRowClick(row->{
             Intent i=new Intent(getContext(), ContactDetailActivity.class);
-            i.putExtra("name", row.title);
-            i.putExtra("initial", row.initial);
-            i.putExtra("avatarBg", row.avatarBg);
-            i.putExtra("avatarFg", row.avatarTextColor);
-            i.putExtra("tBadge", row.tBadge);
+            i.putExtra("name", row.title); i.putExtra("initial", row.initial); i.putExtra("tBadge", row.tBadge);
             startActivity(i);
         });
         list.setAdapter(adapter);

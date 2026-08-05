@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Byte-accurate tokens from Truecaller decode (dark theme) -->
+    <color name="m_bg">#FF000000</color>
+    <color name="m_search_bar">#FF2D2E33</color>
+    <color name="m_card">#FF202124</color>            <!-- SMS bubble bg -->
+    <color name="m_card_inner">#FF000000</color>       <!-- smart card fill -->
+    <color name="m_card_stroke">#FF313335</color>      <!-- smart card stroke -->
+    <color name="m_text_primary">#FFEFF1F1</color>
+    <color name="m_text_secondary">#FF8D939B</color>
+    <color name="m_text_tertiary">#FF656B75</color>
+    <color name="m_amount_green">#FF33B73E</color>     <!-- amountGreen -->
+    <color name="m_amount_red">#FFF28241</color>       <!-- amountRed -->
+    <color name="m_brand_blue">#FF146FF5</color>
+    <color name="m_link_blue">#FF4C8DFF</color>
+    <color name="m_due_badge">#5CC07910</color>        <!-- insightUpdatesBackgroundColor -->
+    <color name="m_secure_bg">#FF072756</color>        <!-- chatBgBlue -->
+    <color name="m_secure_fg">#BFFFFFFF</color>
+    <color name="m_unread_bg">#FF10315A</color>
+    <color name="m_unread_fg">#FF8AB0E6</color>
+    <color name="m_ad_green">#FF209858</color>
+    <color name="m_red_badge">#FFFF2D1E</color>
+    <color name="m_av_white">#FFFFFFFF</color>
+    <color name="m_av_navy">#FF19274C</color>
+    <color name="m_av_navy_fg">#FFDECCFF</color>
+    <color name="m_av_purple">#FF3A2E5A</color>
+    <color name="m_today_pill">#FF3A3D45</color>
+    <color name="m_report_red">#FFFA301E</color>
+    <color name="m_divider">#FF202124</color>
+</resources>

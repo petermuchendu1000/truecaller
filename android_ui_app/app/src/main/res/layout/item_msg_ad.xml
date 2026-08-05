@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:paddingStart="16dp" android:paddingEnd="16dp" android:paddingVertical="10dp">
+    <TextView android:id="@+id/adTitle" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:text="Get 50% Cashback" android:textSize="16sp" android:fontFamily="@font/roboto_medium"
+        android:textColor="@color/m_text_primary"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toStartOf="@id/adInfo" app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0"/>
+    <ImageView android:id="@+id/adInfo" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/ic_info_circle"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"/>
+    <TextView android:id="@+id/adBody" android:layout_width="0dp" android:layout_height="wrap_content"
+        android:text="Airtel Kenya · Open the app and claim your 50% cashback ..." android:maxLines="2" android:ellipsize="end"
+        android:textSize="14sp" android:textColor="@color/m_text_secondary" android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toStartOf="@id/adOpen" app:layout_constraintTop_toBottomOf="@id/adTitle" app:layout_constraintHorizontal_bias="0"/>
+    <TextView android:id="@+id/adOpen" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Open" android:textColor="#FFFFFFFF" android:textSize="14sp" android:fontFamily="@font/roboto_medium"
+        android:paddingHorizontal="18dp" android:paddingVertical="7dp" android:background="@drawable/bg_ad_open_green"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="@id/adBody"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ad(A1)"
+        android:textSize="10sp" android:textColor="@color/m_text_tertiary" android:layout_marginTop="2dp"
+        app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@id/adOpen"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

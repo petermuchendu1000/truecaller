@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal"
+    android:gravity="center_vertical" android:background="@drawable/bg_secure_banner"
+    android:layout_marginHorizontal="16dp" android:layout_marginTop="14dp" android:padding="16dp">
+    <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ic_secure_smart_sms_icon" app:tint="@color/m_link_blue"/>
+    <TextView android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:textSize="12sp" android:lineSpacingExtra="4dp" android:textColor="@color/m_secure_fg" android:text="Smart SMS is 100% secure. Truecaller never uses this information. Everything is processed and stored on your phone."/>
+</LinearLayout>

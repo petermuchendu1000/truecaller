@@ -5,31 +5,36 @@
     android:paddingHorizontal="16dp" android:paddingTop="10dp">
 
     <!-- Bubble -->
-    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical"
-        android:background="@drawable/bg_sms_bubble" android:padding="14dp"
-        android:layout_gravity="start" android:minWidth="320dp">
+    <LinearLayout android:id="@+id/bubble" android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" android:background="@drawable/bg_sms_bubble" android:padding="14dp"
+        android:layout_gravity="start" android:minWidth="320dp" android:clickable="true" android:focusable="true">
 
-        <!-- Collapsible header row -->
-        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        <!-- Collapsed: one-line preview + DOWN chevron -->
+        <LinearLayout android:id="@+id/collapsedRow" android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="horizontal" android:gravity="center_vertical">
             <TextView android:id="@+id/headerText" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content"
                 android:maxLines="1" android:ellipsize="end" android:textSize="16sp" android:textColor="@color/m_text_primary"
                 android:text="UH4MX1GGNE Confirmed. ..."/>
-            <ImageView android:id="@+id/chevron" android:layout_width="20dp" android:layout_height="20dp"
-                android:src="@drawable/ic_tcx_action_call_24dp" app:tint="@color/m_text_secondary"
-                android:rotation="90" android:layout_marginStart="8dp"/>
+            <ImageView android:id="@+id/chevronDown" android:layout_width="20dp" android:layout_height="20dp"
+                android:src="@drawable/ic_chevron_down" android:layout_marginStart="8dp"/>
         </LinearLayout>
 
-        <!-- Expanded full body (gone by default) -->
-        <TextView android:id="@+id/fullBody" android:layout_width="match_parent" android:layout_height="wrap_content"
-            android:visibility="gone" android:textSize="16sp" android:textColor="@color/m_text_primary"
-            android:layout_marginTop="6dp" android:lineSpacingExtra="4dp" android:autoLink="web" android:textColorLink="@color/m_link_blue"/>
+        <!-- Expanded: full SMS body + UP chevron at bottom-right (gone by default) -->
+        <LinearLayout android:id="@+id/expandedBox" android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:visibility="gone">
+            <TextView android:id="@+id/fullBody" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="16sp" android:textColor="@color/m_text_primary" android:lineSpacingExtra="4dp"
+                android:autoLink="web" android:textColorLink="@color/m_link_blue"/>
+            <ImageView android:id="@+id/chevronUp" android:layout_width="20dp" android:layout_height="20dp"
+                android:layout_gravity="end" android:layout_marginTop="2dp" android:rotation="180"
+                android:src="@drawable/ic_chevron_down"/>
+        </LinearLayout>
 
-        <!-- Inner smart card -->
+        <!-- Inner smart card (always visible below the SMS text) -->
         <LinearLayout android:id="@+id/smartCard" android:layout_width="match_parent" android:layout_height="wrap_content"
             android:orientation="vertical" android:background="@drawable/bg_smart_card" android:padding="14dp" android:layout_marginTop="12dp">
             <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-                <LinearLayout android:id="@+id/catGroup" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_alignParentStart="true">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:layout_alignParentStart="true">
                     <ImageView android:id="@+id/catIcon" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/ic_tcx_card_insights" android:layout_marginEnd="6dp"/>
                     <TextView android:id="@+id/catText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Transaction" android:textColor="@color/m_text_secondary" android:textSize="12sp" android:fontFamily="@font/roboto_medium" android:letterSpacing="0.05"/>
                 </LinearLayout>

@@ -12,6 +12,8 @@
         <TextView android:id="@+id/avatarLetter" android:layout_width="match_parent" android:layout_height="match_parent"
             android:gravity="center" android:textSize="20sp" android:fontFamily="@font/roboto_medium"
             android:textColor="@color/m_av_navy_fg" android:text="N"/>
+        <ImageView android:id="@+id/avatarImg" android:layout_width="match_parent" android:layout_height="match_parent"
+            android:scaleType="fitCenter" android:visibility="gone"/>
     </FrameLayout>
 
     <TextView android:id="@+id/title" android:layout_width="0dp" android:layout_height="wrap_content"

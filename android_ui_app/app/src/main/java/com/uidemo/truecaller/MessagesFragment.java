@@ -16,11 +16,11 @@ public class MessagesFragment extends Fragment {
         rv.setLayoutManager(new LinearLayoutManager(getContext()));
         List<MsgRow> d=new ArrayList<>();
         // --- from screenshot ---
-        d.add(MsgRow.txn(MsgRow.AV_WHITE,"N","National Bank of Kenya","+ KES 1,150",true,"Received","00:27",1));
-        d.add(MsgRow.txn(MsgRow.AV_WHITE,"M","LIPANAMPESA","- KSH 1,150",false,"ATM Withdrawal","00:27",1));
+        MsgRow nb=MsgRow.txn(MsgRow.AV_WHITE,"N","National Bank of Kenya","+ KES 1,150",true,"Received","00:27",1); nb.avatarRes=R.drawable.av_national; d.add(nb);
+        MsgRow lp=MsgRow.txn(MsgRow.AV_WHITE,"M","LIPANAMPESA","- KSH 1,150",false,"ATM Withdrawal","00:27",1); lp.avatarRes=R.drawable.av_mpesa; d.add(lp);
         d.add(MsgRow.ad());
-        d.add(MsgRow.txn(MsgRow.AV_WHITE,"M","MPESA","+ KSH 50",true,"Received","00:08",0));
-        d.add(MsgRow.plain(MsgRow.AV_WHITE,"G","Google","\u2022\u2022\u2022 333 198","Yesterday",0,false));
+        MsgRow mp=MsgRow.txn(MsgRow.AV_WHITE,"M","MPESA","+ KSH 50",true,"Received","00:08",0); mp.avatarRes=R.drawable.av_mpesa; d.add(mp);
+        MsgRow gg=MsgRow.plain(MsgRow.AV_WHITE,"G","Google","\u2022\u2022\u2022 333 198","Yesterday",0,false); gg.avatarRes=R.drawable.av_google; d.add(gg);
         d.add(MsgRow.plain(MsgRow.AV_NAVY,"P","Purity Gaicugi National Bank","Calling you","Mon",0,true));
         d.add(MsgRow.plain(MsgRow.AV_PURPLE,"G","Global Pay (Netflix Money)","\u2022\u2022\u2022 778 084","Mon",0,false));
         // --- more, scrollable ---

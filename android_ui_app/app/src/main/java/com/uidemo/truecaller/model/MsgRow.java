@@ -6,6 +6,7 @@ public class MsgRow {
     public boolean hasAmount; public String amount; public boolean credit;
     public String subtitle;      // category (with amount) OR plain snippet
     public String time; public int unread; public boolean tBadge; public boolean isAd;
+    public int avatarRes; // brand-logo drawable (0 = use letter)
 
     public static MsgRow txn(int av,String letter,String title,String amount,boolean credit,String cat,String time,int unread){
         MsgRow r=new MsgRow(); r.avatarType=av; r.letter=letter; r.title=title;

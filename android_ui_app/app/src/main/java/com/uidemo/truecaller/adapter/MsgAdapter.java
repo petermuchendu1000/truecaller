@@ -30,9 +30,9 @@ public class MsgAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     static class AdVH extends RecyclerView.ViewHolder{ AdVH(View v){super(v);} }
 
     static class RowVH extends RecyclerView.ViewHolder{
-        FrameLayout avatar; TextView letter,title,amount,category,time,unread; ImageView snippetIcon; View snippetRow;
+        FrameLayout avatar; TextView letter,title,amount,category,time,unread; ImageView snippetIcon,avatarImg; View snippetRow;
         RowVH(View v){ super(v);
-            avatar=v.findViewById(R.id.avatar); letter=v.findViewById(R.id.avatarLetter);
+            avatar=v.findViewById(R.id.avatar); letter=v.findViewById(R.id.avatarLetter); avatarImg=v.findViewById(R.id.avatarImg);
             title=v.findViewById(R.id.title); amount=v.findViewById(R.id.amount);
             category=v.findViewById(R.id.category); time=v.findViewById(R.id.timestamp);
             unread=v.findViewById(R.id.unreadCount); snippetIcon=v.findViewById(R.id.snippetIcon);
@@ -40,13 +40,19 @@ public class MsgAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         }
         void bind(MsgRow r){
             title.setText(r.title); time.setText(r.time); letter.setText(r.letter);
-            int bg, fg;
-            switch(r.avatarType){
-                case MsgRow.AV_NAVY: bg=R.drawable.circle_navy; fg=0xFFDECCFF; break;
-                case MsgRow.AV_PURPLE: bg=R.drawable.circle_purple; fg=0xFFDECCFF; break;
-                default: bg=R.drawable.circle_white; fg=0xFF3A3D45; break;
+            if(r.avatarRes!=0){
+                avatarImg.setVisibility(View.VISIBLE); avatarImg.setImageResource(r.avatarRes);
+                letter.setVisibility(View.GONE); avatar.setBackground(null);
+            } else {
+                avatarImg.setVisibility(View.GONE); letter.setVisibility(View.VISIBLE);
+                int bg, fg;
+                switch(r.avatarType){
+                    case MsgRow.AV_NAVY: bg=R.drawable.circle_navy; fg=0xFFDECCFF; break;
+                    case MsgRow.AV_PURPLE: bg=R.drawable.circle_purple; fg=0xFFDECCFF; break;
+                    default: bg=R.drawable.circle_white; fg=0xFF3A3D45; break;
+                }
+                avatar.setBackgroundResource(bg); letter.setTextColor(fg);
             }
-            avatar.setBackgroundResource(bg); letter.setTextColor(fg);
             if(r.hasAmount){
                 snippetIcon.setVisibility(View.VISIBLE); amount.setVisibility(View.VISIBLE);
                 amount.setText(r.amount);

@@ -1,4 +1,4 @@
-# Truecaller UI — runnable Android Studio project (screens only)
+# Truecaller — runnable Android Studio project (screens only)
 
 A **buildable, runnable** Android app that shows the Truecaller **Calls** and **Messages** screens as
 pure UI (no backend / no telephony). Built with the **real extracted resources** from com.truecaller 26.28.5:

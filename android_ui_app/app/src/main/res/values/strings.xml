@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- strings sourced from com.truecaller 26.28.5 res/values/strings.xml -->
 <resources>
-    <string name="app_name">Truecaller UI</string>
+    <string name="app_name">Truecaller</string>
     <string name="tab_calls">Calls</string>
     <string name="tab_messages">Messages</string>
     <string name="title_messages">Messages</string>

@@ -273,30 +273,31 @@ public class MpesaSim {
         String code = code(ts, rng);
         JSONObject o = new JSONObject();
         try {
-            // time-of-day weighted category selection
+            // time-of-day weighted category selection (credits slightly outweigh debits so the
+            // account stays alive; debit amounts are capped to the current balance where possible)
             if (hour >= 18 && hour < 23) {           // evening: pubs, restaurants, hotels
-                if (roll < 30)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_PUBS), code, rng, 2_000_00, 15_000_00);
-                else if (roll < 55) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 1_500_00, 8_000_00);
-                else if (roll < 70) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_HOTELS), code, rng, 3_000_00, 12_000_00);
-                else if (roll < 85) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                if (roll < 25)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_PUBS), code, rng, 2_000_00, 15_000_00);
+                else if (roll < 45) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 1_500_00, 8_000_00);
+                else if (roll < 55) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_HOTELS), code, rng, 3_000_00, 12_000_00);
+                else if (roll < 75) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
                 else                putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
             } else if (hour >= 12 && hour < 14) {    // lunch: food, retail
-                if (roll < 45)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 4_000_00);
-                else if (roll < 65) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 1_000_00, 6_000_00);
-                else if (roll < 85) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                if (roll < 35)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 4_000_00);
+                else if (roll < 50) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 1_000_00, 6_000_00);
+                else if (roll < 75) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
                 else                putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
             } else if (hour >= 6 && hour < 12) {     // morning: retail, fuel, transport, paybills
-                if (roll < 30)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 5_000_00);
-                else if (roll < 45) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FUEL), code, rng, 1_000_00, 5_000_00);
-                else if (roll < 60) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_TRANSPORT), code, rng, 100_00, 1_500_00);
-                else if (roll < 75) putPaybill(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng);
-                else if (roll < 90) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                if (roll < 22)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 5_000_00);
+                else if (roll < 34) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FUEL), code, rng, 1_000_00, 5_000_00);
+                else if (roll < 46) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_TRANSPORT), code, rng, 100_00, 1_500_00);
+                else if (roll < 58) putPaybill(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng);
+                else if (roll < 80) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
                 else                putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
             } else {                                  // afternoon & night: mixed, mostly P2P
-                if (roll < 40)      putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
-                else if (roll < 65) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
-                else if (roll < 80) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 4_000_00);
-                else if (roll < 90) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 3_000_00);
+                if (roll < 35)      putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                else if (roll < 70) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
+                else if (roll < 85) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 4_000_00);
+                else if (roll < 95) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 3_000_00);
                 else                putPaybill(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng);
             }
         } catch (Exception ignored) {}
@@ -305,9 +306,12 @@ public class MpesaSim {
 
     // ---- message builders ----
 
-    /** P2P send or receive. Credits first repay outstanding Fuliza. */
+    /** P2P send or receive. Credits first repay outstanding Fuliza. Send amounts stay within
+     *  balance + Fuliza so the account isn't instantly drained. */
     private void putP2P(JSONObject o, long ts, long balanceCents, long daySpentCents, long fulizaCents, String code, Random rng, boolean credit) throws Exception {
-        long amt = amount(rng, 100_00, credit ? 50_000_00 : 20_000_00);
+        long spendingPower = balanceCents + Math.max(0, FULIZA_LIMIT_CENTS - fulizaCents);
+        long maxSend = credit ? 8_000_00 : Math.max(100_00, Math.min(20_000_00, (long)(spendingPower * 0.6)));
+        long amt = amount(rng, 100_00, maxSend);
         String name = NAMES[rng.nextInt(NAMES.length)];
         String phone = fullPhone(rng);
         String party = name + " " + phone;
@@ -341,8 +345,8 @@ public class MpesaSim {
                     ". Amount you can transact within the day is " + amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) +
                     ". Download My OneApp on " + LINK_SEND;
                 put(o, ts, false, ksh(amt), party, code, body, bal);
-            } else {
-                // Fuliza covers the shortfall
+            } else if (fulizaCents + (need - balanceCents) <= FULIZA_LIMIT_CENTS) {
+                // Fuliza covers the shortfall (within the granted limit)
                 long shortfall = need - balanceCents;
                 long newFuliza = fulizaCents + shortfall;
                 String body = code + " Confirmed. " + ksh(amt) + " sent to " + party +
@@ -353,13 +357,22 @@ public class MpesaSim {
                     ". Download My OneApp on " + LINK_SEND;
                 put(o, ts, false, ksh(amt), party, code, body, 0);
                 o.put("_fuliza", newFuliza);
+            } else {
+                // Fuliza exhausted: transaction declined, no money moves
+                String body = code + " Failed. " + ksh(amt) + " sent to " + party +
+                    " on " + date(ts) + " at " + time(ts) +
+                    " failed. Insufficient M-PESA balance and Fuliza limit reached. Download My OneApp on " + LINK_SEND;
+                put(o, ts, false, ksh(amt), party, code, body, balanceCents);
+                o.put("_amt", 0); o.put("failed", true); // no spend counted
             }
         }
     }
 
     /** Buy goods / pay a till (pub, shop, hotel, fuel, food). Uses Fuliza if balance is short. */
     private void putDebit(JSONObject o, long ts, long balanceCents, long daySpentCents, long fulizaCents, String till, String code, Random rng, long lo, long hi) throws Exception {
-        long amt = amount(rng, lo, hi);
+        long spendingPower = balanceCents + Math.max(0, FULIZA_LIMIT_CENTS - fulizaCents);
+        long cap = Math.max(lo, Math.min(hi, (long)(spendingPower * 0.7)));
+        long amt = amount(rng, lo, cap);
         long cost = paybillCost(amt);
         long need = amt + cost;
         if (balanceCents >= need) {
@@ -369,7 +382,7 @@ public class MpesaSim {
                 ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
                 amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
             put(o, ts, false, ksh(amt), till, code, body, bal);
-        } else {
+        } else if (fulizaCents + (need - balanceCents) <= FULIZA_LIMIT_CENTS) {
             long shortfall = need - balanceCents;
             long newFuliza = fulizaCents + shortfall;
             String body = code + " Confirmed. Ksh" + amountPlain(amt) + " paid to " + till +
@@ -379,12 +392,20 @@ public class MpesaSim {
                 amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
             put(o, ts, false, ksh(amt), till, code, body, 0);
             o.put("_fuliza", newFuliza);
+        } else {
+            String body = code + " Failed. Ksh" + amountPlain(amt) + " paid to " + till +
+                ". on " + date(ts) + " at " + time(ts) +
+                " failed. Insufficient M-PESA balance and Fuliza limit reached. Download My OneApp on " + LINK_SEND;
+            put(o, ts, false, ksh(amt), till, code, body, balanceCents);
+            o.put("_amt", 0); o.put("failed", true);
         }
     }
 
     /** Paybill with account number. Uses Fuliza if balance is short. */
     private void putPaybill(JSONObject o, long ts, long balanceCents, long daySpentCents, long fulizaCents, String code, Random rng) throws Exception {
-        long amt = amount(rng, 200_00, 15_000_00);
+        long spendingPower = balanceCents + Math.max(0, FULIZA_LIMIT_CENTS - fulizaCents);
+        long cap = Math.max(200_00, Math.min(15_000_00, (long)(spendingPower * 0.7)));
+        long amt = amount(rng, 200_00, cap);
         long cost = paybillCost(amt);
         long need = amt + cost;
         String pb = PAYBILLS[rng.nextInt(PAYBILLS.length)];
@@ -396,7 +417,7 @@ public class MpesaSim {
                 ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
                 amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
             put(o, ts, false, ksh(amt), pb, code, body, bal);
-        } else {
+        } else if (fulizaCents + (need - balanceCents) <= FULIZA_LIMIT_CENTS) {
             long shortfall = need - balanceCents;
             long newFuliza = fulizaCents + shortfall;
             String body = code + " Confirmed. " + ksh(amt) + " paid to " + pb + " for account " + acct +
@@ -406,21 +427,29 @@ public class MpesaSim {
                 amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
             put(o, ts, false, ksh(amt), pb, code, body, 0);
             o.put("_fuliza", newFuliza);
+        } else {
+            String body = code + " Failed. " + ksh(amt) + " paid to " + pb + " for account " + acct +
+                ". on " + date(ts) + " at " + time(ts) +
+                " failed. Insufficient M-PESA balance and Fuliza limit reached. Download My OneApp on " + LINK_SEND;
+            put(o, ts, false, ksh(amt), pb, code, body, balanceCents);
+            o.put("_amt", 0); o.put("failed", true);
         }
     }
 
     /** Fuliza daily access fee SMS (service message, no +/- amount row). */
-    private JSONObject fulizaFeeMsg(long ts, long feeCents, long outstandingCents) throws Exception {
+    private JSONObject fulizaFeeMsg(long ts, long feeCents, long outstandingCents) {
         JSONObject o = new JSONObject();
         String code = code(ts, new Random(ts * 31L + 7));
         String body = code + " Confirmed. Fuliza M-PESA access fee of " + ksh(feeCents) +
             " charged on " + date(ts) + " at " + time(ts) +
             ". Outstanding Fuliza M-PESA amount is " + ksh(outstandingCents) +
             ". Download My OneApp on " + LINK_SEND;
-        o.put("ts", ts); o.put("credit", false); o.put("amountText", ksh(feeCents));
-        o.put("party", "FULIZA M-PESA"); o.put("code", code); o.put("body", body);
-        o.put("_bal", 0); o.put("_amt", 0); o.put("_fuliza", outstandingCents);
-        o.put("fuliza", true);
+        try {
+            o.put("ts", ts); o.put("credit", false); o.put("amountText", ksh(feeCents));
+            o.put("party", "FULIZA M-PESA"); o.put("code", code); o.put("body", body);
+            o.put("_bal", 0); o.put("_amt", 0); o.put("_fuliza", outstandingCents);
+            o.put("fuliza", true);
+        } catch (Exception ignored) {}
         return o;
     }
 
@@ -442,7 +471,8 @@ public class MpesaSim {
 
     private static MpesaMsg fromJson(JSONObject o) {
         return new MpesaMsg(o.optLong("ts"), o.optBoolean("credit"), o.optString("amountText"),
-            o.optString("party"), o.optString("code"), o.optString("body"), false, o.optBoolean("fuliza"));
+            o.optString("party"), o.optString("code"), o.optString("body"), false,
+            o.optBoolean("fuliza"), o.optBoolean("failed"));
     }
 
     // ---- formatting helpers ----

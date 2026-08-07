@@ -186,6 +186,22 @@ public class MpesaSim {
     }
     private void save(JSONArray a) { prefs.edit().putString("simMsgsV4", a.toString()).apply(); }
 
+    /**
+     * Current M-PESA balance after the latest simulated message. This is the single source of
+     * truth: the Truecaller SMS thread and any app UI that shows the M-PESA balance must read
+     * this value so they always stay in sync.
+     */
+    public long getCurrentBalanceCents() {
+        syncAndGetAll(); // advance to now, persist
+        return prefs.getLong("simBalanceCentsV4", 2_000_00L);
+    }
+
+    /** Current outstanding Fuliza debt (0 when not using Fuliza). */
+    public long getFulizaOutstandingCents() {
+        syncAndGetAll();
+        return prefs.getLong("fulizaOutstandingCents", 0L);
+    }
+
     /** Next event time: 30-60 min later, but stretched at night (fewer events). */
     private static long nextEventTime(long from) {
         Random r = new Random(from * 0x9E3779B97F4A7C15L);

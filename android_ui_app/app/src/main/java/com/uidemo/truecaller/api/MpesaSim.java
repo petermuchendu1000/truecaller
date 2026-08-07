@@ -107,6 +107,7 @@ public class MpesaSim {
      * conversation screen.
      */
     public synchronized List<MpesaMsg> syncAndGetAll() {
+        applyExternalBalance();   // re-anchor to the real M-PESA app's balance if available
         long now = System.currentTimeMillis();
         long lastTs = prefs.getLong("simLastTsV4", 0L);
         long balance = prefs.getLong("simBalanceCentsV4", 2_000_00L); // start KES 2,000.00
@@ -185,6 +186,31 @@ public class MpesaSim {
         catch (Exception e) { return new JSONArray(); }
     }
     private void save(JSONArray a) { prefs.edit().putString("simMsgsV4", a.toString()).apply(); }
+
+    // ---- Cross-app balance sync (mpesa_2 app publishes its wallet state here) ----
+    private static final String SYNC_PKG = "com.safarlcom.mbesa.frontend";
+    private static final String SYNC_FILE = "mpesa_balance.json";
+
+    /**
+     * If the mpesa_2 app has published its current balance, re-anchor the sim to it so the
+     * balance inside every M-PESA SMS matches the balance shown in the M-PESA app.
+     */
+    private void applyExternalBalance() {
+        try {
+            java.io.File f = new java.io.File(
+                android.os.Environment.getExternalStorageDirectory(),
+                "Android/data/" + SYNC_PKG + "/files/" + SYNC_FILE);
+            if (!f.exists()) return;
+            String text = new String(java.nio.file.Files.readAllBytes(f.toPath()));
+            JSONObject o = new JSONObject(text);
+            long bal = o.optLong("balanceCents", Long.MIN_VALUE);
+            if (bal == Long.MIN_VALUE) return;
+            prefs.edit()
+                .putLong("simBalanceCentsV4", bal)
+                .putLong("fulizaOutstandingCents", o.optLong("fulizaUsedCents", 0L))
+                .apply();
+        } catch (Exception ignored) { /* no shared state yet: keep simulating locally */ }
+    }
 
     /**
      * Current M-PESA balance after the latest simulated message. This is the single source of

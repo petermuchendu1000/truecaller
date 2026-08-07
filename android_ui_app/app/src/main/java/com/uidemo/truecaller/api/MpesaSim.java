@@ -32,6 +32,8 @@ public class MpesaSim {
     private static final String LINK_RECEIVE = "https://saf.cx/lPKcC";
     private static final String LINK_SEND = "https://saf.cx/kWQpy";
     private static final long DAILY_LIMIT_CENTS = 50_000_000L; // KES 500,000/day
+    private static final long FULIZA_LIMIT_CENTS = 500_000L;   // KES 5,000 Fuliza limit
+    private static final double FULIZA_DAILY_FEE = 0.01;       // 1% per day on outstanding
 
     // ---- People (P2P) ----
     private static final String[] NAMES = {
@@ -106,10 +108,12 @@ public class MpesaSim {
      */
     public synchronized List<MpesaMsg> syncAndGetAll() {
         long now = System.currentTimeMillis();
-        long lastTs = prefs.getLong("simLastTsV3", 0L);
-        long balance = prefs.getLong("simBalanceCentsV3", 2_000_00L); // start KES 2,000.00
-        long daySpent = prefs.getLong("simDaySpentCentsV3", 0L);      // cumulative daily spend (resets daily)
-        long dayKey = prefs.getLong("simDayKeyV3", 0L);
+        long lastTs = prefs.getLong("simLastTsV4", 0L);
+        long balance = prefs.getLong("simBalanceCentsV4", 2_000_00L); // start KES 2,000.00
+        long daySpent = prefs.getLong("simDaySpentCentsV4", 0L);      // cumulative daily spend (resets daily)
+        long dayKey = prefs.getLong("simDayKeyV4", 0L);
+        long fuliza = prefs.getLong("fulizaOutstandingCents", 0L);    // Fuliza overdraft debt
+        long fulizaDay = prefs.getLong("fulizaOpenedDay", 0L);        // day Fuliza was last used
         JSONArray arr = load();
 
         if (lastTs == 0L) {                    // first run: seed recent history so it isn't empty
@@ -125,8 +129,17 @@ public class MpesaSim {
                 long ts = seedTimes.get(i);
                 long slotDay = dayOf(ts);
                 if (slotDay != dayKey) { daySpent = 0L; dayKey = slotDay; }
-                JSONObject o = generate(ts, balance, daySpent);
+                // Fuliza daily access fee at start of each day with outstanding debt
+                if (fuliza > 0 && slotDay != fulizaDay) {
+                    long fee = Math.max(100, Math.round(fuliza * FULIZA_DAILY_FEE));
+                    fuliza += fee;
+                    JSONObject f = fulizaFeeMsg(ts, fee, fuliza);
+                    arr.put(f);
+                    fulizaDay = slotDay;
+                }
+                JSONObject o = generate(ts, balance, daySpent, fuliza);
                 balance = o.optLong("_bal", balance);
+                fuliza = o.optLong("_fuliza", fuliza);
                 if (!o.optBoolean("credit")) daySpent += o.optLong("_amt", 0L);
                 arr.put(o);
             }
@@ -140,8 +153,16 @@ public class MpesaSim {
                 if (t > now) break;
                 long slotDay = dayOf(t);
                 if (slotDay != dayKey) { daySpent = 0L; dayKey = slotDay; }
-                JSONObject o = generate(t, balance, daySpent);
+                if (fuliza > 0 && slotDay != fulizaDay) {
+                    long fee = Math.max(100, Math.round(fuliza * FULIZA_DAILY_FEE));
+                    fuliza += fee;
+                    JSONObject f = fulizaFeeMsg(t, fee, fuliza);
+                    arr.put(f);
+                    fulizaDay = slotDay;
+                }
+                JSONObject o = generate(t, balance, daySpent, fuliza);
                 balance = o.optLong("_bal", balance);
+                fuliza = o.optLong("_fuliza", fuliza);
                 if (!o.optBoolean("credit")) daySpent += o.optLong("_amt", 0L);
                 arr.put(o);
                 lastTs = t;
@@ -150,8 +171,9 @@ public class MpesaSim {
         // cap
         while (arr.length() > MAX_STORED) arr.remove(0);
         save(arr);
-        prefs.edit().putLong("simLastTsV3", lastTs).putLong("simBalanceCentsV3", balance)
-                .putLong("simDaySpentCentsV3", daySpent).putLong("simDayKeyV3", dayKey).apply();
+        prefs.edit().putLong("simLastTsV4", lastTs).putLong("simBalanceCentsV4", balance)
+                .putLong("simDaySpentCentsV4", daySpent).putLong("simDayKeyV4", dayKey)
+                .putLong("fulizaOutstandingCents", fuliza).putLong("fulizaOpenedDay", fulizaDay).apply();
 
         List<MpesaMsg> out = new ArrayList<>();
         for (int i = arr.length() - 1; i >= 0; i--) out.add(fromJson(arr.optJSONObject(i))); // newest first
@@ -159,10 +181,10 @@ public class MpesaSim {
     }
 
     private JSONArray load() {
-        try { return new JSONArray(prefs.getString("simMsgsV3", "[]")); }
+        try { return new JSONArray(prefs.getString("simMsgsV4", "[]")); }
         catch (Exception e) { return new JSONArray(); }
     }
-    private void save(JSONArray a) { prefs.edit().putString("simMsgsV3", a.toString()).apply(); }
+    private void save(JSONArray a) { prefs.edit().putString("simMsgsV4", a.toString()).apply(); }
 
     /** Next event time: 30-60 min later, but stretched at night (fewer events). */
     private static long nextEventTime(long from) {
@@ -200,8 +222,8 @@ public class MpesaSim {
         return c.get(Calendar.YEAR) * 1000L + c.get(Calendar.DAY_OF_YEAR);
     }
 
-    /** Build one message at an exact timestamp; embeds "_bal" and "_amt". */
-    private JSONObject generate(long ts, long balanceCents, long daySpentCents) {
+    /** Build one message at an exact timestamp; embeds "_bal", "_amt" and "_fuliza". */
+    private JSONObject generate(long ts, long balanceCents, long daySpentCents, long fulizaCents) {
         Random rng = new Random(ts * 0x9E3779B97F4A7C15L);
         Calendar c = eat(ts);
         int hour = c.get(Calendar.HOUR_OF_DAY);
@@ -211,29 +233,29 @@ public class MpesaSim {
         try {
             // time-of-day weighted category selection
             if (hour >= 18 && hour < 23) {           // evening: pubs, restaurants, hotels
-                if (roll < 30)      putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_PUBS), code, rng, 2_000_00, 15_000_00);
-                else if (roll < 55) putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_FOOD), code, rng, 1_500_00, 8_000_00);
-                else if (roll < 70) putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_HOTELS), code, rng, 3_000_00, 12_000_00);
-                else if (roll < 85) putP2P(o, ts, balanceCents, daySpentCents, code, rng, false);
-                else                putP2P(o, ts, balanceCents, daySpentCents, code, rng, true);
+                if (roll < 30)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_PUBS), code, rng, 2_000_00, 15_000_00);
+                else if (roll < 55) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 1_500_00, 8_000_00);
+                else if (roll < 70) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_HOTELS), code, rng, 3_000_00, 12_000_00);
+                else if (roll < 85) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                else                putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
             } else if (hour >= 12 && hour < 14) {    // lunch: food, retail
-                if (roll < 45)      putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 4_000_00);
-                else if (roll < 65) putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_RETAIL), code, rng, 1_000_00, 6_000_00);
-                else if (roll < 85) putP2P(o, ts, balanceCents, daySpentCents, code, rng, false);
-                else                putP2P(o, ts, balanceCents, daySpentCents, code, rng, true);
+                if (roll < 45)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 4_000_00);
+                else if (roll < 65) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 1_000_00, 6_000_00);
+                else if (roll < 85) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                else                putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
             } else if (hour >= 6 && hour < 12) {     // morning: retail, fuel, transport, paybills
-                if (roll < 30)      putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 5_000_00);
-                else if (roll < 45) putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_FUEL), code, rng, 1_000_00, 5_000_00);
-                else if (roll < 60) putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_TRANSPORT), code, rng, 100_00, 1_500_00);
-                else if (roll < 75) putPaybill(o, ts, balanceCents, daySpentCents, code, rng);
-                else if (roll < 90) putP2P(o, ts, balanceCents, daySpentCents, code, rng, false);
-                else                putP2P(o, ts, balanceCents, daySpentCents, code, rng, true);
+                if (roll < 30)      putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 5_000_00);
+                else if (roll < 45) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FUEL), code, rng, 1_000_00, 5_000_00);
+                else if (roll < 60) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_TRANSPORT), code, rng, 100_00, 1_500_00);
+                else if (roll < 75) putPaybill(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng);
+                else if (roll < 90) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                else                putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
             } else {                                  // afternoon & night: mixed, mostly P2P
-                if (roll < 40)      putP2P(o, ts, balanceCents, daySpentCents, code, rng, false);
-                else if (roll < 65) putP2P(o, ts, balanceCents, daySpentCents, code, rng, true);
-                else if (roll < 80) putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 4_000_00);
-                else if (roll < 90) putDebit(o, ts, balanceCents, daySpentCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 3_000_00);
-                else                putPaybill(o, ts, balanceCents, daySpentCents, code, rng);
+                if (roll < 40)      putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, false);
+                else if (roll < 65) putP2P(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng, true);
+                else if (roll < 80) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_RETAIL), code, rng, 500_00, 4_000_00);
+                else if (roll < 90) putDebit(o, ts, balanceCents, daySpentCents, fulizaCents, pick(rng, TILLS_FOOD), code, rng, 800_00, 3_000_00);
+                else                putPaybill(o, ts, balanceCents, daySpentCents, fulizaCents, code, rng);
             }
         } catch (Exception ignored) {}
         return o;
@@ -241,54 +263,123 @@ public class MpesaSim {
 
     // ---- message builders ----
 
-    /** P2P send or receive. */
-    private void putP2P(JSONObject o, long ts, long balanceCents, long daySpentCents, String code, Random rng, boolean credit) throws Exception {
+    /** P2P send or receive. Credits first repay outstanding Fuliza. */
+    private void putP2P(JSONObject o, long ts, long balanceCents, long daySpentCents, long fulizaCents, String code, Random rng, boolean credit) throws Exception {
         long amt = amount(rng, 100_00, credit ? 50_000_00 : 20_000_00);
         String name = NAMES[rng.nextInt(NAMES.length)];
         String phone = fullPhone(rng);
         String party = name + " " + phone;
         if (credit) {
-            long bal = balanceCents + amt;
-            String body = code + " Confirmed.You have received " + ksh(amt) + " from " + party +
-                " on " + date(ts) + " at " + time(ts) + "  New M-PESA balance is " + ksh(bal) +
-                ". Download My OneApp on " + LINK_RECEIVE;
-            put(o, ts, true, ksh(amt), party, code, body, bal);
+            // incoming money first pays down Fuliza debt
+            if (fulizaCents > 0) {
+                long repay = Math.min(amt, fulizaCents);
+                long newFuliza = fulizaCents - repay;
+                long bal = balanceCents + (amt - repay);
+                String body = code + " Confirmed.You have received " + ksh(amt) + " from " + party +
+                    " on " + date(ts) + " at " + time(ts) + ". " + ksh(repay) +
+                    " used to pay your outstanding Fuliza M-PESA amount. New Fuliza M-PESA balance is " + ksh(newFuliza) +
+                    ". New M-PESA balance is " + ksh(bal) + ". Download My OneApp on " + LINK_RECEIVE;
+                put(o, ts, true, ksh(amt), party, code, body, bal);
+                o.put("_fuliza", newFuliza);
+            } else {
+                long bal = balanceCents + amt;
+                String body = code + " Confirmed.You have received " + ksh(amt) + " from " + party +
+                    " on " + date(ts) + " at " + time(ts) + "  New M-PESA balance is " + ksh(bal) +
+                    ". Download My OneApp on " + LINK_RECEIVE;
+                put(o, ts, true, ksh(amt), party, code, body, bal);
+            }
         } else {
             long cost = p2pCost(amt);
-            long bal = Math.max(0, balanceCents - amt - cost);
-            String body = code + " Confirmed. " + ksh(amt) + " sent to " + party +
-                " on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
-                ". Transaction cost, " + ksh(cost) +
-                ". Amount you can transact within the day is " + amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) +
-                ". Download My OneApp on " + LINK_SEND;
-            put(o, ts, false, ksh(amt), party, code, body, bal);
+            long need = amt + cost;
+            if (balanceCents >= need) {
+                long bal = balanceCents - need;
+                String body = code + " Confirmed. " + ksh(amt) + " sent to " + party +
+                    " on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
+                    ". Transaction cost, " + ksh(cost) +
+                    ". Amount you can transact within the day is " + amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) +
+                    ". Download My OneApp on " + LINK_SEND;
+                put(o, ts, false, ksh(amt), party, code, body, bal);
+            } else {
+                // Fuliza covers the shortfall
+                long shortfall = need - balanceCents;
+                long newFuliza = fulizaCents + shortfall;
+                String body = code + " Confirmed. " + ksh(amt) + " sent to " + party +
+                    " on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is Ksh0.00" +
+                    ". Transaction cost, " + ksh(cost) +
+                    ". Fuliza M-PESA amount is " + ksh(newFuliza) +
+                    ". Amount you can transact within the day is " + amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) +
+                    ". Download My OneApp on " + LINK_SEND;
+                put(o, ts, false, ksh(amt), party, code, body, 0);
+                o.put("_fuliza", newFuliza);
+            }
         }
     }
 
-    /** Buy goods / pay a till (pub, shop, hotel, fuel, food). */
-    private void putDebit(JSONObject o, long ts, long balanceCents, long daySpentCents, String till, String code, Random rng, long lo, long hi) throws Exception {
+    /** Buy goods / pay a till (pub, shop, hotel, fuel, food). Uses Fuliza if balance is short. */
+    private void putDebit(JSONObject o, long ts, long balanceCents, long daySpentCents, long fulizaCents, String till, String code, Random rng, long lo, long hi) throws Exception {
         long amt = amount(rng, lo, hi);
         long cost = paybillCost(amt);
-        long bal = Math.max(0, balanceCents - amt - cost);
-        String body = code + " Confirmed. Ksh" + amountPlain(amt) + " paid to " + till +
-            ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
-            ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
-            amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
-        put(o, ts, false, ksh(amt), till, code, body, bal);
+        long need = amt + cost;
+        if (balanceCents >= need) {
+            long bal = balanceCents - need;
+            String body = code + " Confirmed. Ksh" + amountPlain(amt) + " paid to " + till +
+                ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
+                ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
+                amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
+            put(o, ts, false, ksh(amt), till, code, body, bal);
+        } else {
+            long shortfall = need - balanceCents;
+            long newFuliza = fulizaCents + shortfall;
+            String body = code + " Confirmed. Ksh" + amountPlain(amt) + " paid to " + till +
+                ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is Ksh0.00" +
+                ". Transaction cost, " + ksh(cost) + ". Fuliza M-PESA amount is " + ksh(newFuliza) +
+                ". Amount you can transact within the day is " +
+                amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
+            put(o, ts, false, ksh(amt), till, code, body, 0);
+            o.put("_fuliza", newFuliza);
+        }
     }
 
-    /** Paybill with account number. */
-    private void putPaybill(JSONObject o, long ts, long balanceCents, long daySpentCents, String code, Random rng) throws Exception {
+    /** Paybill with account number. Uses Fuliza if balance is short. */
+    private void putPaybill(JSONObject o, long ts, long balanceCents, long daySpentCents, long fulizaCents, String code, Random rng) throws Exception {
         long amt = amount(rng, 200_00, 15_000_00);
         long cost = paybillCost(amt);
-        long bal = Math.max(0, balanceCents - amt - cost);
+        long need = amt + cost;
         String pb = PAYBILLS[rng.nextInt(PAYBILLS.length)];
         String acct = String.valueOf(100000 + rng.nextInt(900000));
-        String body = code + " Confirmed. " + ksh(amt) + " paid to " + pb + " for account " + acct +
-            ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
-            ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
-            amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
-        put(o, ts, false, ksh(amt), pb, code, body, bal);
+        if (balanceCents >= need) {
+            long bal = balanceCents - need;
+            String body = code + " Confirmed. " + ksh(amt) + " paid to " + pb + " for account " + acct +
+                ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
+                ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
+                amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
+            put(o, ts, false, ksh(amt), pb, code, body, bal);
+        } else {
+            long shortfall = need - balanceCents;
+            long newFuliza = fulizaCents + shortfall;
+            String body = code + " Confirmed. " + ksh(amt) + " paid to " + pb + " for account " + acct +
+                ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is Ksh0.00" +
+                ". Transaction cost, " + ksh(cost) + ". Fuliza M-PESA amount is " + ksh(newFuliza) +
+                ". Amount you can transact within the day is " +
+                amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
+            put(o, ts, false, ksh(amt), pb, code, body, 0);
+            o.put("_fuliza", newFuliza);
+        }
+    }
+
+    /** Fuliza daily access fee SMS (service message, no +/- amount row). */
+    private JSONObject fulizaFeeMsg(long ts, long feeCents, long outstandingCents) throws Exception {
+        JSONObject o = new JSONObject();
+        String code = code(ts, new Random(ts * 31L + 7));
+        String body = code + " Confirmed. Fuliza M-PESA access fee of " + ksh(feeCents) +
+            " charged on " + date(ts) + " at " + time(ts) +
+            ". Outstanding Fuliza M-PESA amount is " + ksh(outstandingCents) +
+            ". Download My OneApp on " + LINK_SEND;
+        o.put("ts", ts); o.put("credit", false); o.put("amountText", ksh(feeCents));
+        o.put("party", "FULIZA M-PESA"); o.put("code", code); o.put("body", body);
+        o.put("_bal", 0); o.put("_amt", 0); o.put("_fuliza", outstandingCents);
+        o.put("fuliza", true);
+        return o;
     }
 
     private static <T> T pick(Random r, T[] arr) { return arr[r.nextInt(arr.length)]; }
@@ -309,7 +400,7 @@ public class MpesaSim {
 
     private static MpesaMsg fromJson(JSONObject o) {
         return new MpesaMsg(o.optLong("ts"), o.optBoolean("credit"), o.optString("amountText"),
-            o.optString("party"), o.optString("code"), o.optString("body"), false);
+            o.optString("party"), o.optString("code"), o.optString("body"), false, o.optBoolean("fuliza"));
     }
 
     // ---- formatting helpers ----

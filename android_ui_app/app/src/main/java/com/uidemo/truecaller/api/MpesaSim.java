@@ -36,7 +36,8 @@ public class MpesaSim {
         "PETER MUCHENDU","FAITH MWANGI","BRIAN OTIENO","MERCY WANJIKU","KEVIN KAMAU","GRACE ACHIENG",
         "DENNIS KIPROP","CYNTHIA NJERI","VICTOR OMONDI","ESTHER WAFULA","COLLINS BARASA","JOY CHEBET",
         "SAMUEL MUTUA","AMINA HASSAN","JAMES NJOROGE","HALIMA YUSUF","DAVID MWAURA","ZAWADI BARAKA",
-        "SALIM ABDI","FATUMA RASHID"
+        "SALIM ABDI","FATUMA RASHID","WILLIAM ARNING","BRENDA NYAKIO RUKENYA","GLADYS WANJIKU HUTHU MBOTE",
+        "JULIUS KIMANI","SILVER ODUOR","MARBLES SQUARE"
     };
     private static final String[] PAYBILLS = {
         "KPLC PREPAID","NAIROBI WATER","DSTV KENYA","ZUKU FIBER","KRA","NHIF","JUMIA KE","GOTV"
@@ -57,22 +58,28 @@ public class MpesaSim {
      */
     public synchronized List<MpesaMsg> syncAndGetAll() {
         long nowSlot = slotOf(System.currentTimeMillis());
-        long lastSlot = prefs.getLong("simLastSlot", 0L);
-        long balance = prefs.getLong("simBalanceCents", 4_500_00L); // start KES 4,500.00
+        long lastSlot = prefs.getLong("simLastSlotV2", 0L);
+        long balance = prefs.getLong("simBalanceCentsV2", 2_000_00L); // start KES 2,000.00
+        long daySpent = prefs.getLong("simDaySpentCents", 0L);      // cumulative daily spend (resets daily)
+        long dayKey = prefs.getLong("simDayKey", 0L);
         JSONArray arr = load();
 
         if (lastSlot == 0L) {                    // first run: seed recent history so it isn't empty
             lastSlot = nowSlot - SEED_SLOTS;
         }
         for (long slot = lastSlot + 1; slot <= nowSlot; slot++) {
-            JSONObject o = generate(slot, balance);
+            long slotDay = slot * SIX_HOURS_MS / (24L * 60 * 60 * 1000);
+            if (slotDay != dayKey) { daySpent = 0L; dayKey = slotDay; }   // new day: reset daily limit usage
+            JSONObject o = generate(slot, balance, daySpent);
             balance = o.optLong("_bal", balance);
+            if (!o.optBoolean("credit")) daySpent += o.optLong("_amt", 0L);
             arr.put(o);
         }
         // cap
         while (arr.length() > MAX_STORED) arr.remove(0);
         save(arr);
-        prefs.edit().putLong("simLastSlot", nowSlot).putLong("simBalanceCents", balance).apply();
+        prefs.edit().putLong("simLastSlotV2", nowSlot).putLong("simBalanceCentsV2", balance)
+                .putLong("simDaySpentCents", daySpent).putLong("simDayKey", dayKey).apply();
 
         List<MpesaMsg> out = new ArrayList<>();
         for (int i = arr.length() - 1; i >= 0; i--) out.add(fromJson(arr.optJSONObject(i))); // newest first
@@ -80,13 +87,13 @@ public class MpesaSim {
     }
 
     private JSONArray load() {
-        try { return new JSONArray(prefs.getString("simMsgs", "[]")); }
+        try { return new JSONArray(prefs.getString("simMsgsV2", "[]")); }
         catch (Exception e) { return new JSONArray(); }
     }
-    private void save(JSONArray a) { prefs.edit().putString("simMsgs", a.toString()).apply(); }
+    private void save(JSONArray a) { prefs.edit().putString("simMsgsV2", a.toString()).apply(); }
 
-    /** Build one message for a slot; embeds "_bal" (running balance after this message). */
-    private JSONObject generate(long slot, long balanceCents) {
+    /** Build one message for a slot; embeds "_bal" (running balance after) and "_amt" (cents moved). */
+    private JSONObject generate(long slot, long balanceCents, long daySpentCents) {
         Random rng = new Random(slot * 0x9E3779B97F4A7C15L);
         long ts = slot * SIX_HOURS_MS + (long) (rng.nextDouble() * SIX_HOURS_MS); // random moment in the slot
         int roll = rng.nextInt(100);
@@ -108,21 +115,24 @@ public class MpesaSim {
                 long cost = p2pCost(amt);
                 long bal = Math.max(0, balanceCents - amt - cost);
                 String name = NAMES[rng.nextInt(NAMES.length)];
-                String body = code + " Confirmed. " + ksh(amt) + " sent to " + name + " on " + date(ts) +
-                    " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) + ". Transaction cost, " + ksh(cost) +
-                    ". Amount you can transact within the day is " + amountPlain(DAILY_LIMIT_CENTS - amt) +
+                String phone = fullPhone(rng);
+                String party = name + " " + phone;
+                String body = code + " Confirmed. " + ksh(amt) + " sent to " + party +
+                    " on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
+                    ". Transaction cost, " + ksh(cost) +
+                    ". Amount you can transact within the day is " + amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) +
                     ". Download My OneApp on " + LINK_SEND;
-                put(o, ts, false, ksh(amt), name, code, body, bal);
+                put(o, ts, false, ksh(amt), party, code, body, bal);
             } else if (roll < 90) {          // paybill (C2B)
                 long amt = amount(rng, 20_000, 800_000);
                 long cost = paybillCost(amt);
                 long bal = Math.max(0, balanceCents - amt - cost);
                 String pb = PAYBILLS[rng.nextInt(PAYBILLS.length)];
                 String acct = String.valueOf(100000 + rng.nextInt(900000));
-                String body = code + " Confirmed. " + ksh(amt) + " sent to " + pb + " for account " + acct +
-                    " on " + date(ts) + " at " + time(ts) + " New M-PESA balance is " + ksh(bal) +
-                    ". Transaction cost, " + ksh(cost) + ".Amount you can transact within the day is " +
-                    amountPlain(DAILY_LIMIT_CENTS - amt) + ". Download My OneApp on " + LINK_SEND;
+                String body = code + " Confirmed. " + ksh(amt) + " paid to " + pb + " for account " + acct +
+                    ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
+                    ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
+                    amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
                 put(o, ts, false, ksh(amt), pb, code, body, bal);
             } else {                         // buy goods (till)
                 long amt = amount(rng, 10_000, 400_000);
@@ -131,7 +141,8 @@ public class MpesaSim {
                 String till = TILLS[rng.nextInt(TILLS.length)];
                 String body = code + " Confirmed. Ksh" + amountPlain(amt) + " paid to " + till +
                     ". on " + date(ts) + " at " + time(ts) + ". New M-PESA balance is " + ksh(bal) +
-                    ". Transaction cost, " + ksh(cost) + ". Download My OneApp on " + LINK_SEND;
+                    ". Transaction cost, " + ksh(cost) + ". Amount you can transact within the day is " +
+                    amountPlain(DAILY_LIMIT_CENTS - daySpentCents - amt) + ". Download My OneApp on " + LINK_SEND;
                 put(o, ts, false, ksh(amt), till, code, body, bal);
             }
         } catch (Exception ignored) {}
@@ -141,6 +152,15 @@ public class MpesaSim {
     private void put(JSONObject o, long ts, boolean credit, String amountText, String party, String code, String body, long bal) throws Exception {
         o.put("ts", ts); o.put("credit", credit); o.put("amountText", amountText);
         o.put("party", party); o.put("code", code); o.put("body", body); o.put("_bal", bal);
+        o.put("_amt", centsOf(amountText));
+    }
+
+    /** Parse "Ksh1,550.00" back to cents for daily-spend tracking. */
+    private static long centsOf(String kshText) {
+        try {
+            String s = kshText.replace("Ksh", "").replace(",", "").trim();
+            return Math.round(Double.parseDouble(s) * 100);
+        } catch (Exception e) { return 0L; }
     }
 
     private static MpesaMsg fromJson(JSONObject o) {
@@ -193,6 +213,15 @@ public class MpesaSim {
         String p = pre[r.nextInt(pre.length)];
         int last3 = r.nextInt(1000);
         return p + "***" + String.format(Locale.US, "%03d", last3);
+    }
+
+    /** Full 10-digit Kenyan MSISDN, as shown in real "sent to" M-PESA SMS. */
+    private static String fullPhone(Random r) {
+        String[] pre = {"0722","0723","0724","0725","0726","0727","0728","0729","0790","0791","0792",
+                "0713","0714","0715","0716","0717","0718","0719","0798","0700","0701","0702","0703",
+                "0704","0705","0706","0768","0769","0759","0740","0741","0742","0743","0745","0746","0748"};
+        String p = pre[r.nextInt(pre.length)];
+        return p + String.format(Locale.US, "%06d", r.nextInt(1_000_000));
     }
     // Safaricom P2P tariff (cents)
     static long p2pCost(long amt) {

@@ -99,6 +99,7 @@ public class ConversationActivity extends AppCompatActivity {
             addSecureBanner();
             return;
         }
+        // (scroll handled after full render below)
         SimpleDateFormat dayKey=new SimpleDateFormat("yyyyMMdd", Locale.US);
         String lastDay=null;
         // newest-first list; render oldest-first so the newest sits at the bottom (real SMS thread).
@@ -112,6 +113,13 @@ public class ConversationActivity extends AppCompatActivity {
                     m.subtitle(), "1", clock(m.ts), expanded);
         }
         addSecureBanner();
+        scrollToBottom();
+    }
+
+    /** Open the thread at the newest message (bottom), like a real SMS app. */
+    private void scrollToBottom(){
+        final android.widget.ScrollView sv=findViewById(R.id.threadScroll);
+        if(sv!=null) sv.post(() -> sv.fullScroll(View.FOCUS_DOWN));
     }
 
     private static String dayLabel(long ms){
@@ -144,5 +152,6 @@ public class ConversationActivity extends AppCompatActivity {
                sender==null?"":sender, (amount==null||amount.isEmpty())?null:amount, credit,
                null, "1", time==null?"":time, true);
         addSecureBanner();
+        scrollToBottom();
     }
 }

@@ -28,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
         });
         show(new MessagesFragment());
         nav.setSelectedItemId(R.id.nav_messages);
+        // Check for a self-hosted OTA update (non-blocking; dialog only when one is available).
+        com.uidemo.truecaller.update.AppUpdater.checkOnLaunch(this);
     }
 
     /**

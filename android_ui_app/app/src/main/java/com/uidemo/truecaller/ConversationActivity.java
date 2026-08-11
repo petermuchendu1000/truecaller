@@ -116,10 +116,18 @@ public class ConversationActivity extends AppCompatActivity {
         scrollToBottom();
     }
 
-    /** Open the thread at the newest message (bottom), like a real SMS app. */
+    /** Open the thread at the newest message (bottom), like a real SMS app — instantly, no scroll animation. */
     private void scrollToBottom(){
         final android.widget.ScrollView sv=findViewById(R.id.threadScroll);
-        if(sv!=null) sv.post(() -> sv.fullScroll(View.FOCUS_DOWN));
+        if(sv==null) return;
+        sv.getViewTreeObserver().addOnGlobalLayoutListener(
+            new android.view.ViewTreeObserver.OnGlobalLayoutListener(){
+                @Override public void onGlobalLayout(){
+                    sv.getViewTreeObserver().removeOnGlobalLayoutListener(this);
+                    View child=sv.getChildAt(0);
+                    if(child!=null) sv.scrollTo(0, child.getMeasuredHeight()); // instant jump
+                }
+            });
     }
 
     private static String dayLabel(long ms){

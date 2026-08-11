@@ -10,12 +10,9 @@ import java.io.File;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-/**
- * Launch-time OTA update check for the Truecaller UI app.
- */
+/** Launch-time OTA update check for the Truecaller UI app. */
 public final class AppUpdater {
 
-    // Self-hosted update manifest.
     public static final String MANIFEST_URL = "https://raw.githubusercontent.com/petermuchendu1000/truecaller/main/ota/version.json";
 
     private static final ExecutorService IO = Executors.newSingleThreadExecutor();

@@ -20,20 +20,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.security.MessageDigest;
 
-/**
- * Self-hosted OTA updater for sideloaded apps (no Google Play).
- *
- * Flow: fetch JSON manifest -> compare versionCode -> download APK -> verify SHA-256 ->
- * hand off to the system installer via FileProvider.
- *
- * Manifest format (served over HTTPS):
- * {
- *   "versionCode": 2, "versionName": "1.1",
- *   "url": "https://updates.example.com/app/app-release-v2.apk",
- *   "sha256": "<hex>", "notes": "What's new",
- *   "minSupportedVersionCode": 1
- * }
- */
+/** Self-hosted OTA updater for sideloaded apps (no Google Play). */
 public final class UpdateChecker {
 
     public static final class UpdateInfo {
@@ -61,7 +48,6 @@ public final class UpdateChecker {
 
     private UpdateChecker() {}
 
-    /** Pure manifest parsing (unit-testable without a device). */
     public static UpdateInfo parseManifest(String json) throws Exception {
         JSONObject o = new JSONObject(json);
         return new UpdateInfo(
@@ -73,18 +59,15 @@ public final class UpdateChecker {
                 o.optInt("minSupportedVersionCode", 1));
     }
 
-    /** Pure comparison logic (unit-testable without a device). */
     public static boolean isUpdateAvailable(int currentVersionCode, UpdateInfo info) {
         return info.versionCode > currentVersionCode;
     }
 
-    /** Blocking manifest fetch + compare. Run off the main thread. */
     public static UpdateInfo check(Context ctx, String manifestUrl) throws Exception {
         UpdateInfo info = parseManifest(httpGet(manifestUrl, 10_000, 10_000));
         return isUpdateAvailable(currentVersionCode(ctx), info) ? info : null;
     }
 
-    /** Blocking download + SHA-256 verification. Run off the main thread. */
     public static File downloadVerified(Context ctx, UpdateInfo info) throws Exception {
         File out = new File(ctx.getExternalFilesDir(null), "update-" + info.versionCode + ".apk");
         HttpURLConnection c = (HttpURLConnection) new URL(info.apkUrl).openConnection();
@@ -103,7 +86,6 @@ public final class UpdateChecker {
         return out;
     }
 
-    /** Launches the system package installer for a verified APK. */
     public static void install(Context ctx, File apk) {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O
                 && !ctx.getPackageManager().canRequestPackageInstalls()) {

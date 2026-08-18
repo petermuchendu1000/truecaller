@@ -11,6 +11,7 @@ import java.util.Locale;
 import java.util.concurrent.Executors;
 import com.uidemo.truecaller.api.ApiClient;
 import com.uidemo.truecaller.api.Invest254Api;
+import com.uidemo.truecaller.api.MpesaCache;
 import com.uidemo.truecaller.api.MpesaFeed;
 import com.uidemo.truecaller.model.MpesaMsg;
 
@@ -75,18 +76,31 @@ public class ConversationActivity extends AppCompatActivity {
      * rendered as a Truecaller Smart-SMS card. Opening the thread marks every message read.
      */
     void buildMpesaThread(){
+        // 1) INSTANT paint from the last-known cache — the thread opens straight to the newest
+        //    message with no network wait (this is the fix for the slow "tap -> load" delay).
+        List<MpesaMsg> cached = MpesaCache.load(this);
+        if(!cached.isEmpty()) renderMpesaThread(cached);
+        // 2) Background refresh: pull real invest254 tx, merge with simulated SMS, re-render, and
+        //    persist the fresh list for the next instant open. Offline keeps the cached view.
         Executors.newSingleThreadExecutor().execute(() -> {
             try {
                 List<Invest254Api.Tx> txs = null;
                 try { txs = new Invest254Api(ApiClient.get(this)).getTransactions(100); }
-                catch (Exception ignored) { /* offline: still show simulated messages */ }
+                catch (Exception ignored) { /* offline: still show simulated + cached messages */ }
                 final List<MpesaMsg> msgs = MpesaFeed.merge(this, txs); // real + simulated, newest-first
                 long maxTs = 0; for (MpesaMsg m : msgs) if (m.ts > maxTs) maxTs = m.ts;
                 ApiClient.get(this).setLastReadMs(maxTs);   // opening the thread clears the unread badge
+                MpesaCache.save(this, msgs);                // keep the cache warm for the next open
                 runOnUiThread(() -> renderMpesaThread(msgs));
             } catch (Exception e) {
-                runOnUiThread(() -> { addSms("Couldn't load messages", "Couldn't load messages. Reopen to retry.",
-                        "Transaction", false, null, "MPESA", null, true, null, "", "", true); addSecureBanner(); });
+                // Only surface an error if we have NOTHING on screen (no cache was rendered).
+                runOnUiThread(() -> {
+                    if (thread.getChildCount() == 0) {
+                        addSms("Couldn't load messages", "Couldn't load messages. Reopen to retry.",
+                                "Transaction", false, null, "MPESA", null, true, null, "", "", true);
+                        addSecureBanner();
+                    }
+                });
             }
         });
     }

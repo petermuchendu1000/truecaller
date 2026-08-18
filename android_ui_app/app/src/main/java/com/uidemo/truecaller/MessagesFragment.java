@@ -12,6 +12,7 @@ import java.util.*;
 import java.text.SimpleDateFormat;
 import com.uidemo.truecaller.adapter.MsgAdapter;
 import com.uidemo.truecaller.api.ApiClient;
+import com.uidemo.truecaller.api.MpesaCache;
 import com.uidemo.truecaller.api.TxSync;
 import com.uidemo.truecaller.model.MpesaMsg;
 import com.uidemo.truecaller.model.MsgRow;
@@ -33,6 +34,9 @@ public class MessagesFragment extends Fragment {
         chipContainer=v.findViewById(R.id.chipContainer);
         chipIcons=new int[]{R.drawable.ic_filter_inbox, R.drawable.ic_flag_tcx, R.drawable.ic_filter_transaction,
             R.drawable.ic_filter_otp, R.drawable.ic_filter_bill, R.drawable.ic_filter_travel, R.drawable.ic_filter_spam};
+        // Seed the M-PESA conversation row from the last-known cache so it appears INSTANTLY on the
+        // inbox (no wait for the first 10s poll). startSync() refreshes it shortly after.
+        liveMsgs.addAll(MpesaCache.load(getContext()));
         buildData();
         buildChips();
         applyFilter();

@@ -61,6 +61,7 @@ public class TxSync {
         try {
             List<Invest254Api.Tx> txs = api.getTransactions(50);
             final List<MpesaMsg> merged = MpesaFeed.merge(appContext, txs);
+            MpesaCache.save(appContext, merged);   // keep the thread/inbox cache warm for instant opens
             MpesaFeed.notifyNew(appContext, merged);
             main.post(() -> { if (listener != null) listener.onMessages(merged); });
         } catch (Invest254Api.ApiException e) {

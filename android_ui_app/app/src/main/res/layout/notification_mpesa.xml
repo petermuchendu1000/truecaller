@@ -1,56 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Custom Truecaller-style M-PESA SMS notification (collapsed view), matching the reference:
-     top-left blue-circle message icon, "Truecaller · SMS from MPESA · now" header, circular
-     white-background M-PESA logo, the AI-summary line, "✨ AI summary", and a left-aligned
-     "Mark as read" action (indented to line up under the message text). -->
+<!-- Custom body for the Truecaller-style M-PESA SMS notification, used with
+     DecoratedCustomViewStyle. The SYSTEM draws the header row above this
+     ("Truecaller · SMS from MPESA · now" + the blue-circle white-bubble small icon + time +
+     expander). This view only supplies the body, left-aligned under the header text:
+
+         [M-PESA logo]   UH… received Ksh… from … 0713***703.
+                         ✨ AI summary
+         Mark as read
+
+     Spacings mirror the reference screenshot: logo and "Mark as read" both sit at the content
+     left edge; the message text starts one gap to the right of the logo. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="#1C1C1E"
-    android:padding="16dp">
+    android:paddingTop="2dp"
+    android:paddingBottom="4dp">
 
-    <!-- Header row: blue-circle message icon + "Truecaller · SMS from MPESA · now" -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:gravity="center_vertical">
-
-        <ImageView
-            android:id="@+id/ntf_msg_icon"
-            android:layout_width="24dp"
-            android:layout_height="24dp"
-            android:background="@drawable/bg_circle_blue"
-            android:padding="5dp"
-            android:src="@drawable/ic_notif_msg"
-            android:contentDescription="@null" />
-
-        <TextView
-            android:id="@+id/ntf_header"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginStart="12dp"
-            android:singleLine="true"
-            android:ellipsize="end"
-            android:textColor="#B0B3B8"
-            android:textSize="13sp"
-            android:text="Truecaller · SMS from MPESA · now" />
-    </LinearLayout>
-
-    <!-- Body row: circular M-PESA logo + AI summary + "AI summary" label -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="12dp"
         android:gravity="top">
 
         <ImageView
             android:id="@+id/ntf_logo"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
             android:src="@mipmap/av_mpesa_circle"
             android:contentDescription="@null" />
 
@@ -59,7 +35,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:layout_marginStart="14dp">
+            android:layout_marginStart="12dp">
 
             <TextView
                 android:id="@+id/ntf_summary"
@@ -67,31 +43,42 @@
                 android:layout_height="wrap_content"
                 android:textColor="#FFFFFF"
                 android:textSize="15sp"
-                android:lineSpacingMultiplier="1.15"
-                android:maxLines="2"
+                android:lineSpacingMultiplier="1.1"
+                android:maxLines="4"
                 android:ellipsize="end"
                 android:text="" />
 
-            <TextView
-                android:id="@+id/ntf_ai_label"
+            <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
-                android:textColor="#8A8D91"
-                android:textSize="12sp"
-                android:text="✨ AI summary" />
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginTop="5dp">
+
+                <ImageView
+                    android:layout_width="13dp"
+                    android:layout_height="13dp"
+                    android:src="@drawable/ic_sparkle_gold"
+                    android:contentDescription="@null" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:textColor="#8A8D91"
+                    android:textSize="12sp"
+                    android:text="AI summary" />
+            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
-    <!-- Action: "Mark as read" — left-aligned under the message text (indented past the logo). -->
     <TextView
         android:id="@+id/ntf_mark_read"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:layout_marginStart="54dp"
         android:textColor="#146FF5"
-        android:textSize="15sp"
+        android:textSize="14sp"
         android:textStyle="bold"
         android:text="Mark as read" />
 </LinearLayout>

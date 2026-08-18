@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Golden AI sparkle (Truecaller's "AI summary" badge). Warm gold #FFB300. A large 4-point
+     twinkle plus a small secondary twinkle. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp" android:height="16dp"
+    android:viewportWidth="24" android:viewportHeight="24">
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M10,2 C10.6,6.3 11.7,8.4 16,9.5 C11.7,10.6 10.6,12.7 10,17 C9.4,12.7 8.3,10.6 4,9.5 C8.3,8.4 9.4,6.3 10,2 Z"/>
+    <path
+        android:fillColor="#FFCB47"
+        android:pathData="M17.5,13 C17.8,15 18.3,15.9 20.5,16.4 C18.3,16.9 17.8,17.8 17.5,19.8 C17.2,17.8 16.7,16.9 14.5,16.4 C16.7,15.9 17.2,15 17.5,13 Z"/>
+</vector>

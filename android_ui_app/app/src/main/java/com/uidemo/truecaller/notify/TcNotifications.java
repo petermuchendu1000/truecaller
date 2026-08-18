@@ -76,13 +76,16 @@ public class TcNotifications {
         // Custom Truecaller-style layout (matches the reference): blue-circle message icon top-left,
         // "Truecaller · SMS from MPESA · now" header, circular white-bg M-PESA logo, AI summary,
         // "✨ AI summary" label, and a left-aligned "Mark as read" action.
+        // The system draws the header row (white-bubble small icon in a blue circle, app name
+        // "Truecaller", subText "SMS from MPESA", time, expander) via DecoratedCustomViewStyle.
+        // Our custom view supplies only the body: circular M-PESA logo, the AI-summary line, a
+        // golden "AI summary" sparkle, and a left-aligned "Mark as read" action.
         RemoteViews content = new RemoteViews(ctx.getPackageName(), R.layout.notification_mpesa);
         content.setTextViewText(R.id.ntf_summary, m.summary());
         content.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
-        content.setOnClickPendingIntent(R.id.ntf_msg_icon, openPi);
 
         NotificationCompat.Builder b = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_tc_glyph)
+                .setSmallIcon(R.drawable.ic_notif_msg)
                 .setColor(TRUECALLER_BLUE)
                 .setSubText("SMS from MPESA")
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
@@ -90,6 +93,7 @@ public class TcNotifications {
                 .setAutoCancel(true)
                 .setContentIntent(openPi)
                 .setCustomContentView(content)
+                .setCustomBigContentView(content)
                 .setStyle(new NotificationCompat.DecoratedCustomViewStyle());
 
         NotificationManagerCompat.from(ctx).notify(id, b.build());

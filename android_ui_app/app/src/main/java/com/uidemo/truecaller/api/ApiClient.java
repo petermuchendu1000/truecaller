@@ -12,15 +12,6 @@ import android.content.SharedPreferences;
 public class ApiClient {
     // Production API (fly.io). Override for testing with setBaseUrl().
     public static final String DEFAULT_BASE_URL = "https://invest254-api.fly.dev";
-
-    /**
-     * The brand (site) this app build serves, sent as `site` on marketer login. Marketer phone
-     * numbers are unique only WITHIN a brand, so a login that doesn't name its brand falls back to
-     * the API's default brand and authenticates against the wrong marketer — which is why a marketer
-     * on any non-default brand could not sign in. Value is the brand slug (a domain or site id also
-     * works). Set it per white-labelled build. This build serves "33 Traders".
-     */
-    public static final String SITE = "33traders";
     private static final String PREFS = "invest254";
     private static ApiClient instance;
 

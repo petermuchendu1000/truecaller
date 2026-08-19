@@ -50,6 +50,8 @@ public class Invest254Api {
         JSONObject body = new JSONObject();
         body.put("phone", phone);
         body.put("password", password);
+        // Brand-scope the login so a phone shared across brands resolves to THIS brand's marketer.
+        body.put("site", ApiClient.SITE);
         JSONObject res = request("POST", "/api/v1/marketers/auth/login-web", body, null);
         LoginResult out = new LoginResult();
         out.token = res.getString("token");

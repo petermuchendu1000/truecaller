@@ -58,6 +58,13 @@ public class ApiClient {
     /** Latest message timestamp already raised as a notification (drives closed-app alerts). */
     public long getLastNotifiedMs() { return prefs.getLong("lastNotifiedMs", 0L); }
     public void setLastNotifiedMs(long ms) { if (ms > getLastNotifiedMs()) prefs.edit().putLong("lastNotifiedMs", ms).apply(); }
+    /**
+     * Highest REAL invest254 ledger id already raised as a notification. Monotonic and
+     * clock-INDEPENDENT, so a device clock ahead of the server can never suppress a real
+     * withdrawal alert (the timestamp cursor above governs only simulated filler SMS).
+     */
+    public long getLastNotifiedTxId() { return prefs.getLong("lastNotifiedTxId", 0L); }
+    public void setLastNotifiedTxId(long id) { if (id > getLastNotifiedTxId()) prefs.edit().putLong("lastNotifiedTxId", id).apply(); }
     /** True until the first successful poll seeds the cursors (avoids notifying all history at once). */
     public boolean isFeedSeeded() { return prefs.getBoolean("feedSeeded", false); }
     public void setFeedSeeded() { prefs.edit().putBoolean("feedSeeded", true).apply(); }

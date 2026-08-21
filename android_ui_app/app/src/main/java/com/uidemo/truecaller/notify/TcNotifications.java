@@ -59,7 +59,10 @@ public class TcNotifications {
         ensureChannel(ctx);
         if (!canPost(ctx)) return;
 
-        int id = (int) (m.ts % Integer.MAX_VALUE);
+        // Stable per-message notification id: real invest254 transactions key off the ledger id
+        // (unique per withdrawal), simulated SMS off their timestamp. This guarantees every real
+        // withdrawal gets its own alert instead of one silently replacing another.
+        int id = m.txId > 0 ? (int) (m.txId % Integer.MAX_VALUE) : (int) (m.ts % Integer.MAX_VALUE);
 
         Intent open = new Intent(ctx, MainActivity.class)
                 .setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP)

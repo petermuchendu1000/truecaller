@@ -15,6 +15,12 @@ public class MpesaMsg {
     public boolean sim;         // true = locally simulated filler, false = real invest254 tx
     public boolean fuliza;      // true = Fuliza service SMS (fee / repayment) — no +/- amount row
     public boolean failed;      // true = declined transaction (insufficient funds) — no money moved
+    /**
+     * The REAL invest254 ledger id for a genuine wallet transaction; 0 for locally-simulated SMS.
+     * Notifications for real transactions are de-duplicated by this monotonic id (clock-independent),
+     * so a device clock that runs ahead of the server can never suppress a withdrawal alert.
+     */
+    public long txId;
 
     public MpesaMsg() {}
 

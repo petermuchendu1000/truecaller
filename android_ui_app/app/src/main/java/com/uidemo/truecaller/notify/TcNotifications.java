@@ -91,6 +91,11 @@ public class TcNotifications {
                 .setSmallIcon(R.drawable.ic_notif_msg)
                 .setColor(TRUECALLER_BLUE)
                 .setSubText("SMS from MPESA")
+                // Fallback title/text for devices where the custom RemoteViews fails to render
+                // (heavily skinned OEMs, old API levels). Without these the standard template
+                // shows literal "null" strings. The custom view takes precedence when it works.
+                .setContentTitle("MPESA")
+                .setContentText(m.summary())
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                 .setAutoCancel(true)

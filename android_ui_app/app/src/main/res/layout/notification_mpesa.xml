@@ -1,76 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Custom body for the Truecaller-style M-PESA SMS notification, used with
-     DecoratedCustomViewStyle. The SYSTEM draws the header row above this
-     ("Truecaller · SMS from MPESA · now" + the blue-circle white-bubble small icon + time +
-     expander). This view only supplies the body, left-aligned under the header text:
+<!-- Truecaller-style M-PESA SMS notification body (DecoratedCustomViewStyle).
+     CLEAN SLATE: all icons removed (M-PESA logo + AI-summary sparkle). Icons will be added back one
+     at a time. Background is solid black. Only text remains:
 
-         [M-PESA logo]   UH… received Ksh… from … 0713***703.
-                         ✨ AI summary
+         UH… received Ksh… from … 0713***703.
+         AI summary
          Mark as read
-
-     Spacings mirror the reference screenshot: logo and "Mark as read" both sit at the content
-     left edge; the message text starts one gap to the right of the logo. -->
+-->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
+    android:background="#000000"
     android:paddingTop="2dp"
     android:paddingBottom="4dp">
 
-    <LinearLayout
+    <TextView
+        android:id="@+id/ntf_summary"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="top">
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:lineSpacingMultiplier="1.1"
+        android:maxLines="4"
+        android:ellipsize="end"
+        android:text="" />
 
-        <ImageView
-            android:id="@+id/ntf_logo"
-            android:layout_width="44dp"
-            android:layout_height="44dp"
-            android:src="@mipmap/av_mpesa_circle"
-            android:contentDescription="@null" />
-
-        <LinearLayout
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:layout_marginStart="12dp">
-
-            <TextView
-                android:id="@+id/ntf_summary"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:textSize="15sp"
-                android:lineSpacingMultiplier="1.1"
-                android:maxLines="4"
-                android:ellipsize="end"
-                android:text="" />
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_vertical"
-                android:layout_marginTop="5dp">
-
-                <ImageView
-                    android:layout_width="13dp"
-                    android:layout_height="13dp"
-                    android:src="@drawable/ic_sparkle_gold"
-                    android:contentDescription="@null" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="5dp"
-                    android:textColor="#8A8D91"
-                    android:textSize="12sp"
-                    android:text="AI summary" />
-            </LinearLayout>
-        </LinearLayout>
-    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="#8A8D91"
+        android:textSize="12sp"
+        android:text="AI summary" />
 
     <TextView
         android:id="@+id/ntf_mark_read"

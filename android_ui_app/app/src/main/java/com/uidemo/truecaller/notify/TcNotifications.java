@@ -88,11 +88,10 @@ public class TcNotifications {
         content.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
 
         NotificationCompat.Builder b = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                .setSmallIcon(R.drawable.ic_notif_msg)
-                .setColor(TRUECALLER_BLUE)
-                // Large icon: the blue-circle message bubble (the brand mark shown in the shade
-                // header next to "Truecaller · SMS from MPESA"), matching the provided asset.
-                .setLargeIcon(BitmapFactory.decodeResource(ctx.getResources(), R.mipmap.ic_notif_circle))
+                // CLEAN SLATE: all icons removed. Android requires a small icon, so we point it at a
+                // fully transparent placeholder (no glyph, no accent circle). No large icon is set.
+                // Icons will be added back one at a time.
+                .setSmallIcon(R.drawable.ic_notif_blank)
                 .setSubText("SMS from MPESA")
                 // Fallback title/text for devices where the custom RemoteViews fails to render
                 // (heavily skinned OEMs, old API levels). Without these the standard template

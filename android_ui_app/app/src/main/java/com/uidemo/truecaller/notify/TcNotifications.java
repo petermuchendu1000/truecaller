@@ -88,17 +88,15 @@ public class TcNotifications {
         content.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
 
         NotificationCompat.Builder b = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                // Header brand mark (the blue-circle Truecaller message icon shown in the shade): the
-                // FULL-COLOUR icon is supplied as the LARGE icon (@mipmap/ic_notif_circle, regenerated from
-                // the latest launcher-icon art: blue circle + black speech bubble + tail + 3 blue dots).
-                // A notification small icon is monochrome/tinted and cannot reproduce that multi-colour
-                // design, so the large icon carries it. The small icon (mandatory; also the status-bar
-                // glyph) is the monochrome three-dot glyph tinted by setColor(TRUECALLER_BLUE). The
-                // white-bg M-PESA logo is drawn inside the custom body view (notification_mpesa.xml ->
-                // @id/ntf_logo).
+                // Icons are placed inside the custom body view (notification_mpesa.xml) at the exact
+                // reference positions: the Truecaller message icon (@mipmap/ic_notif_circle, 26dp) at the
+                // top-left of the header row, the white-bg M-PESA logo (@mipmap/av_mpesa_circle, 33dp) at
+                // the top-left of the body, and the gold AI-summary sparkle before "AI summary". The small
+                // icon (mandatory; also the status-bar glyph) is the monochrome three-dot glyph tinted by
+                // setColor(TRUECALLER_BLUE). NO large icon is set: a large icon would render at the
+                // top-RIGHT under DecoratedCustomViewStyle, which the reference does not have.
                 .setSmallIcon(R.drawable.ic_notif_msg)
                 .setColor(TRUECALLER_BLUE)
-                .setLargeIcon(BitmapFactory.decodeResource(ctx.getResources(), R.mipmap.ic_notif_circle))
                 .setSubText("SMS from MPESA")
                 // Fallback title/text for devices where the custom RemoteViews fails to render
                 // (heavily skinned OEMs, old API levels). Without these the standard template

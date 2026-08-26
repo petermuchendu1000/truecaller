@@ -92,10 +92,10 @@ public class TcNotifications {
                 // reference positions: the Truecaller message icon (@mipmap/ic_notif_circle, 26dp) at the
                 // top-left of the header row, the white-bg M-PESA logo (@mipmap/av_mpesa_circle, 33dp) at
                 // the top-left of the body, and the gold AI-summary sparkle before "AI summary". The small
-                // icon (mandatory; also the status-bar glyph) is the monochrome three-dot glyph tinted by
+                // icon (mandatory; also the status-bar glyph) is the monochrome speech-bubble + dots glyph (ic_notif_bubble_dots) tinted by
                 // setColor(TRUECALLER_BLUE). NO large icon is set: a large icon would render at the
                 // top-RIGHT under DecoratedCustomViewStyle, which the reference does not have.
-                .setSmallIcon(R.drawable.ic_notif_msg)
+                .setSmallIcon(R.drawable.ic_notif_bubble_dots)
                 .setColor(TRUECALLER_BLUE)
                 .setSubText("SMS from MPESA")
                 // Fallback title/text for devices where the custom RemoteViews fails to render

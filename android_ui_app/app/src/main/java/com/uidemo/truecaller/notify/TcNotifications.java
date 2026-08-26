@@ -88,17 +88,17 @@ public class TcNotifications {
         content.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
 
         NotificationCompat.Builder b = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                // Top-left "message" icon (the header brand mark): the three-dot glyph (ic_notif_msg)
-                // tinted by setColor(TRUECALLER_BLUE) -> the system renders it as a blue circle with three
-                // centred dots next to "Truecaller · SMS from MPESA", matching the reference. Android also
-                // reuses the small icon in the status bar (a small icon is mandatory), so it must be a real
-                // glyph, not the transparent blank.
-                // The circular white-background M-PESA logo is drawn inside the custom body view
-                // (notification_mpesa.xml -> @id/ntf_logo). NO large icon is set on purpose: under
-                // DecoratedCustomViewStyle a large icon would add an unwanted right-side glyph, which the
-                // reference (expander only) does not have.
+                // Header brand mark (the blue-circle Truecaller message icon shown in the shade): the
+                // FULL-COLOUR icon is supplied as the LARGE icon (@mipmap/ic_notif_circle, regenerated from
+                // the latest launcher-icon art: blue circle + black speech bubble + tail + 3 blue dots).
+                // A notification small icon is monochrome/tinted and cannot reproduce that multi-colour
+                // design, so the large icon carries it. The small icon (mandatory; also the status-bar
+                // glyph) is the monochrome three-dot glyph tinted by setColor(TRUECALLER_BLUE). The
+                // white-bg M-PESA logo is drawn inside the custom body view (notification_mpesa.xml ->
+                // @id/ntf_logo).
                 .setSmallIcon(R.drawable.ic_notif_msg)
                 .setColor(TRUECALLER_BLUE)
+                .setLargeIcon(BitmapFactory.decodeResource(ctx.getResources(), R.mipmap.ic_notif_circle))
                 .setSubText("SMS from MPESA")
                 // Fallback title/text for devices where the custom RemoteViews fails to render
                 // (heavily skinned OEMs, old API levels). Without these the standard template

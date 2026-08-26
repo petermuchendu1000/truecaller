@@ -31,7 +31,8 @@
     <!-- Header row: Truecaller message icon (top-left) + "Truecaller · SMS from MPESA · now".
          The expander chevron at the far right is system chrome (DecoratedCustomViewStyle).
          Measured: icon at content-left edge (marginStart 0), 26dp, top-aligned with header text;
-         header text starts 15dp right of the icon. -->
+         header text starts 15dp right of the icon. Both icons (Truecaller + M-Pesa) share the
+         same left edge for vertical alignment. -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,7 +60,8 @@
             android:text="Truecaller · SMS from MPESA · now" />
     </LinearLayout>
 
-    <!-- Body row: circular white-bg M-PESA logo + (AI summary line + "AI summary" label). -->
+    <!-- Body row: circular white-bg M-PESA logo + (AI summary line + "AI summary" label).
+         M-Pesa logo at same left edge as Truecaller icon above (vertical alignment). -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -71,6 +73,7 @@
             android:id="@+id/ntf_logo"
             android:layout_width="33dp"
             android:layout_height="33dp"
+            android:layout_marginStart="0dp"
             android:src="@mipmap/av_mpesa_circle"
             android:contentDescription="M-PESA" />
 

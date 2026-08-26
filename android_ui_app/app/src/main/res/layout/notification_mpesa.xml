@@ -6,11 +6,11 @@
      and the expander; this custom view supplies the icons + body so the icons land exactly where the
      reference shows them.
 
-     Layout (content-left edge = x0):
-       Row 1 (header):  [Truecaller icon 26dp]  "Truecaller · SMS from MPESA · now"   [expander ^]
-       Row 2 (body):    [M-PESA logo 33dp]      UH… received Ksh… from … 0713***703.
-                                                ✦ AI summary
-                        Mark as read
+     The system draws the single header row itself (small icon + "Truecaller · SMS from MPESA · time"
+     + expander). This custom view supplies ONLY the body (no duplicate header row):
+       Body:  [M-PESA logo 33dp]  UH… received Ksh… from … 0713***703.
+                                  ✦ AI summary
+              Mark as read
 
      Measured spec:
        • Truecaller message icon (@mipmap/ic_notif_circle) = 26dp, at content-left (marginStart 0),
@@ -27,37 +27,6 @@
     android:orientation="vertical"
     android:paddingTop="2dp"
     android:paddingBottom="4dp">
-
-    <!-- Header row: Truecaller message icon (top-left) + "Truecaller · SMS from MPESA · now".
-         The expander chevron at the far right is system chrome (DecoratedCustomViewStyle).
-         Measured: icon at content-left edge (marginStart 0), 26dp, top-aligned with header text;
-         header text starts 15dp right of the icon. -->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="top">
-
-        <ImageView
-            android:id="@+id/ntf_msg_icon"
-            android:layout_width="26dp"
-            android:layout_height="26dp"
-            android:layout_marginStart="0dp"
-            android:src="@mipmap/ic_notif_circle"
-            android:contentDescription="Truecaller" />
-
-        <TextView
-            android:id="@+id/ntf_header"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:layout_marginStart="15dp"
-            android:singleLine="true"
-            android:ellipsize="end"
-            android:textColor="?android:attr/textColorSecondary"
-            android:textSize="13sp"
-            android:text="Truecaller · SMS from MPESA · now" />
-    </LinearLayout>
 
     <!-- Body row: circular white-bg M-PESA logo + (AI summary line + "AI summary" label).
          M-Pesa logo is INDENTED right of the Truecaller icon (marginStart 59dp = 106px - 47px). -->

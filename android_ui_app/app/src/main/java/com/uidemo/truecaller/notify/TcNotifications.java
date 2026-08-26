@@ -88,9 +88,11 @@ public class TcNotifications {
         content.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
 
         NotificationCompat.Builder b = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                // CLEAN SLATE: all icons removed. Android requires a small icon, so we point it at a
-                // fully transparent placeholder (no glyph, no accent circle). No large icon is set.
-                // Icons will be added back one at a time.
+                // The circular white-background M-PESA logo is rendered inside the custom body view
+                // (notification_mpesa.xml -> @id/ntf_logo, 33dp, @mipmap/av_mpesa_circle), matching the
+                // reference. The small icon stays a fully transparent placeholder and NO large icon is
+                // set on purpose: a large icon would add an unwanted top-right glyph under
+                // DecoratedCustomViewStyle, which the reference does not have.
                 .setSmallIcon(R.drawable.ic_notif_blank)
                 .setSubText("SMS from MPESA")
                 // Fallback title/text for devices where the custom RemoteViews fails to render

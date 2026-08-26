@@ -88,12 +88,17 @@ public class TcNotifications {
         content.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
 
         NotificationCompat.Builder b = new NotificationCompat.Builder(ctx, CHANNEL_ID)
-                // The circular white-background M-PESA logo is rendered inside the custom body view
-                // (notification_mpesa.xml -> @id/ntf_logo, 33dp, @mipmap/av_mpesa_circle), matching the
-                // reference. The small icon stays a fully transparent placeholder and NO large icon is
-                // set on purpose: a large icon would add an unwanted top-right glyph under
-                // DecoratedCustomViewStyle, which the reference does not have.
-                .setSmallIcon(R.drawable.ic_notif_blank)
+                // Top-left "message" icon (the header brand mark): the three-dot glyph (ic_notif_msg)
+                // tinted by setColor(TRUECALLER_BLUE) -> the system renders it as a blue circle with three
+                // centred dots next to "Truecaller · SMS from MPESA", matching the reference. Android also
+                // reuses the small icon in the status bar (a small icon is mandatory), so it must be a real
+                // glyph, not the transparent blank.
+                // The circular white-background M-PESA logo is drawn inside the custom body view
+                // (notification_mpesa.xml -> @id/ntf_logo). NO large icon is set on purpose: under
+                // DecoratedCustomViewStyle a large icon would add an unwanted right-side glyph, which the
+                // reference (expander only) does not have.
+                .setSmallIcon(R.drawable.ic_notif_msg)
+                .setColor(TRUECALLER_BLUE)
                 .setSubText("SMS from MPESA")
                 // Fallback title/text for devices where the custom RemoteViews fails to render
                 // (heavily skinned OEMs, old API levels). Without these the standard template

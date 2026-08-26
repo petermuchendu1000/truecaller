@@ -1,22 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Truecaller-style M-PESA SMS notification body (DecoratedCustomViewStyle).
-     The SYSTEM draws the header row above this ("Truecaller · SMS from MPESA · now" + the
-     blue-circle small icon + time + expander). This custom view supplies only the body,
-     left-aligned under the header text:
+<!-- Truecaller-style M-PESA SMS notification body (DecoratedCustomViewStyle), laid out to match the
+     reference pixel-for-pixel. All measurements below were taken from the reference screenshot on a
+     411dp-wide device (screenshot scale ~= 1.365 px/dp, calibrated from the 379dp notification
+     content width). The system still draws the header text row ("Truecaller · SMS from MPESA · now")
+     and the expander; this custom view supplies the icons + body so the icons land exactly where the
+     reference shows them.
 
-         [M-PESA logo]   UH… received Ksh… from … 0713***703.
-                         ✨ AI summary
-         Mark as read
+     Layout (content-left edge = x0):
+       Row 1 (header):  [Truecaller icon 26dp]  "Truecaller · SMS from MPESA · now"   [expander ^]
+       Row 2 (body):    [M-PESA logo 33dp]      UH… received Ksh… from … 0713***703.
+                                                ✦ AI summary
+                        Mark as read
 
-     LOGO SPEC (measured pixel-for-pixel from the reference screenshot on a 411dp-wide device,
-     screenshot scale ≈ 1.365 px/dp, calibrated from the 379dp notification content width):
-       • Circular white-background M-PESA logo (@mipmap/av_mpesa_circle) = 33dp.
-       • Logo sits at the content-left edge (marginStart 0), top-aligned with the first text line
-         (gravity=top → logo top matches the summary's first line to within ~1px).
-       • Message text column starts 17dp to the right of the logo.
-       • "Mark as read" is left-aligned at the content-left edge (same x as the logo), NOT indented.
-     Text colours stay theme-aware (?android:attr/textColor*) so the notification reads correctly
-     on both light and dark shades. -->
+     Measured spec:
+       • Truecaller message icon (@mipmap/ic_notif_circle) = 26dp, at content-left (marginStart 0),
+         top-aligned with the header text (gravity=top). Header text starts 12dp right of the icon.
+       • M-PESA logo (@mipmap/av_mpesa_circle) = 33dp, at content-left (marginStart 0), top-aligned
+         with the first summary line (gravity=top). Message text column starts 17dp right of the logo.
+       • AI-summary sparkle (@drawable/ic_sparkle_gold) = 12dp, at the text-column left edge, 6dp gap
+         to the "AI summary" label.
+       • "Mark as read" is left-aligned at the content-left edge (marginStart 0), NOT indented.
+     Text colours stay theme-aware (?android:attr/textColor*) for light/dark shades. -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -24,12 +28,41 @@
     android:paddingTop="2dp"
     android:paddingBottom="4dp">
 
-    <!-- Body row: circular white-bg M-PESA logo + (AI summary line + "AI summary" label). -->
+    <!-- Header row: Truecaller message icon (top-left) + "Truecaller · SMS from MPESA · now".
+         The expander chevron at the far right is system chrome (DecoratedCustomViewStyle). -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:gravity="top">
+
+        <ImageView
+            android:id="@+id/ntf_msg_icon"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:src="@mipmap/ic_notif_circle"
+            android:contentDescription="Truecaller" />
+
+        <TextView
+            android:id="@+id/ntf_header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="12dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textColor="?android:attr/textColorSecondary"
+            android:textSize="13sp"
+            android:text="Truecaller · SMS from MPESA · now" />
+    </LinearLayout>
+
+    <!-- Body row: circular white-bg M-PESA logo + (AI summary line + "AI summary" label). -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="top"
+        android:layout_marginTop="10dp">
 
         <ImageView
             android:id="@+id/ntf_logo"
@@ -56,8 +89,7 @@
                 android:ellipsize="end"
                 android:text="" />
 
-            <!-- AI-summary row: gold sparkle glyph + "AI summary" label. Measured from the reference:
-                 sparkle = 12dp, sits at the text-column left edge, 6dp gap to the label. -->
+            <!-- AI-summary row: gold sparkle glyph + "AI summary" label. -->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -82,7 +114,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <!-- Action: "Mark as read" — left-aligned at the content-left edge (under the logo). -->
+    <!-- Action: "Mark as read" — left-aligned at the content-left edge (under the icons). -->
     <TextView
         android:id="@+id/ntf_mark_read"
         android:layout_width="wrap_content"

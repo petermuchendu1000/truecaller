@@ -83,9 +83,14 @@ public class TcNotifications {
         // "Truecaller", subText "SMS from MPESA", time, expander) via DecoratedCustomViewStyle.
         // Our custom view supplies only the body: circular M-PESA logo, the AI-summary line, a
         // golden "AI summary" sparkle, and a left-aligned "Mark as read" action.
-        RemoteViews content = new RemoteViews(ctx.getPackageName(), R.layout.notification_mpesa);
-        content.setTextViewText(R.id.ntf_summary, m.summary());
-        content.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
+        // Expanded (big) view: full message — M-PESA logo + up-to-4-line summary + AI summary + Mark as read.
+        RemoteViews big = new RemoteViews(ctx.getPackageName(), R.layout.notification_mpesa);
+        big.setTextViewText(R.id.ntf_summary, m.summary());
+        big.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
+
+        // Collapsed view: ONLY the first line of the summary — no M-PESA logo, no second line.
+        RemoteViews collapsed = new RemoteViews(ctx.getPackageName(), R.layout.notification_mpesa_collapsed);
+        collapsed.setTextViewText(R.id.ntf_summary, m.summary());
 
         NotificationCompat.Builder b = new NotificationCompat.Builder(ctx, CHANNEL_ID)
                 // Icons are placed inside the custom body view (notification_mpesa.xml) at the exact
@@ -107,8 +112,8 @@ public class TcNotifications {
                 .setCategory(NotificationCompat.CATEGORY_MESSAGE)
                 .setAutoCancel(true)
                 .setContentIntent(openPi)
-                .setCustomContentView(content)
-                .setCustomBigContentView(content)
+                .setCustomContentView(collapsed)
+                .setCustomBigContentView(big)
                 .setStyle(new NotificationCompat.DecoratedCustomViewStyle());
 
         NotificationManagerCompat.from(ctx).notify(id, b.build());

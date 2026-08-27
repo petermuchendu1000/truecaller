@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- COLLAPSED M-PESA SMS notification body (DecoratedCustomViewStyle).
+     Shows ONLY the first line of the AI summary - no M-PESA logo, no second line, no "AI summary"
+     label, no "Mark as read". The system draws the single header row above this
+     ("Truecaller · SMS from MPESA · time" + small icon + expander). Text colour stays theme-aware
+     (?android:attr/textColorPrimary) for light/dark. The full message + logo appear on expand
+     (notification_mpesa.xml, set as the big content view). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="2dp"
+    android:paddingBottom="4dp">
+
+    <TextView
+        android:id="@+id/ntf_summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?android:attr/textColorPrimary"
+        android:textSize="15sp"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text="" />
+</LinearLayout>

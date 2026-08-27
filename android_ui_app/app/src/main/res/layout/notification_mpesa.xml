@@ -29,7 +29,8 @@
     android:paddingBottom="4dp">
 
     <!-- Body row: circular white-bg M-PESA logo + (AI summary line + "AI summary" label).
-         M-Pesa logo is INDENTED right of the Truecaller icon (marginStart 59dp = 106px - 47px). -->
+         M-Pesa logo is at the content-left edge (marginStart 0), which aligns vertically with where
+         "Truecaller" begins in the system header row (measured: both at the same x). -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -41,7 +42,7 @@
             android:id="@+id/ntf_logo"
             android:layout_width="33dp"
             android:layout_height="33dp"
-            android:layout_marginStart="59dp"
+            android:layout_marginStart="0dp"
             android:src="@mipmap/av_mpesa_circle"
             android:contentDescription="M-PESA" />
 

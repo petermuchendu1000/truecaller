@@ -76,6 +76,27 @@ public class TcNotifications {
         PendingIntent markReadPi = PendingIntent.getBroadcast(ctx, id, markRead,
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
+        // "Open link": open the first URL found in the SMS body (if any).
+        String url = null;
+        if (m.fullBody != null) {
+            java.util.regex.Matcher um = java.util.regex.Pattern.compile("https?://\\S+").matcher(m.fullBody);
+            if (um.find()) url = um.group();
+        }
+        PendingIntent openLinkPi = null;
+        if (url != null) {
+            Intent view = new Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url))
+                    .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+            openLinkPi = PendingIntent.getActivity(ctx, id + 2, view,
+                    PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+        }
+
+        // "Delete": dismiss this alert and advance the read cursor so it does not reappear.
+        Intent del = new Intent(ctx, MarkReadReceiver.class)
+                .setAction(MarkReadReceiver.ACTION_DELETE)
+                .putExtra(MarkReadReceiver.EXTRA_TS, m.ts);
+        PendingIntent deletePi = PendingIntent.getBroadcast(ctx, id + 1, del,
+                PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+
         // Custom Truecaller-style layout (matches the reference): blue-circle message icon top-left,
         // "Truecaller · SMS from MPESA · now" header, circular white-bg M-PESA logo, AI summary,
         // "✨ AI summary" label, and a left-aligned "Mark as read" action.
@@ -87,6 +108,9 @@ public class TcNotifications {
         RemoteViews big = new RemoteViews(ctx.getPackageName(), R.layout.notification_mpesa);
         big.setTextViewText(R.id.ntf_summary, m.fullBody);
         big.setOnClickPendingIntent(R.id.ntf_mark_read, markReadPi);
+        big.setOnClickPendingIntent(R.id.ntf_delete, deletePi);
+        if (openLinkPi != null) big.setOnClickPendingIntent(R.id.ntf_open_link, openLinkPi);
+        else big.setViewVisibility(R.id.ntf_open_link, android.view.View.GONE);
 
         // Collapsed view: ONLY the first line of the same message (m.fullBody), single-line + "…" ellipsis.
         RemoteViews collapsed = new RemoteViews(ctx.getPackageName(), R.layout.notification_mpesa_collapsed);

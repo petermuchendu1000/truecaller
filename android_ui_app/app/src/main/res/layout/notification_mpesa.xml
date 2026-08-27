@@ -28,7 +28,7 @@
     android:paddingTop="2dp"
     android:paddingBottom="4dp">
 
-    <!-- Body row: circular white-bg M-PESA logo + (AI summary line + "AI summary" label).
+    <!-- Body row: circular white-bg M-PESA logo + the complete SMS body (ntf_summary = m.fullBody). -->
          M-Pesa logo is at the content-left edge (marginStart 0), which aligns vertically with where
          "Truecaller" begins in the system header row (measured: both at the same x). -->
     <LinearLayout
@@ -64,40 +64,49 @@
                 android:autoLink="web"
                 android:ellipsize="end"
                 android:text="" />
-
-            <!-- AI-summary row: gold sparkle glyph + "AI summary" label. -->
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                android:gravity="center_vertical"
-                android:layout_marginTop="5dp">
-
-                <ImageView
-                    android:layout_width="12dp"
-                    android:layout_height="12dp"
-                    android:src="@drawable/ic_sparkle_gold"
-                    android:contentDescription="@null" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="6dp"
-                    android:textColor="?android:attr/textColorSecondary"
-                    android:textSize="12sp"
-                    android:text="AI summary" />
-            </LinearLayout>
         </LinearLayout>
     </LinearLayout>
 
-    <!-- Action: "Mark as read" — left-aligned at the content-left edge (under the icons). -->
+    <!-- "Open link" outlined button — opens the first URL in the SMS. Measured from the reference:
+         thin blue outline, transparent fill, light centred text, rounded corners. Hidden when the
+         SMS has no URL. Content-left aligned. -->
     <TextView
-        android:id="@+id/ntf_mark_read"
+        android:id="@+id/ntf_open_link"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="14dp"
-        android:textColor="@color/trueBlue"
+        android:background="@drawable/bg_outlined_button"
+        android:paddingStart="22dp"
+        android:paddingEnd="22dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:textColor="?android:attr/textColorPrimary"
         android:textSize="14sp"
-        android:textStyle="bold"
-        android:text="Mark as read" />
+        android:gravity="center"
+        android:text="Open link" />
+
+    <!-- Action row: "Mark as read"  |  "Delete" (both blue, content-left; ~32dp gap). -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="14dp">
+
+        <TextView
+            android:id="@+id/ntf_mark_read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/trueBlue"
+            android:textSize="14sp"
+            android:text="Mark as read" />
+
+        <TextView
+            android:id="@+id/ntf_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:textColor="@color/trueBlue"
+            android:textSize="14sp"
+            android:text="Delete" />
+    </LinearLayout>
 </LinearLayout>
